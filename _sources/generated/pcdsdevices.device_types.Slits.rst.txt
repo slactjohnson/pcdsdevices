@@ -25,6 +25,7 @@ pcdsdevices\.device\_types\.Slits
       ~Slits.get_device_tuple
       ~Slits.get_instantiated_signals
       ~Slits.move
+      ~Slits.mv
       ~Slits.open
       ~Slits.pause
       ~Slits.put
@@ -41,6 +42,7 @@ pcdsdevices\.device\_types\.Slits
       ~Slits.unstage
       ~Slits.unsubscribe
       ~Slits.wait_for_connection
+      ~Slits.wm
    
    
 

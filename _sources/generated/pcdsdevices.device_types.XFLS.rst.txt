@@ -25,6 +25,7 @@ pcdsdevices\.device\_types\.XFLS
       ~XFLS.get_state
       ~XFLS.insert
       ~XFLS.move
+      ~XFLS.mv
       ~XFLS.pause
       ~XFLS.put
       ~XFLS.read
@@ -40,6 +41,7 @@ pcdsdevices\.device\_types\.XFLS
       ~XFLS.unstage
       ~XFLS.unsubscribe
       ~XFLS.wait_for_connection
+      ~XFLS.wm
    
    
 

@@ -29,6 +29,7 @@ pcdsdevices\.device\_types\.PulsePicker
       ~PulsePicker.get_state
       ~PulsePicker.insert
       ~PulsePicker.move
+      ~PulsePicker.mv
       ~PulsePicker.open
       ~PulsePicker.pause
       ~PulsePicker.put
@@ -46,6 +47,7 @@ pcdsdevices\.device\_types\.PulsePicker
       ~PulsePicker.unstage
       ~PulsePicker.unsubscribe
       ~PulsePicker.wait_for_connection
+      ~PulsePicker.wm
    
    
 

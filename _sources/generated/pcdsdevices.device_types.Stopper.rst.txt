@@ -26,6 +26,7 @@ pcdsdevices\.device\_types\.Stopper
       ~Stopper.get_state
       ~Stopper.insert
       ~Stopper.move
+      ~Stopper.mv
       ~Stopper.open
       ~Stopper.pause
       ~Stopper.put
@@ -42,6 +43,7 @@ pcdsdevices\.device\_types\.Stopper
       ~Stopper.unstage
       ~Stopper.unsubscribe
       ~Stopper.wait_for_connection
+      ~Stopper.wm
    
    
 

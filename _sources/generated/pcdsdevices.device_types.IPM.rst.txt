@@ -25,6 +25,7 @@ pcdsdevices\.device\_types\.IPM
       ~IPM.get_state
       ~IPM.insert
       ~IPM.move
+      ~IPM.mv
       ~IPM.pause
       ~IPM.put
       ~IPM.read
@@ -40,6 +41,7 @@ pcdsdevices\.device\_types\.IPM
       ~IPM.unstage
       ~IPM.unsubscribe
       ~IPM.wait_for_connection
+      ~IPM.wm
    
    
 

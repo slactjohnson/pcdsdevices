@@ -25,6 +25,7 @@ pcdsdevices\.device\_types\.PIM
       ~PIM.get_state
       ~PIM.insert
       ~PIM.move
+      ~PIM.mv
       ~PIM.pause
       ~PIM.put
       ~PIM.read
@@ -40,6 +41,7 @@ pcdsdevices\.device\_types\.PIM
       ~PIM.unstage
       ~PIM.unsubscribe
       ~PIM.wait_for_connection
+      ~PIM.wm
    
    
 

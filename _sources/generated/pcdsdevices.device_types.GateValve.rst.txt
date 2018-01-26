@@ -26,6 +26,7 @@ pcdsdevices\.device\_types\.GateValve
       ~GateValve.get_state
       ~GateValve.insert
       ~GateValve.move
+      ~GateValve.mv
       ~GateValve.open
       ~GateValve.pause
       ~GateValve.put
@@ -42,6 +43,7 @@ pcdsdevices\.device\_types\.GateValve
       ~GateValve.unstage
       ~GateValve.unsubscribe
       ~GateValve.wait_for_connection
+      ~GateValve.wm
    
    
 

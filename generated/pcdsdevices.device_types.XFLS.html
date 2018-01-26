@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.XFLS &mdash; PCDS Devices 0.2.0+263.g4834674 documentation</title>
+  <title>pcdsdevices.device_types.XFLS &mdash; PCDS Devices 0.2.0+270.ge5e55b2 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="PCDS Devices 0.2.0+263.g4834674 documentation" href="../index.html"/>
+    <link rel="top" title="PCDS Devices 0.2.0+270.ge5e55b2 documentation" href="../index.html"/>
         <link rel="up" title="Common EPICS Devices" href="../epics_types.html"/>
         <link rel="next" title="DAQ" href="../daq.html"/>
         <link rel="prev" title="pcdsdevices.device_types.Stopper" href="pcdsdevices.device_types.Stopper.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.2.0+263.g4834674
+                0.2.0+270.ge5e55b2
               </div>
             
           
@@ -232,50 +232,56 @@
 <tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">move</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">pause</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">mv</span></code>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<td>Absolute move to a position.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">pause</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">put</span></code>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">put</span></code>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">read</span></code>(()&nbsp;-&gt;&nbsp;ophyd.device.OrderedDictType[str,&nbsp;…)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">read</span></code>(()&nbsp;-&gt;&nbsp;ophyd.device.OrderedDictType[str,&nbsp;…)</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">read_configuration</span></code>(…)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">read_configuration</span></code>(…)</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">remove</span></code>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">remove</span></code>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">resume</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">resume</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">set</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">set</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">stage</span></code>(()&nbsp;-&gt;&nbsp;typing.List[object])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">stage</span></code>(()&nbsp;-&gt;&nbsp;typing.List[object])</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">stop</span></code>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">stop</span></code>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">subscribe</span></code>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">subscribe</span></code>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">summary</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">summary</span></code>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">trigger</span></code>(()&nbsp;-&gt;&nbsp;ophyd.status.StatusBase)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">trigger</span></code>(()&nbsp;-&gt;&nbsp;ophyd.status.StatusBase)</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">unstage</span></code>(()&nbsp;-&gt;&nbsp;typing.List[object])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">unstage</span></code>(()&nbsp;-&gt;&nbsp;typing.List[object])</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">unsubscribe</span></code>(cid)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">unsubscribe</span></code>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">wait_for_connection</span></code>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">wait_for_connection</span></code>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">wm</span></code>()</td>
+<td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
 </table>
@@ -327,7 +333,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.2.0+263.g4834674',
+            VERSION:'0.2.0+270.ge5e55b2',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
