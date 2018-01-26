@@ -1,0 +1,49 @@
+pcdsdevices\.device\_types\.Slits
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Slits
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Slits.__init__
+      ~Slits.block
+      ~Slits.check_value
+      ~Slits.clear_sub
+      ~Slits.close
+      ~Slits.configure
+      ~Slits.describe
+      ~Slits.describe_configuration
+      ~Slits.get
+      ~Slits.get_device_tuple
+      ~Slits.get_instantiated_signals
+      ~Slits.move
+      ~Slits.open
+      ~Slits.pause
+      ~Slits.put
+      ~Slits.read
+      ~Slits.read_configuration
+      ~Slits.remove
+      ~Slits.resume
+      ~Slits.set
+      ~Slits.stage
+      ~Slits.stop
+      ~Slits.subscribe
+      ~Slits.summary
+      ~Slits.trigger
+      ~Slits.unstage
+      ~Slits.unsubscribe
+      ~Slits.wait_for_connection
+   
+   
+
+   
+   
+   

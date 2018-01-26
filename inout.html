@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>InOut Devices &mdash; PCDS Devices 0.2.0+263.g4834674 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="PCDS Devices 0.2.0+263.g4834674 documentation" href="index.html"/>
+        <link rel="prev" title="State Classes" href="state.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2.0+263.g4834674
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="daq.html">DAQ</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="state.html">State Classes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">InOut Devices</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>InOut Devices</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/inout.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-pcdsdevices.inout">
+<span id="inout-devices"></span><h1>InOut Devices<a class="headerlink" href="#module-pcdsdevices.inout" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="pcdsdevices.inout.InOutPVStatePositioner">
+<em class="property">class </em><code class="descclassname">pcdsdevices.inout.</code><code class="descname">InOutPVStatePositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPVStatePositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Positioner for a set of PVs that result in aggregate IN and OUT states for
+a single device. This must be subclassed and provided a _state_logic
+attribute to be used. Consult the PVStatePositioner documentation for more
+information.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.inout.InOutPositioner">
+<em class="property">class </em><code class="descclassname">pcdsdevices.inout.</code><code class="descname">InOutPositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic InOut StatePositioner. It can be inserted and removed and queried for
+insertion and removal. It can also define transmission values for the
+various states.</p>
+<dl class="attribute">
+<dt id="pcdsdevices.inout.InOutPositioner.in_states">
+<code class="descname">in_states</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.in_states" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>list of strings</em> – State values that should be considered ‘in’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.inout.InOutPositioner.out_states">
+<code class="descname">out_states</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.out_states" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>list of strings</em> – State values that should be considered ‘out’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.inout.InOutPositioner._transmission">
+<code class="descname">_transmission</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._transmission" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>dict{str: number}</em> – Mapping from each state to the transmission ratio. This should be a
+number from 0 to 1. Default values will be 1 (full transmission) for
+out_states, 0 (full block) for in_states, and nan (no idea!) for
+unaccounted states.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.inout.InOutPositioner.insert">
+<code class="descname">insert</code><span class="sig-paren">(</span><em>moved_cb=None</em>, <em>timeout=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.insert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Macro to move this device to the first state on the in_states list.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.inout.InOutPositioner.remove">
+<code class="descname">remove</code><span class="sig-paren">(</span><em>moved_cb=None</em>, <em>timeout=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Macro to move this device to the first state on the out_states list.
+If we’re already at some other out state, do nothing instead.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.inout.InOutRecordPositioner">
+<em class="property">class </em><code class="descclassname">pcdsdevices.inout.</code><code class="descname">InOutRecordPositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutRecordPositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Positioner for a motor that moves to states IN and OUT using a standard
+states record. This can be subclassed for other states records that involve
+inserting and removing something into the beam.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.inout.TTReflaser">
+<em class="property">class </em><code class="descclassname">pcdsdevices.inout.</code><code class="descname">TTReflaser</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.TTReflaser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Motor stack that includes both a timetool and a reflaser.</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="state.html" class="btn btn-neutral" title="State Classes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.2.0+263.g4834674',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

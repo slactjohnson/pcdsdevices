@@ -1,0 +1,54 @@
+pcdsdevices\.device\_types\.PulsePicker
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: PulsePicker
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PulsePicker.__init__
+      ~PulsePicker.burst
+      ~PulsePicker.check_value
+      ~PulsePicker.clear_sub
+      ~PulsePicker.close
+      ~PulsePicker.configure
+      ~PulsePicker.describe
+      ~PulsePicker.describe_configuration
+      ~PulsePicker.flipflop
+      ~PulsePicker.follower
+      ~PulsePicker.get
+      ~PulsePicker.get_device_tuple
+      ~PulsePicker.get_instantiated_signals
+      ~PulsePicker.get_state
+      ~PulsePicker.insert
+      ~PulsePicker.move
+      ~PulsePicker.open
+      ~PulsePicker.pause
+      ~PulsePicker.put
+      ~PulsePicker.read
+      ~PulsePicker.read_configuration
+      ~PulsePicker.remove
+      ~PulsePicker.reset
+      ~PulsePicker.resume
+      ~PulsePicker.set
+      ~PulsePicker.stage
+      ~PulsePicker.stop
+      ~PulsePicker.subscribe
+      ~PulsePicker.summary
+      ~PulsePicker.trigger
+      ~PulsePicker.unstage
+      ~PulsePicker.unsubscribe
+      ~PulsePicker.wait_for_connection
+   
+   
+
+   
+   
+   

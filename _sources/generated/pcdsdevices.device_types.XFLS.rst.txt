@@ -1,0 +1,48 @@
+pcdsdevices\.device\_types\.XFLS
+================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: XFLS
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~XFLS.__init__
+      ~XFLS.check_value
+      ~XFLS.clear_sub
+      ~XFLS.configure
+      ~XFLS.describe
+      ~XFLS.describe_configuration
+      ~XFLS.get
+      ~XFLS.get_device_tuple
+      ~XFLS.get_instantiated_signals
+      ~XFLS.get_state
+      ~XFLS.insert
+      ~XFLS.move
+      ~XFLS.pause
+      ~XFLS.put
+      ~XFLS.read
+      ~XFLS.read_configuration
+      ~XFLS.remove
+      ~XFLS.resume
+      ~XFLS.set
+      ~XFLS.stage
+      ~XFLS.stop
+      ~XFLS.subscribe
+      ~XFLS.summary
+      ~XFLS.trigger
+      ~XFLS.unstage
+      ~XFLS.unsubscribe
+      ~XFLS.wait_for_connection
+   
+   
+
+   
+   
+   

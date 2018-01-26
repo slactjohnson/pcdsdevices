@@ -1,0 +1,43 @@
+pcdsdevices\.device\_types\.OffsetMirror
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: OffsetMirror
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~OffsetMirror.__init__
+      ~OffsetMirror.check_value
+      ~OffsetMirror.clear_sub
+      ~OffsetMirror.configure
+      ~OffsetMirror.describe
+      ~OffsetMirror.describe_configuration
+      ~OffsetMirror.get
+      ~OffsetMirror.get_device_tuple
+      ~OffsetMirror.get_instantiated_signals
+      ~OffsetMirror.pause
+      ~OffsetMirror.put
+      ~OffsetMirror.read
+      ~OffsetMirror.read_configuration
+      ~OffsetMirror.resume
+      ~OffsetMirror.stage
+      ~OffsetMirror.stop
+      ~OffsetMirror.subscribe
+      ~OffsetMirror.summary
+      ~OffsetMirror.trigger
+      ~OffsetMirror.unstage
+      ~OffsetMirror.unsubscribe
+      ~OffsetMirror.wait_for_connection
+   
+   
+
+   
+   
+   

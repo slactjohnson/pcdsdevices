@@ -1,0 +1,481 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>State Classes &mdash; PCDS Devices 0.2.0+263.g4834674 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="PCDS Devices 0.2.0+263.g4834674 documentation" href="index.html"/>
+        <link rel="next" title="InOut Devices" href="inout.html"/>
+        <link rel="prev" title="DAQ" href="daq.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2.0+263.g4834674
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="daq.html">DAQ</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">State Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="inout.html">InOut Devices</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>State Classes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/state.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-pcdsdevices.state">
+<span id="state-classes"></span><h1>State Classes<a class="headerlink" href="#module-pcdsdevices.state" title="Permalink to this headline">¶</a></h1>
+<p>Module to define positioners that move between discrete named states.</p>
+<dl class="class">
+<dt id="pcdsdevices.state.PVStatePositioner">
+<em class="property">class </em><code class="descclassname">pcdsdevices.state.</code><code class="descname">PVStatePositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p>A StatePositioner that combines some number of arbitrary state PVs into a
+single device state. The user can provide state logic and a move method if
+desired.</p>
+<dl class="attribute">
+<dt id="pcdsdevices.state.PVStatePositioner._state_logic">
+<code class="descname">_state_logic</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>dict</em> – Information dictionaries for each state of the following form:
+{</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>“signal_name”: {</dt>
+<dd><blockquote class="first">
+<div>0: “OUT”,
+1: “IN”,
+2: “Unknown”,
+3: “defer”</div></blockquote>
+<p class="last">}</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>}
+The dictionary defines the relevant signal names and how to interpret
+each of the states. These states will be evaluated in the dict’s order,
+which may matter if _state_logic_mode == ‘FIRST’.</p>
+<p>This is for cases where the logic is simple. If there are more complex
+requirements, replace the <cite>state</cite> component.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.state.PVStatePositioner._state_logic_mode">
+<code class="descname">_state_logic_mode</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>string</em> – This should be ‘ALL’ (default) if the pvs need to agree for a valid
+state. You can set this to ‘FIRST’ to instead use the first state
+found while traversing the state_logic tree. This means an earlier
+state definition can mask a later state definition.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.state.PVStatePositioner.state">
+<code class="descname">state</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner.state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Component attribute</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Component</span><span class="p">(</span><span class="n">PVStateSignal</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.state.PVStateSignal">
+<em class="property">class </em><code class="descclassname">pcdsdevices.state.</code><code class="descname">PVStateSignal</code><span class="sig-paren">(</span><em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStateSignal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Signal that implements the PVStatePositioner state logic.</p>
+<dl class="method">
+<dt id="pcdsdevices.state.PVStateSignal.put">
+<code class="descname">put</code><span class="sig-paren">(</span><em>value</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStateSignal.put" title="Permalink to this definition">¶</a></dt>
+<dd><p>Move the PVStatePositioner</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.state.StatePositioner">
+<em class="property">class </em><code class="descclassname">pcdsdevices.state.</code><code class="descname">StatePositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for a Positioner that moves between discrete states rather than
+along a continuout axis.</p>
+<dl class="attribute">
+<dt id="pcdsdevices.state.StatePositioner.state">
+<code class="descname">state</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.state" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>Signal</em> – This signal is the final authority on what state the object is in.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.state.StatePositioner.states_list">
+<code class="descname">states_list</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_list" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>list of str</em> – An exhaustive list of all possible states. This should be overridden in
+a base class. Unknown must be omitted in the class definition and will
+be added dynamically in position 0 when the object is created.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.state.StatePositioner.states_enum">
+<code class="descname">states_enum</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_enum" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>Enum</em> – An enum that represents all possible states. This will be constructed
+for the user based on the contents of <cite>states_list</cite> and
+<cite>_states_alias</cite>, but it can also be overriden in the base class.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.state.StatePositioner.check_value">
+<code class="descname">check_value</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner.check_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Verify that a value is a valid set state, or raise an exception.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>state</strong> – The corresponding Enum entry for this value. It has two meaningful
+fields, <cite>name</cite> and <cite>value</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Enum entry</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.state.StatePositioner.get_state">
+<code class="descname">get_state</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner.get_state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given an integer or string value, return the proper state entry.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>state</strong> – The corresponding Enum entry for this value. It has two meaningful
+fields, <cite>name</cite> and <cite>value</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Enum entry</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.state.StatePositioner.move">
+<code class="descname">move</code><span class="sig-paren">(</span><em>position</em>, <em>moved_cb=None</em>, <em>timeout=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Move to the desired state and return completion information.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>position</strong> (<em>int</em><em> or </em><em>str</em>) – The enumerate state or the corresponding integer</li>
+<li><strong>moved_cb</strong> (<em>function</em><em>, </em><em>optional</em>) – moved_cb(obj=self) will be called at the end of motion</li>
+<li><strong>timeout</strong> (<em>int</em><em> or </em><em>float</em><em>, </em><em>optional</em>) – Move timeout in seconds</li>
+<li><strong>wait</strong> (<em>bool</em><em>, </em><em>optional</em>) – If True, do not return until the motion has completed.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>status</strong> – Status object that represents the move’s progress.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#pcdsdevices.state.StateStatus" title="pcdsdevices.state.StateStatus">StateStatus</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.state.StatePositioner.position">
+<code class="descname">position</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of the positioner’s current state. If aliases were provided, the
+first alias will be used instead of the base name.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.state.StatePositioner.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>position</em>, <em>moved_cb=None</em>, <em>timeout=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Move to the desired state and return completion information.
+This is the bare-bones implementation of the move with only motion,
+callbacks, and timeouts defined. Additional functional options are
+relegated to the <cite>move</cite> command and bells and whistles are relegated to
+a different interface.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>position</strong> (<em>int</em><em> or </em><em>str</em>) – The enumerate state or the corresponding integer</li>
+<li><strong>moved_cb</strong> (<em>function</em><em>, </em><em>optional</em>) – moved_cb(obj=self) will be called at the end of motion</li>
+<li><strong>timeout</strong> (<em>int</em><em> or </em><em>float</em><em>, </em><em>optional</em>) – Move timeout in seconds</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>status</strong> – Status object that represents the move’s progress.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#pcdsdevices.state.StateStatus" title="pcdsdevices.state.StateStatus">StateStatus</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.state.StateRecordPositioner">
+<em class="property">class </em><code class="descclassname">pcdsdevices.state.</code><code class="descname">StateRecordPositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StateRecordPositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p>A StatePositioner that relies on an EPICS States record to process the
+device state. The <cite>states_list</cite> must match the order of the EPICS enum.</p>
+<dl class="attribute">
+<dt id="pcdsdevices.state.StateRecordPositioner.readback">
+<code class="descname">readback</code><a class="headerlink" href="#pcdsdevices.state.StateRecordPositioner.readback" title="Permalink to this definition">¶</a></dt>
+<dd><p>FormattedComponent attribute</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">FormattedComponent</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{self._readback}</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.state.StateRecordPositioner.state">
+<code class="descname">state</code><a class="headerlink" href="#pcdsdevices.state.StateRecordPositioner.state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Component attribute</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">write_pv</span><span class="o">=</span><span class="s1">&#39;:GO&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pcdsdevices.state.StateStatus">
+<em class="property">class </em><code class="descclassname">pcdsdevices.state.</code><code class="descname">StateStatus</code><span class="sig-paren">(</span><em>device</em>, <em>desired_state</em>, <em>timeout=None</em>, <em>settle_time=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StateStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Status produced by state request</p>
+<p>The status relies on two methods of the device, first the attribute
+<cite>.position</cite> should reflect the current state. Second, the status will call
+the built-in method <cite>subscribe</cite> with the <cite>event_type</cite> explicitly set to
+“device.SUB_STATE”. This will cause the StateStatus to process whenever the
+device changes state to avoid unnecessary polling of the associated EPICS
+variables</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>device</strong> (<em>obj</em>) – Device with <cite>value</cite> attribute that returns a state string</li>
+<li><strong>desired_state</strong> (<em>str</em>) – Requested state</li>
+<li><strong>timeout</strong> (<em>float</em><em>, </em><em>optional</em>) – The default timeout to wait to mark the request as a failure</li>
+<li><strong>settle_time</strong> (<em>float</em><em>, </em><em>optional</em>) – Time to wait after completion until running callbacks</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="inout.html" class="btn btn-neutral float-right" title="InOut Devices" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="daq.html" class="btn btn-neutral" title="DAQ" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.2.0+263.g4834674',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

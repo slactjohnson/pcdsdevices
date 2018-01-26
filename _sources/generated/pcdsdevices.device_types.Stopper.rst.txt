@@ -1,0 +1,50 @@
+pcdsdevices\.device\_types\.Stopper
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Stopper
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Stopper.__init__
+      ~Stopper.check_value
+      ~Stopper.clear_sub
+      ~Stopper.close
+      ~Stopper.configure
+      ~Stopper.describe
+      ~Stopper.describe_configuration
+      ~Stopper.get
+      ~Stopper.get_device_tuple
+      ~Stopper.get_instantiated_signals
+      ~Stopper.get_state
+      ~Stopper.insert
+      ~Stopper.move
+      ~Stopper.open
+      ~Stopper.pause
+      ~Stopper.put
+      ~Stopper.read
+      ~Stopper.read_configuration
+      ~Stopper.remove
+      ~Stopper.resume
+      ~Stopper.set
+      ~Stopper.stage
+      ~Stopper.stop
+      ~Stopper.subscribe
+      ~Stopper.summary
+      ~Stopper.trigger
+      ~Stopper.unstage
+      ~Stopper.unsubscribe
+      ~Stopper.wait_for_connection
+   
+   
+
+   
+   
+   

@@ -1,0 +1,50 @@
+pcdsdevices\.device\_types\.GateValve
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: GateValve
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GateValve.__init__
+      ~GateValve.check_value
+      ~GateValve.clear_sub
+      ~GateValve.close
+      ~GateValve.configure
+      ~GateValve.describe
+      ~GateValve.describe_configuration
+      ~GateValve.get
+      ~GateValve.get_device_tuple
+      ~GateValve.get_instantiated_signals
+      ~GateValve.get_state
+      ~GateValve.insert
+      ~GateValve.move
+      ~GateValve.open
+      ~GateValve.pause
+      ~GateValve.put
+      ~GateValve.read
+      ~GateValve.read_configuration
+      ~GateValve.remove
+      ~GateValve.resume
+      ~GateValve.set
+      ~GateValve.stage
+      ~GateValve.stop
+      ~GateValve.subscribe
+      ~GateValve.summary
+      ~GateValve.trigger
+      ~GateValve.unstage
+      ~GateValve.unsubscribe
+      ~GateValve.wait_for_connection
+   
+   
+
+   
+   
+   

@@ -1,0 +1,291 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Common EPICS Devices &mdash; PCDS Devices 0.2.0+263.g4834674 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="PCDS Devices 0.2.0+263.g4834674 documentation" href="index.html"/>
+        <link rel="next" title="pcdsdevices.device_types.Attenuator" href="generated/pcdsdevices.device_types.Attenuator.html"/>
+        <link rel="prev" title="PCDS Devices" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2.0+263.g4834674
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Device Types</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Common EPICS Devices</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.Attenuator.html">pcdsdevices.device_types.Attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.PulsePicker.html">pcdsdevices.device_types.PulsePicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.device_types.XFLS.html">pcdsdevices.device_types.XFLS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="daq.html">DAQ</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="state.html">State Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="inout.html">InOut Devices</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Common EPICS Devices</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/epics_types.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="common-epics-devices">
+<h1>Common EPICS Devices<a class="headerlink" href="#common-epics-devices" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Attenuator.html#pcdsdevices.device_types.Attenuator" title="pcdsdevices.device_types.Attenuator"><code class="xref py py-obj docutils literal"><span class="pre">Attenuator</span></code></a></td>
+<td>Factory function for instantiating an attenuator with the correct filter components given the number required.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.html#pcdsdevices.device_types.EpicsMotor" title="pcdsdevices.device_types.EpicsMotor"><code class="xref py py-obj docutils literal"><span class="pre">EpicsMotor</span></code></a></td>
+<td>EpicsMotor for PCDS</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.html#pcdsdevices.device_types.GateValve" title="pcdsdevices.device_types.GateValve"><code class="xref py py-obj docutils literal"><span class="pre">GateValve</span></code></a></td>
+<td>Basic Vacuum Valve</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.IPM.html#pcdsdevices.device_types.IPM" title="pcdsdevices.device_types.IPM"><code class="xref py py-obj docutils literal"><span class="pre">IPM</span></code></a></td>
+<td>Standard intensity position monitor motion.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.OffsetMirror.html#pcdsdevices.device_types.OffsetMirror" title="pcdsdevices.device_types.OffsetMirror"><code class="xref py py-obj docutils literal"><span class="pre">OffsetMirror</span></code></a></td>
+<td>X-Ray offset mirror class for each individual mirror system used in the FEE and XRT.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.html#pcdsdevices.device_types.PIM" title="pcdsdevices.device_types.PIM"><code class="xref py py-obj docutils literal"><span class="pre">PIM</span></code></a></td>
+<td>Full profile intensity monitor including the motor to move the yag, and the detector to view it.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PulsePicker.html#pcdsdevices.device_types.PulsePicker" title="pcdsdevices.device_types.PulsePicker"><code class="xref py py-obj docutils literal"><span class="pre">PulsePicker</span></code></a></td>
+<td>Device that can open/close in response to event codes to let certain pulses through and block others.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.html#pcdsdevices.device_types.Slits" title="pcdsdevices.device_types.Slits"><code class="xref py py-obj docutils literal"><span class="pre">Slits</span></code></a></td>
+<td>Beam slits with combined motion for center and width.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.html#pcdsdevices.device_types.Stopper" title="pcdsdevices.device_types.Stopper"><code class="xref py py-obj docutils literal"><span class="pre">Stopper</span></code></a></td>
+<td>Controls Stopper</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.XFLS.html#pcdsdevices.device_types.XFLS" title="pcdsdevices.device_types.XFLS"><code class="xref py py-obj docutils literal"><span class="pre">XFLS</span></code></a></td>
+<td>XRay Focusing Lens (Be)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/pcdsdevices.device_types.Attenuator.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.Attenuator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="PCDS Devices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.2.0+263.g4834674',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
