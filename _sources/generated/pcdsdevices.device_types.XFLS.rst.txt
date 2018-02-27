@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.XFLS
-================================
+pcdsdevices.device\_types.XFLS
+==============================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -46,5 +46,41 @@ pcdsdevices\.device\_types\.XFLS
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XFLS.SUB_ACQ_DONE
+      ~XFLS.SUB_DONE
+      ~XFLS.SUB_READBACK
+      ~XFLS.SUB_START
+      ~XFLS.SUB_STATE
+      ~XFLS.component_names
+      ~XFLS.connected
+      ~XFLS.egu
+      ~XFLS.event_types
+      ~XFLS.high_limit
+      ~XFLS.hints
+      ~XFLS.in_states
+      ~XFLS.inserted
+      ~XFLS.limits
+      ~XFLS.low_limit
+      ~XFLS.moving
+      ~XFLS.name
+      ~XFLS.out_states
+      ~XFLS.parent
+      ~XFLS.position
+      ~XFLS.readback
+      ~XFLS.removed
+      ~XFLS.report
+      ~XFLS.root
+      ~XFLS.settle_time
+      ~XFLS.signal_names
+      ~XFLS.state
+      ~XFLS.states_list
+      ~XFLS.timeout
+      ~XFLS.transmission
+      ~XFLS.trigger_signals
    
    

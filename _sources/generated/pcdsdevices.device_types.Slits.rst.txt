@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.Slits
-=================================
+pcdsdevices.device\_types.Slits
+===============================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -47,5 +47,35 @@ pcdsdevices\.device\_types\.Slits
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Slits.SUB_ACQ_DONE
+      ~Slits.SUB_STATE
+      ~Slits.block_cmd
+      ~Slits.blocked
+      ~Slits.close_cmd
+      ~Slits.component_names
+      ~Slits.connected
+      ~Slits.current_aperture
+      ~Slits.event_types
+      ~Slits.hints
+      ~Slits.inserted
+      ~Slits.name
+      ~Slits.open_cmd
+      ~Slits.parent
+      ~Slits.position
+      ~Slits.removed
+      ~Slits.report
+      ~Slits.root
+      ~Slits.signal_names
+      ~Slits.transmission
+      ~Slits.trigger_signals
+      ~Slits.xcenter
+      ~Slits.xwidth
+      ~Slits.ycenter
+      ~Slits.ywidth
    
    

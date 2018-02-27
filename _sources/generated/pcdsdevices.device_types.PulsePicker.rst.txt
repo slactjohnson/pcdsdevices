@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.PulsePicker
-=======================================
+pcdsdevices.device\_types.PulsePicker
+=====================================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -52,5 +52,48 @@ pcdsdevices\.device\_types\.PulsePicker
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PulsePicker.SUB_ACQ_DONE
+      ~PulsePicker.SUB_DONE
+      ~PulsePicker.SUB_READBACK
+      ~PulsePicker.SUB_START
+      ~PulsePicker.SUB_STATE
+      ~PulsePicker.blade
+      ~PulsePicker.cmd_burst
+      ~PulsePicker.cmd_close
+      ~PulsePicker.cmd_flipflop
+      ~PulsePicker.cmd_follower
+      ~PulsePicker.cmd_open
+      ~PulsePicker.cmd_reset
+      ~PulsePicker.component_names
+      ~PulsePicker.connected
+      ~PulsePicker.egu
+      ~PulsePicker.event_types
+      ~PulsePicker.high_limit
+      ~PulsePicker.hints
+      ~PulsePicker.in_states
+      ~PulsePicker.inserted
+      ~PulsePicker.limits
+      ~PulsePicker.low_limit
+      ~PulsePicker.mode
+      ~PulsePicker.moving
+      ~PulsePicker.name
+      ~PulsePicker.out_states
+      ~PulsePicker.parent
+      ~PulsePicker.position
+      ~PulsePicker.removed
+      ~PulsePicker.report
+      ~PulsePicker.root
+      ~PulsePicker.settle_time
+      ~PulsePicker.signal_names
+      ~PulsePicker.state
+      ~PulsePicker.states_list
+      ~PulsePicker.timeout
+      ~PulsePicker.transmission
+      ~PulsePicker.trigger_signals
    
    

@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.GateValve
-=====================================
+pcdsdevices.device\_types.GateValve
+===================================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -48,5 +48,45 @@ pcdsdevices\.device\_types\.GateValve
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GateValve.SUB_ACQ_DONE
+      ~GateValve.SUB_DONE
+      ~GateValve.SUB_READBACK
+      ~GateValve.SUB_START
+      ~GateValve.SUB_STATE
+      ~GateValve.closed_limit
+      ~GateValve.command
+      ~GateValve.component_names
+      ~GateValve.connected
+      ~GateValve.egu
+      ~GateValve.event_types
+      ~GateValve.high_limit
+      ~GateValve.hints
+      ~GateValve.in_states
+      ~GateValve.inserted
+      ~GateValve.interlock
+      ~GateValve.interlocked
+      ~GateValve.limits
+      ~GateValve.low_limit
+      ~GateValve.moving
+      ~GateValve.name
+      ~GateValve.open_limit
+      ~GateValve.out_states
+      ~GateValve.parent
+      ~GateValve.position
+      ~GateValve.removed
+      ~GateValve.report
+      ~GateValve.root
+      ~GateValve.settle_time
+      ~GateValve.signal_names
+      ~GateValve.state
+      ~GateValve.states_list
+      ~GateValve.timeout
+      ~GateValve.transmission
+      ~GateValve.trigger_signals
    
    

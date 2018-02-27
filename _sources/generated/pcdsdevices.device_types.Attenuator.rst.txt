@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.Attenuator
-======================================
+pcdsdevices.device\_types.Attenuator
+====================================
 
 .. currentmodule:: pcdsdevices.device_types
 

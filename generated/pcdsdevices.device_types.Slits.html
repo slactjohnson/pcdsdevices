@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Slits &mdash; PCDS Devices 0.3.0+13.gab03369 documentation</title>
+  <title>pcdsdevices.device_types.Slits &mdash; PCDS Devices 0.3.0+15.g9d1a547 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="PCDS Devices 0.3.0+13.gab03369 documentation" href="../index.html"/>
+    <link rel="top" title="PCDS Devices 0.3.0+15.g9d1a547 documentation" href="../index.html"/>
         <link rel="up" title="Common EPICS Devices" href="../epics_types.html"/>
         <link rel="next" title="pcdsdevices.device_types.Stopper" href="pcdsdevices.device_types.Stopper.html"/>
         <link rel="prev" title="pcdsdevices.device_types.PulsePicker" href="pcdsdevices.device_types.PulsePicker.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.3.0+13.gab03369
+                0.3.0+15.g9d1a547
               </div>
             
           
@@ -201,9 +201,9 @@
 the beam is being blocked or not depends on the pointing. In order to
 create an estimate that will warn operators of narrowly closed slits while
 still allowing slits to be closed along the beampath.</p>
-<p>The simplest solution was to use a <code class="xref py py-attr docutils literal"><span class="pre">nominal_aperture</span></code> that stores
+<p>The simplest solution was to use a <code class="xref py py-attr docutils literal notranslate"><span class="pre">nominal_aperture</span></code> that stores
 the slit width and height that the slits should use for general operation.
-Using this the <code class="xref py py-attr docutils literal"><span class="pre">transmission</span></code> is calculated based on how the current
+Using this the <code class="xref py py-attr docutils literal notranslate"><span class="pre">transmission</span></code> is calculated based on how the current
 aperture compares to the nominal, always using the minimum of the width or
 height. This means that if you have a nominal aperture of 2 mm, but your
 slits are set to 0.5 mm, the total estimated transmission will be 25%.
@@ -213,7 +213,8 @@ about changing slit widths during alignment</p>
 <dl class="method">
 <dt id="pcdsdevices.device_types.Slits.__init__">
 <code class="descname">__init__</code><span class="sig-paren">(</span><em>*args</em>, <em>nominal_aperture=(5.0</em>, <em>5.0)</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.Slits.__init__" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
 
 <p class="rubric">Methods</p>
 <table border="1" class="longtable docutils">
@@ -222,95 +223,179 @@ about changing slit widths during alignment</p>
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="#pcdsdevices.device_types.Slits.__init__" title="pcdsdevices.device_types.Slits.__init__"><code class="xref py py-obj docutils literal"><span class="pre">__init__</span></code></a>(*args[,&nbsp;nominal_aperture])</td>
-<td></td>
+<tr class="row-odd"><td><a class="reference internal" href="#pcdsdevices.device_types.Slits.__init__" title="pcdsdevices.device_types.Slits.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args[,&nbsp;nominal_aperture])</td>
+<td>Initialize self.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">block</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">block</span></code>()</td>
 <td>Overlap the slits to block the beam</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">check_value</span></code>(value,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code>(value,&nbsp;**kwargs)</td>
 <td>Check if the value is valid for this object</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">clear_sub</span></code>(cb[,&nbsp;event_type])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">close</span></code>()</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code>()</td>
 <td>Close the slits to have an aperture of 0mm on each side</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">configure</span></code>((d:&nbsp;typing.Dict[str,&nbsp;…)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">describe</span></code>(…)</td>
-<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal"><span class="pre">read()</span></code></td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code>()</td>
+<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">describe_configuration</span></code>(…)</td>
-<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal"><span class="pre">read_configuration()</span></code></td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code>()</td>
+<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code>.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">get</span></code>(**kwargs)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">get_device_tuple</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">get_instantiated_signals</span></code>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">move</span></code>(size[,&nbsp;wait,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code>(size[,&nbsp;wait,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Set the dimensions of the width/height of the gap to width paramater.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">mv</span></code>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">open</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code>()</td>
 <td>Uses the built-in <cite>OPEN</cite> record to move open the aperture</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">pause</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">put</span></code>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">read</span></code>(()&nbsp;-&gt;&nbsp;ophyd.device.OrderedDictType[str,&nbsp;…)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">read_configuration</span></code>(…)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">remove</span></code>([size,&nbsp;wait,&nbsp;timeout])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code>([size,&nbsp;wait,&nbsp;timeout])</td>
 <td>Open the slits to unblock the beam</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">resume</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">set</span></code>(size)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code>(size)</td>
 <td>Alias for the move method, here for bluesky compatibilty</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">stage</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code>()</td>
 <td>Store the initial values of the aperture position before scanning</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">stop</span></code>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">subscribe</span></code>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to changes of the slits</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">summary</span></code>()</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">trigger</span></code>(()&nbsp;-&gt;&nbsp;ophyd.status.StatusBase)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">unstage</span></code>(()&nbsp;-&gt;&nbsp;typing.List[object])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">unsubscribe</span></code>(cid)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">wait_for_connection</span></code>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">wm</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">block_cmd</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">blocked</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">close_cmd</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
+<td>If the device is connected.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">current_aperture</span></code></td>
+<td>Current size of the aperture (width, height)</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
+<td>Events that can be subscribed to via <cite>obj.subscribe</cite>.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
+<td>Device hints</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></td>
+<td>Whether the slits are inserted into the beampath</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
+<td>name of the device</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">open_cmd</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
+<td>The parent of the ophyd object.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></td>
+<td>Whether the slits are entirely removed from the beampath</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
+<td>A report on the object.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
+<td>Walk parents to find ultimate ancestor (parent’s parent.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></td>
+<td>Estimated transmission of the slits based on <code class="xref py py-attr docutils literal notranslate"><span class="pre">nominal_aperture</span></code>.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">xcenter</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">xwidth</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">ycenter</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">ywidth</span></code></td>
+<td>Component attribute</td>
 </tr>
 </tbody>
 </table>
@@ -362,7 +447,7 @@ about changing slit widths during alignment</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.3.0+13.gab03369',
+            VERSION:'0.3.0+15.g9d1a547',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.IPM
-===============================
+pcdsdevices.device\_types.IPM
+=============================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -46,5 +46,42 @@ pcdsdevices\.device\_types\.IPM
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IPM.SUB_ACQ_DONE
+      ~IPM.SUB_DONE
+      ~IPM.SUB_READBACK
+      ~IPM.SUB_START
+      ~IPM.SUB_STATE
+      ~IPM.component_names
+      ~IPM.connected
+      ~IPM.diode
+      ~IPM.egu
+      ~IPM.event_types
+      ~IPM.high_limit
+      ~IPM.hints
+      ~IPM.in_states
+      ~IPM.inserted
+      ~IPM.limits
+      ~IPM.low_limit
+      ~IPM.moving
+      ~IPM.name
+      ~IPM.out_states
+      ~IPM.parent
+      ~IPM.position
+      ~IPM.readback
+      ~IPM.removed
+      ~IPM.report
+      ~IPM.root
+      ~IPM.settle_time
+      ~IPM.signal_names
+      ~IPM.state
+      ~IPM.states_list
+      ~IPM.timeout
+      ~IPM.transmission
+      ~IPM.trigger_signals
    
    

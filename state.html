@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>State Classes &mdash; PCDS Devices 0.3.0+13.gab03369 documentation</title>
+  <title>State Classes &mdash; PCDS Devices 0.3.0+15.g9d1a547 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="PCDS Devices 0.3.0+13.gab03369 documentation" href="index.html"/>
+    <link rel="top" title="PCDS Devices 0.3.0+15.g9d1a547 documentation" href="index.html"/>
         <link rel="next" title="InOut Devices" href="inout.html"/>
         <link rel="prev" title="DAQ" href="daq.html"/> 
 
@@ -66,7 +66,7 @@
             
             
               <div class="version">
-                0.3.0+13.gab03369
+                0.3.0+15.g9d1a547
               </div>
             
           
@@ -209,7 +209,7 @@ state definition can mask a later state definition.</p>
 <dt id="pcdsdevices.state.PVStatePositioner.state">
 <code class="descname">state</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner.state" title="Permalink to this definition">¶</a></dt>
 <dd><p>Component attribute</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Component</span><span class="p">(</span><span class="n">PVStateSignal</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Component</span><span class="p">(</span><span class="n">PVStateSignal</span><span class="p">)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -351,6 +351,64 @@ a different interface.</p>
 </table>
 </dd></dl>
 
+<dl class="method">
+<dt id="pcdsdevices.state.StatePositioner.subscribe">
+<code class="descname">subscribe</code><span class="sig-paren">(</span><em>cb</em>, <em>event_type=None</em>, <em>run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner.subscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Subscribe to events this event_type generates.</p>
+<p>The callback will be called as <code class="docutils literal notranslate"><span class="pre">cb(*args,</span> <span class="pre">**kwargs)</span></code> with
+the values passed to <cite>_run_subs</cite> with the following additional keys:</p>
+<blockquote>
+<div>sub_type : the string value of the event_type
+obj : the host object, added if ‘obj’ not already in kwargs</div></blockquote>
+<p>if the key ‘timestamp’ is in kwargs _and_ is None, then it will
+be replaced with the current time before running the callback.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">*args</span></code>, <code class="docutils literal notranslate"><span class="pre">**kwargs</span></code> passed to _run_subs will be cached as
+shallow copies, be aware of passing in mutable data.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">If the callback raises any exceptions when run they will be
+silently ignored.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cb</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+generated.  The expected signature is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>The exact args/kwargs passed are whatever are passed to
+<code class="docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
+</li>
+<li><strong>event_type</strong> (<em>str</em><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
+the default sub for the instance - obj._default_sub)</p>
+<p>This maps to the <code class="docutils literal notranslate"><span class="pre">sub_type</span></code> kwargs in <cite>_run_subs</cite></p>
+</li>
+<li><strong>run</strong> (<em>bool</em><em>, </em><em>optional</em>) – Run the callback now</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><code class="xref py py-meth docutils literal notranslate"><span class="pre">clear_sub()</span></code>, <code class="xref py py-meth docutils literal notranslate"><span class="pre">_run_subs()</span></code></p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>cid</strong> – id of callback, can be passed to <cite>unsubscribe</cite> to remove the
+callback</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 </dd></dl>
 
 <dl class="class">
@@ -362,7 +420,7 @@ device state. The <cite>states_list</cite> must match the order of the EPICS enu
 <dt id="pcdsdevices.state.StateRecordPositioner.readback">
 <code class="descname">readback</code><a class="headerlink" href="#pcdsdevices.state.StateRecordPositioner.readback" title="Permalink to this definition">¶</a></dt>
 <dd><p>FormattedComponent attribute</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">FormattedComponent</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{self._readback}</span><span class="s1">&#39;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">FormattedComponent</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{self._readback}</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -371,9 +429,67 @@ device state. The <cite>states_list</cite> must match the order of the EPICS enu
 <dt id="pcdsdevices.state.StateRecordPositioner.state">
 <code class="descname">state</code><a class="headerlink" href="#pcdsdevices.state.StateRecordPositioner.state" title="Permalink to this definition">¶</a></dt>
 <dd><p>Component attribute</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">write_pv</span><span class="o">=</span><span class="s1">&#39;:GO&#39;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">write_pv</span><span class="o">=</span><span class="s1">&#39;:GO&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</dd></dl>
+
+<dl class="method">
+<dt id="pcdsdevices.state.StateRecordPositioner.subscribe">
+<code class="descname">subscribe</code><span class="sig-paren">(</span><em>cb</em>, <em>event_type=None</em>, <em>run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StateRecordPositioner.subscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Subscribe to events this event_type generates.</p>
+<p>The callback will be called as <code class="docutils literal notranslate"><span class="pre">cb(*args,</span> <span class="pre">**kwargs)</span></code> with
+the values passed to <cite>_run_subs</cite> with the following additional keys:</p>
+<blockquote>
+<div>sub_type : the string value of the event_type
+obj : the host object, added if ‘obj’ not already in kwargs</div></blockquote>
+<p>if the key ‘timestamp’ is in kwargs _and_ is None, then it will
+be replaced with the current time before running the callback.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">*args</span></code>, <code class="docutils literal notranslate"><span class="pre">**kwargs</span></code> passed to _run_subs will be cached as
+shallow copies, be aware of passing in mutable data.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">If the callback raises any exceptions when run they will be
+silently ignored.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cb</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+generated.  The expected signature is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>The exact args/kwargs passed are whatever are passed to
+<code class="docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
+</li>
+<li><strong>event_type</strong> (<em>str</em><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
+the default sub for the instance - obj._default_sub)</p>
+<p>This maps to the <code class="docutils literal notranslate"><span class="pre">sub_type</span></code> kwargs in <cite>_run_subs</cite></p>
+</li>
+<li><strong>run</strong> (<em>bool</em><em>, </em><em>optional</em>) – Run the callback now</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><code class="xref py py-meth docutils literal notranslate"><span class="pre">clear_sub()</span></code>, <code class="xref py py-meth docutils literal notranslate"><span class="pre">_run_subs()</span></code></p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>cid</strong> – id of callback, can be passed to <cite>unsubscribe</cite> to remove the
+callback</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 </dd></dl>
@@ -450,7 +566,7 @@ variables</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.3.0+13.gab03369',
+            VERSION:'0.3.0+15.g9d1a547',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

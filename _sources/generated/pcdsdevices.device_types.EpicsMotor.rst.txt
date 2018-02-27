@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.EpicsMotor
-======================================
+pcdsdevices.device\_types.EpicsMotor
+====================================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -49,5 +49,52 @@ pcdsdevices\.device\_types\.EpicsMotor
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EpicsMotor.SUB_ACQ_DONE
+      ~EpicsMotor.SUB_DONE
+      ~EpicsMotor.SUB_READBACK
+      ~EpicsMotor.SUB_START
+      ~EpicsMotor.acceleration
+      ~EpicsMotor.component_names
+      ~EpicsMotor.connected
+      ~EpicsMotor.direction_of_travel
+      ~EpicsMotor.egu
+      ~EpicsMotor.event_types
+      ~EpicsMotor.high_limit
+      ~EpicsMotor.high_limit_switch
+      ~EpicsMotor.high_soft_limit
+      ~EpicsMotor.hints
+      ~EpicsMotor.home_forward
+      ~EpicsMotor.home_reverse
+      ~EpicsMotor.limits
+      ~EpicsMotor.low_limit
+      ~EpicsMotor.low_limit_switch
+      ~EpicsMotor.low_soft_limit
+      ~EpicsMotor.motor_done_move
+      ~EpicsMotor.motor_egu
+      ~EpicsMotor.motor_is_moving
+      ~EpicsMotor.motor_stop
+      ~EpicsMotor.moving
+      ~EpicsMotor.name
+      ~EpicsMotor.offset_freeze_switch
+      ~EpicsMotor.parent
+      ~EpicsMotor.position
+      ~EpicsMotor.precision
+      ~EpicsMotor.report
+      ~EpicsMotor.root
+      ~EpicsMotor.set_use_switch
+      ~EpicsMotor.settle_time
+      ~EpicsMotor.signal_names
+      ~EpicsMotor.timeout
+      ~EpicsMotor.trigger_signals
+      ~EpicsMotor.user_offset
+      ~EpicsMotor.user_offset_dir
+      ~EpicsMotor.user_readback
+      ~EpicsMotor.user_setpoint
+      ~EpicsMotor.velocity
    
    

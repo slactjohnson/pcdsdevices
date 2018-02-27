@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.Stopper
-===================================
+pcdsdevices.device\_types.Stopper
+=================================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -48,5 +48,43 @@ pcdsdevices\.device\_types\.Stopper
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Stopper.SUB_ACQ_DONE
+      ~Stopper.SUB_DONE
+      ~Stopper.SUB_READBACK
+      ~Stopper.SUB_START
+      ~Stopper.SUB_STATE
+      ~Stopper.closed_limit
+      ~Stopper.command
+      ~Stopper.component_names
+      ~Stopper.connected
+      ~Stopper.egu
+      ~Stopper.event_types
+      ~Stopper.high_limit
+      ~Stopper.hints
+      ~Stopper.in_states
+      ~Stopper.inserted
+      ~Stopper.limits
+      ~Stopper.low_limit
+      ~Stopper.moving
+      ~Stopper.name
+      ~Stopper.open_limit
+      ~Stopper.out_states
+      ~Stopper.parent
+      ~Stopper.position
+      ~Stopper.removed
+      ~Stopper.report
+      ~Stopper.root
+      ~Stopper.settle_time
+      ~Stopper.signal_names
+      ~Stopper.state
+      ~Stopper.states_list
+      ~Stopper.timeout
+      ~Stopper.transmission
+      ~Stopper.trigger_signals
    
    

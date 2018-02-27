@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PIM &mdash; PCDS Devices 0.3.0+13.gab03369 documentation</title>
+  <title>pcdsdevices.device_types.PIM &mdash; PCDS Devices 0.3.0+15.g9d1a547 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="PCDS Devices 0.3.0+13.gab03369 documentation" href="../index.html"/>
+    <link rel="top" title="PCDS Devices 0.3.0+15.g9d1a547 documentation" href="../index.html"/>
         <link rel="up" title="Common EPICS Devices" href="../epics_types.html"/>
         <link rel="next" title="pcdsdevices.device_types.PulsePicker" href="pcdsdevices.device_types.PulsePicker.html"/>
         <link rel="prev" title="pcdsdevices.device_types.OffsetMirror" href="pcdsdevices.device_types.OffsetMirror.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.3.0+13.gab03369
+                0.3.0+15.g9d1a547
               </div>
             
           
@@ -201,7 +201,8 @@ the motor prefix</li>
 <dl class="method">
 <dt id="pcdsdevices.device_types.PIM.__init__">
 <code class="descname">__init__</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>prefix_det=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.PIM.__init__" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
 
 <p class="rubric">Methods</p>
 <table border="1" class="longtable docutils">
@@ -210,92 +211,197 @@ the motor prefix</li>
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="#pcdsdevices.device_types.PIM.__init__" title="pcdsdevices.device_types.PIM.__init__"><code class="xref py py-obj docutils literal"><span class="pre">__init__</span></code></a>(prefix,&nbsp;*,&nbsp;name[,&nbsp;prefix_det])</td>
-<td></td>
+<tr class="row-odd"><td><a class="reference internal" href="#pcdsdevices.device_types.PIM.__init__" title="pcdsdevices.device_types.PIM.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix,&nbsp;*,&nbsp;name[,&nbsp;prefix_det])</td>
+<td>Initialize self.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">check_value</span></code>(value)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code>(value)</td>
 <td>Verify that a value is a valid set state, or raise an exception.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">clear_sub</span></code>(cb[,&nbsp;event_type])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">configure</span></code>((d:&nbsp;typing.Dict[str,&nbsp;…)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">describe</span></code>(…)</td>
-<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal"><span class="pre">read()</span></code></td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code>()</td>
+<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">describe_configuration</span></code>(…)</td>
-<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal"><span class="pre">read_configuration()</span></code></td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code>()</td>
+<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code>.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">get</span></code>(**kwargs)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">get_device_tuple</span></code>()</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">get_instantiated_signals</span></code>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">get_state</span></code>(value)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">insert</span></code>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the in_states list.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">move</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">mv</span></code>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">pause</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">put</span></code>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">read</span></code>(()&nbsp;-&gt;&nbsp;ophyd.device.OrderedDictType[str,&nbsp;…)</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">read_configuration</span></code>(…)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">remove</span></code>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">resume</span></code>(()&nbsp;-&gt;&nbsp;None)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">set</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">stage</span></code>()</td>
-<td></td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code>()</td>
+<td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">stop</span></code>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">subscribe</span></code>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<td>Subscribe to events this event_type generates.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">summary</span></code>()</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">trigger</span></code>(()&nbsp;-&gt;&nbsp;ophyd.status.StatusBase)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">unstage</span></code>(()&nbsp;-&gt;&nbsp;typing.List[object])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">unsubscribe</span></code>(cid)</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal"><span class="pre">wait_for_connection</span></code>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">wm</span></code>()</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_DONE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_START</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
+<td>If the device is connected.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">detector</span></code></td>
+<td>FormattedComponent attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
+<td>Events that can be subscribed to via <cite>obj.subscribe</cite>.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">in_states</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></td>
+<td>Whether or not the motor is moving</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
+<td>name of the device</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
+<td>The parent of the ophyd object.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></td>
+<td>Name of the positioner’s current state.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></td>
+<td>FormattedComponent attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
+<td>A report on the object.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
+<td>Walk parents to find ultimate ancestor (parent’s parent.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></td>
+<td>Amount of time to wait after moves to report status completion</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></td>
+<td>Amount of time to wait before to considering a motion as failed</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -347,7 +453,7 @@ the motor prefix</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.3.0+13.gab03369',
+            VERSION:'0.3.0+15.g9d1a547',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

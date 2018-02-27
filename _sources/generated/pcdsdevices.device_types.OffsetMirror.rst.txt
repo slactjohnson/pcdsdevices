@@ -1,5 +1,5 @@
-pcdsdevices\.device\_types\.OffsetMirror
-========================================
+pcdsdevices.device\_types.OffsetMirror
+======================================
 
 .. currentmodule:: pcdsdevices.device_types
 
@@ -39,5 +39,26 @@ pcdsdevices\.device\_types\.OffsetMirror
    
 
    
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~OffsetMirror.SUB_ACQ_DONE
+      ~OffsetMirror.component_names
+      ~OffsetMirror.connected
+      ~OffsetMirror.event_types
+      ~OffsetMirror.inserted
+      ~OffsetMirror.name
+      ~OffsetMirror.parent
+      ~OffsetMirror.pitch
+      ~OffsetMirror.removed
+      ~OffsetMirror.report
+      ~OffsetMirror.root
+      ~OffsetMirror.signal_names
+      ~OffsetMirror.transmission
+      ~OffsetMirror.trigger_signals
+      ~OffsetMirror.xgantry
+      ~OffsetMirror.ygantry
    
    
