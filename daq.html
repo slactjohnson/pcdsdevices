@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>DAQ &mdash; PCDS Devices 0.3.0+15.g9d1a547 documentation</title>
+  <title>DAQ &mdash; PCDS Devices 0.3.0+47.g49df96a documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="PCDS Devices 0.3.0+15.g9d1a547 documentation" href="index.html"/>
+    <link rel="top" title="PCDS Devices 0.3.0+47.g49df96a documentation" href="index.html"/>
         <link rel="next" title="State Classes" href="state.html"/>
         <link rel="prev" title="pcdsdevices.device_types.XFLS" href="generated/pcdsdevices.device_types.XFLS.html"/> 
 
@@ -66,7 +66,7 @@
             
             
               <div class="version">
-                0.3.0+15.g9d1a547
+                0.3.0+47.g49df96a
               </div>
             
           
@@ -166,12 +166,15 @@
 <h1>DAQ<a class="headerlink" href="#daq" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.daq.Daq">
-<em class="property">class </em><code class="descclassname">pcdsdevices.daq.</code><code class="descname">Daq</code><span class="sig-paren">(</span><em>name=None</em>, <em>platform=0</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pcdsdevices.daq.</code><code class="descname">Daq</code><span class="sig-paren">(</span><em>platform=0</em>, <em>RE=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq" title="Permalink to this definition">¶</a></dt>
 <dd><p>The LCLS1 DAQ as a flyer object. This uses the pydaq module to connect with
 a running daq instance, controlling it via socket commands. It can be used
 as a flyer in a bluesky plan to have the daq start at the beginning of the
 run and end at the end of the run. It has additional knobs for pausing
-and resuming acquisition if desired.</p>
+and resuming acquisition. This can be done using three modes:</p>
+<p>on:      Always take events during the run
+manual:  Take events when <cite>yield from calibcycle()</cite> is used
+auto:    Take events between <cite>create</cite> and <cite>save</cite> messages</p>
 <p>Unlike a normal bluesky flyer, this has no data to report to the RunEngine
 on the collect call. No data will pass into the python layer from the daq.</p>
 <dl class="method">
@@ -180,13 +183,23 @@ on the collect call. No data will pass into the python layer from the daq.</p>
 <dd><p>Start the daq with the current configuration. Block until
 the daq has begun acquiring data. Optionally block until the daq has
 finished aquiring data.</p>
+<p>If omitted, any argument that is shared with configure will fall back
+to the configured value.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>events</strong> (<em>int</em><em>, </em><em>optional</em>) – Number events to stop acquisition at.</li>
-<li><strong>duration</strong> (<em>int</em><em>, </em><em>optional</em>) – Time to run the daq in seconds.</li>
+<li><strong>events</strong> (<em>int</em><em>, </em><em>optional</em>) – Number events to take in the daq.</li>
+<li><strong>duration</strong> (<em>int</em><em>, </em><em>optional</em>) – Time to run the daq in seconds, if events was not provided.</li>
+<li><strong>use_l3t</strong> (<em>bool</em><em>, </em><em>optional</em>) – If True, we’ll run with the level 3 trigger. This means that, if we
+specified a number of events, we will wait for that many “good”
+events as determined by the daq.</li>
+<li><strong>controls</strong> (<em>dict{name: device}</em><em> or </em><em>list</em><em>[</em><em>device...</em><em>]</em><em>, </em><em>optional</em>) – If provided, values from these will make it into the DAQ data
+stream as variables. We will check device.position and device.value
+for quantities to use and we will update these values each time
+begin is called. To provide a list, all devices must have a <cite>name</cite>
+attribute.</li>
 <li><strong>wait</strong> (<em>bool</em><em>, </em><em>optional</em>) – If switched to True, wait for the daq to finish aquiring data.</li>
 </ul>
 </td>
@@ -198,7 +211,8 @@ finished aquiring data.</p>
 <dl class="method">
 <dt id="pcdsdevices.daq.Daq.collect">
 <code class="descname">collect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq.collect" title="Permalink to this definition">¶</a></dt>
-<dd><p>As per the bluesky interface, this is a generator that is expected to
+<dd><p>End the run.</p>
+<p>As per the bluesky interface, this is a generator that is expected to
 output partial event documents. However, since we don’t have any events
 to report to python, this will be a generator that immediately ends.</p>
 </dd></dl>
@@ -206,7 +220,8 @@ to report to python, this will be a generator that immediately ends.</p>
 <dl class="method">
 <dt id="pcdsdevices.daq.Daq.complete">
 <code class="descname">complete</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq.complete" title="Permalink to this definition">¶</a></dt>
-<dd><p>End the current run.</p>
+<dd><p>If the daq is freely running, this will stop the daq.
+Otherwise, we’ll let the daq finish up the fixed-length acquisition.</p>
 <p>Return a status object that will be marked as ‘done’ when the DAQ has
 finished acquiring.</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -215,7 +230,7 @@ finished acquiring.</p>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>end_status</strong></td>
 </tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">DaqStatus</td>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Status</td>
 </tr>
 </tbody>
 </table>
@@ -223,7 +238,7 @@ finished acquiring.</p>
 
 <dl class="method">
 <dt id="pcdsdevices.daq.Daq.configure">
-<code class="descname">configure</code><span class="sig-paren">(</span><em>events=None</em>, <em>duration=None</em>, <em>record=False</em>, <em>use_l3t=False</em>, <em>controls=None</em>, <em>always_on=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq.configure" title="Permalink to this definition">¶</a></dt>
+<code class="descname">configure</code><span class="sig-paren">(</span><em>events=None</em>, <em>duration=None</em>, <em>record=False</em>, <em>use_l3t=False</em>, <em>controls=None</em>, <em>mode=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq.configure" title="Permalink to this definition">¶</a></dt>
 <dd><p>Changes the daq’s configuration for the next run.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -238,23 +253,23 @@ stopping, unless we override in begin.
 If not provided, and events was also not provided, an empty call to
 begin() will run indefinitely.</li>
 <li><strong>use_l3t</strong> (<em>bool</em><em>, </em><em>optional</em>) – If True, an events argument to begin will be reinterpreted to only
-count events that pass the level 3 trigger.</li>
+count events that pass the level 3 trigger. Defaults to False.</li>
 <li><strong>record</strong> (<em>bool</em><em>, </em><em>optional</em>) – If True, we’ll record the data. Otherwise, we’ll run without
-recording.</li>
-<li><strong>controls</strong> (<em>dict{str: device}</em><em>, </em><em>optional</em>) – If provided, values from these will make it into the DAQ data
+recording. Defaults to False.</li>
+<li><strong>controls</strong> (<em>dict{name: device}</em><em> or </em><em>list</em><em>[</em><em>device...</em><em>]</em><em>, </em><em>optional</em>) – If provided, values from these will make it into the DAQ data
 stream as variables. We will check device.position and device.value
 for quantities to use and we will update these values each time
-begin is called.</li>
-<li><strong>always_on</strong> (<em>bool</em><em>, </em><em>optional</em>) – This determines our run control during a Bluesky scan with a
-RunEngine attached to a Daq object.
-If this is False, we will start taking events at create messages
-and stop taking events at save messages. If we are configured for a
-number of events or a duration, we’ll make sure to run for exactly
-that long between the create and save messages, waiting in the scan
-if necessary.
-If this is True, we won’t provide any run control. The daq will
-start recording at the beginning of the run and will stop recording
-at the end of the run.</li>
+begin is called. To provide a list, all devices must have a <cite>name</cite>
+attribute.</li>
+<li><strong>mode</strong> (<em>str</em><em> or </em><em>int</em><em>, </em><em>optional</em>) – <p>This determines our run control during a Bluesky scan with a
+RunEngine attached to a Daq object. There are three modes, with the
+<cite>on</cite> mode as the default:</p>
+<p><cite>on</cite>     (0): Start taking events at open_run, stop at close_run
+<cite>manual</cite> (1): Only take events after a call to trigger
+<cite>auto</cite>   (2): Start taking events at create, stop at save</p>
+<p>If mode is omitted, we’ll use the previous value for mode. The
+default value is <cite>on</cite>.</p>
+</li>
 </ul>
 </td>
 </tr>
@@ -319,7 +334,7 @@ from collect. There isn’t anything here, as nothing will be collected.</p>
 <tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>ready_status</strong> – Status that will be marked as ‘done’ when the daq has begun to
 record data.</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">DaqStatus</td>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Status</td>
 </tr>
 </tbody>
 </table>
@@ -370,9 +385,13 @@ is expecting sub devices.</p>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="pcdsdevices.daq.Daq.state_enum">
-<code class="descname">state_enum</code><a class="headerlink" href="#pcdsdevices.daq.Daq.state_enum" title="Permalink to this definition">¶</a></dt>
-<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">pydaq</span> <span class="pre">state</span></code></p>
+<dt id="pcdsdevices.daq.Daq.state">
+<code class="descname">state</code><a class="headerlink" href="#pcdsdevices.daq.Daq.state" title="Permalink to this definition">¶</a></dt>
+<dd><p><a href="#id1"><span class="problematic" id="id2">**</span></a>State as reported by the daq. Can be any of the following* – Disconnected* – No active session in python
+Connected:    Active session in python
+Configured:   Connected, and the daq has been configured
+Open:         We are in the middle of a run
+Running:      We are collecting data in a run</p>
 </dd></dl>
 
 <dl class="method">
@@ -384,8 +403,8 @@ is expecting sub devices.</p>
 <dl class="method">
 <dt id="pcdsdevices.daq.Daq.unstage">
 <code class="descname">unstage</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.daq.Daq.unstage" title="Permalink to this definition">¶</a></dt>
-<dd><p>Nothing to be done here, but we overwrite the default stage because it
-is expecting sub devices.</p>
+<dd><p>Nothing to be done here, but we overwrite the default unstage because
+it is expecting sub devices.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -460,7 +479,7 @@ is expecting sub devices.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.3.0+15.g9d1a547',
+            VERSION:'0.3.0+47.g49df96a',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
