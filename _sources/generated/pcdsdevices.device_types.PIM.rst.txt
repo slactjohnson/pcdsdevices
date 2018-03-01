@@ -40,6 +40,7 @@ pcdsdevices.device\_types.PIM
       ~PIM.trigger
       ~PIM.unstage
       ~PIM.unsubscribe
+      ~PIM.unsubscribe_all
       ~PIM.wait_for_connection
       ~PIM.wm
    

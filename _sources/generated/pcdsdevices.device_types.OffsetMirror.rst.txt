@@ -34,6 +34,7 @@ pcdsdevices.device\_types.OffsetMirror
       ~OffsetMirror.trigger
       ~OffsetMirror.unstage
       ~OffsetMirror.unsubscribe
+      ~OffsetMirror.unsubscribe_all
       ~OffsetMirror.wait_for_connection
    
    

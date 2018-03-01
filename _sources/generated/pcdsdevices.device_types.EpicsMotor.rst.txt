@@ -43,6 +43,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.umvr
       ~EpicsMotor.unstage
       ~EpicsMotor.unsubscribe
+      ~EpicsMotor.unsubscribe_all
       ~EpicsMotor.wait_for_connection
       ~EpicsMotor.wm
    

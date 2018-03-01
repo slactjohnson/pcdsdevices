@@ -40,6 +40,7 @@ pcdsdevices.device\_types.XFLS
       ~XFLS.trigger
       ~XFLS.unstage
       ~XFLS.unsubscribe
+      ~XFLS.unsubscribe_all
       ~XFLS.wait_for_connection
       ~XFLS.wm
    

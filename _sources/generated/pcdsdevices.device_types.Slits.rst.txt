@@ -41,6 +41,7 @@ pcdsdevices.device\_types.Slits
       ~Slits.trigger
       ~Slits.unstage
       ~Slits.unsubscribe
+      ~Slits.unsubscribe_all
       ~Slits.wait_for_connection
       ~Slits.wm
    

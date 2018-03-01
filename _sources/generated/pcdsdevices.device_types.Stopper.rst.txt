@@ -42,6 +42,7 @@ pcdsdevices.device\_types.Stopper
       ~Stopper.trigger
       ~Stopper.unstage
       ~Stopper.unsubscribe
+      ~Stopper.unsubscribe_all
       ~Stopper.wait_for_connection
       ~Stopper.wm
    

@@ -42,6 +42,7 @@ pcdsdevices.device\_types.GateValve
       ~GateValve.trigger
       ~GateValve.unstage
       ~GateValve.unsubscribe
+      ~GateValve.unsubscribe_all
       ~GateValve.wait_for_connection
       ~GateValve.wm
    

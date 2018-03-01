@@ -46,6 +46,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.trigger
       ~PulsePicker.unstage
       ~PulsePicker.unsubscribe
+      ~PulsePicker.unsubscribe_all
       ~PulsePicker.wait_for_connection
       ~PulsePicker.wm
    

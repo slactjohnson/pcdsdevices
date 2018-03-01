@@ -40,6 +40,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.trigger
       ~IPM.unstage
       ~IPM.unsubscribe
+      ~IPM.unsubscribe_all
       ~IPM.wait_for_connection
       ~IPM.wm
    
