@@ -24,9 +24,6 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.get_instantiated_signals
       ~EpicsMotor.home
       ~EpicsMotor.move
-      ~EpicsMotor.move_rel
-      ~EpicsMotor.mv
-      ~EpicsMotor.mvr
       ~EpicsMotor.pause
       ~EpicsMotor.put
       ~EpicsMotor.read
@@ -39,13 +36,10 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.subscribe
       ~EpicsMotor.summary
       ~EpicsMotor.trigger
-      ~EpicsMotor.umv
-      ~EpicsMotor.umvr
       ~EpicsMotor.unstage
       ~EpicsMotor.unsubscribe
       ~EpicsMotor.unsubscribe_all
       ~EpicsMotor.wait_for_connection
-      ~EpicsMotor.wm
    
    
 
@@ -67,14 +61,12 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.event_types
       ~EpicsMotor.high_limit
       ~EpicsMotor.high_limit_switch
-      ~EpicsMotor.high_soft_limit
       ~EpicsMotor.hints
       ~EpicsMotor.home_forward
       ~EpicsMotor.home_reverse
       ~EpicsMotor.limits
       ~EpicsMotor.low_limit
       ~EpicsMotor.low_limit_switch
-      ~EpicsMotor.low_soft_limit
       ~EpicsMotor.motor_done_move
       ~EpicsMotor.motor_egu
       ~EpicsMotor.motor_is_moving
