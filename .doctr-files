@@ -1,4 +1,3 @@
-./_sources/daq.rst.txt
 ./_sources/epics_types.rst.txt
 ./_sources/generated/pcdsdevices.device_types.Attenuator.rst.txt
 ./_sources/generated/pcdsdevices.device_types.EpicsMotor.rst.txt
@@ -48,7 +47,6 @@
 ./_static/up-pressed.png
 ./_static/up.png
 ./_static/websupport.js
-./daq.html
 ./epics_types.html
 ./generated/pcdsdevices.device_types.Attenuator.html
 ./generated/pcdsdevices.device_types.EpicsMotor.html
