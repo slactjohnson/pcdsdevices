@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.subscribe
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.subscribe

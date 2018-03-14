@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PMC100.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PMC100.__init__

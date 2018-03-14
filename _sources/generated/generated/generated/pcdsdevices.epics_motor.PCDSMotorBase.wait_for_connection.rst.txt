@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.wait\_for\_connection
+============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.wait_for_connection

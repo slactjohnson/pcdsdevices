@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.describe
+============================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.describe

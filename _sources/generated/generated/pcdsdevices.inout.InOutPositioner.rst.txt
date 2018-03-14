@@ -1,0 +1,85 @@
+pcdsdevices.inout.InOutPositioner
+=================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: InOutPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~InOutPositioner.__init__
+      ~InOutPositioner.check_value
+      ~InOutPositioner.clear_sub
+      ~InOutPositioner.configure
+      ~InOutPositioner.describe
+      ~InOutPositioner.describe_configuration
+      ~InOutPositioner.get
+      ~InOutPositioner.get_device_tuple
+      ~InOutPositioner.get_instantiated_signals
+      ~InOutPositioner.get_state
+      ~InOutPositioner.insert
+      ~InOutPositioner.move
+      ~InOutPositioner.mv
+      ~InOutPositioner.pause
+      ~InOutPositioner.put
+      ~InOutPositioner.read
+      ~InOutPositioner.read_configuration
+      ~InOutPositioner.remove
+      ~InOutPositioner.resume
+      ~InOutPositioner.set
+      ~InOutPositioner.stage
+      ~InOutPositioner.stop
+      ~InOutPositioner.subscribe
+      ~InOutPositioner.summary
+      ~InOutPositioner.trigger
+      ~InOutPositioner.unstage
+      ~InOutPositioner.unsubscribe
+      ~InOutPositioner.unsubscribe_all
+      ~InOutPositioner.wait_for_connection
+      ~InOutPositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InOutPositioner.SUB_ACQ_DONE
+      ~InOutPositioner.SUB_DONE
+      ~InOutPositioner.SUB_READBACK
+      ~InOutPositioner.SUB_START
+      ~InOutPositioner.SUB_STATE
+      ~InOutPositioner.component_names
+      ~InOutPositioner.connected
+      ~InOutPositioner.egu
+      ~InOutPositioner.event_types
+      ~InOutPositioner.high_limit
+      ~InOutPositioner.hints
+      ~InOutPositioner.in_states
+      ~InOutPositioner.inserted
+      ~InOutPositioner.limits
+      ~InOutPositioner.low_limit
+      ~InOutPositioner.moving
+      ~InOutPositioner.name
+      ~InOutPositioner.out_states
+      ~InOutPositioner.parent
+      ~InOutPositioner.position
+      ~InOutPositioner.removed
+      ~InOutPositioner.report
+      ~InOutPositioner.root
+      ~InOutPositioner.settle_time
+      ~InOutPositioner.signal_names
+      ~InOutPositioner.state
+      ~InOutPositioner.states_list
+      ~InOutPositioner.timeout
+      ~InOutPositioner.transmission
+      ~InOutPositioner.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.OffsetMirror.stop
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: OffsetMirror.stop

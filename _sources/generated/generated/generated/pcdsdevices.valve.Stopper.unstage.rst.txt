@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.unstage
+=================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.unstage

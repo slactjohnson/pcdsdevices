@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.stage
+=======================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.stage

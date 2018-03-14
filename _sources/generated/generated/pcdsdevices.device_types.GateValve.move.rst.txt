@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.GateValve.move
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: GateValve.move

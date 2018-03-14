@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.mv
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.mv

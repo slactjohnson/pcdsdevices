@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.put
+======================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.put

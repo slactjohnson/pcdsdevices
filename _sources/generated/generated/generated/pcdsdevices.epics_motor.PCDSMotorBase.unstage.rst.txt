@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.unstage
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.unstage

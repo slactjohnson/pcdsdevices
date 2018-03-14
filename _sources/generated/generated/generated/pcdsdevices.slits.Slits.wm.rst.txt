@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.wm
+==========================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.wm

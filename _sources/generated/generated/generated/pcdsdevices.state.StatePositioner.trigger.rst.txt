@@ -1,0 +1,6 @@
+pcdsdevices.state.StatePositioner.trigger
+=========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StatePositioner.trigger

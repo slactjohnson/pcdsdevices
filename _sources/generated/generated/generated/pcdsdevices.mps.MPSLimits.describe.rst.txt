@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.describe
+==================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.describe

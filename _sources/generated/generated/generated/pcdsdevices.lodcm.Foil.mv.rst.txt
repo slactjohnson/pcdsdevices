@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.mv
+=========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.mv

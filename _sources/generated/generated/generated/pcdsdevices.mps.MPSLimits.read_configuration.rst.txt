@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.read\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.read_configuration

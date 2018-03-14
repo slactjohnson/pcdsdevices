@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.describe\_configuration
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.describe_configuration

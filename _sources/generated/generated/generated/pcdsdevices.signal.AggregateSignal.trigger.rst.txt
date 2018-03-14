@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.trigger
+==========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.trigger

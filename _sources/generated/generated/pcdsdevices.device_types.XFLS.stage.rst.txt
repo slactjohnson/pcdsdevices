@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.stage
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.stage

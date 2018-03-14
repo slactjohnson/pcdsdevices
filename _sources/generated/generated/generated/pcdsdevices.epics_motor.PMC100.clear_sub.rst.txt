@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.clear\_sub
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.clear_sub

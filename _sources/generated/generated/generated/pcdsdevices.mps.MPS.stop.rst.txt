@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.stop
+========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.stop

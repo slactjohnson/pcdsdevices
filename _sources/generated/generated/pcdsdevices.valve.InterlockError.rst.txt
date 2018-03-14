@@ -1,0 +1,6 @@
+pcdsdevices.valve.InterlockError
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoexception:: InterlockError

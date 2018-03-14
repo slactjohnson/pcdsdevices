@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.get\_device\_tuple
+======================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.get_device_tuple

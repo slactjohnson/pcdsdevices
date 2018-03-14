@@ -6,12 +6,11 @@ pcdsdevices.device\_types.GateValve
 .. autoclass:: GateValve
 
    
-   .. automethod:: __init__
-
    
    .. rubric:: Methods
 
    .. autosummary::
+      :toctree: generated
    
       ~GateValve.__init__
       ~GateValve.check_value

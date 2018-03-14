@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.OffsetMirror.stage
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: OffsetMirror.stage

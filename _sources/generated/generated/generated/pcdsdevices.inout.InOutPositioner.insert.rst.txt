@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.insert
+========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.insert

@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSBase.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSBase.check_value

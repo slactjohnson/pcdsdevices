@@ -1,0 +1,99 @@
+pcdsdevices.pulsepicker.PulsePicker
+===================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. autoclass:: PulsePicker
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PulsePicker.__init__
+      ~PulsePicker.burst
+      ~PulsePicker.check_value
+      ~PulsePicker.clear_sub
+      ~PulsePicker.close
+      ~PulsePicker.configure
+      ~PulsePicker.describe
+      ~PulsePicker.describe_configuration
+      ~PulsePicker.flipflop
+      ~PulsePicker.follower
+      ~PulsePicker.get
+      ~PulsePicker.get_device_tuple
+      ~PulsePicker.get_instantiated_signals
+      ~PulsePicker.get_state
+      ~PulsePicker.insert
+      ~PulsePicker.move
+      ~PulsePicker.mv
+      ~PulsePicker.open
+      ~PulsePicker.pause
+      ~PulsePicker.put
+      ~PulsePicker.read
+      ~PulsePicker.read_configuration
+      ~PulsePicker.remove
+      ~PulsePicker.reset
+      ~PulsePicker.resume
+      ~PulsePicker.set
+      ~PulsePicker.stage
+      ~PulsePicker.stop
+      ~PulsePicker.subscribe
+      ~PulsePicker.summary
+      ~PulsePicker.trigger
+      ~PulsePicker.unstage
+      ~PulsePicker.unsubscribe
+      ~PulsePicker.unsubscribe_all
+      ~PulsePicker.wait_for_connection
+      ~PulsePicker.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PulsePicker.SUB_ACQ_DONE
+      ~PulsePicker.SUB_DONE
+      ~PulsePicker.SUB_READBACK
+      ~PulsePicker.SUB_START
+      ~PulsePicker.SUB_STATE
+      ~PulsePicker.blade
+      ~PulsePicker.cmd_burst
+      ~PulsePicker.cmd_close
+      ~PulsePicker.cmd_flipflop
+      ~PulsePicker.cmd_follower
+      ~PulsePicker.cmd_open
+      ~PulsePicker.cmd_reset
+      ~PulsePicker.component_names
+      ~PulsePicker.connected
+      ~PulsePicker.egu
+      ~PulsePicker.event_types
+      ~PulsePicker.high_limit
+      ~PulsePicker.hints
+      ~PulsePicker.in_states
+      ~PulsePicker.inserted
+      ~PulsePicker.limits
+      ~PulsePicker.low_limit
+      ~PulsePicker.mode
+      ~PulsePicker.moving
+      ~PulsePicker.name
+      ~PulsePicker.out_states
+      ~PulsePicker.parent
+      ~PulsePicker.position
+      ~PulsePicker.removed
+      ~PulsePicker.report
+      ~PulsePicker.root
+      ~PulsePicker.settle_time
+      ~PulsePicker.signal_names
+      ~PulsePicker.state
+      ~PulsePicker.states_list
+      ~PulsePicker.timeout
+      ~PulsePicker.transmission
+      ~PulsePicker.trigger_signals
+   
+   

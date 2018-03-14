@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.remove
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.remove

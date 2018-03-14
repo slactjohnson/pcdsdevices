@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.summary
+====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.summary

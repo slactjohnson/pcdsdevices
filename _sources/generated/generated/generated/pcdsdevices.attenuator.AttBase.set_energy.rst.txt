@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.set\_energy
+==========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.set_energy

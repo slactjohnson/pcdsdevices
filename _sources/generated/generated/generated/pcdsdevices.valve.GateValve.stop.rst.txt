@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.stop
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.stop

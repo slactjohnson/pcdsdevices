@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.remove\_dia
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.remove_dia

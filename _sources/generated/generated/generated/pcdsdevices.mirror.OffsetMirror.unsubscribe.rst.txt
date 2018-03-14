@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OffsetMirror.unsubscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OffsetMirror.unsubscribe

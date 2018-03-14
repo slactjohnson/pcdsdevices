@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.resume
+=======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.resume

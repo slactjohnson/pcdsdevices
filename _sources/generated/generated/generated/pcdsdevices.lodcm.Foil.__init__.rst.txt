@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.\_\_init\_\_
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.__init__

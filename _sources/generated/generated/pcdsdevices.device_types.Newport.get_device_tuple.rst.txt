@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.get\_device\_tuple
+====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.get_device_tuple

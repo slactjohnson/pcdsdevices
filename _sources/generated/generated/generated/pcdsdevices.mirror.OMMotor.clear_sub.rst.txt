@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.clear\_sub
+=====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.clear_sub

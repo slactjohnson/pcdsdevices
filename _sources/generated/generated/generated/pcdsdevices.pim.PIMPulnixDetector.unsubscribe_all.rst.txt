@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.unsubscribe\_all
+==================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.unsubscribe\_all
+==============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.unsubscribe_all

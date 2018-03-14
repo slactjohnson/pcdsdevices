@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IPM.unsubscribe
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IPM.unsubscribe

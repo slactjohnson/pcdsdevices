@@ -1,0 +1,87 @@
+pcdsdevices.pim.PIM
+===================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIM
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIM.__init__
+      ~PIM.check_value
+      ~PIM.clear_sub
+      ~PIM.configure
+      ~PIM.describe
+      ~PIM.describe_configuration
+      ~PIM.get
+      ~PIM.get_device_tuple
+      ~PIM.get_instantiated_signals
+      ~PIM.get_state
+      ~PIM.insert
+      ~PIM.move
+      ~PIM.mv
+      ~PIM.pause
+      ~PIM.put
+      ~PIM.read
+      ~PIM.read_configuration
+      ~PIM.remove
+      ~PIM.resume
+      ~PIM.set
+      ~PIM.stage
+      ~PIM.stop
+      ~PIM.subscribe
+      ~PIM.summary
+      ~PIM.trigger
+      ~PIM.unstage
+      ~PIM.unsubscribe
+      ~PIM.unsubscribe_all
+      ~PIM.wait_for_connection
+      ~PIM.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIM.SUB_ACQ_DONE
+      ~PIM.SUB_DONE
+      ~PIM.SUB_READBACK
+      ~PIM.SUB_START
+      ~PIM.SUB_STATE
+      ~PIM.component_names
+      ~PIM.connected
+      ~PIM.detector
+      ~PIM.egu
+      ~PIM.event_types
+      ~PIM.high_limit
+      ~PIM.hints
+      ~PIM.in_states
+      ~PIM.inserted
+      ~PIM.limits
+      ~PIM.low_limit
+      ~PIM.moving
+      ~PIM.name
+      ~PIM.out_states
+      ~PIM.parent
+      ~PIM.position
+      ~PIM.readback
+      ~PIM.removed
+      ~PIM.report
+      ~PIM.root
+      ~PIM.settle_time
+      ~PIM.signal_names
+      ~PIM.state
+      ~PIM.states_list
+      ~PIM.timeout
+      ~PIM.transmission
+      ~PIM.trigger_signals
+   
+   

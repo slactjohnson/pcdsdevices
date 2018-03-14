@@ -1,0 +1,86 @@
+pcdsdevices.lodcm.Dectris
+=========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Dectris
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Dectris.__init__
+      ~Dectris.check_value
+      ~Dectris.clear_sub
+      ~Dectris.configure
+      ~Dectris.describe
+      ~Dectris.describe_configuration
+      ~Dectris.get
+      ~Dectris.get_device_tuple
+      ~Dectris.get_instantiated_signals
+      ~Dectris.get_state
+      ~Dectris.insert
+      ~Dectris.move
+      ~Dectris.mv
+      ~Dectris.pause
+      ~Dectris.put
+      ~Dectris.read
+      ~Dectris.read_configuration
+      ~Dectris.remove
+      ~Dectris.resume
+      ~Dectris.set
+      ~Dectris.stage
+      ~Dectris.stop
+      ~Dectris.subscribe
+      ~Dectris.summary
+      ~Dectris.trigger
+      ~Dectris.unstage
+      ~Dectris.unsubscribe
+      ~Dectris.unsubscribe_all
+      ~Dectris.wait_for_connection
+      ~Dectris.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Dectris.SUB_ACQ_DONE
+      ~Dectris.SUB_DONE
+      ~Dectris.SUB_READBACK
+      ~Dectris.SUB_START
+      ~Dectris.SUB_STATE
+      ~Dectris.component_names
+      ~Dectris.connected
+      ~Dectris.egu
+      ~Dectris.event_types
+      ~Dectris.high_limit
+      ~Dectris.hints
+      ~Dectris.in_states
+      ~Dectris.inserted
+      ~Dectris.limits
+      ~Dectris.low_limit
+      ~Dectris.moving
+      ~Dectris.name
+      ~Dectris.out_states
+      ~Dectris.parent
+      ~Dectris.position
+      ~Dectris.readback
+      ~Dectris.removed
+      ~Dectris.report
+      ~Dectris.root
+      ~Dectris.settle_time
+      ~Dectris.signal_names
+      ~Dectris.state
+      ~Dectris.states_list
+      ~Dectris.timeout
+      ~Dectris.transmission
+      ~Dectris.trigger_signals
+   
+   

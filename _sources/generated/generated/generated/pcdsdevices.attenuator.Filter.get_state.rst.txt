@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.get\_state
+========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.get_state

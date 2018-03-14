@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.make\_data\_key
+=================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.make_data_key

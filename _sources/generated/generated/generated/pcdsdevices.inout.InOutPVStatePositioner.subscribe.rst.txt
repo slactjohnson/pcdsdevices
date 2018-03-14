@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.subscribe
+==================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.subscribe

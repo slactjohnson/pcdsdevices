@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase3rd.get\_instantiated\_signals
+============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase3rd.get_instantiated_signals

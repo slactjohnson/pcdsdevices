@@ -1,0 +1,26 @@
+pcdsdevices.epics\_motor
+========================
+
+.. automodule:: pcdsdevices.epics_motor
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      IMS
+      Newport
+      PCDSMotorBase
+      PMC100
+   
+   
+
+   
+   
+   

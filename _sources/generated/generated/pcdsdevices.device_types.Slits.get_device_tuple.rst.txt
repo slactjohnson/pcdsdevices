@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.get\_device\_tuple
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.get_device_tuple

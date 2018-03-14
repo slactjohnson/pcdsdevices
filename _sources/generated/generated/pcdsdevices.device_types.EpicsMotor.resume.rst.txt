@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.resume
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.resume

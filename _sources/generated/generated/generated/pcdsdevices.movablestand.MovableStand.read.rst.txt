@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.read
+==========================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.read

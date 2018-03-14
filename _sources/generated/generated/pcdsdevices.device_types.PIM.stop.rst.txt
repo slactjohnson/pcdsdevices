@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.stop
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.stop

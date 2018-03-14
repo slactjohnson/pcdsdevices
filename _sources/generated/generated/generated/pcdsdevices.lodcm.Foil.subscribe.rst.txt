@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.subscribe
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.subscribe

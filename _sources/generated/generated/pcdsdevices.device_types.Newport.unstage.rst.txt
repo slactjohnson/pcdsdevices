@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.unstage
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.unstage

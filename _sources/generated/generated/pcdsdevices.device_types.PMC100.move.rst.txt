@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PMC100.move
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PMC100.move

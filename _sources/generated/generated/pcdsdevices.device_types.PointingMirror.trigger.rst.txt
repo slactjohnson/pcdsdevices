@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.trigger
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.trigger

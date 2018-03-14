@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.unsubscribe\_all
+===============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.unsubscribe_all

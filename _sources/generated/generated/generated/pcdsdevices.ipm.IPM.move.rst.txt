@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM.move
+========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM.move

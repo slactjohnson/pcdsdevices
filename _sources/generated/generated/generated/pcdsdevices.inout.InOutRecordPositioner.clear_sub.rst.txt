@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.clear\_sub
+==================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.clear_sub

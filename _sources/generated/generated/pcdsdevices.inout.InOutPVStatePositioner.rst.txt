@@ -1,0 +1,85 @@
+pcdsdevices.inout.InOutPVStatePositioner
+========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: InOutPVStatePositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~InOutPVStatePositioner.__init__
+      ~InOutPVStatePositioner.check_value
+      ~InOutPVStatePositioner.clear_sub
+      ~InOutPVStatePositioner.configure
+      ~InOutPVStatePositioner.describe
+      ~InOutPVStatePositioner.describe_configuration
+      ~InOutPVStatePositioner.get
+      ~InOutPVStatePositioner.get_device_tuple
+      ~InOutPVStatePositioner.get_instantiated_signals
+      ~InOutPVStatePositioner.get_state
+      ~InOutPVStatePositioner.insert
+      ~InOutPVStatePositioner.move
+      ~InOutPVStatePositioner.mv
+      ~InOutPVStatePositioner.pause
+      ~InOutPVStatePositioner.put
+      ~InOutPVStatePositioner.read
+      ~InOutPVStatePositioner.read_configuration
+      ~InOutPVStatePositioner.remove
+      ~InOutPVStatePositioner.resume
+      ~InOutPVStatePositioner.set
+      ~InOutPVStatePositioner.stage
+      ~InOutPVStatePositioner.stop
+      ~InOutPVStatePositioner.subscribe
+      ~InOutPVStatePositioner.summary
+      ~InOutPVStatePositioner.trigger
+      ~InOutPVStatePositioner.unstage
+      ~InOutPVStatePositioner.unsubscribe
+      ~InOutPVStatePositioner.unsubscribe_all
+      ~InOutPVStatePositioner.wait_for_connection
+      ~InOutPVStatePositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InOutPVStatePositioner.SUB_ACQ_DONE
+      ~InOutPVStatePositioner.SUB_DONE
+      ~InOutPVStatePositioner.SUB_READBACK
+      ~InOutPVStatePositioner.SUB_START
+      ~InOutPVStatePositioner.SUB_STATE
+      ~InOutPVStatePositioner.component_names
+      ~InOutPVStatePositioner.connected
+      ~InOutPVStatePositioner.egu
+      ~InOutPVStatePositioner.event_types
+      ~InOutPVStatePositioner.high_limit
+      ~InOutPVStatePositioner.hints
+      ~InOutPVStatePositioner.in_states
+      ~InOutPVStatePositioner.inserted
+      ~InOutPVStatePositioner.limits
+      ~InOutPVStatePositioner.low_limit
+      ~InOutPVStatePositioner.moving
+      ~InOutPVStatePositioner.name
+      ~InOutPVStatePositioner.out_states
+      ~InOutPVStatePositioner.parent
+      ~InOutPVStatePositioner.position
+      ~InOutPVStatePositioner.removed
+      ~InOutPVStatePositioner.report
+      ~InOutPVStatePositioner.root
+      ~InOutPVStatePositioner.settle_time
+      ~InOutPVStatePositioner.signal_names
+      ~InOutPVStatePositioner.state
+      ~InOutPVStatePositioner.states_list
+      ~InOutPVStatePositioner.timeout
+      ~InOutPVStatePositioner.transmission
+      ~InOutPVStatePositioner.trigger_signals
+   
+   

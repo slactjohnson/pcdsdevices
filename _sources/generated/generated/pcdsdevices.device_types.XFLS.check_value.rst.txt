@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.check\_value
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.check_value

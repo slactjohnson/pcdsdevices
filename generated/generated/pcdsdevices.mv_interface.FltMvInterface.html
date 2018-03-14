@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.mv_interface.FltMvInterface &mdash; PCDS Devices 0.5.0+14.gdaaabd2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="PCDS Devices 0.5.0+14.gdaaabd2 documentation" href="../../index.html"/>
+        <link rel="up" title="pcdsdevices.mv_interface" href="../pcdsdevices.mv_interface.html"/>
+        <link rel="next" title="pcdsdevices.mv_interface.FltMvInterface.mv" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv.html"/>
+        <link rel="prev" title="pcdsdevices.mv_interface" href="../pcdsdevices.mv_interface.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.5.0+14.gdaaabd2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.mv_interface.FltMvInterface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv.html">pcdsdevices.mv_interface.FltMvInterface.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mvr.html">pcdsdevices.mv_interface.FltMvInterface.mvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umv.html">pcdsdevices.mv_interface.FltMvInterface.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umvr.html">pcdsdevices.mv_interface.FltMvInterface.umvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm.html">pcdsdevices.mv_interface.FltMvInterface.wm</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mv_interface.MvInterface.html">pcdsdevices.mv_interface.MvInterface</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../api.html">API</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a> &raquo;</li>
+        
+      <li>pcdsdevices.mv_interface.FltMvInterface</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/generated/generated/pcdsdevices.mv_interface.FltMvInterface.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-mv-interface-fltmvinterface">
+<h1>pcdsdevices.mv_interface.FltMvInterface<a class="headerlink" href="#pcdsdevices-mv-interface-fltmvinterface" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="pcdsdevices.mv_interface.FltMvInterface">
+<em class="property">class </em><code class="descclassname">pcdsdevices.mv_interface.</code><code class="descname">FltMvInterface</code><a class="headerlink" href="#pcdsdevices.mv_interface.FltMvInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extension of MvInterface for when the position is a float.</p>
+<p>This lets us do more with the interface, such as relative moves.</p>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv.html#pcdsdevices.mv_interface.FltMvInterface.mv" title="pcdsdevices.mv_interface.FltMvInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<td>Absolute move to a position.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mvr.html#pcdsdevices.mv_interface.FltMvInterface.mvr" title="pcdsdevices.mv_interface.FltMvInterface.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<td>Relative move from this position.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umv.html#pcdsdevices.mv_interface.FltMvInterface.umv" title="pcdsdevices.mv_interface.FltMvInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<td>Move to a position, wait, and update with a progress bar.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umvr.html#pcdsdevices.mv_interface.FltMvInterface.umvr" title="pcdsdevices.mv_interface.FltMvInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<td>Relative move from this position, wait, and update with a progress bar.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm.html#pcdsdevices.mv_interface.FltMvInterface.wm" title="pcdsdevices.mv_interface.FltMvInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<td>Get the mover’s positon (where motor)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/pcdsdevices.mv_interface.FltMvInterface.mv.html" class="btn btn-neutral float-right" title="pcdsdevices.mv_interface.FltMvInterface.mv" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../pcdsdevices.mv_interface.html" class="btn btn-neutral" title="pcdsdevices.mv_interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'0.5.0+14.gdaaabd2',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.check_value

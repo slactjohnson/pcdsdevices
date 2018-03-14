@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.stage
+==============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.stage

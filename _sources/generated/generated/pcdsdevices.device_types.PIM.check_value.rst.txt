@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.check\_value
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.check_value

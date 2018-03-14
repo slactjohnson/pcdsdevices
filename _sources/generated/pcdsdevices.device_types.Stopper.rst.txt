@@ -6,12 +6,11 @@ pcdsdevices.device\_types.Stopper
 .. autoclass:: Stopper
 
    
-   .. automethod:: __init__
-
    
    .. rubric:: Methods
 
    .. autosummary::
+      :toctree: generated
    
       ~Stopper.__init__
       ~Stopper.check_value

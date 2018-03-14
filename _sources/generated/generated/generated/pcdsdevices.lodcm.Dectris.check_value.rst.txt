@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.check_value

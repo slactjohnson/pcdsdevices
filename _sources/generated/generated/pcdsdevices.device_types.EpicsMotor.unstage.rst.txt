@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.unstage
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.unstage

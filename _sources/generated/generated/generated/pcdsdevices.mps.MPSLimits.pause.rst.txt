@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.pause
+===============================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.pause

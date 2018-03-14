@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.configure
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.configure

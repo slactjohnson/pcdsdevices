@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.subscribe
+======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.unstage
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.unstage

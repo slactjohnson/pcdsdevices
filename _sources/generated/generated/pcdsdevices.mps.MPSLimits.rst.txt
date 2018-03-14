@@ -1,0 +1,64 @@
+pcdsdevices.mps.MPSLimits
+=========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. autoclass:: MPSLimits
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~MPSLimits.__init__
+      ~MPSLimits.check_value
+      ~MPSLimits.clear_sub
+      ~MPSLimits.configure
+      ~MPSLimits.describe
+      ~MPSLimits.describe_configuration
+      ~MPSLimits.get
+      ~MPSLimits.get_device_tuple
+      ~MPSLimits.get_instantiated_signals
+      ~MPSLimits.pause
+      ~MPSLimits.put
+      ~MPSLimits.read
+      ~MPSLimits.read_configuration
+      ~MPSLimits.resume
+      ~MPSLimits.stage
+      ~MPSLimits.stop
+      ~MPSLimits.subscribe
+      ~MPSLimits.summary
+      ~MPSLimits.trigger
+      ~MPSLimits.unstage
+      ~MPSLimits.unsubscribe
+      ~MPSLimits.unsubscribe_all
+      ~MPSLimits.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MPSLimits.SUB_ACQ_DONE
+      ~MPSLimits.SUB_FAULT_CH
+      ~MPSLimits.bypassed
+      ~MPSLimits.component_names
+      ~MPSLimits.connected
+      ~MPSLimits.event_types
+      ~MPSLimits.faulted
+      ~MPSLimits.in_limit
+      ~MPSLimits.name
+      ~MPSLimits.out_limit
+      ~MPSLimits.parent
+      ~MPSLimits.report
+      ~MPSLimits.root
+      ~MPSLimits.signal_names
+      ~MPSLimits.trigger_signals
+      ~MPSLimits.tripped
+   
+   

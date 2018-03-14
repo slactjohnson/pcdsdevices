@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.get_instantiated_signals

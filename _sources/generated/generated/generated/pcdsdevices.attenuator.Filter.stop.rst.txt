@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.stop
+==================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.stop

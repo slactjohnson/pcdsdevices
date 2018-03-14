@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.read_configuration

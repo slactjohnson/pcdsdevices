@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.wait\_for\_connection
+==============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.wait_for_connection

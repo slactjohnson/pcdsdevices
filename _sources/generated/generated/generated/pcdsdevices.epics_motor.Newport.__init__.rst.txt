@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.get\_device\_tuple
+============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.get_device_tuple

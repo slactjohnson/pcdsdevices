@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.wm
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.wm

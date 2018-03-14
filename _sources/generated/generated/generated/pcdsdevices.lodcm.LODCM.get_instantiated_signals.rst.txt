@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.get_instantiated_signals

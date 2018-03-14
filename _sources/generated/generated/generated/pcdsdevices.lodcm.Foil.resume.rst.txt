@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.resume
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.resume

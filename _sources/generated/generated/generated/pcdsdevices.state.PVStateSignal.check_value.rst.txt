@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStateSignal.check\_value
+============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStateSignal.check_value

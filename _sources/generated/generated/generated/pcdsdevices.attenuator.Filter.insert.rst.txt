@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.insert
+====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.insert

@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.\_\_init\_\_
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.__init__

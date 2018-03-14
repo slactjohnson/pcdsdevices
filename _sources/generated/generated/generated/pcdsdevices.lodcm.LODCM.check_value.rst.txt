@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.check_value

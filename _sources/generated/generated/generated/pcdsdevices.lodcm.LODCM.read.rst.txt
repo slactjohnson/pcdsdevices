@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.read
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.read

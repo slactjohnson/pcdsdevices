@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.check\_value
+==================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.check_value

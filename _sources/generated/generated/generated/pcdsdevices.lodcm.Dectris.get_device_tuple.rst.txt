@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.get\_device\_tuple
+============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.get_device_tuple

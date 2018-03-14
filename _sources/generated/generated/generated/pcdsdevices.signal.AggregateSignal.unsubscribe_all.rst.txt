@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.unsubscribe\_all
+===================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.unsubscribe_all

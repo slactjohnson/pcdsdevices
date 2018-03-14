@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.get\_instantiated\_signals
+===================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.get_instantiated_signals

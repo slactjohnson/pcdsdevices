@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.wm
+================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.wm

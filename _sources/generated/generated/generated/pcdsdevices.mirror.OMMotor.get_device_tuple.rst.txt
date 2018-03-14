@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.get\_device\_tuple
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.get_device_tuple

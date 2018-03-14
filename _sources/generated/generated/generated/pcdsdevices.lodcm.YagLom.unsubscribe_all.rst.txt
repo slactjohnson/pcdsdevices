@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.unsubscribe\_all
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.unsubscribe_all

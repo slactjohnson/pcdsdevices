@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.describe\_configuration
+======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.describe_configuration

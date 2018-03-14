@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.pause
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.pause

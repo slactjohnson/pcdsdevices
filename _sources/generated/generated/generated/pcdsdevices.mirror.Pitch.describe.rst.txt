@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.describe
+=================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.describe

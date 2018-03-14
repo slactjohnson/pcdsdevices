@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.read\_configuration
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.read_configuration

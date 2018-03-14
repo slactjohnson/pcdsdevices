@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.resume
+================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.resume

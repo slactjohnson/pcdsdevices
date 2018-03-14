@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.trigger
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.trigger

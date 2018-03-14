@@ -1,0 +1,87 @@
+pcdsdevices.movablestand.MovableStand
+=====================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. autoclass:: MovableStand
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~MovableStand.__init__
+      ~MovableStand.check_value
+      ~MovableStand.clear_sub
+      ~MovableStand.configure
+      ~MovableStand.describe
+      ~MovableStand.describe_configuration
+      ~MovableStand.get
+      ~MovableStand.get_device_tuple
+      ~MovableStand.get_instantiated_signals
+      ~MovableStand.get_state
+      ~MovableStand.insert
+      ~MovableStand.move
+      ~MovableStand.mv
+      ~MovableStand.pause
+      ~MovableStand.put
+      ~MovableStand.read
+      ~MovableStand.read_configuration
+      ~MovableStand.remove
+      ~MovableStand.resume
+      ~MovableStand.set
+      ~MovableStand.stage
+      ~MovableStand.stop
+      ~MovableStand.subscribe
+      ~MovableStand.summary
+      ~MovableStand.trigger
+      ~MovableStand.unstage
+      ~MovableStand.unsubscribe
+      ~MovableStand.unsubscribe_all
+      ~MovableStand.wait_for_connection
+      ~MovableStand.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MovableStand.SUB_ACQ_DONE
+      ~MovableStand.SUB_DONE
+      ~MovableStand.SUB_READBACK
+      ~MovableStand.SUB_START
+      ~MovableStand.SUB_STATE
+      ~MovableStand.component_names
+      ~MovableStand.connected
+      ~MovableStand.egu
+      ~MovableStand.event_types
+      ~MovableStand.high_limit
+      ~MovableStand.hints
+      ~MovableStand.in_limit
+      ~MovableStand.in_states
+      ~MovableStand.inserted
+      ~MovableStand.limits
+      ~MovableStand.low_limit
+      ~MovableStand.moving
+      ~MovableStand.name
+      ~MovableStand.out_limit
+      ~MovableStand.out_states
+      ~MovableStand.parent
+      ~MovableStand.position
+      ~MovableStand.removed
+      ~MovableStand.report
+      ~MovableStand.root
+      ~MovableStand.settle_time
+      ~MovableStand.signal_names
+      ~MovableStand.state
+      ~MovableStand.states_list
+      ~MovableStand.timeout
+      ~MovableStand.transmission
+      ~MovableStand.trigger_signals
+   
+   

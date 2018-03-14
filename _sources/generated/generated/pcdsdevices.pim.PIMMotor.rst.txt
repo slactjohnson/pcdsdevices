@@ -1,0 +1,86 @@
+pcdsdevices.pim.PIMMotor
+========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIMMotor.__init__
+      ~PIMMotor.check_value
+      ~PIMMotor.clear_sub
+      ~PIMMotor.configure
+      ~PIMMotor.describe
+      ~PIMMotor.describe_configuration
+      ~PIMMotor.get
+      ~PIMMotor.get_device_tuple
+      ~PIMMotor.get_instantiated_signals
+      ~PIMMotor.get_state
+      ~PIMMotor.insert
+      ~PIMMotor.move
+      ~PIMMotor.mv
+      ~PIMMotor.pause
+      ~PIMMotor.put
+      ~PIMMotor.read
+      ~PIMMotor.read_configuration
+      ~PIMMotor.remove
+      ~PIMMotor.resume
+      ~PIMMotor.set
+      ~PIMMotor.stage
+      ~PIMMotor.stop
+      ~PIMMotor.subscribe
+      ~PIMMotor.summary
+      ~PIMMotor.trigger
+      ~PIMMotor.unstage
+      ~PIMMotor.unsubscribe
+      ~PIMMotor.unsubscribe_all
+      ~PIMMotor.wait_for_connection
+      ~PIMMotor.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIMMotor.SUB_ACQ_DONE
+      ~PIMMotor.SUB_DONE
+      ~PIMMotor.SUB_READBACK
+      ~PIMMotor.SUB_START
+      ~PIMMotor.SUB_STATE
+      ~PIMMotor.component_names
+      ~PIMMotor.connected
+      ~PIMMotor.egu
+      ~PIMMotor.event_types
+      ~PIMMotor.high_limit
+      ~PIMMotor.hints
+      ~PIMMotor.in_states
+      ~PIMMotor.inserted
+      ~PIMMotor.limits
+      ~PIMMotor.low_limit
+      ~PIMMotor.moving
+      ~PIMMotor.name
+      ~PIMMotor.out_states
+      ~PIMMotor.parent
+      ~PIMMotor.position
+      ~PIMMotor.readback
+      ~PIMMotor.removed
+      ~PIMMotor.report
+      ~PIMMotor.root
+      ~PIMMotor.settle_time
+      ~PIMMotor.signal_names
+      ~PIMMotor.state
+      ~PIMMotor.states_list
+      ~PIMMotor.timeout
+      ~PIMMotor.transmission
+      ~PIMMotor.trigger_signals
+   
+   

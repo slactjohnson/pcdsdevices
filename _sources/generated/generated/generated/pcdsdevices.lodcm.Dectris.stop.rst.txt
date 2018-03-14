@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.stop
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.stop

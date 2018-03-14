@@ -1,0 +1,81 @@
+pcdsdevices.slits.Slits
+=======================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: Slits
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Slits.__init__
+      ~Slits.block
+      ~Slits.check_value
+      ~Slits.clear_sub
+      ~Slits.close
+      ~Slits.configure
+      ~Slits.describe
+      ~Slits.describe_configuration
+      ~Slits.get
+      ~Slits.get_device_tuple
+      ~Slits.get_instantiated_signals
+      ~Slits.move
+      ~Slits.mv
+      ~Slits.open
+      ~Slits.pause
+      ~Slits.put
+      ~Slits.read
+      ~Slits.read_configuration
+      ~Slits.remove
+      ~Slits.resume
+      ~Slits.set
+      ~Slits.stage
+      ~Slits.stop
+      ~Slits.subscribe
+      ~Slits.summary
+      ~Slits.trigger
+      ~Slits.unstage
+      ~Slits.unsubscribe
+      ~Slits.unsubscribe_all
+      ~Slits.wait_for_connection
+      ~Slits.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Slits.SUB_ACQ_DONE
+      ~Slits.SUB_STATE
+      ~Slits.block_cmd
+      ~Slits.blocked
+      ~Slits.close_cmd
+      ~Slits.component_names
+      ~Slits.connected
+      ~Slits.current_aperture
+      ~Slits.event_types
+      ~Slits.hints
+      ~Slits.inserted
+      ~Slits.name
+      ~Slits.open_cmd
+      ~Slits.parent
+      ~Slits.position
+      ~Slits.removed
+      ~Slits.report
+      ~Slits.root
+      ~Slits.signal_names
+      ~Slits.transmission
+      ~Slits.trigger_signals
+      ~Slits.xcenter
+      ~Slits.xwidth
+      ~Slits.ycenter
+      ~Slits.ywidth
+   
+   

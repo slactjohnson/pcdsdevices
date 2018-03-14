@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.read\_configuration
+==============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.read_configuration

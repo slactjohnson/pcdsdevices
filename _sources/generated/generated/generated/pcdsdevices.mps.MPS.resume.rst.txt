@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.resume
+==========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.resume

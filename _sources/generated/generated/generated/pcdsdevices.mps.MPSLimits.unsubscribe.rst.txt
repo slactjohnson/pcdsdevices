@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.unsubscribe
+=====================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.unsubscribe

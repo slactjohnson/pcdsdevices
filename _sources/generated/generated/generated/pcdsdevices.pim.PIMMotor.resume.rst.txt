@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.resume
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.resume

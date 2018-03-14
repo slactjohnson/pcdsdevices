@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.mv
+===============================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.mv

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.stage
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.stage

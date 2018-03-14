@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.describe
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.describe

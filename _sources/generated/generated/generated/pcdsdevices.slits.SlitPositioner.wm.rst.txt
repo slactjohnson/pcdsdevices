@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.wm
+===================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.wm

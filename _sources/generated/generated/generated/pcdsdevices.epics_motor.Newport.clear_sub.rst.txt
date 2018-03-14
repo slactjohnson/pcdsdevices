@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.clear\_sub
+===========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.clear_sub

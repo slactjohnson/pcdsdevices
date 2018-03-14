@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.resume
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.resume

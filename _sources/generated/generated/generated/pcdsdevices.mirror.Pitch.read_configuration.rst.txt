@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.read_configuration

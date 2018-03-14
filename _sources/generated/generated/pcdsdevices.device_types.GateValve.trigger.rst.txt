@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.GateValve.trigger
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: GateValve.trigger

@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.describe
+============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.describe

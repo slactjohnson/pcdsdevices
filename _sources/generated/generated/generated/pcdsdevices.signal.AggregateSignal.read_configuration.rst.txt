@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.read\_configuration
+======================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.read_configuration

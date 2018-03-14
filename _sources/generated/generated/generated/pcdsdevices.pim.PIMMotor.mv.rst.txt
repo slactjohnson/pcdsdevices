@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.mv
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.mv

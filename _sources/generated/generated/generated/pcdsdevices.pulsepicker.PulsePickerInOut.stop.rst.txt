@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePickerInOut.stop
+=============================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePickerInOut.stop

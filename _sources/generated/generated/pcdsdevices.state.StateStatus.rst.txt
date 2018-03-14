@@ -1,0 +1,31 @@
+pcdsdevices.state.StateStatus
+=============================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: StateStatus
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~StateStatus.__init__
+      ~StateStatus.add_callback
+      ~StateStatus.check_value
+      ~StateStatus.watch
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~StateStatus.callbacks
+      ~StateStatus.finished_cb
+   
+   

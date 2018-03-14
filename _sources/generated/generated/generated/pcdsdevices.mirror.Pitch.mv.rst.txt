@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.mv
+===========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.mv

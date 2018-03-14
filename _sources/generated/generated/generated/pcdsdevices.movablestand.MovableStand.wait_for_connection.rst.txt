@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.wait\_for\_connection
+===========================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.wait_for_connection

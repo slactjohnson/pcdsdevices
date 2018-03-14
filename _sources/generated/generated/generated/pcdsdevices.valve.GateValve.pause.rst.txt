@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.pause
+=================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.pause

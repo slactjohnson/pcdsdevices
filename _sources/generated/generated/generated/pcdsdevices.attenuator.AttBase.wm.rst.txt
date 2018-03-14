@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.wm
+=================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.wm

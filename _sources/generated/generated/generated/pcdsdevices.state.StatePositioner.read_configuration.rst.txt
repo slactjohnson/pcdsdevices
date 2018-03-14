@@ -1,0 +1,6 @@
+pcdsdevices.state.StatePositioner.read\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StatePositioner.read_configuration

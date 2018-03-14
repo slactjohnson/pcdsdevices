@@ -1,0 +1,86 @@
+pcdsdevices.inout.InOutRecordPositioner
+=======================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: InOutRecordPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~InOutRecordPositioner.__init__
+      ~InOutRecordPositioner.check_value
+      ~InOutRecordPositioner.clear_sub
+      ~InOutRecordPositioner.configure
+      ~InOutRecordPositioner.describe
+      ~InOutRecordPositioner.describe_configuration
+      ~InOutRecordPositioner.get
+      ~InOutRecordPositioner.get_device_tuple
+      ~InOutRecordPositioner.get_instantiated_signals
+      ~InOutRecordPositioner.get_state
+      ~InOutRecordPositioner.insert
+      ~InOutRecordPositioner.move
+      ~InOutRecordPositioner.mv
+      ~InOutRecordPositioner.pause
+      ~InOutRecordPositioner.put
+      ~InOutRecordPositioner.read
+      ~InOutRecordPositioner.read_configuration
+      ~InOutRecordPositioner.remove
+      ~InOutRecordPositioner.resume
+      ~InOutRecordPositioner.set
+      ~InOutRecordPositioner.stage
+      ~InOutRecordPositioner.stop
+      ~InOutRecordPositioner.subscribe
+      ~InOutRecordPositioner.summary
+      ~InOutRecordPositioner.trigger
+      ~InOutRecordPositioner.unstage
+      ~InOutRecordPositioner.unsubscribe
+      ~InOutRecordPositioner.unsubscribe_all
+      ~InOutRecordPositioner.wait_for_connection
+      ~InOutRecordPositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InOutRecordPositioner.SUB_ACQ_DONE
+      ~InOutRecordPositioner.SUB_DONE
+      ~InOutRecordPositioner.SUB_READBACK
+      ~InOutRecordPositioner.SUB_START
+      ~InOutRecordPositioner.SUB_STATE
+      ~InOutRecordPositioner.component_names
+      ~InOutRecordPositioner.connected
+      ~InOutRecordPositioner.egu
+      ~InOutRecordPositioner.event_types
+      ~InOutRecordPositioner.high_limit
+      ~InOutRecordPositioner.hints
+      ~InOutRecordPositioner.in_states
+      ~InOutRecordPositioner.inserted
+      ~InOutRecordPositioner.limits
+      ~InOutRecordPositioner.low_limit
+      ~InOutRecordPositioner.moving
+      ~InOutRecordPositioner.name
+      ~InOutRecordPositioner.out_states
+      ~InOutRecordPositioner.parent
+      ~InOutRecordPositioner.position
+      ~InOutRecordPositioner.readback
+      ~InOutRecordPositioner.removed
+      ~InOutRecordPositioner.report
+      ~InOutRecordPositioner.root
+      ~InOutRecordPositioner.settle_time
+      ~InOutRecordPositioner.signal_names
+      ~InOutRecordPositioner.state
+      ~InOutRecordPositioner.states_list
+      ~InOutRecordPositioner.timeout
+      ~InOutRecordPositioner.transmission
+      ~InOutRecordPositioner.trigger_signals
+   
+   

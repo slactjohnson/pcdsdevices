@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.get\_instantiated\_signals
+===========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.get_instantiated_signals

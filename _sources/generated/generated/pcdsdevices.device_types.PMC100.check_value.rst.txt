@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PMC100.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PMC100.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.pause
+====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.pause

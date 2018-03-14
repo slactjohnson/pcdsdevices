@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.get\_state
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.get_state

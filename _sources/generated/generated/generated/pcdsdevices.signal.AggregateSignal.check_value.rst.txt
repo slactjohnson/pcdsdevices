@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.check\_value
+===============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.check_value

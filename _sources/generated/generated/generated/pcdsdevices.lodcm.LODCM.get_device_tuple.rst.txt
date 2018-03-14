@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.get\_device\_tuple
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.get_device_tuple

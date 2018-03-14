@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM.get\_state
+==============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM.get_state

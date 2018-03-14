@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.resume
+=======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.resume

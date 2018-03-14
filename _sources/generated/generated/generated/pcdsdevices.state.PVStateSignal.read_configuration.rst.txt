@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStateSignal.read\_configuration
+===================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStateSignal.read_configuration

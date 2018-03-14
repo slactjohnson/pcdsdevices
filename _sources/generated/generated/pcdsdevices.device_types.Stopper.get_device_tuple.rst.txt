@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.get\_device\_tuple
+====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.get_device_tuple

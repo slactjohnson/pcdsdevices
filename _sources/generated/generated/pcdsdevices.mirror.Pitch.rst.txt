@@ -1,0 +1,92 @@
+pcdsdevices.mirror.Pitch
+========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: Pitch
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Pitch.__init__
+      ~Pitch.check_value
+      ~Pitch.clear_sub
+      ~Pitch.configure
+      ~Pitch.describe
+      ~Pitch.describe_configuration
+      ~Pitch.get
+      ~Pitch.get_device_tuple
+      ~Pitch.get_instantiated_signals
+      ~Pitch.move
+      ~Pitch.mv
+      ~Pitch.mvr
+      ~Pitch.pause
+      ~Pitch.put
+      ~Pitch.read
+      ~Pitch.read_configuration
+      ~Pitch.resume
+      ~Pitch.set
+      ~Pitch.stage
+      ~Pitch.stop
+      ~Pitch.subscribe
+      ~Pitch.summary
+      ~Pitch.trigger
+      ~Pitch.umv
+      ~Pitch.umvr
+      ~Pitch.unstage
+      ~Pitch.unsubscribe
+      ~Pitch.unsubscribe_all
+      ~Pitch.wait_for_connection
+      ~Pitch.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Pitch.SUB_ACQ_DONE
+      ~Pitch.SUB_DONE
+      ~Pitch.SUB_READBACK
+      ~Pitch.SUB_START
+      ~Pitch.actuate
+      ~Pitch.actuate_value
+      ~Pitch.component_names
+      ~Pitch.connected
+      ~Pitch.done
+      ~Pitch.done_value
+      ~Pitch.egu
+      ~Pitch.enabled
+      ~Pitch.event_types
+      ~Pitch.high_limit
+      ~Pitch.high_limit_switch
+      ~Pitch.hints
+      ~Pitch.interlock
+      ~Pitch.limits
+      ~Pitch.low_limit
+      ~Pitch.low_limit_switch
+      ~Pitch.motor_egu
+      ~Pitch.moving
+      ~Pitch.name
+      ~Pitch.parent
+      ~Pitch.piezo_volts
+      ~Pitch.position
+      ~Pitch.put_complete
+      ~Pitch.readback
+      ~Pitch.report
+      ~Pitch.root
+      ~Pitch.setpoint
+      ~Pitch.settle_time
+      ~Pitch.signal_names
+      ~Pitch.stop_signal
+      ~Pitch.stop_value
+      ~Pitch.timeout
+      ~Pitch.trigger_signals
+   
+   

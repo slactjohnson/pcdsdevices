@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.get\_device\_tuple
+======================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.get_device_tuple

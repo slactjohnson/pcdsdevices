@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.configure
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.configure

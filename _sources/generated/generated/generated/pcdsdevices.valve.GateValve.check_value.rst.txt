@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.check_value

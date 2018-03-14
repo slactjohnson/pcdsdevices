@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.pause
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.pause

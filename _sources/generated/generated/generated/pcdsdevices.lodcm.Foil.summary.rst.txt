@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.summary
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.summary

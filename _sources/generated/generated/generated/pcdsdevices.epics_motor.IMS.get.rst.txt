@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.get
+================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.get

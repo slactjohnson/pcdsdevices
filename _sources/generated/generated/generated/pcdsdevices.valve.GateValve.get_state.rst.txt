@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.get\_state
+======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.get_state

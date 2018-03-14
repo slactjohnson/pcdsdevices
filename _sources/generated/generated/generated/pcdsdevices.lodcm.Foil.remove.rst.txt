@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.remove
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.remove

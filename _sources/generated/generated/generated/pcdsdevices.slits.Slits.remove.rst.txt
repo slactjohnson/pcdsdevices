@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.remove
+==============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.remove

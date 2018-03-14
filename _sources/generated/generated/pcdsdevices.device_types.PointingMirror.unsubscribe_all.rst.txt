@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.unsubscribe\_all
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.unsubscribe_all

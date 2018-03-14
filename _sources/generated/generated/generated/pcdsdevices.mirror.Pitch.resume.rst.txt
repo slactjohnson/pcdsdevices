@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.resume
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.resume

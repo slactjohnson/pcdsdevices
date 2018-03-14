@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.move
+===================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.move

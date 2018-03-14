@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.check\_value
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.read\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.read_configuration

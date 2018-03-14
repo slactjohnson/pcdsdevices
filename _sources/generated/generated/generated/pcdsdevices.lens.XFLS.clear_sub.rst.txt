@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.clear\_sub
+================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.clear_sub

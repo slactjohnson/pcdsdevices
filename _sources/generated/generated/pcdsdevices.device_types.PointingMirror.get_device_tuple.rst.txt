@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.get\_device\_tuple
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.configure
+===============================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.configure

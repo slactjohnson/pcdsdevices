@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.pause
+=========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.pause

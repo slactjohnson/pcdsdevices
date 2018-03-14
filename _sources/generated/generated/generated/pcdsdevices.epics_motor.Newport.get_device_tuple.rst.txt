@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.get\_device\_tuple
+===================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.get_device_tuple

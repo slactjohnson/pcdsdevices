@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.get\_state
+================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.get_state

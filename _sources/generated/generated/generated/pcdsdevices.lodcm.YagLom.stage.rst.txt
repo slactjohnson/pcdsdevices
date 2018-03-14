@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.stage
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.stage

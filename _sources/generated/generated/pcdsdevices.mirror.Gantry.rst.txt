@@ -1,0 +1,96 @@
+pcdsdevices.mirror.Gantry
+=========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: Gantry
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Gantry.__init__
+      ~Gantry.check_value
+      ~Gantry.clear_sub
+      ~Gantry.configure
+      ~Gantry.describe
+      ~Gantry.describe_configuration
+      ~Gantry.get
+      ~Gantry.get_device_tuple
+      ~Gantry.get_instantiated_signals
+      ~Gantry.move
+      ~Gantry.mv
+      ~Gantry.mvr
+      ~Gantry.pause
+      ~Gantry.put
+      ~Gantry.read
+      ~Gantry.read_configuration
+      ~Gantry.resume
+      ~Gantry.set
+      ~Gantry.stage
+      ~Gantry.stop
+      ~Gantry.subscribe
+      ~Gantry.summary
+      ~Gantry.trigger
+      ~Gantry.umv
+      ~Gantry.umvr
+      ~Gantry.unstage
+      ~Gantry.unsubscribe
+      ~Gantry.unsubscribe_all
+      ~Gantry.wait_for_connection
+      ~Gantry.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Gantry.SUB_ACQ_DONE
+      ~Gantry.SUB_DONE
+      ~Gantry.SUB_READBACK
+      ~Gantry.SUB_START
+      ~Gantry.actuate
+      ~Gantry.actuate_value
+      ~Gantry.component_names
+      ~Gantry.connected
+      ~Gantry.decoupled
+      ~Gantry.done
+      ~Gantry.done_value
+      ~Gantry.egu
+      ~Gantry.enabled
+      ~Gantry.event_types
+      ~Gantry.follower_high_limit_switch
+      ~Gantry.follower_low_limit_switch
+      ~Gantry.follower_readback
+      ~Gantry.gantry_difference
+      ~Gantry.high_limit
+      ~Gantry.high_limit_switch
+      ~Gantry.hints
+      ~Gantry.interlock
+      ~Gantry.limits
+      ~Gantry.low_limit
+      ~Gantry.low_limit_switch
+      ~Gantry.motor_egu
+      ~Gantry.moving
+      ~Gantry.name
+      ~Gantry.parent
+      ~Gantry.position
+      ~Gantry.put_complete
+      ~Gantry.readback
+      ~Gantry.report
+      ~Gantry.root
+      ~Gantry.setpoint
+      ~Gantry.settle_time
+      ~Gantry.signal_names
+      ~Gantry.stop_signal
+      ~Gantry.stop_value
+      ~Gantry.timeout
+      ~Gantry.trigger_signals
+   
+   

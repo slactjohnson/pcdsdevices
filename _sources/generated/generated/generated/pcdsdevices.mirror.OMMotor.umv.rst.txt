@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.umv
+==============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.umv

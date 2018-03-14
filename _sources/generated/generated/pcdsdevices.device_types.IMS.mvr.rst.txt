@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.mvr
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.mvr

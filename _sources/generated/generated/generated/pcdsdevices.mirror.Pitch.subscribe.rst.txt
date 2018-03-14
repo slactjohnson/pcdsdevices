@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.subscribe
+==================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.subscribe

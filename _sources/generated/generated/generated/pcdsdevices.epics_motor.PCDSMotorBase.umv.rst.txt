@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.umv
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.umv

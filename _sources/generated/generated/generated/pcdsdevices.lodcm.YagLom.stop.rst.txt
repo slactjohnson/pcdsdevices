@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.stop
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.stop

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.get\_device\_tuple
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.describe
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.describe

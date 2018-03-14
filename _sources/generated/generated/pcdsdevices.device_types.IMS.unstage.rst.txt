@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.unstage
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.unstage

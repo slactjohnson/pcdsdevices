@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.wm
+======================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.wm

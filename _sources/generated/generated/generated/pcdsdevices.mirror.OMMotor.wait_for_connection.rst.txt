@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.wait_for_connection

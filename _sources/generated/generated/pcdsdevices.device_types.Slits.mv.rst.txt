@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.mv
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.mv

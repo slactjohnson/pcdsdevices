@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.stage
+===========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.stage

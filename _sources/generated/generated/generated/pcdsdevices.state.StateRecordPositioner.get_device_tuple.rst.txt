@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositioner.get\_device\_tuple
+==========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositioner.get_device_tuple

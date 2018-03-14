@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.describe\_configuration
+===============================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.describe_configuration

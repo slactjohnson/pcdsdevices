@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.get\_instantiated\_signals
+===================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.get_instantiated_signals

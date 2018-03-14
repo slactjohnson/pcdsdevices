@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.check_value

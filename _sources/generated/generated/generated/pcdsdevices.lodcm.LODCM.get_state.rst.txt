@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.get\_state
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.get_state

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.configure
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.configure

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OffsetMirror.unstage
+=======================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OffsetMirror.unstage

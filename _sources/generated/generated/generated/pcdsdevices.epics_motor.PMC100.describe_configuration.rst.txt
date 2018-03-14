@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.describe\_configuration
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.describe_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.remove
+============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.remove

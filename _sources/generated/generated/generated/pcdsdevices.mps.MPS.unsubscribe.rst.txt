@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.unsubscribe
+===============================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.unsubscribe

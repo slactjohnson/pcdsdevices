@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.stop
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.stop

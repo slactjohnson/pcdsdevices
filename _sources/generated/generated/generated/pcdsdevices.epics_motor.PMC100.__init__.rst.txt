@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.\_\_init\_\_
+============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.\_\_init\_\_
+================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.__init__

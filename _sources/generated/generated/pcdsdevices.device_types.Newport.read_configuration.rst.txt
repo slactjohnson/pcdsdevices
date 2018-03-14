@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.read\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.read_configuration

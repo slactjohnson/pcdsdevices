@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.stop
+=====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.stop

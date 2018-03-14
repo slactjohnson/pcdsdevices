@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.get\_instantiated\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.get_instantiated_signals

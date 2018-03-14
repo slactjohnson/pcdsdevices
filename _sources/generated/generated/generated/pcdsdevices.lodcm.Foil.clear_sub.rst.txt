@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.clear\_sub
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.clear_sub

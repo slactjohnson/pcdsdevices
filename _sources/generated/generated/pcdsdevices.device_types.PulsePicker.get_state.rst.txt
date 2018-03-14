@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PulsePicker.get\_state
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PulsePicker.get_state

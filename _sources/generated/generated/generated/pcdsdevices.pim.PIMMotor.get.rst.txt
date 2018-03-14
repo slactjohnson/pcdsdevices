@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.get
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.get

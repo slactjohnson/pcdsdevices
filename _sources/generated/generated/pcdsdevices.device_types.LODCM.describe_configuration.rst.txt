@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.describe\_configuration
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.describe_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.set
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.set

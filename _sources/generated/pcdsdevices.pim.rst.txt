@@ -1,0 +1,25 @@
+pcdsdevices.pim
+===============
+
+.. automodule:: pcdsdevices.pim
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      PIM
+      PIMMotor
+      PIMPulnixDetector
+   
+   
+
+   
+   
+   

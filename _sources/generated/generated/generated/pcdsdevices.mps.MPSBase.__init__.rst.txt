@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSBase.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSBase.__init__

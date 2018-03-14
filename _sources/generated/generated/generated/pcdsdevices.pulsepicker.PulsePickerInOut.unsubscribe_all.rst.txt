@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePickerInOut.unsubscribe\_all
+=========================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePickerInOut.unsubscribe_all

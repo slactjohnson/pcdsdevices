@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.get\_instantiated\_signals
+============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.get_instantiated_signals

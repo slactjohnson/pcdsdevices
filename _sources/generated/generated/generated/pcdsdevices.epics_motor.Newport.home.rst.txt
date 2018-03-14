@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.home
+=====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.home

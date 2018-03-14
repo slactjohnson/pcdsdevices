@@ -1,0 +1,23 @@
+pcdsdevices.signal
+==================
+
+.. automodule:: pcdsdevices.signal
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      AggregateSignal
+   
+   
+
+   
+   
+   

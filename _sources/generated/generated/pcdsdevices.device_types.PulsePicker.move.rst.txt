@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PulsePicker.move
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PulsePicker.move

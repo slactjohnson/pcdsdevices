@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.set\_current\_position
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.set_current_position

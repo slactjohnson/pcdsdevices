@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.close
+=============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.close

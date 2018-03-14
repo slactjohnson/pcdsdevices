@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.put
+====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.put

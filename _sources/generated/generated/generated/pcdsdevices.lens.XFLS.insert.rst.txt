@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.insert
+============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.insert

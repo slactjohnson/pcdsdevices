@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.put
+=====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.put

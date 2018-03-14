@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.describe\_configuration
+============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.describe_configuration

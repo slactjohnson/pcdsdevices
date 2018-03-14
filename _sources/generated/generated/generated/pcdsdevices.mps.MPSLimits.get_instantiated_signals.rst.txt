@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.get\_instantiated\_signals
+==============================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.get_instantiated_signals

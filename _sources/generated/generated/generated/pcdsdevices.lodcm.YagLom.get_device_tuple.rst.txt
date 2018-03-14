@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.get\_device\_tuple
+===========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.get_device_tuple

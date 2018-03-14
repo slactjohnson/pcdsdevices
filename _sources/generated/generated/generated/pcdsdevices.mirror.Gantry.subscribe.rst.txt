@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.subscribe
+===================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.subscribe

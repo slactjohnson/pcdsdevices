@@ -1,0 +1,6 @@
+pcdsdevices.state.StatePositioner.get\_state
+============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StatePositioner.get_state

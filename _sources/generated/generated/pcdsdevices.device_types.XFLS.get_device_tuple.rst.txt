@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.get\_device\_tuple
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.get_device_tuple

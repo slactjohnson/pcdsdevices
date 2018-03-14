@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.resume
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.resume

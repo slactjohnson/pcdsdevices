@@ -1,0 +1,79 @@
+pcdsdevices.state.StateRecordPositioner
+=======================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: StateRecordPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~StateRecordPositioner.__init__
+      ~StateRecordPositioner.check_value
+      ~StateRecordPositioner.clear_sub
+      ~StateRecordPositioner.configure
+      ~StateRecordPositioner.describe
+      ~StateRecordPositioner.describe_configuration
+      ~StateRecordPositioner.get
+      ~StateRecordPositioner.get_device_tuple
+      ~StateRecordPositioner.get_instantiated_signals
+      ~StateRecordPositioner.get_state
+      ~StateRecordPositioner.move
+      ~StateRecordPositioner.mv
+      ~StateRecordPositioner.pause
+      ~StateRecordPositioner.put
+      ~StateRecordPositioner.read
+      ~StateRecordPositioner.read_configuration
+      ~StateRecordPositioner.resume
+      ~StateRecordPositioner.set
+      ~StateRecordPositioner.stage
+      ~StateRecordPositioner.stop
+      ~StateRecordPositioner.subscribe
+      ~StateRecordPositioner.summary
+      ~StateRecordPositioner.trigger
+      ~StateRecordPositioner.unstage
+      ~StateRecordPositioner.unsubscribe
+      ~StateRecordPositioner.unsubscribe_all
+      ~StateRecordPositioner.wait_for_connection
+      ~StateRecordPositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~StateRecordPositioner.SUB_ACQ_DONE
+      ~StateRecordPositioner.SUB_DONE
+      ~StateRecordPositioner.SUB_READBACK
+      ~StateRecordPositioner.SUB_START
+      ~StateRecordPositioner.SUB_STATE
+      ~StateRecordPositioner.component_names
+      ~StateRecordPositioner.connected
+      ~StateRecordPositioner.egu
+      ~StateRecordPositioner.event_types
+      ~StateRecordPositioner.high_limit
+      ~StateRecordPositioner.hints
+      ~StateRecordPositioner.limits
+      ~StateRecordPositioner.low_limit
+      ~StateRecordPositioner.moving
+      ~StateRecordPositioner.name
+      ~StateRecordPositioner.parent
+      ~StateRecordPositioner.position
+      ~StateRecordPositioner.readback
+      ~StateRecordPositioner.report
+      ~StateRecordPositioner.root
+      ~StateRecordPositioner.settle_time
+      ~StateRecordPositioner.signal_names
+      ~StateRecordPositioner.state
+      ~StateRecordPositioner.states_list
+      ~StateRecordPositioner.timeout
+      ~StateRecordPositioner.trigger_signals
+   
+   

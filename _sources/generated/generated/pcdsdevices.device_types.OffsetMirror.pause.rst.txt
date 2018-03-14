@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.OffsetMirror.pause
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: OffsetMirror.pause

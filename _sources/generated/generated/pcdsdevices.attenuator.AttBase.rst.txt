@@ -1,0 +1,98 @@
+pcdsdevices.attenuator.AttBase
+==============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AttBase.__init__
+      ~AttBase.check_value
+      ~AttBase.clear_sub
+      ~AttBase.configure
+      ~AttBase.describe
+      ~AttBase.describe_configuration
+      ~AttBase.get
+      ~AttBase.get_device_tuple
+      ~AttBase.get_instantiated_signals
+      ~AttBase.insert
+      ~AttBase.move
+      ~AttBase.mv
+      ~AttBase.mvr
+      ~AttBase.pause
+      ~AttBase.put
+      ~AttBase.read
+      ~AttBase.read_configuration
+      ~AttBase.remove
+      ~AttBase.resume
+      ~AttBase.set
+      ~AttBase.set_energy
+      ~AttBase.stage
+      ~AttBase.stop
+      ~AttBase.subscribe
+      ~AttBase.summary
+      ~AttBase.trigger
+      ~AttBase.umv
+      ~AttBase.umvr
+      ~AttBase.unstage
+      ~AttBase.unsubscribe
+      ~AttBase.unsubscribe_all
+      ~AttBase.wait_for_connection
+      ~AttBase.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AttBase.SUB_ACQ_DONE
+      ~AttBase.SUB_DONE
+      ~AttBase.SUB_READBACK
+      ~AttBase.SUB_START
+      ~AttBase.actuate
+      ~AttBase.actuate_value
+      ~AttBase.calcpend
+      ~AttBase.component_names
+      ~AttBase.connected
+      ~AttBase.done
+      ~AttBase.done_value
+      ~AttBase.eget_cmd
+      ~AttBase.egu
+      ~AttBase.energy
+      ~AttBase.event_types
+      ~AttBase.high_limit
+      ~AttBase.hints
+      ~AttBase.inserted
+      ~AttBase.limits
+      ~AttBase.low_limit
+      ~AttBase.moving
+      ~AttBase.name
+      ~AttBase.parent
+      ~AttBase.position
+      ~AttBase.put_complete
+      ~AttBase.readback
+      ~AttBase.removed
+      ~AttBase.report
+      ~AttBase.root
+      ~AttBase.setpoint
+      ~AttBase.settle_time
+      ~AttBase.signal_names
+      ~AttBase.stop_signal
+      ~AttBase.stop_value
+      ~AttBase.timeout
+      ~AttBase.trans_ceil
+      ~AttBase.trans_floor
+      ~AttBase.transmission
+      ~AttBase.trigger_signals
+      ~AttBase.user_energy
+   
+   

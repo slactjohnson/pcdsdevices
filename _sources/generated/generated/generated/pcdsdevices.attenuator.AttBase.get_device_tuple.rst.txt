@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.get\_device\_tuple
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.get_device_tuple

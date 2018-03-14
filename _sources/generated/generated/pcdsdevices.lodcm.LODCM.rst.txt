@@ -1,0 +1,93 @@
+pcdsdevices.lodcm.LODCM
+=======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: LODCM
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~LODCM.__init__
+      ~LODCM.check_value
+      ~LODCM.clear_sub
+      ~LODCM.configure
+      ~LODCM.describe
+      ~LODCM.describe_configuration
+      ~LODCM.get
+      ~LODCM.get_device_tuple
+      ~LODCM.get_instantiated_signals
+      ~LODCM.get_state
+      ~LODCM.insert
+      ~LODCM.move
+      ~LODCM.mv
+      ~LODCM.pause
+      ~LODCM.put
+      ~LODCM.read
+      ~LODCM.read_configuration
+      ~LODCM.remove
+      ~LODCM.remove_dia
+      ~LODCM.resume
+      ~LODCM.set
+      ~LODCM.stage
+      ~LODCM.stop
+      ~LODCM.subscribe
+      ~LODCM.summary
+      ~LODCM.trigger
+      ~LODCM.unstage
+      ~LODCM.unsubscribe
+      ~LODCM.unsubscribe_all
+      ~LODCM.wait_for_connection
+      ~LODCM.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LODCM.SUB_ACQ_DONE
+      ~LODCM.SUB_DONE
+      ~LODCM.SUB_READBACK
+      ~LODCM.SUB_START
+      ~LODCM.SUB_STATE
+      ~LODCM.branches
+      ~LODCM.component_names
+      ~LODCM.connected
+      ~LODCM.dectris
+      ~LODCM.destination
+      ~LODCM.diode
+      ~LODCM.egu
+      ~LODCM.event_types
+      ~LODCM.foil
+      ~LODCM.high_limit
+      ~LODCM.hints
+      ~LODCM.in_states
+      ~LODCM.inserted
+      ~LODCM.limits
+      ~LODCM.low_limit
+      ~LODCM.moving
+      ~LODCM.name
+      ~LODCM.out_states
+      ~LODCM.parent
+      ~LODCM.position
+      ~LODCM.readback
+      ~LODCM.removed
+      ~LODCM.report
+      ~LODCM.root
+      ~LODCM.settle_time
+      ~LODCM.signal_names
+      ~LODCM.state
+      ~LODCM.states_list
+      ~LODCM.timeout
+      ~LODCM.transmission
+      ~LODCM.trigger_signals
+      ~LODCM.yag
+   
+   

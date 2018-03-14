@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.stop
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.stop

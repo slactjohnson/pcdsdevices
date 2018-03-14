@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.get
+=======================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.get

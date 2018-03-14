@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.remove
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.remove

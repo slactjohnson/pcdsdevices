@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.wm
+========================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.wm

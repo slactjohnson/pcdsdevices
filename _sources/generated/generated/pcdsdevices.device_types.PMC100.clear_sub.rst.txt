@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PMC100.clear\_sub
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PMC100.clear_sub

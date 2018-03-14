@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.trigger
+===========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.trigger

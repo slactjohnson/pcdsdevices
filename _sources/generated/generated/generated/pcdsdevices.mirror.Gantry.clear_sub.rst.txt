@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.clear_sub

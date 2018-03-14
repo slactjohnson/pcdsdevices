@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.resume
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.resume

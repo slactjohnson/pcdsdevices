@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.check_value

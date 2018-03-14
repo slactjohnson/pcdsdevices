@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.clear\_sub
+==============================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.clear_sub

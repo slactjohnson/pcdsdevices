@@ -1,0 +1,100 @@
+pcdsdevices.pulsepicker.PulsePickerInOut
+========================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. autoclass:: PulsePickerInOut
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PulsePickerInOut.__init__
+      ~PulsePickerInOut.burst
+      ~PulsePickerInOut.check_value
+      ~PulsePickerInOut.clear_sub
+      ~PulsePickerInOut.close
+      ~PulsePickerInOut.configure
+      ~PulsePickerInOut.describe
+      ~PulsePickerInOut.describe_configuration
+      ~PulsePickerInOut.flipflop
+      ~PulsePickerInOut.follower
+      ~PulsePickerInOut.get
+      ~PulsePickerInOut.get_device_tuple
+      ~PulsePickerInOut.get_instantiated_signals
+      ~PulsePickerInOut.get_state
+      ~PulsePickerInOut.insert
+      ~PulsePickerInOut.move
+      ~PulsePickerInOut.mv
+      ~PulsePickerInOut.open
+      ~PulsePickerInOut.pause
+      ~PulsePickerInOut.put
+      ~PulsePickerInOut.read
+      ~PulsePickerInOut.read_configuration
+      ~PulsePickerInOut.remove
+      ~PulsePickerInOut.reset
+      ~PulsePickerInOut.resume
+      ~PulsePickerInOut.set
+      ~PulsePickerInOut.stage
+      ~PulsePickerInOut.stop
+      ~PulsePickerInOut.subscribe
+      ~PulsePickerInOut.summary
+      ~PulsePickerInOut.trigger
+      ~PulsePickerInOut.unstage
+      ~PulsePickerInOut.unsubscribe
+      ~PulsePickerInOut.unsubscribe_all
+      ~PulsePickerInOut.wait_for_connection
+      ~PulsePickerInOut.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PulsePickerInOut.SUB_ACQ_DONE
+      ~PulsePickerInOut.SUB_DONE
+      ~PulsePickerInOut.SUB_READBACK
+      ~PulsePickerInOut.SUB_START
+      ~PulsePickerInOut.SUB_STATE
+      ~PulsePickerInOut.blade
+      ~PulsePickerInOut.cmd_burst
+      ~PulsePickerInOut.cmd_close
+      ~PulsePickerInOut.cmd_flipflop
+      ~PulsePickerInOut.cmd_follower
+      ~PulsePickerInOut.cmd_open
+      ~PulsePickerInOut.cmd_reset
+      ~PulsePickerInOut.component_names
+      ~PulsePickerInOut.connected
+      ~PulsePickerInOut.egu
+      ~PulsePickerInOut.event_types
+      ~PulsePickerInOut.high_limit
+      ~PulsePickerInOut.hints
+      ~PulsePickerInOut.in_states
+      ~PulsePickerInOut.inout
+      ~PulsePickerInOut.inserted
+      ~PulsePickerInOut.limits
+      ~PulsePickerInOut.low_limit
+      ~PulsePickerInOut.mode
+      ~PulsePickerInOut.moving
+      ~PulsePickerInOut.name
+      ~PulsePickerInOut.out_states
+      ~PulsePickerInOut.parent
+      ~PulsePickerInOut.position
+      ~PulsePickerInOut.removed
+      ~PulsePickerInOut.report
+      ~PulsePickerInOut.root
+      ~PulsePickerInOut.settle_time
+      ~PulsePickerInOut.signal_names
+      ~PulsePickerInOut.state
+      ~PulsePickerInOut.states_list
+      ~PulsePickerInOut.timeout
+      ~PulsePickerInOut.transmission
+      ~PulsePickerInOut.trigger_signals
+   
+   

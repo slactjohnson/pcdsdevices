@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.GateValve.describe\_configuration
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: GateValve.describe_configuration

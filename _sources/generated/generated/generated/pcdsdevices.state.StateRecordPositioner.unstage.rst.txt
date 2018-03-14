@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositioner.unstage
+===============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositioner.unstage

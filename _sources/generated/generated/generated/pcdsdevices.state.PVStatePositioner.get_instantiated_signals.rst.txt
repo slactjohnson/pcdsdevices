@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.get\_instantiated\_signals
+==============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.get_instantiated_signals

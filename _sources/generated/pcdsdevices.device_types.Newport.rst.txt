@@ -1,0 +1,99 @@
+pcdsdevices.device\_types.Newport
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Newport
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Newport.__init__
+      ~Newport.check_value
+      ~Newport.clear_sub
+      ~Newport.configure
+      ~Newport.describe
+      ~Newport.describe_configuration
+      ~Newport.get
+      ~Newport.get_device_tuple
+      ~Newport.get_instantiated_signals
+      ~Newport.home
+      ~Newport.move
+      ~Newport.mv
+      ~Newport.mvr
+      ~Newport.pause
+      ~Newport.put
+      ~Newport.read
+      ~Newport.read_configuration
+      ~Newport.resume
+      ~Newport.set
+      ~Newport.set_current_position
+      ~Newport.stage
+      ~Newport.stop
+      ~Newport.subscribe
+      ~Newport.summary
+      ~Newport.trigger
+      ~Newport.umv
+      ~Newport.umvr
+      ~Newport.unstage
+      ~Newport.unsubscribe
+      ~Newport.unsubscribe_all
+      ~Newport.wait_for_connection
+      ~Newport.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Newport.SUB_ACQ_DONE
+      ~Newport.SUB_DONE
+      ~Newport.SUB_READBACK
+      ~Newport.SUB_START
+      ~Newport.acceleration
+      ~Newport.component_names
+      ~Newport.connected
+      ~Newport.direction_of_travel
+      ~Newport.egu
+      ~Newport.event_types
+      ~Newport.high_limit
+      ~Newport.high_limit_switch
+      ~Newport.high_soft_limit
+      ~Newport.hints
+      ~Newport.home_forward
+      ~Newport.home_reverse
+      ~Newport.limits
+      ~Newport.low_limit
+      ~Newport.low_limit_switch
+      ~Newport.low_soft_limit
+      ~Newport.motor_done_move
+      ~Newport.motor_egu
+      ~Newport.motor_is_moving
+      ~Newport.motor_stop
+      ~Newport.moving
+      ~Newport.name
+      ~Newport.offset_freeze_switch
+      ~Newport.parent
+      ~Newport.position
+      ~Newport.precision
+      ~Newport.report
+      ~Newport.root
+      ~Newport.set_use_switch
+      ~Newport.settle_time
+      ~Newport.signal_names
+      ~Newport.timeout
+      ~Newport.trigger_signals
+      ~Newport.user_offset
+      ~Newport.user_offset_dir
+      ~Newport.user_readback
+      ~Newport.user_setpoint
+      ~Newport.velocity
+   
+   

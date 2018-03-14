@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.unstage
+===========================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.unstage

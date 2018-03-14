@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.read\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.read_configuration

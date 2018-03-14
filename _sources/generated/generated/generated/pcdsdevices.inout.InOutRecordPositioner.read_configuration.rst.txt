@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.read\_configuration
+===========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.state.StatePositioner.subscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StatePositioner.subscribe

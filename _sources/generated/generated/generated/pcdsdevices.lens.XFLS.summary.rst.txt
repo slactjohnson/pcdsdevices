@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.summary
+=============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.summary

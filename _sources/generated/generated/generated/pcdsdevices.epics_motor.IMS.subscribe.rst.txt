@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.subscribe
+======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.subscribe

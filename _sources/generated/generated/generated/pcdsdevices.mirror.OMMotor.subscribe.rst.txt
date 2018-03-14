@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.subscribe
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.subscribe

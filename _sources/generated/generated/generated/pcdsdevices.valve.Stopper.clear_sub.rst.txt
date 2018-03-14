@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.clear_sub

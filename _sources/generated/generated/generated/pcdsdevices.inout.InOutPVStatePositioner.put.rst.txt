@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.put
+============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.put

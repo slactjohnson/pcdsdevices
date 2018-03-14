@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.set
+====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.set

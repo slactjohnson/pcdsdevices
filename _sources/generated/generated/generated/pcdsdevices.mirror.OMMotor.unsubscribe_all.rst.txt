@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.unsubscribe\_all
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.unsubscribe_all

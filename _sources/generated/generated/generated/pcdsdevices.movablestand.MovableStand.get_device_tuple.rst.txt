@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.get\_device\_tuple
+========================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.get_device_tuple

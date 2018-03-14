@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositioner.resume
+==============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositioner.resume

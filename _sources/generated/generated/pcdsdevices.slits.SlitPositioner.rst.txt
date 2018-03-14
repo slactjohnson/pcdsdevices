@@ -1,0 +1,86 @@
+pcdsdevices.slits.SlitPositioner
+================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: SlitPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SlitPositioner.__init__
+      ~SlitPositioner.check_value
+      ~SlitPositioner.clear_sub
+      ~SlitPositioner.configure
+      ~SlitPositioner.describe
+      ~SlitPositioner.describe_configuration
+      ~SlitPositioner.get
+      ~SlitPositioner.get_device_tuple
+      ~SlitPositioner.get_instantiated_signals
+      ~SlitPositioner.move
+      ~SlitPositioner.mv
+      ~SlitPositioner.mvr
+      ~SlitPositioner.pause
+      ~SlitPositioner.put
+      ~SlitPositioner.read
+      ~SlitPositioner.read_configuration
+      ~SlitPositioner.resume
+      ~SlitPositioner.set
+      ~SlitPositioner.stage
+      ~SlitPositioner.stop
+      ~SlitPositioner.subscribe
+      ~SlitPositioner.summary
+      ~SlitPositioner.trigger
+      ~SlitPositioner.umv
+      ~SlitPositioner.umvr
+      ~SlitPositioner.unstage
+      ~SlitPositioner.unsubscribe
+      ~SlitPositioner.unsubscribe_all
+      ~SlitPositioner.wait_for_connection
+      ~SlitPositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SlitPositioner.SUB_ACQ_DONE
+      ~SlitPositioner.SUB_DONE
+      ~SlitPositioner.SUB_READBACK
+      ~SlitPositioner.SUB_START
+      ~SlitPositioner.actuate
+      ~SlitPositioner.actuate_value
+      ~SlitPositioner.component_names
+      ~SlitPositioner.connected
+      ~SlitPositioner.done
+      ~SlitPositioner.done_value
+      ~SlitPositioner.egu
+      ~SlitPositioner.event_types
+      ~SlitPositioner.high_limit
+      ~SlitPositioner.hints
+      ~SlitPositioner.limits
+      ~SlitPositioner.low_limit
+      ~SlitPositioner.moving
+      ~SlitPositioner.name
+      ~SlitPositioner.parent
+      ~SlitPositioner.position
+      ~SlitPositioner.put_complete
+      ~SlitPositioner.readback
+      ~SlitPositioner.report
+      ~SlitPositioner.root
+      ~SlitPositioner.setpoint
+      ~SlitPositioner.settle_time
+      ~SlitPositioner.signal_names
+      ~SlitPositioner.stop_signal
+      ~SlitPositioner.stop_value
+      ~SlitPositioner.timeout
+      ~SlitPositioner.trigger_signals
+   
+   

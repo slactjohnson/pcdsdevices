@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.remove
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.remove

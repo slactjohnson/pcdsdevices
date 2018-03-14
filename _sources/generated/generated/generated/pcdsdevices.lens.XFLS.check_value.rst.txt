@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.check\_value
+==================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.check_value

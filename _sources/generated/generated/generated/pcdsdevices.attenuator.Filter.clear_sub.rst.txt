@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.clear\_sub
+========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.clear_sub

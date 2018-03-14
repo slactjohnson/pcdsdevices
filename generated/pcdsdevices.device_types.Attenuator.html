@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Attenuator &mdash; PCDS Devices 0.4.0+18.g09fda24 documentation</title>
+  <title>pcdsdevices.device_types.Attenuator &mdash; PCDS Devices 0.5.0+14.gdaaabd2 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="PCDS Devices 0.4.0+18.g09fda24 documentation" href="../index.html"/>
+    <link rel="top" title="PCDS Devices 0.5.0+14.gdaaabd2 documentation" href="../index.html"/>
         <link rel="up" title="Common EPICS Devices" href="../epics_types.html"/>
         <link rel="next" title="pcdsdevices.device_types.EpicsMotor" href="pcdsdevices.device_types.EpicsMotor.html"/>
         <link rel="prev" title="Common EPICS Devices" href="../epics_types.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.4.0+18.g09fda24
+                0.5.0+14.gdaaabd2
               </div>
             
           
@@ -96,11 +96,16 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../epics_types.html">Common EPICS Devices</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.device_types.Attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PMC100.html">pcdsdevices.device_types.PMC100</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PulsePicker.html">pcdsdevices.device_types.PulsePicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PointingMirror.html">pcdsdevices.device_types.PointingMirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.XFLS.html">pcdsdevices.device_types.XFLS</a></li>
@@ -109,8 +114,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Developer Documentation</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../state.html">State Classes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../inout.html">InOut Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API</a></li>
 </ul>
 
             
@@ -181,8 +185,26 @@
 <dl class="function">
 <dt id="pcdsdevices.device_types.Attenuator">
 <code class="descclassname">pcdsdevices.device_types.</code><code class="descname">Attenuator</code><span class="sig-paren">(</span><em>prefix</em>, <em>n_filters</em>, <em>*</em>, <em>name</em>, <em>use_3rd=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.Attenuator" title="Permalink to this definition">¶</a></dt>
-<dd><p>Factory function for instantiating an attenuator with the correct filter
-components given the number required.</p>
+<dd><p>A series of filters that attenuates the beam.</p>
+<p>This is a factory function for instantiating a subclass of <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.html#pcdsdevices.attenuator.AttBase" title="pcdsdevices.attenuator.AttBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AttBase</span></code></a> or
+<a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.html#pcdsdevices.attenuator.AttBase3rd" title="pcdsdevices.attenuator.AttBase3rd"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AttBase3rd</span></code></a> with the correct number of <a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> components.</p>
+<p>The <a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> components will be named <code class="docutils literal notranslate"><span class="pre">filter1</span></code>, <code class="docutils literal notranslate"><span class="pre">filter2</span></code>, …
+<code class="docutils literal notranslate"><span class="pre">filter10</span></code>, …</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS prefix that identifies the attenuator, e.g. <code class="docutils literal notranslate"><span class="pre">XPP:ATT</span></code></li>
+<li><strong>n_filters</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – The number of filters in the attenuator.</li>
+<li><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – An identifying name for the attenuator.</li>
+<li><strong>use_3rd</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, we’ll use the third harmonic transmissions instead of the
+fundamntal frequency.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 </div>
@@ -231,7 +253,7 @@ components given the number required.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.4.0+18.g09fda24',
+            VERSION:'0.5.0+14.gdaaabd2',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

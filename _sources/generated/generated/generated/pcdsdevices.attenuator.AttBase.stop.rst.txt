@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.stop
+===================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.stop

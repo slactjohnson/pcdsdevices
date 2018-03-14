@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.put
+==================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.put

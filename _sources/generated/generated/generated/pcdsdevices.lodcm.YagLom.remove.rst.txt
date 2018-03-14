@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.remove
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.remove

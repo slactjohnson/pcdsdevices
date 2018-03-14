@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.stop
+==========================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.stop

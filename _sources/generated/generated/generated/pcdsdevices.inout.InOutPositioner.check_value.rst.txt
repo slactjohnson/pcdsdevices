@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.check_value

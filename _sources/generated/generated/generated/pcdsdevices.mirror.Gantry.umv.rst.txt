@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.umv
+=============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.umv

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.stage
+================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.stage

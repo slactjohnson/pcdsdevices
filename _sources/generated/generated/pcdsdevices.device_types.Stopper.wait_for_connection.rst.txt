@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.wait\_for\_connection
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.umvr
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.umvr

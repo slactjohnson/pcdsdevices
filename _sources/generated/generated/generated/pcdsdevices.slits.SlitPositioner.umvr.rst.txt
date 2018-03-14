@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.umvr
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.umvr

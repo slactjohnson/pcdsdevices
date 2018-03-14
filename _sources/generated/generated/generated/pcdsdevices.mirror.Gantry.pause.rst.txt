@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.pause
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.pause

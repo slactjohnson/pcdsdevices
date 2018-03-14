@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.wm
+============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.wm

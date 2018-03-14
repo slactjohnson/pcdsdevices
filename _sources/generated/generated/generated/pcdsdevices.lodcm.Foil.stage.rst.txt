@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.stage
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.stage

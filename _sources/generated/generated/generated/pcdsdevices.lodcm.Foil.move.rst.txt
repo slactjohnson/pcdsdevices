@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.move
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.move

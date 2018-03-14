@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.clear\_sub
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.clear_sub

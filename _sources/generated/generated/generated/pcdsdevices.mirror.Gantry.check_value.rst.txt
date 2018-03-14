@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.check_value

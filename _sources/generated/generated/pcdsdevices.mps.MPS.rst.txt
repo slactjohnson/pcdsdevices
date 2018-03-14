@@ -1,0 +1,64 @@
+pcdsdevices.mps.MPS
+===================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. autoclass:: MPS
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~MPS.__init__
+      ~MPS.check_value
+      ~MPS.clear_sub
+      ~MPS.configure
+      ~MPS.describe
+      ~MPS.describe_configuration
+      ~MPS.get
+      ~MPS.get_device_tuple
+      ~MPS.get_instantiated_signals
+      ~MPS.pause
+      ~MPS.put
+      ~MPS.read
+      ~MPS.read_configuration
+      ~MPS.resume
+      ~MPS.stage
+      ~MPS.stop
+      ~MPS.subscribe
+      ~MPS.summary
+      ~MPS.trigger
+      ~MPS.unstage
+      ~MPS.unsubscribe
+      ~MPS.unsubscribe_all
+      ~MPS.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MPS.SUB_ACQ_DONE
+      ~MPS.SUB_FAULT_CH
+      ~MPS.bypass
+      ~MPS.bypassed
+      ~MPS.component_names
+      ~MPS.connected
+      ~MPS.event_types
+      ~MPS.fault
+      ~MPS.faulted
+      ~MPS.name
+      ~MPS.parent
+      ~MPS.report
+      ~MPS.root
+      ~MPS.signal_names
+      ~MPS.trigger_signals
+      ~MPS.tripped
+   
+   

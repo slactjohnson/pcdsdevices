@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.check\_value
+===========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.check_value

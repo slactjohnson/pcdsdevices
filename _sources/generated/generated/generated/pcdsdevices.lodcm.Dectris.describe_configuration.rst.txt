@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.describe\_configuration
+=================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.describe_configuration

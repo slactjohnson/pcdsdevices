@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.pause
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.pause

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OffsetMirror.describe\_configuration
+=======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OffsetMirror.describe_configuration

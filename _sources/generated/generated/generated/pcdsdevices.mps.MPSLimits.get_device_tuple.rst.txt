@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.get\_device\_tuple
+============================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.get_device_tuple

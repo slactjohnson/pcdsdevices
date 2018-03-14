@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.stage
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.stage

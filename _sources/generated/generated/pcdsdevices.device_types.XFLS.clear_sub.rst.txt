@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.clear\_sub
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.clear_sub

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.read
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.read

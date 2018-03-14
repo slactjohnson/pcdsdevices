@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.check_value

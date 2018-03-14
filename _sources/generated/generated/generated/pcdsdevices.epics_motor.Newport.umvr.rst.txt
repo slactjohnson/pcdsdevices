@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.umvr
+=====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.umvr

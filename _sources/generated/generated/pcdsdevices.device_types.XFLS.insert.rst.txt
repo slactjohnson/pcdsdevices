@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.insert
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.insert

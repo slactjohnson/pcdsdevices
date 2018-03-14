@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.move
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.move

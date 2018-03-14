@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.GateValve.get\_state
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: GateValve.get_state

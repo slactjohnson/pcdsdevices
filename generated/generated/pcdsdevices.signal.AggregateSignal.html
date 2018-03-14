@@ -1,0 +1,407 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.signal.AggregateSignal &mdash; PCDS Devices 0.5.0+14.gdaaabd2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="PCDS Devices 0.5.0+14.gdaaabd2 documentation" href="../../index.html"/>
+        <link rel="up" title="pcdsdevices.signal" href="../pcdsdevices.signal.html"/>
+        <link rel="next" title="pcdsdevices.signal.AggregateSignal.__init__" href="generated/pcdsdevices.signal.AggregateSignal.__init__.html"/>
+        <link rel="prev" title="pcdsdevices.signal" href="../pcdsdevices.signal.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.5.0+14.gdaaabd2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.signal.AggregateSignal</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.__init__.html">pcdsdevices.signal.AggregateSignal.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.check_value.html">pcdsdevices.signal.AggregateSignal.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.clear_sub.html">pcdsdevices.signal.AggregateSignal.clear_sub</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.describe.html">pcdsdevices.signal.AggregateSignal.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.describe_configuration.html">pcdsdevices.signal.AggregateSignal.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.get.html">pcdsdevices.signal.AggregateSignal.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.put.html">pcdsdevices.signal.AggregateSignal.put</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read.html">pcdsdevices.signal.AggregateSignal.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read_configuration.html">pcdsdevices.signal.AggregateSignal.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.set.html">pcdsdevices.signal.AggregateSignal.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.subscribe.html">pcdsdevices.signal.AggregateSignal.subscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.trigger.html">pcdsdevices.signal.AggregateSignal.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.unsubscribe.html">pcdsdevices.signal.AggregateSignal.unsubscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.unsubscribe_all.html">pcdsdevices.signal.AggregateSignal.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.wait_for_connection.html">pcdsdevices.signal.AggregateSignal.wait_for_connection</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../api.html">API</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.signal.html">pcdsdevices.signal</a> &raquo;</li>
+        
+      <li>pcdsdevices.signal.AggregateSignal</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/generated/generated/pcdsdevices.signal.AggregateSignal.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-signal-aggregatesignal">
+<h1>pcdsdevices.signal.AggregateSignal<a class="headerlink" href="#pcdsdevices-signal-aggregatesignal" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="pcdsdevices.signal.AggregateSignal">
+<em class="property">class </em><code class="descclassname">pcdsdevices.signal.</code><code class="descname">AggregateSignal</code><span class="sig-paren">(</span><em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Signal that is composed of a number of other signals.</p>
+<p>This class exists to handle the group subscriptions without repeatedly
+getting the values of all the subsignals at all times.</p>
+<dl class="attribute">
+<dt id="pcdsdevices.signal.AggregateSignal._cache">
+<code class="descname">_cache</code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._cache" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>dict</em> – Mapping from signal to last known value</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pcdsdevices.signal.AggregateSignal._sub_signals">
+<code class="descname">_sub_signals</code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._sub_signals" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>list</em> – Signals that contribute to this signal.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.__init__.html#pcdsdevices.signal.AggregateSignal.__init__" title="pcdsdevices.signal.AggregateSignal.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*,&nbsp;name,&nbsp;**kwargs)</td>
+<td>Initialize self.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.check_value.html#pcdsdevices.signal.AggregateSignal.check_value" title="pcdsdevices.signal.AggregateSignal.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value,&nbsp;**kwargs)</td>
+<td>Check if the value is valid for this object</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.clear_sub.html#pcdsdevices.signal.AggregateSignal.clear_sub" title="pcdsdevices.signal.AggregateSignal.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<td>Remove a subscription, given the original callback function</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.describe.html#pcdsdevices.signal.AggregateSignal.describe" title="pcdsdevices.signal.AggregateSignal.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<td>Return the description as a dictionary</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.describe_configuration.html#pcdsdevices.signal.AggregateSignal.describe_configuration" title="pcdsdevices.signal.AggregateSignal.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<td>Subclasses may customize this.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.get.html#pcdsdevices.signal.AggregateSignal.get" title="pcdsdevices.signal.AggregateSignal.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<td>Update all values and recalculate</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.put.html#pcdsdevices.signal.AggregateSignal.put" title="pcdsdevices.signal.AggregateSignal.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(value,&nbsp;**kwargs)</td>
+<td>Put updates the internal readback value</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read.html#pcdsdevices.signal.AggregateSignal.read" title="pcdsdevices.signal.AggregateSignal.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<td>Put the status of the signal into a simple dictionary format for data acquisition</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read_configuration.html#pcdsdevices.signal.AggregateSignal.read_configuration" title="pcdsdevices.signal.AggregateSignal.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<td>Subclasses may customize this.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.set.html#pcdsdevices.signal.AggregateSignal.set" title="pcdsdevices.signal.AggregateSignal.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(value,&nbsp;*[,&nbsp;timeout,&nbsp;settle_time])</td>
+<td>Set is like <a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.put.html#pcdsdevices.signal.AggregateSignal.put" title="pcdsdevices.signal.AggregateSignal.put"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">put</span></code></a>, but is here for bluesky compatibility</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.subscribe.html#pcdsdevices.signal.AggregateSignal.subscribe" title="pcdsdevices.signal.AggregateSignal.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<td>Set up a callback function to run at specific times.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.trigger.html#pcdsdevices.signal.AggregateSignal.trigger" title="pcdsdevices.signal.AggregateSignal.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<td>Call that is used by bluesky prior to read()</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.unsubscribe.html#pcdsdevices.signal.AggregateSignal.unsubscribe" title="pcdsdevices.signal.AggregateSignal.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<td>Remove a subscription</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.unsubscribe_all.html#pcdsdevices.signal.AggregateSignal.unsubscribe_all" title="pcdsdevices.signal.AggregateSignal.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.wait_for_connection.html#pcdsdevices.signal.AggregateSignal.wait_for_connection" title="pcdsdevices.signal.AggregateSignal.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([timeout])</td>
+<td>Wait for the underlying signals to initialize or connect</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_VALUE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
+<td>If the device is connected.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
+<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code>.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
+<td>name of the device</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
+<td>The parent of the ophyd object.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
+<td>A report on the object.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
+<td>Walk parents to find ultimate ancestor (parent’s parent.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">timestamp</span></code></td>
+<td>Timestamp of the readback value</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">tolerance</span></code></td>
+<td>The absolute tolerance associated with the value.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">value</span></code></td>
+<td>The signal’s value</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/pcdsdevices.signal.AggregateSignal.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.AggregateSignal.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../pcdsdevices.signal.html" class="btn btn-neutral" title="pcdsdevices.signal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'0.5.0+14.gdaaabd2',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

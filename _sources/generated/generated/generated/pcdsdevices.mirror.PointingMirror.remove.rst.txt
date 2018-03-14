@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.remove
+========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.remove

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.move
+=============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.move

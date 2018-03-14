@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.subscribe
+=====================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase3rd.describe\_configuration
+=========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase3rd.describe_configuration

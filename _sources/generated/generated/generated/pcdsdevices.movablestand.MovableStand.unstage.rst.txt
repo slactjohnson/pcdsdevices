@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.unstage
+=============================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.unstage

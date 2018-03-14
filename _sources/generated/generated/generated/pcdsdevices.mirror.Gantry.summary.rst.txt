@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.summary
+=================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.summary

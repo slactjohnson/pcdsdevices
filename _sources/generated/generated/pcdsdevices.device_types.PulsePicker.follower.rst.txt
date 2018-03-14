@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PulsePicker.follower
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PulsePicker.follower

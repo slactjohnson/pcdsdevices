@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.block
+=============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.block

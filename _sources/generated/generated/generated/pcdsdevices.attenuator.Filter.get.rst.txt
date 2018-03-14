@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.get
+=================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.get

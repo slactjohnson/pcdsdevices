@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.check_value

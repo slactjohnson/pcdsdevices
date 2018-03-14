@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.get\_instantiated\_signals
+============================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.get_instantiated_signals

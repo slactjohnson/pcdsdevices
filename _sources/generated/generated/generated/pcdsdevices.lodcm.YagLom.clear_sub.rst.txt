@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.clear_sub

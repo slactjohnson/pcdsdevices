@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.\_\_init\_\_
+==========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.__init__

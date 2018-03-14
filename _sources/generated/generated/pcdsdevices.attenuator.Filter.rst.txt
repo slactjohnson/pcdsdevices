@@ -1,0 +1,88 @@
+pcdsdevices.attenuator.Filter
+=============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: Filter
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Filter.__init__
+      ~Filter.check_value
+      ~Filter.clear_sub
+      ~Filter.configure
+      ~Filter.describe
+      ~Filter.describe_configuration
+      ~Filter.get
+      ~Filter.get_device_tuple
+      ~Filter.get_instantiated_signals
+      ~Filter.get_state
+      ~Filter.insert
+      ~Filter.move
+      ~Filter.mv
+      ~Filter.pause
+      ~Filter.put
+      ~Filter.read
+      ~Filter.read_configuration
+      ~Filter.remove
+      ~Filter.resume
+      ~Filter.set
+      ~Filter.stage
+      ~Filter.stop
+      ~Filter.subscribe
+      ~Filter.summary
+      ~Filter.trigger
+      ~Filter.unstage
+      ~Filter.unsubscribe
+      ~Filter.unsubscribe_all
+      ~Filter.wait_for_connection
+      ~Filter.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Filter.SUB_ACQ_DONE
+      ~Filter.SUB_DONE
+      ~Filter.SUB_READBACK
+      ~Filter.SUB_START
+      ~Filter.SUB_STATE
+      ~Filter.component_names
+      ~Filter.connected
+      ~Filter.egu
+      ~Filter.event_types
+      ~Filter.high_limit
+      ~Filter.hints
+      ~Filter.in_states
+      ~Filter.inserted
+      ~Filter.limits
+      ~Filter.low_limit
+      ~Filter.material
+      ~Filter.moving
+      ~Filter.name
+      ~Filter.out_states
+      ~Filter.parent
+      ~Filter.position
+      ~Filter.removed
+      ~Filter.report
+      ~Filter.root
+      ~Filter.settle_time
+      ~Filter.signal_names
+      ~Filter.state
+      ~Filter.states_list
+      ~Filter.stuck
+      ~Filter.thickness
+      ~Filter.timeout
+      ~Filter.transmission
+      ~Filter.trigger_signals
+   
+   

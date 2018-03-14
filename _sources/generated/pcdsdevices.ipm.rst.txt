@@ -1,0 +1,23 @@
+pcdsdevices.ipm
+===============
+
+.. automodule:: pcdsdevices.ipm
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      IPM
+   
+   
+
+   
+   
+   

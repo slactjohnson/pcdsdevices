@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.get\_instantiated\_signals
+==========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.get_instantiated_signals

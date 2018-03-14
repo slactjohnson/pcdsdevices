@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.trigger
+===============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.trigger

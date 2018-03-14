@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.unsubscribe\_all
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.unsubscribe_all

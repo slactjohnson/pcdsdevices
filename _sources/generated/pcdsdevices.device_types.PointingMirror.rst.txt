@@ -1,0 +1,91 @@
+pcdsdevices.device\_types.PointingMirror
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: PointingMirror
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PointingMirror.__init__
+      ~PointingMirror.check_value
+      ~PointingMirror.clear_sub
+      ~PointingMirror.configure
+      ~PointingMirror.describe
+      ~PointingMirror.describe_configuration
+      ~PointingMirror.get
+      ~PointingMirror.get_device_tuple
+      ~PointingMirror.get_instantiated_signals
+      ~PointingMirror.get_state
+      ~PointingMirror.insert
+      ~PointingMirror.move
+      ~PointingMirror.mv
+      ~PointingMirror.pause
+      ~PointingMirror.put
+      ~PointingMirror.read
+      ~PointingMirror.read_configuration
+      ~PointingMirror.remove
+      ~PointingMirror.resume
+      ~PointingMirror.set
+      ~PointingMirror.stage
+      ~PointingMirror.stop
+      ~PointingMirror.subscribe
+      ~PointingMirror.summary
+      ~PointingMirror.trigger
+      ~PointingMirror.unstage
+      ~PointingMirror.unsubscribe
+      ~PointingMirror.unsubscribe_all
+      ~PointingMirror.wait_for_connection
+      ~PointingMirror.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PointingMirror.SUB_ACQ_DONE
+      ~PointingMirror.SUB_DONE
+      ~PointingMirror.SUB_READBACK
+      ~PointingMirror.SUB_START
+      ~PointingMirror.SUB_STATE
+      ~PointingMirror.branches
+      ~PointingMirror.component_names
+      ~PointingMirror.connected
+      ~PointingMirror.destination
+      ~PointingMirror.egu
+      ~PointingMirror.event_types
+      ~PointingMirror.high_limit
+      ~PointingMirror.hints
+      ~PointingMirror.in_states
+      ~PointingMirror.inserted
+      ~PointingMirror.limits
+      ~PointingMirror.low_limit
+      ~PointingMirror.moving
+      ~PointingMirror.name
+      ~PointingMirror.out_states
+      ~PointingMirror.parent
+      ~PointingMirror.pitch
+      ~PointingMirror.position
+      ~PointingMirror.readback
+      ~PointingMirror.removed
+      ~PointingMirror.report
+      ~PointingMirror.root
+      ~PointingMirror.settle_time
+      ~PointingMirror.signal_names
+      ~PointingMirror.state
+      ~PointingMirror.states_list
+      ~PointingMirror.timeout
+      ~PointingMirror.transmission
+      ~PointingMirror.trigger_signals
+      ~PointingMirror.xgantry
+      ~PointingMirror.ygantry
+   
+   

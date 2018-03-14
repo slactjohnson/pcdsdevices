@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.put
+=========================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.put

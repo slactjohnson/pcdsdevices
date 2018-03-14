@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.\_\_init\_\_
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.__init__

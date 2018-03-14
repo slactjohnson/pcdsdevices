@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.get_instantiated_signals

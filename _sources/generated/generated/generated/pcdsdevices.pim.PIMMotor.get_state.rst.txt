@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.get\_state
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.get_state

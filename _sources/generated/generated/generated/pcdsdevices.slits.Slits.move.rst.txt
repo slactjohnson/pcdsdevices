@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.move
+============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.move

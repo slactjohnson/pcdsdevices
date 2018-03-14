@@ -1,0 +1,78 @@
+pcdsdevices.state.StatePositioner
+=================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: StatePositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~StatePositioner.__init__
+      ~StatePositioner.check_value
+      ~StatePositioner.clear_sub
+      ~StatePositioner.configure
+      ~StatePositioner.describe
+      ~StatePositioner.describe_configuration
+      ~StatePositioner.get
+      ~StatePositioner.get_device_tuple
+      ~StatePositioner.get_instantiated_signals
+      ~StatePositioner.get_state
+      ~StatePositioner.move
+      ~StatePositioner.mv
+      ~StatePositioner.pause
+      ~StatePositioner.put
+      ~StatePositioner.read
+      ~StatePositioner.read_configuration
+      ~StatePositioner.resume
+      ~StatePositioner.set
+      ~StatePositioner.stage
+      ~StatePositioner.stop
+      ~StatePositioner.subscribe
+      ~StatePositioner.summary
+      ~StatePositioner.trigger
+      ~StatePositioner.unstage
+      ~StatePositioner.unsubscribe
+      ~StatePositioner.unsubscribe_all
+      ~StatePositioner.wait_for_connection
+      ~StatePositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~StatePositioner.SUB_ACQ_DONE
+      ~StatePositioner.SUB_DONE
+      ~StatePositioner.SUB_READBACK
+      ~StatePositioner.SUB_START
+      ~StatePositioner.SUB_STATE
+      ~StatePositioner.component_names
+      ~StatePositioner.connected
+      ~StatePositioner.egu
+      ~StatePositioner.event_types
+      ~StatePositioner.high_limit
+      ~StatePositioner.hints
+      ~StatePositioner.limits
+      ~StatePositioner.low_limit
+      ~StatePositioner.moving
+      ~StatePositioner.name
+      ~StatePositioner.parent
+      ~StatePositioner.position
+      ~StatePositioner.report
+      ~StatePositioner.root
+      ~StatePositioner.settle_time
+      ~StatePositioner.signal_names
+      ~StatePositioner.state
+      ~StatePositioner.states_list
+      ~StatePositioner.timeout
+      ~StatePositioner.trigger_signals
+   
+   

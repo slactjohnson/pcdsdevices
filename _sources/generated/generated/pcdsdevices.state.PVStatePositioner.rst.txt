@@ -1,0 +1,78 @@
+pcdsdevices.state.PVStatePositioner
+===================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: PVStatePositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PVStatePositioner.__init__
+      ~PVStatePositioner.check_value
+      ~PVStatePositioner.clear_sub
+      ~PVStatePositioner.configure
+      ~PVStatePositioner.describe
+      ~PVStatePositioner.describe_configuration
+      ~PVStatePositioner.get
+      ~PVStatePositioner.get_device_tuple
+      ~PVStatePositioner.get_instantiated_signals
+      ~PVStatePositioner.get_state
+      ~PVStatePositioner.move
+      ~PVStatePositioner.mv
+      ~PVStatePositioner.pause
+      ~PVStatePositioner.put
+      ~PVStatePositioner.read
+      ~PVStatePositioner.read_configuration
+      ~PVStatePositioner.resume
+      ~PVStatePositioner.set
+      ~PVStatePositioner.stage
+      ~PVStatePositioner.stop
+      ~PVStatePositioner.subscribe
+      ~PVStatePositioner.summary
+      ~PVStatePositioner.trigger
+      ~PVStatePositioner.unstage
+      ~PVStatePositioner.unsubscribe
+      ~PVStatePositioner.unsubscribe_all
+      ~PVStatePositioner.wait_for_connection
+      ~PVStatePositioner.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PVStatePositioner.SUB_ACQ_DONE
+      ~PVStatePositioner.SUB_DONE
+      ~PVStatePositioner.SUB_READBACK
+      ~PVStatePositioner.SUB_START
+      ~PVStatePositioner.SUB_STATE
+      ~PVStatePositioner.component_names
+      ~PVStatePositioner.connected
+      ~PVStatePositioner.egu
+      ~PVStatePositioner.event_types
+      ~PVStatePositioner.high_limit
+      ~PVStatePositioner.hints
+      ~PVStatePositioner.limits
+      ~PVStatePositioner.low_limit
+      ~PVStatePositioner.moving
+      ~PVStatePositioner.name
+      ~PVStatePositioner.parent
+      ~PVStatePositioner.position
+      ~PVStatePositioner.report
+      ~PVStatePositioner.root
+      ~PVStatePositioner.settle_time
+      ~PVStatePositioner.signal_names
+      ~PVStatePositioner.state
+      ~PVStatePositioner.states_list
+      ~PVStatePositioner.timeout
+      ~PVStatePositioner.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.set\_current\_position
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.set_current_position

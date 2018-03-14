@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IPM.describe\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IPM.describe_configuration

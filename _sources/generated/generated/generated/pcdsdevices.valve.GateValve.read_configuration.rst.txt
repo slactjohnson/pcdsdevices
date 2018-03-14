@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.read\_configuration
+===============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.read_configuration

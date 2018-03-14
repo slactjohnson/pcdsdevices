@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.get\_instantiated\_signals
+==========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.get_instantiated_signals

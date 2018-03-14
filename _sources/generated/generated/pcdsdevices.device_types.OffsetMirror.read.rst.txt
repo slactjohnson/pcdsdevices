@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.OffsetMirror.read
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: OffsetMirror.read

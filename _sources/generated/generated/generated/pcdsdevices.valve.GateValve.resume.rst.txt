@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.resume
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.resume

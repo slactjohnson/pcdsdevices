@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.get\_device\_tuple
+===============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.get_device_tuple

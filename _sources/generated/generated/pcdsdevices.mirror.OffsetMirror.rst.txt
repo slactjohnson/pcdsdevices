@@ -1,0 +1,64 @@
+pcdsdevices.mirror.OffsetMirror
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: OffsetMirror
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~OffsetMirror.__init__
+      ~OffsetMirror.check_value
+      ~OffsetMirror.clear_sub
+      ~OffsetMirror.configure
+      ~OffsetMirror.describe
+      ~OffsetMirror.describe_configuration
+      ~OffsetMirror.get
+      ~OffsetMirror.get_device_tuple
+      ~OffsetMirror.get_instantiated_signals
+      ~OffsetMirror.pause
+      ~OffsetMirror.put
+      ~OffsetMirror.read
+      ~OffsetMirror.read_configuration
+      ~OffsetMirror.resume
+      ~OffsetMirror.stage
+      ~OffsetMirror.stop
+      ~OffsetMirror.subscribe
+      ~OffsetMirror.summary
+      ~OffsetMirror.trigger
+      ~OffsetMirror.unstage
+      ~OffsetMirror.unsubscribe
+      ~OffsetMirror.unsubscribe_all
+      ~OffsetMirror.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~OffsetMirror.SUB_ACQ_DONE
+      ~OffsetMirror.component_names
+      ~OffsetMirror.connected
+      ~OffsetMirror.event_types
+      ~OffsetMirror.inserted
+      ~OffsetMirror.name
+      ~OffsetMirror.parent
+      ~OffsetMirror.pitch
+      ~OffsetMirror.removed
+      ~OffsetMirror.report
+      ~OffsetMirror.root
+      ~OffsetMirror.signal_names
+      ~OffsetMirror.transmission
+      ~OffsetMirror.trigger_signals
+      ~OffsetMirror.xgantry
+      ~OffsetMirror.ygantry
+   
+   

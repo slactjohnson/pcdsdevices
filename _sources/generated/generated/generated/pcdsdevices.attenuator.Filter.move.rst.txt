@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.move
+==================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.move

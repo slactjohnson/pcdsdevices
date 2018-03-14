@@ -1,0 +1,98 @@
+pcdsdevices.attenuator.AttBase3rd
+=================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttBase3rd
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AttBase3rd.__init__
+      ~AttBase3rd.check_value
+      ~AttBase3rd.clear_sub
+      ~AttBase3rd.configure
+      ~AttBase3rd.describe
+      ~AttBase3rd.describe_configuration
+      ~AttBase3rd.get
+      ~AttBase3rd.get_device_tuple
+      ~AttBase3rd.get_instantiated_signals
+      ~AttBase3rd.insert
+      ~AttBase3rd.move
+      ~AttBase3rd.mv
+      ~AttBase3rd.mvr
+      ~AttBase3rd.pause
+      ~AttBase3rd.put
+      ~AttBase3rd.read
+      ~AttBase3rd.read_configuration
+      ~AttBase3rd.remove
+      ~AttBase3rd.resume
+      ~AttBase3rd.set
+      ~AttBase3rd.set_energy
+      ~AttBase3rd.stage
+      ~AttBase3rd.stop
+      ~AttBase3rd.subscribe
+      ~AttBase3rd.summary
+      ~AttBase3rd.trigger
+      ~AttBase3rd.umv
+      ~AttBase3rd.umvr
+      ~AttBase3rd.unstage
+      ~AttBase3rd.unsubscribe
+      ~AttBase3rd.unsubscribe_all
+      ~AttBase3rd.wait_for_connection
+      ~AttBase3rd.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AttBase3rd.SUB_ACQ_DONE
+      ~AttBase3rd.SUB_DONE
+      ~AttBase3rd.SUB_READBACK
+      ~AttBase3rd.SUB_START
+      ~AttBase3rd.actuate
+      ~AttBase3rd.actuate_value
+      ~AttBase3rd.calcpend
+      ~AttBase3rd.component_names
+      ~AttBase3rd.connected
+      ~AttBase3rd.done
+      ~AttBase3rd.done_value
+      ~AttBase3rd.eget_cmd
+      ~AttBase3rd.egu
+      ~AttBase3rd.energy
+      ~AttBase3rd.event_types
+      ~AttBase3rd.high_limit
+      ~AttBase3rd.hints
+      ~AttBase3rd.inserted
+      ~AttBase3rd.limits
+      ~AttBase3rd.low_limit
+      ~AttBase3rd.moving
+      ~AttBase3rd.name
+      ~AttBase3rd.parent
+      ~AttBase3rd.position
+      ~AttBase3rd.put_complete
+      ~AttBase3rd.readback
+      ~AttBase3rd.removed
+      ~AttBase3rd.report
+      ~AttBase3rd.root
+      ~AttBase3rd.setpoint
+      ~AttBase3rd.settle_time
+      ~AttBase3rd.signal_names
+      ~AttBase3rd.stop_signal
+      ~AttBase3rd.stop_value
+      ~AttBase3rd.timeout
+      ~AttBase3rd.trans_ceil
+      ~AttBase3rd.trans_floor
+      ~AttBase3rd.transmission
+      ~AttBase3rd.trigger_signals
+      ~AttBase3rd.user_energy
+   
+   

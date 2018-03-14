@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.clear\_sub
+=========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.clear_sub

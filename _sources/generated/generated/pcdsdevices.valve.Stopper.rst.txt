@@ -1,0 +1,90 @@
+pcdsdevices.valve.Stopper
+=========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: Stopper
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Stopper.__init__
+      ~Stopper.check_value
+      ~Stopper.clear_sub
+      ~Stopper.close
+      ~Stopper.configure
+      ~Stopper.describe
+      ~Stopper.describe_configuration
+      ~Stopper.get
+      ~Stopper.get_device_tuple
+      ~Stopper.get_instantiated_signals
+      ~Stopper.get_state
+      ~Stopper.insert
+      ~Stopper.move
+      ~Stopper.mv
+      ~Stopper.open
+      ~Stopper.pause
+      ~Stopper.put
+      ~Stopper.read
+      ~Stopper.read_configuration
+      ~Stopper.remove
+      ~Stopper.resume
+      ~Stopper.set
+      ~Stopper.stage
+      ~Stopper.stop
+      ~Stopper.subscribe
+      ~Stopper.summary
+      ~Stopper.trigger
+      ~Stopper.unstage
+      ~Stopper.unsubscribe
+      ~Stopper.unsubscribe_all
+      ~Stopper.wait_for_connection
+      ~Stopper.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Stopper.SUB_ACQ_DONE
+      ~Stopper.SUB_DONE
+      ~Stopper.SUB_READBACK
+      ~Stopper.SUB_START
+      ~Stopper.SUB_STATE
+      ~Stopper.closed_limit
+      ~Stopper.command
+      ~Stopper.component_names
+      ~Stopper.connected
+      ~Stopper.egu
+      ~Stopper.event_types
+      ~Stopper.high_limit
+      ~Stopper.hints
+      ~Stopper.in_states
+      ~Stopper.inserted
+      ~Stopper.limits
+      ~Stopper.low_limit
+      ~Stopper.moving
+      ~Stopper.name
+      ~Stopper.open_limit
+      ~Stopper.out_states
+      ~Stopper.parent
+      ~Stopper.position
+      ~Stopper.removed
+      ~Stopper.report
+      ~Stopper.root
+      ~Stopper.settle_time
+      ~Stopper.signal_names
+      ~Stopper.state
+      ~Stopper.states_list
+      ~Stopper.timeout
+      ~Stopper.transmission
+      ~Stopper.trigger_signals
+   
+   

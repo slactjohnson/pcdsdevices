@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.subscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.\_\_init\_\_
+==============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.__init__

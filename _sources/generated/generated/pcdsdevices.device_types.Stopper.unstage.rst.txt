@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.unstage
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.unstage

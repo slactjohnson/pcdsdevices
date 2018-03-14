@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.get\_device\_tuple
+====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.get_device_tuple

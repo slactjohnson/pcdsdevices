@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.wm
+==============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.wm

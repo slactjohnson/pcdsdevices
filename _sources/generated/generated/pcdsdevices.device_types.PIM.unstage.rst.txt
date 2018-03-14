@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.unstage
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.unstage

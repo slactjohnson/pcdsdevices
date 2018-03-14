@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.get\_instantiated\_signals
+================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.get_instantiated_signals

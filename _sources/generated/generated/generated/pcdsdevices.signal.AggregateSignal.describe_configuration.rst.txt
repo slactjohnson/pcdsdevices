@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.describe\_configuration
+==========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.describe_configuration

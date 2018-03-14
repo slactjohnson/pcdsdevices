@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.unstage
+======================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.unstage

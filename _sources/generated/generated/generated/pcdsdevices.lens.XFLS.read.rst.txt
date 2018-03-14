@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.read
+==========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.read

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM.wm
+======================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM.wm

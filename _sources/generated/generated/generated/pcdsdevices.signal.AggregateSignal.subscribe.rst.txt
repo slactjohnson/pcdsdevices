@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.subscribe
+============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.subscribe

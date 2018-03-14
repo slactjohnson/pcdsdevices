@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.subscribe
+===============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.subscribe

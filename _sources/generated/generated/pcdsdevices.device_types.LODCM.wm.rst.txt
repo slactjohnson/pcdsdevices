@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.wm
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.wm

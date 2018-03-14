@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.set\_current\_position
+========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.set_current_position

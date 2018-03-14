@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.add\_callback
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.add_callback

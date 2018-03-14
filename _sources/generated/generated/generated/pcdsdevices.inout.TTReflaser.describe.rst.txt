@@ -1,0 +1,6 @@
+pcdsdevices.inout.TTReflaser.describe
+=====================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TTReflaser.describe

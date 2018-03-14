@@ -1,0 +1,86 @@
+pcdsdevices.lodcm.YagLom
+========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: YagLom
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~YagLom.__init__
+      ~YagLom.check_value
+      ~YagLom.clear_sub
+      ~YagLom.configure
+      ~YagLom.describe
+      ~YagLom.describe_configuration
+      ~YagLom.get
+      ~YagLom.get_device_tuple
+      ~YagLom.get_instantiated_signals
+      ~YagLom.get_state
+      ~YagLom.insert
+      ~YagLom.move
+      ~YagLom.mv
+      ~YagLom.pause
+      ~YagLom.put
+      ~YagLom.read
+      ~YagLom.read_configuration
+      ~YagLom.remove
+      ~YagLom.resume
+      ~YagLom.set
+      ~YagLom.stage
+      ~YagLom.stop
+      ~YagLom.subscribe
+      ~YagLom.summary
+      ~YagLom.trigger
+      ~YagLom.unstage
+      ~YagLom.unsubscribe
+      ~YagLom.unsubscribe_all
+      ~YagLom.wait_for_connection
+      ~YagLom.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~YagLom.SUB_ACQ_DONE
+      ~YagLom.SUB_DONE
+      ~YagLom.SUB_READBACK
+      ~YagLom.SUB_START
+      ~YagLom.SUB_STATE
+      ~YagLom.component_names
+      ~YagLom.connected
+      ~YagLom.egu
+      ~YagLom.event_types
+      ~YagLom.high_limit
+      ~YagLom.hints
+      ~YagLom.in_states
+      ~YagLom.inserted
+      ~YagLom.limits
+      ~YagLom.low_limit
+      ~YagLom.moving
+      ~YagLom.name
+      ~YagLom.out_states
+      ~YagLom.parent
+      ~YagLom.position
+      ~YagLom.readback
+      ~YagLom.removed
+      ~YagLom.report
+      ~YagLom.root
+      ~YagLom.settle_time
+      ~YagLom.signal_names
+      ~YagLom.state
+      ~YagLom.states_list
+      ~YagLom.timeout
+      ~YagLom.transmission
+      ~YagLom.trigger_signals
+   
+   

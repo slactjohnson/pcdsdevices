@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.stop
+==========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.stop

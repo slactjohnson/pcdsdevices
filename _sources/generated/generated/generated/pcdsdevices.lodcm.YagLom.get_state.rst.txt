@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.get\_state
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.get_state

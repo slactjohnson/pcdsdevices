@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.get\_device\_tuple
+==============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.get_device_tuple

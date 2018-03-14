@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.wait\_for\_connection
+===================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.wait_for_connection

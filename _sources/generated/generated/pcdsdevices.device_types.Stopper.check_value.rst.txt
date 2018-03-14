@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.check_value

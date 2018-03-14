@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.resume
+====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.resume

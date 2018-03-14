@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.stage
+==============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.stage

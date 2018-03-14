@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.put
+==========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.put

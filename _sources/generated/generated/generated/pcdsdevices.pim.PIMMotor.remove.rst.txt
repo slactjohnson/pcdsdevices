@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.remove
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.remove

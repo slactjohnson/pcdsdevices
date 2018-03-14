@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.subscribe
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.subscribe

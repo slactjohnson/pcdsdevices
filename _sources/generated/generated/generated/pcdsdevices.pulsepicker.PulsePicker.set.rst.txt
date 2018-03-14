@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.set
+=======================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.set

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.check_value

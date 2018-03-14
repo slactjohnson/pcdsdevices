@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.get\_asyn\_digraph
+====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.get_asyn_digraph

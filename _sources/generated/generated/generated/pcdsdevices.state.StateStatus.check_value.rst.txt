@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.check\_value
+==========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.check_value

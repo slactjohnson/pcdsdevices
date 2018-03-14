@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.subscribe
+=================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.subscribe

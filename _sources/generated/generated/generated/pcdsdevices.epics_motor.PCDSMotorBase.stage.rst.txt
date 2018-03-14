@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.stage
+============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.stage

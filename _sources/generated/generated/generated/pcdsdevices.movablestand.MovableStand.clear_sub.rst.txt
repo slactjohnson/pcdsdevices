@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.clear\_sub
+================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.clear_sub

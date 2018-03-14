@@ -1,0 +1,99 @@
+pcdsdevices.epics\_motor.PCDSMotorBase
+======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: PCDSMotorBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PCDSMotorBase.__init__
+      ~PCDSMotorBase.check_value
+      ~PCDSMotorBase.clear_sub
+      ~PCDSMotorBase.configure
+      ~PCDSMotorBase.describe
+      ~PCDSMotorBase.describe_configuration
+      ~PCDSMotorBase.get
+      ~PCDSMotorBase.get_device_tuple
+      ~PCDSMotorBase.get_instantiated_signals
+      ~PCDSMotorBase.home
+      ~PCDSMotorBase.move
+      ~PCDSMotorBase.mv
+      ~PCDSMotorBase.mvr
+      ~PCDSMotorBase.pause
+      ~PCDSMotorBase.put
+      ~PCDSMotorBase.read
+      ~PCDSMotorBase.read_configuration
+      ~PCDSMotorBase.resume
+      ~PCDSMotorBase.set
+      ~PCDSMotorBase.set_current_position
+      ~PCDSMotorBase.stage
+      ~PCDSMotorBase.stop
+      ~PCDSMotorBase.subscribe
+      ~PCDSMotorBase.summary
+      ~PCDSMotorBase.trigger
+      ~PCDSMotorBase.umv
+      ~PCDSMotorBase.umvr
+      ~PCDSMotorBase.unstage
+      ~PCDSMotorBase.unsubscribe
+      ~PCDSMotorBase.unsubscribe_all
+      ~PCDSMotorBase.wait_for_connection
+      ~PCDSMotorBase.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PCDSMotorBase.SUB_ACQ_DONE
+      ~PCDSMotorBase.SUB_DONE
+      ~PCDSMotorBase.SUB_READBACK
+      ~PCDSMotorBase.SUB_START
+      ~PCDSMotorBase.acceleration
+      ~PCDSMotorBase.component_names
+      ~PCDSMotorBase.connected
+      ~PCDSMotorBase.direction_of_travel
+      ~PCDSMotorBase.egu
+      ~PCDSMotorBase.event_types
+      ~PCDSMotorBase.high_limit
+      ~PCDSMotorBase.high_limit_switch
+      ~PCDSMotorBase.high_soft_limit
+      ~PCDSMotorBase.hints
+      ~PCDSMotorBase.home_forward
+      ~PCDSMotorBase.home_reverse
+      ~PCDSMotorBase.limits
+      ~PCDSMotorBase.low_limit
+      ~PCDSMotorBase.low_limit_switch
+      ~PCDSMotorBase.low_soft_limit
+      ~PCDSMotorBase.motor_done_move
+      ~PCDSMotorBase.motor_egu
+      ~PCDSMotorBase.motor_is_moving
+      ~PCDSMotorBase.motor_stop
+      ~PCDSMotorBase.moving
+      ~PCDSMotorBase.name
+      ~PCDSMotorBase.offset_freeze_switch
+      ~PCDSMotorBase.parent
+      ~PCDSMotorBase.position
+      ~PCDSMotorBase.precision
+      ~PCDSMotorBase.report
+      ~PCDSMotorBase.root
+      ~PCDSMotorBase.set_use_switch
+      ~PCDSMotorBase.settle_time
+      ~PCDSMotorBase.signal_names
+      ~PCDSMotorBase.timeout
+      ~PCDSMotorBase.trigger_signals
+      ~PCDSMotorBase.user_offset
+      ~PCDSMotorBase.user_offset_dir
+      ~PCDSMotorBase.user_readback
+      ~PCDSMotorBase.user_setpoint
+      ~PCDSMotorBase.velocity
+   
+   

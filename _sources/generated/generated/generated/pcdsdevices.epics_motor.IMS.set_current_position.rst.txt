@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.set\_current\_position
+===================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.set_current_position

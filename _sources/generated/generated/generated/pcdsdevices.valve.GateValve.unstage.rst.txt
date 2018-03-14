@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.unstage
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.unstage

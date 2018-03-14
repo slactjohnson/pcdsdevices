@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.set
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.set

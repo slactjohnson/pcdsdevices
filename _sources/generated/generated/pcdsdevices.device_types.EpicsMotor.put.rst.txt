@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.put
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.put

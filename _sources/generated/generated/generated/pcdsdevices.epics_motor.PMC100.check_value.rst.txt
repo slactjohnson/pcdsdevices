@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.check\_value
+============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.check_value

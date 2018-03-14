@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.describe\_configuration
+===============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.describe_configuration

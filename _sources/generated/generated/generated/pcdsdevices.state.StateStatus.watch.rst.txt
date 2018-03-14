@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.watch
+===================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.watch

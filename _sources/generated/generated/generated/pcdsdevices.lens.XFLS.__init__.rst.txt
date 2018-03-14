@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.\_\_init\_\_
+==================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.__init__

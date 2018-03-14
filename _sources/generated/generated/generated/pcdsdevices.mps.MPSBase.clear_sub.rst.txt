@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSBase.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSBase.clear_sub

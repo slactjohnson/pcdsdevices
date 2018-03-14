@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.wm
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.wm

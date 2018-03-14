@@ -1,0 +1,99 @@
+pcdsdevices.epics\_motor.IMS
+============================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: IMS
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~IMS.__init__
+      ~IMS.check_value
+      ~IMS.clear_sub
+      ~IMS.configure
+      ~IMS.describe
+      ~IMS.describe_configuration
+      ~IMS.get
+      ~IMS.get_device_tuple
+      ~IMS.get_instantiated_signals
+      ~IMS.home
+      ~IMS.move
+      ~IMS.mv
+      ~IMS.mvr
+      ~IMS.pause
+      ~IMS.put
+      ~IMS.read
+      ~IMS.read_configuration
+      ~IMS.resume
+      ~IMS.set
+      ~IMS.set_current_position
+      ~IMS.stage
+      ~IMS.stop
+      ~IMS.subscribe
+      ~IMS.summary
+      ~IMS.trigger
+      ~IMS.umv
+      ~IMS.umvr
+      ~IMS.unstage
+      ~IMS.unsubscribe
+      ~IMS.unsubscribe_all
+      ~IMS.wait_for_connection
+      ~IMS.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IMS.SUB_ACQ_DONE
+      ~IMS.SUB_DONE
+      ~IMS.SUB_READBACK
+      ~IMS.SUB_START
+      ~IMS.acceleration
+      ~IMS.component_names
+      ~IMS.connected
+      ~IMS.direction_of_travel
+      ~IMS.egu
+      ~IMS.event_types
+      ~IMS.high_limit
+      ~IMS.high_limit_switch
+      ~IMS.high_soft_limit
+      ~IMS.hints
+      ~IMS.home_forward
+      ~IMS.home_reverse
+      ~IMS.limits
+      ~IMS.low_limit
+      ~IMS.low_limit_switch
+      ~IMS.low_soft_limit
+      ~IMS.motor_done_move
+      ~IMS.motor_egu
+      ~IMS.motor_is_moving
+      ~IMS.motor_stop
+      ~IMS.moving
+      ~IMS.name
+      ~IMS.offset_freeze_switch
+      ~IMS.parent
+      ~IMS.position
+      ~IMS.precision
+      ~IMS.report
+      ~IMS.root
+      ~IMS.set_use_switch
+      ~IMS.settle_time
+      ~IMS.signal_names
+      ~IMS.timeout
+      ~IMS.trigger_signals
+      ~IMS.user_offset
+      ~IMS.user_offset_dir
+      ~IMS.user_readback
+      ~IMS.user_setpoint
+      ~IMS.velocity
+   
+   

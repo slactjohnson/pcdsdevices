@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.get\_state
+================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.get_state

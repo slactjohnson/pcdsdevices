@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.get
+==========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.get

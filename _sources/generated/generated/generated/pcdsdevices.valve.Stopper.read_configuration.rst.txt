@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.read\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.read_configuration

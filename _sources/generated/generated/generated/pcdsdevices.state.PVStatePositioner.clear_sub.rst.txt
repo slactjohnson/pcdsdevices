@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.clear\_sub
+==============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.clear_sub

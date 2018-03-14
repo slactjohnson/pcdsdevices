@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.put
+=======================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.put

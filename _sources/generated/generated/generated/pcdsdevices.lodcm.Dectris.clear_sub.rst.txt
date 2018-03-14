@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.clear_sub

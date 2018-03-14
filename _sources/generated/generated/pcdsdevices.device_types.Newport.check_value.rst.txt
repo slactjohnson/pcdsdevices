@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.check_value

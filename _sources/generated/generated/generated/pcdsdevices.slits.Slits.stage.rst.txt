@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.stage
+=============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.stage

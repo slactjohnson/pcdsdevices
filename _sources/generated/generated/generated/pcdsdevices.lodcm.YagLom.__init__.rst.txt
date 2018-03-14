@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.\_\_init\_\_
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.__init__

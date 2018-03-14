@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.move
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.move

@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePickerInOut.check\_value
+=====================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePickerInOut.check_value

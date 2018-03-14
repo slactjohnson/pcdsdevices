@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.describe\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.describe_configuration

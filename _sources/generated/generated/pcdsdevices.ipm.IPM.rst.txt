@@ -1,0 +1,87 @@
+pcdsdevices.ipm.IPM
+===================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPM
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~IPM.__init__
+      ~IPM.check_value
+      ~IPM.clear_sub
+      ~IPM.configure
+      ~IPM.describe
+      ~IPM.describe_configuration
+      ~IPM.get
+      ~IPM.get_device_tuple
+      ~IPM.get_instantiated_signals
+      ~IPM.get_state
+      ~IPM.insert
+      ~IPM.move
+      ~IPM.mv
+      ~IPM.pause
+      ~IPM.put
+      ~IPM.read
+      ~IPM.read_configuration
+      ~IPM.remove
+      ~IPM.resume
+      ~IPM.set
+      ~IPM.stage
+      ~IPM.stop
+      ~IPM.subscribe
+      ~IPM.summary
+      ~IPM.trigger
+      ~IPM.unstage
+      ~IPM.unsubscribe
+      ~IPM.unsubscribe_all
+      ~IPM.wait_for_connection
+      ~IPM.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IPM.SUB_ACQ_DONE
+      ~IPM.SUB_DONE
+      ~IPM.SUB_READBACK
+      ~IPM.SUB_START
+      ~IPM.SUB_STATE
+      ~IPM.component_names
+      ~IPM.connected
+      ~IPM.diode
+      ~IPM.egu
+      ~IPM.event_types
+      ~IPM.high_limit
+      ~IPM.hints
+      ~IPM.in_states
+      ~IPM.inserted
+      ~IPM.limits
+      ~IPM.low_limit
+      ~IPM.moving
+      ~IPM.name
+      ~IPM.out_states
+      ~IPM.parent
+      ~IPM.position
+      ~IPM.readback
+      ~IPM.removed
+      ~IPM.report
+      ~IPM.root
+      ~IPM.settle_time
+      ~IPM.signal_names
+      ~IPM.state
+      ~IPM.states_list
+      ~IPM.timeout
+      ~IPM.transmission
+      ~IPM.trigger_signals
+   
+   

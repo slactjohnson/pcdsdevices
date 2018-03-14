@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.set\_current\_position
+====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.set_current_position

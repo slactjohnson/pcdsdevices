@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.\_\_init\_\_
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.__init__

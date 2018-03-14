@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.get_instantiated_signals

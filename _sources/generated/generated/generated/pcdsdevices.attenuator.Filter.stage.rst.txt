@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.stage
+===================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.stage

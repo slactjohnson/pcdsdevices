@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.get\_device\_tuple
+======================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.get_device_tuple

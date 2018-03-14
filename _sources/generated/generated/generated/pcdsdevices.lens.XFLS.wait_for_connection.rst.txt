@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.wait\_for\_connection
+===========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.unsubscribe\_all
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.unsubscribe_all

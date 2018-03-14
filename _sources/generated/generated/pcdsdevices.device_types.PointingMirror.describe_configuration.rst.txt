@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.describe\_configuration
+================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.describe_configuration

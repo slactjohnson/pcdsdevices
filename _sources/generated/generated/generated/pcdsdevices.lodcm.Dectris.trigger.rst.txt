@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.trigger
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.trigger

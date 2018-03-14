@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.get_instantiated_signals

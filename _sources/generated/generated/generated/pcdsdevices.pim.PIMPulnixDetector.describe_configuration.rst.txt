@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.describe\_configuration
+=========================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.describe_configuration

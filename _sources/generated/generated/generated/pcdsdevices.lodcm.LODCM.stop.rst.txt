@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.stop
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.stop

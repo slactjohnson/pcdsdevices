@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.pause
+==============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.pause

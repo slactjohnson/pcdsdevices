@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.\_\_init\_\_
+=====================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.__init__

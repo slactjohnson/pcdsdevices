@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.\_\_init\_\_
+==========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.__init__

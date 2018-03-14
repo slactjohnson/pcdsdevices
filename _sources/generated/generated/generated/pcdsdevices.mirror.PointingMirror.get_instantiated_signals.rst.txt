@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.get\_instantiated\_signals
+============================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.get_instantiated_signals

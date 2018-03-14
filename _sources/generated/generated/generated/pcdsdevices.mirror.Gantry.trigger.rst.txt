@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.trigger
+=================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.trigger

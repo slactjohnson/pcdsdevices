@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.wm
+========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.wm

@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.read
+========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.read

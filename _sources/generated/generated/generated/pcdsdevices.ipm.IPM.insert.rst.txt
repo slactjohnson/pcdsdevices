@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM.insert
+==========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM.insert

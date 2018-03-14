@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStateSignal.\_\_init\_\_
+============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStateSignal.__init__

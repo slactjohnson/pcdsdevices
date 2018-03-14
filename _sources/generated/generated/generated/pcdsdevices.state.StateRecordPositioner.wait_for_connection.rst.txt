@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositioner.wait\_for\_connection
+=============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositioner.wait_for_connection

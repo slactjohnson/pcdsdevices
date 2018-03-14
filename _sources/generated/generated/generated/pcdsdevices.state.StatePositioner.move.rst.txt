@@ -1,0 +1,6 @@
+pcdsdevices.state.StatePositioner.move
+======================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StatePositioner.move

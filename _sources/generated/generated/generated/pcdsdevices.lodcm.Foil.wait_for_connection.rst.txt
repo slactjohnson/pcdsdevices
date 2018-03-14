@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.wait\_for\_connection
+============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.wait_for_connection

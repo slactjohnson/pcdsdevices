@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.pause
+===========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.pause

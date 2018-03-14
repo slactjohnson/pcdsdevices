@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.read\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.read_configuration

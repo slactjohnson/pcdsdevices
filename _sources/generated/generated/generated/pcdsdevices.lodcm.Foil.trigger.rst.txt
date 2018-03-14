@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.trigger
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.trigger

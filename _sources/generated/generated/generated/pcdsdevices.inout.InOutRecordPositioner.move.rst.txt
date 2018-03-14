@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.move
+============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.move

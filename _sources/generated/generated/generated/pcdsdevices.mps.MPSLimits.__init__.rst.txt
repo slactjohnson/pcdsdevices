@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.\_\_init\_\_
+======================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.__init__

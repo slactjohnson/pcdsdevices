@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.home
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.home

@@ -1,0 +1,99 @@
+pcdsdevices.epics\_motor.PMC100
+===============================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: PMC100
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PMC100.__init__
+      ~PMC100.check_value
+      ~PMC100.clear_sub
+      ~PMC100.configure
+      ~PMC100.describe
+      ~PMC100.describe_configuration
+      ~PMC100.get
+      ~PMC100.get_device_tuple
+      ~PMC100.get_instantiated_signals
+      ~PMC100.home
+      ~PMC100.move
+      ~PMC100.mv
+      ~PMC100.mvr
+      ~PMC100.pause
+      ~PMC100.put
+      ~PMC100.read
+      ~PMC100.read_configuration
+      ~PMC100.resume
+      ~PMC100.set
+      ~PMC100.set_current_position
+      ~PMC100.stage
+      ~PMC100.stop
+      ~PMC100.subscribe
+      ~PMC100.summary
+      ~PMC100.trigger
+      ~PMC100.umv
+      ~PMC100.umvr
+      ~PMC100.unstage
+      ~PMC100.unsubscribe
+      ~PMC100.unsubscribe_all
+      ~PMC100.wait_for_connection
+      ~PMC100.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PMC100.SUB_ACQ_DONE
+      ~PMC100.SUB_DONE
+      ~PMC100.SUB_READBACK
+      ~PMC100.SUB_START
+      ~PMC100.acceleration
+      ~PMC100.component_names
+      ~PMC100.connected
+      ~PMC100.direction_of_travel
+      ~PMC100.egu
+      ~PMC100.event_types
+      ~PMC100.high_limit
+      ~PMC100.high_limit_switch
+      ~PMC100.high_soft_limit
+      ~PMC100.hints
+      ~PMC100.home_forward
+      ~PMC100.home_reverse
+      ~PMC100.limits
+      ~PMC100.low_limit
+      ~PMC100.low_limit_switch
+      ~PMC100.low_soft_limit
+      ~PMC100.motor_done_move
+      ~PMC100.motor_egu
+      ~PMC100.motor_is_moving
+      ~PMC100.motor_stop
+      ~PMC100.moving
+      ~PMC100.name
+      ~PMC100.offset_freeze_switch
+      ~PMC100.parent
+      ~PMC100.position
+      ~PMC100.precision
+      ~PMC100.report
+      ~PMC100.root
+      ~PMC100.set_use_switch
+      ~PMC100.settle_time
+      ~PMC100.signal_names
+      ~PMC100.timeout
+      ~PMC100.trigger_signals
+      ~PMC100.user_offset
+      ~PMC100.user_offset_dir
+      ~PMC100.user_readback
+      ~PMC100.user_setpoint
+      ~PMC100.velocity
+   
+   

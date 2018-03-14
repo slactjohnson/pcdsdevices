@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.get\_instantiated\_signals
+==============================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.get_instantiated_signals

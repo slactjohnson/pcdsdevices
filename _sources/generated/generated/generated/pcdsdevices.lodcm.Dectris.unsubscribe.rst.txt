@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.unsubscribe
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.unsubscribe

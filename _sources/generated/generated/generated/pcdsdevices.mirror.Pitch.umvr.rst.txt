@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.umvr
+=============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.umvr

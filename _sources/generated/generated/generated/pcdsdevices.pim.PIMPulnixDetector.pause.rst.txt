@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.pause
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.pause

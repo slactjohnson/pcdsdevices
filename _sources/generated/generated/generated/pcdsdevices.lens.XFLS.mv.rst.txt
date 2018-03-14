@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.mv
+========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.mv

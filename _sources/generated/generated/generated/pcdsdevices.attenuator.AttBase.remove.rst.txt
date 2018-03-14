@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.remove
+=====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.remove

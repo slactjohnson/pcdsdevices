@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.put
+=============================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.put

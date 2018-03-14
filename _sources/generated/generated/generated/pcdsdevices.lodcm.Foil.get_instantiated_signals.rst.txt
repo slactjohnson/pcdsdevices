@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.get\_instantiated\_signals
+=================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.get_instantiated_signals

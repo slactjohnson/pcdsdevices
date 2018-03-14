@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.set
+=============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.set

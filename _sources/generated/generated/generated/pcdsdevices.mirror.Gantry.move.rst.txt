@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.move
+==============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.move

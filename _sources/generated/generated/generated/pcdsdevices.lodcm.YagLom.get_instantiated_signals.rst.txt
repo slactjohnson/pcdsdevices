@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.get\_instantiated\_signals
+===================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.get_instantiated_signals

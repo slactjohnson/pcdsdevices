@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.read\_configuration
+=========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.read_configuration

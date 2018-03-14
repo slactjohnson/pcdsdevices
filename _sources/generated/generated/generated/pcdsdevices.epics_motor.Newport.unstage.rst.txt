@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.unstage
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.unstage

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.clear\_sub
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.clear_sub

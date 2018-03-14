@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.get\_device\_tuple
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.get\_device\_tuple
+================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.get_device_tuple

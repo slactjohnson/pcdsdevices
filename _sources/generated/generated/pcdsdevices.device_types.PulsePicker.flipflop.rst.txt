@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PulsePicker.flipflop
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PulsePicker.flipflop

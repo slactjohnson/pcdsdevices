@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.get\_instantiated\_signals
+===================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.stage
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.stage

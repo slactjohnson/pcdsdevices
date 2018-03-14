@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.wm
+=========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.wm

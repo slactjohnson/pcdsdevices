@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.\_\_init\_\_
+==================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.__init__

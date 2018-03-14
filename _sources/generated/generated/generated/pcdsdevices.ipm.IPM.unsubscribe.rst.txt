@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM.unsubscribe
+===============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM.unsubscribe

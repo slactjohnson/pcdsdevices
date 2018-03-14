@@ -1,0 +1,85 @@
+pcdsdevices.valve.PPSStopper
+============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: PPSStopper
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PPSStopper.__init__
+      ~PPSStopper.check_value
+      ~PPSStopper.clear_sub
+      ~PPSStopper.configure
+      ~PPSStopper.describe
+      ~PPSStopper.describe_configuration
+      ~PPSStopper.get
+      ~PPSStopper.get_device_tuple
+      ~PPSStopper.get_instantiated_signals
+      ~PPSStopper.get_state
+      ~PPSStopper.insert
+      ~PPSStopper.move
+      ~PPSStopper.mv
+      ~PPSStopper.pause
+      ~PPSStopper.put
+      ~PPSStopper.read
+      ~PPSStopper.read_configuration
+      ~PPSStopper.remove
+      ~PPSStopper.resume
+      ~PPSStopper.set
+      ~PPSStopper.stage
+      ~PPSStopper.stop
+      ~PPSStopper.subscribe
+      ~PPSStopper.summary
+      ~PPSStopper.trigger
+      ~PPSStopper.unstage
+      ~PPSStopper.unsubscribe
+      ~PPSStopper.unsubscribe_all
+      ~PPSStopper.wait_for_connection
+      ~PPSStopper.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PPSStopper.SUB_ACQ_DONE
+      ~PPSStopper.SUB_DONE
+      ~PPSStopper.SUB_READBACK
+      ~PPSStopper.SUB_START
+      ~PPSStopper.SUB_STATE
+      ~PPSStopper.component_names
+      ~PPSStopper.connected
+      ~PPSStopper.egu
+      ~PPSStopper.event_types
+      ~PPSStopper.high_limit
+      ~PPSStopper.hints
+      ~PPSStopper.in_states
+      ~PPSStopper.inserted
+      ~PPSStopper.limits
+      ~PPSStopper.low_limit
+      ~PPSStopper.moving
+      ~PPSStopper.name
+      ~PPSStopper.out_states
+      ~PPSStopper.parent
+      ~PPSStopper.position
+      ~PPSStopper.removed
+      ~PPSStopper.report
+      ~PPSStopper.root
+      ~PPSStopper.settle_time
+      ~PPSStopper.signal_names
+      ~PPSStopper.state
+      ~PPSStopper.states_list
+      ~PPSStopper.timeout
+      ~PPSStopper.transmission
+      ~PPSStopper.trigger_signals
+   
+   

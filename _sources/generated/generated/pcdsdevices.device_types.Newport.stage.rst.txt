@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.stage
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.stage

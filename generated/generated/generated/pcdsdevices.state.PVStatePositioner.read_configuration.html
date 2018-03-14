@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.state.PVStatePositioner.read_configuration &mdash; PCDS Devices 0.5.0+14.gdaaabd2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="PCDS Devices 0.5.0+14.gdaaabd2 documentation" href="../../../index.html"/>
+        <link rel="up" title="pcdsdevices.state.PVStatePositioner" href="../pcdsdevices.state.PVStatePositioner.html"/>
+        <link rel="next" title="pcdsdevices.state.PVStatePositioner.resume" href="pcdsdevices.state.PVStatePositioner.resume.html"/>
+        <link rel="prev" title="pcdsdevices.state.PVStatePositioner.read" href="pcdsdevices.state.PVStatePositioner.read.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.5.0+14.gdaaabd2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../epics_types.html">Common EPICS Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../api.html">API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.state.PVStatePositioner.html">pcdsdevices.state.PVStatePositioner</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.__init__.html">pcdsdevices.state.PVStatePositioner.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.check_value.html">pcdsdevices.state.PVStatePositioner.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.clear_sub.html">pcdsdevices.state.PVStatePositioner.clear_sub</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.configure.html">pcdsdevices.state.PVStatePositioner.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.describe.html">pcdsdevices.state.PVStatePositioner.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.describe_configuration.html">pcdsdevices.state.PVStatePositioner.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.get.html">pcdsdevices.state.PVStatePositioner.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.get_device_tuple.html">pcdsdevices.state.PVStatePositioner.get_device_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.get_instantiated_signals.html">pcdsdevices.state.PVStatePositioner.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.get_state.html">pcdsdevices.state.PVStatePositioner.get_state</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.move.html">pcdsdevices.state.PVStatePositioner.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.mv.html">pcdsdevices.state.PVStatePositioner.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.pause.html">pcdsdevices.state.PVStatePositioner.pause</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.put.html">pcdsdevices.state.PVStatePositioner.put</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.read.html">pcdsdevices.state.PVStatePositioner.read</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.state.PVStatePositioner.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.resume.html">pcdsdevices.state.PVStatePositioner.resume</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.set.html">pcdsdevices.state.PVStatePositioner.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.stage.html">pcdsdevices.state.PVStatePositioner.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.stop.html">pcdsdevices.state.PVStatePositioner.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.subscribe.html">pcdsdevices.state.PVStatePositioner.subscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.summary.html">pcdsdevices.state.PVStatePositioner.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.trigger.html">pcdsdevices.state.PVStatePositioner.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.unstage.html">pcdsdevices.state.PVStatePositioner.unstage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.unsubscribe.html">pcdsdevices.state.PVStatePositioner.unsubscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.unsubscribe_all.html">pcdsdevices.state.PVStatePositioner.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.wait_for_connection.html">pcdsdevices.state.PVStatePositioner.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.wm.html">pcdsdevices.state.PVStatePositioner.wm</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.PVStateSignal.html">pcdsdevices.state.PVStateSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StatePositioner.html">pcdsdevices.state.StatePositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StateStatus.html">pcdsdevices.state.StateStatus</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../../api.html">API</a> &raquo;</li>
+        
+          <li><a href="../../pcdsdevices.state.html">pcdsdevices.state</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.state.PVStatePositioner.html">pcdsdevices.state.PVStatePositioner</a> &raquo;</li>
+        
+      <li>pcdsdevices.state.PVStatePositioner.read_configuration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.read_configuration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-state-pvstatepositioner-read-configuration">
+<h1>pcdsdevices.state.PVStatePositioner.read_configuration<a class="headerlink" href="#pcdsdevices-state-pvstatepositioner-read-configuration" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="pcdsdevices.state.PVStatePositioner.read_configuration">
+<code class="descclassname">PVStatePositioner.</code><code class="descname">read_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.state.PVStatePositioner.read_configuration" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns dictionary mapping names to (value, timestamp) pairs</p>
+<p>To control which fields are included, adjust the
+<code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.state.PVStatePositioner.resume.html" class="btn btn-neutral float-right" title="pcdsdevices.state.PVStatePositioner.resume" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.state.PVStatePositioner.read.html" class="btn btn-neutral" title="pcdsdevices.state.PVStatePositioner.read" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'0.5.0+14.gdaaabd2',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

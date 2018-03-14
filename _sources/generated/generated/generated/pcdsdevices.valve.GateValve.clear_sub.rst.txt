@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.clear\_sub
+======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.clear_sub

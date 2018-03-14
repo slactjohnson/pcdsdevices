@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.remove
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.remove

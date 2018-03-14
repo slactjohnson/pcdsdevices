@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.put
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.put

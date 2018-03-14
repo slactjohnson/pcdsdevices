@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.unstage
+================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.unstage

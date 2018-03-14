@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.OffsetMirror.get\_instantiated\_signals
+=================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: OffsetMirror.get_instantiated_signals

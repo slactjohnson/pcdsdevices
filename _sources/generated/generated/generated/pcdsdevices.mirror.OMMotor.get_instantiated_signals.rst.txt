@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.get\_instantiated\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.get_instantiated_signals

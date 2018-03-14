@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.mv
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.mv

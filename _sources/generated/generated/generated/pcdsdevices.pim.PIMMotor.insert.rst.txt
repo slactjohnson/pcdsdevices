@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.insert
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.insert

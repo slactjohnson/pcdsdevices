@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.trigger
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.trigger

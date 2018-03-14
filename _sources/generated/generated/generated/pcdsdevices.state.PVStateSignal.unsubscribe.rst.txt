@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStateSignal.unsubscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStateSignal.unsubscribe

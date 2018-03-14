@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.subscribe
+========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.subscribe

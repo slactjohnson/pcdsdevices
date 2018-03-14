@@ -6,12 +6,11 @@ pcdsdevices.device\_types.EpicsMotor
 .. autoclass:: EpicsMotor
 
    
-   .. automethod:: __init__
-
    
    .. rubric:: Methods
 
    .. autosummary::
+      :toctree: generated
    
       ~EpicsMotor.__init__
       ~EpicsMotor.check_value

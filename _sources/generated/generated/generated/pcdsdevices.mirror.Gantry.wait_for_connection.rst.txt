@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.wait\_for\_connection
+===============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMPulnixDetector.get\_plugin\_by\_asyn\_port
+=============================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMPulnixDetector.get_plugin_by_asyn_port

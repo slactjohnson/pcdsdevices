@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.put
+=========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.put

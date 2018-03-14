@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.mv
+================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.mv

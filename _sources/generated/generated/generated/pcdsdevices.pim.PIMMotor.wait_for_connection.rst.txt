@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.wait\_for\_connection
+==============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.wait_for_connection

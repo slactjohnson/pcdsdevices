@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.wait\_for\_connection
+==================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.move
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.move

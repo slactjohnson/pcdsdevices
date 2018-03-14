@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.wait\_for\_connection
+=================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.wait_for_connection

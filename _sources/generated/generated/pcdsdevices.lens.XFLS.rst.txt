@@ -1,0 +1,86 @@
+pcdsdevices.lens.XFLS
+=====================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: XFLS
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XFLS.__init__
+      ~XFLS.check_value
+      ~XFLS.clear_sub
+      ~XFLS.configure
+      ~XFLS.describe
+      ~XFLS.describe_configuration
+      ~XFLS.get
+      ~XFLS.get_device_tuple
+      ~XFLS.get_instantiated_signals
+      ~XFLS.get_state
+      ~XFLS.insert
+      ~XFLS.move
+      ~XFLS.mv
+      ~XFLS.pause
+      ~XFLS.put
+      ~XFLS.read
+      ~XFLS.read_configuration
+      ~XFLS.remove
+      ~XFLS.resume
+      ~XFLS.set
+      ~XFLS.stage
+      ~XFLS.stop
+      ~XFLS.subscribe
+      ~XFLS.summary
+      ~XFLS.trigger
+      ~XFLS.unstage
+      ~XFLS.unsubscribe
+      ~XFLS.unsubscribe_all
+      ~XFLS.wait_for_connection
+      ~XFLS.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XFLS.SUB_ACQ_DONE
+      ~XFLS.SUB_DONE
+      ~XFLS.SUB_READBACK
+      ~XFLS.SUB_START
+      ~XFLS.SUB_STATE
+      ~XFLS.component_names
+      ~XFLS.connected
+      ~XFLS.egu
+      ~XFLS.event_types
+      ~XFLS.high_limit
+      ~XFLS.hints
+      ~XFLS.in_states
+      ~XFLS.inserted
+      ~XFLS.limits
+      ~XFLS.low_limit
+      ~XFLS.moving
+      ~XFLS.name
+      ~XFLS.out_states
+      ~XFLS.parent
+      ~XFLS.position
+      ~XFLS.readback
+      ~XFLS.removed
+      ~XFLS.report
+      ~XFLS.root
+      ~XFLS.settle_time
+      ~XFLS.signal_names
+      ~XFLS.state
+      ~XFLS.states_list
+      ~XFLS.timeout
+      ~XFLS.transmission
+      ~XFLS.trigger_signals
+   
+   

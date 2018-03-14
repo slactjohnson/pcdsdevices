@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.unsubscribe\_all
+======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.unsubscribe_all

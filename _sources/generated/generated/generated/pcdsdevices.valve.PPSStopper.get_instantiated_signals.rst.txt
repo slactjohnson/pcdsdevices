@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.get\_instantiated\_signals
+=======================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.get\_device\_tuple
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.get_device_tuple

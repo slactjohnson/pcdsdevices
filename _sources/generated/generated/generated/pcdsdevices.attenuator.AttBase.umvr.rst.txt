@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.umvr
+===================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.umvr

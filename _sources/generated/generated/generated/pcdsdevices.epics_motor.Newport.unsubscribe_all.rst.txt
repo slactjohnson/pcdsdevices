@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.unsubscribe\_all
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.unsubscribe_all

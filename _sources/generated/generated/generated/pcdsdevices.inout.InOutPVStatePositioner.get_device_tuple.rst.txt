@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.get\_device\_tuple
+===========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.get_device_tuple

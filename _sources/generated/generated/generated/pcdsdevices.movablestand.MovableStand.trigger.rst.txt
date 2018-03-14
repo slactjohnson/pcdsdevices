@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.trigger
+=============================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.trigger

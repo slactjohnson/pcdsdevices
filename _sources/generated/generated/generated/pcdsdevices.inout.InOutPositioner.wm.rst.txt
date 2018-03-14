@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.wm
+====================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.wm

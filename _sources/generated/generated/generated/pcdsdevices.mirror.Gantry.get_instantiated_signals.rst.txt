@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.get_instantiated_signals

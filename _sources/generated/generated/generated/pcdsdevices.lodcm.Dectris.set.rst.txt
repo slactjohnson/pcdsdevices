@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.set
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.set

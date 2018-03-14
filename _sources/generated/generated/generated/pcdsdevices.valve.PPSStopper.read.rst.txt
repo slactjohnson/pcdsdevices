@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.read
+=================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.read

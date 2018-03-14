@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.unsubscribe\_all
+================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.unsubscribe_all

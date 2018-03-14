@@ -1,0 +1,6 @@
+pcdsdevices.state.StatePositioner.describe
+==========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StatePositioner.describe

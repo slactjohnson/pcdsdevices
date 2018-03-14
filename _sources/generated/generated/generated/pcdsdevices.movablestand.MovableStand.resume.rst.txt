@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.resume
+============================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.resume

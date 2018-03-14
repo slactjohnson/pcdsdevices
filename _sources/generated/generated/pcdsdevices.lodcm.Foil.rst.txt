@@ -1,0 +1,86 @@
+pcdsdevices.lodcm.Foil
+======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Foil
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Foil.__init__
+      ~Foil.check_value
+      ~Foil.clear_sub
+      ~Foil.configure
+      ~Foil.describe
+      ~Foil.describe_configuration
+      ~Foil.get
+      ~Foil.get_device_tuple
+      ~Foil.get_instantiated_signals
+      ~Foil.get_state
+      ~Foil.insert
+      ~Foil.move
+      ~Foil.mv
+      ~Foil.pause
+      ~Foil.put
+      ~Foil.read
+      ~Foil.read_configuration
+      ~Foil.remove
+      ~Foil.resume
+      ~Foil.set
+      ~Foil.stage
+      ~Foil.stop
+      ~Foil.subscribe
+      ~Foil.summary
+      ~Foil.trigger
+      ~Foil.unstage
+      ~Foil.unsubscribe
+      ~Foil.unsubscribe_all
+      ~Foil.wait_for_connection
+      ~Foil.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Foil.SUB_ACQ_DONE
+      ~Foil.SUB_DONE
+      ~Foil.SUB_READBACK
+      ~Foil.SUB_START
+      ~Foil.SUB_STATE
+      ~Foil.component_names
+      ~Foil.connected
+      ~Foil.egu
+      ~Foil.event_types
+      ~Foil.high_limit
+      ~Foil.hints
+      ~Foil.in_states
+      ~Foil.inserted
+      ~Foil.limits
+      ~Foil.low_limit
+      ~Foil.moving
+      ~Foil.name
+      ~Foil.out_states
+      ~Foil.parent
+      ~Foil.position
+      ~Foil.readback
+      ~Foil.removed
+      ~Foil.report
+      ~Foil.root
+      ~Foil.settle_time
+      ~Foil.signal_names
+      ~Foil.state
+      ~Foil.states_list
+      ~Foil.timeout
+      ~Foil.transmission
+      ~Foil.trigger_signals
+   
+   

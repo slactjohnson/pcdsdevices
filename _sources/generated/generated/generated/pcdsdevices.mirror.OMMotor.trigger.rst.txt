@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.trigger

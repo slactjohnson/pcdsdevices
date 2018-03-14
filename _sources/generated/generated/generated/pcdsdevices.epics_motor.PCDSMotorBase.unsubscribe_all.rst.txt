@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.unsubscribe\_all
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.unsubscribe_all

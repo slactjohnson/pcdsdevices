@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.stop
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.stop

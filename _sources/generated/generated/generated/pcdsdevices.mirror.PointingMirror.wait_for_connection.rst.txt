@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.wait\_for\_connection
+=======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.wait_for_connection

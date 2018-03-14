@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.stage
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.stage

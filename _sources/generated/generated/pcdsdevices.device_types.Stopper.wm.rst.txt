@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.wm
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.wm
