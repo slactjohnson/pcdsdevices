@@ -1,0 +1,33 @@
+pcdsdevices.mv\_interface.PresetPosition
+========================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. autoclass:: PresetPosition
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PresetPosition.__init__
+      ~PresetPosition.deactivate
+      ~PresetPosition.update_comment
+      ~PresetPosition.update_pos
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PresetPosition.history
+      ~PresetPosition.info
+      ~PresetPosition.path
+      ~PresetPosition.pos
+   
+   

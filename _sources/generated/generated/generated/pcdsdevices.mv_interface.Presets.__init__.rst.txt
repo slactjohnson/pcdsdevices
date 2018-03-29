@@ -1,0 +1,6 @@
+pcdsdevices.mv\_interface.Presets.\_\_init\_\_
+==============================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. automethod:: Presets.__init__

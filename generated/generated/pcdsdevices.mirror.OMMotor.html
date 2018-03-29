@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OMMotor &mdash; PCDS Devices 0.5.0+14.gdaaabd2 documentation</title>
+  <title>pcdsdevices.mirror.OMMotor &mdash; PCDS Devices 0.5.0+42.g532a159 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../../genindex.html"/>
         <link rel="search" title="Search" href="../../search.html"/>
-    <link rel="top" title="PCDS Devices 0.5.0+14.gdaaabd2 documentation" href="../../index.html"/>
+    <link rel="top" title="PCDS Devices 0.5.0+42.g532a159 documentation" href="../../index.html"/>
         <link rel="up" title="pcdsdevices.mirror" href="../pcdsdevices.mirror.html"/>
         <link rel="next" title="pcdsdevices.mirror.OMMotor.__init__" href="generated/pcdsdevices.mirror.OMMotor.__init__.html"/>
         <link rel="prev" title="pcdsdevices.mirror.Gantry.wm" href="generated/pcdsdevices.mirror.Gantry.wm.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.5.0+14.gdaaabd2
+                0.5.0+42.g532a159
               </div>
             
           
@@ -226,7 +226,7 @@
 <h1>pcdsdevices.mirror.OMMotor<a class="headerlink" href="#pcdsdevices-mirror-ommotor" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.mirror.OMMotor">
-<em class="property">class </em><code class="descclassname">pcdsdevices.mirror.</code><code class="descname">OMMotor</code><span class="sig-paren">(</span><em>prefix=''</em>, <em>*</em>, <em>limits=None</em>, <em>name=None</em>, <em>read_attrs=None</em>, <em>configuration_attrs=None</em>, <em>parent=None</em>, <em>egu=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mirror.OMMotor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pcdsdevices.mirror.</code><code class="descname">OMMotor</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mirror.OMMotor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base class for each motor in the LCLS offset mirror system.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -250,7 +250,7 @@ in-progress move as failed.</li>
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.__init__.html#pcdsdevices.mirror.OMMotor.__init__" title="pcdsdevices.mirror.OMMotor.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([prefix,&nbsp;limits,&nbsp;name,&nbsp;read_attrs,&nbsp;…])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.__init__.html#pcdsdevices.mirror.OMMotor.__init__" title="pcdsdevices.mirror.OMMotor.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args,&nbsp;**kwargs)</td>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.check_value.html#pcdsdevices.mirror.OMMotor.check_value" title="pcdsdevices.mirror.OMMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(position)</td>
@@ -263,10 +263,10 @@ in-progress move as failed.</li>
 <td>Configure the device for something during a run</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.describe.html#pcdsdevices.mirror.OMMotor.describe" title="pcdsdevices.mirror.OMMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
-<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</td>
+<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.describe_configuration.html#pcdsdevices.mirror.OMMotor.describe_configuration" title="pcdsdevices.mirror.OMMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
-<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code>.</td>
+<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get.html#pcdsdevices.mirror.OMMotor.get" title="pcdsdevices.mirror.OMMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
@@ -386,7 +386,7 @@ in-progress move as failed.</li>
 <td>Component attribute</td>
 </tr>
 <tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
-<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code>.</td>
+<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></td>
 </tr>
 <tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></td>
 <td></td>
@@ -434,7 +434,7 @@ in-progress move as failed.</li>
 <td>A report on the object.</td>
 </tr>
 <tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
-<td>Walk parents to find ultimate ancestor (parent’s parent.</td>
+<td>Walk parents to find ultimate ancestor (parent’s parent…).</td>
 </tr>
 <tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpoint</span></code></td>
 <td>Component attribute</td>
@@ -507,7 +507,7 @@ in-progress move as failed.</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.5.0+14.gdaaabd2',
+            VERSION:'0.5.0+42.g532a159',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

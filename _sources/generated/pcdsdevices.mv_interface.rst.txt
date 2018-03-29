@@ -5,6 +5,13 @@ pcdsdevices.mv\_interface
 
    
    
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      setup_preset_paths
+   
    
 
    
@@ -16,6 +23,8 @@ pcdsdevices.mv\_interface
    
       FltMvInterface
       MvInterface
+      PresetPosition
+      Presets
    
    
 

@@ -12,6 +12,7 @@ pcdsdevices.mv\_interface.FltMvInterface
    .. autosummary::
       :toctree: generated
    
+      ~FltMvInterface.__init__
       ~FltMvInterface.mv
       ~FltMvInterface.mvr
       ~FltMvInterface.umv

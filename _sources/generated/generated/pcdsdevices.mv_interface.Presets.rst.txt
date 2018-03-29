@@ -1,0 +1,22 @@
+pcdsdevices.mv\_interface.Presets
+=================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. autoclass:: Presets
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Presets.__init__
+      ~Presets.sync
+   
+   
+
+   
+   
+   

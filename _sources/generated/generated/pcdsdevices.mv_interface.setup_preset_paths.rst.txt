@@ -1,0 +1,6 @@
+pcdsdevices.mv\_interface.setup\_preset\_paths
+==============================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. autofunction:: setup_preset_paths

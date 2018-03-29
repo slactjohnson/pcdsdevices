@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mv_interface &mdash; PCDS Devices 0.5.0+14.gdaaabd2 documentation</title>
+  <title>pcdsdevices.mv_interface &mdash; PCDS Devices 0.5.0+42.g532a159 documentation</title>
   
 
   
@@ -35,9 +35,9 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="PCDS Devices 0.5.0+14.gdaaabd2 documentation" href="../index.html"/>
+    <link rel="top" title="PCDS Devices 0.5.0+42.g532a159 documentation" href="../index.html"/>
         <link rel="up" title="API" href="../api.html"/>
-        <link rel="next" title="pcdsdevices.mv_interface.FltMvInterface" href="generated/pcdsdevices.mv_interface.FltMvInterface.html"/>
+        <link rel="next" title="pcdsdevices.mv_interface.setup_preset_paths" href="generated/pcdsdevices.mv_interface.setup_preset_paths.html"/>
         <link rel="prev" title="pcdsdevices.mps.MPSLimits.wait_for_connection" href="generated/generated/pcdsdevices.mps.MPSLimits.wait_for_connection.html"/> 
 
   
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.5.0+14.gdaaabd2
+                0.5.0+42.g532a159
               </div>
             
           
@@ -108,8 +108,11 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mps.html">pcdsdevices.mps</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.mv_interface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mv_interface.setup_preset_paths.html">pcdsdevices.mv_interface.setup_preset_paths</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.html">pcdsdevices.mv_interface.FltMvInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mv_interface.MvInterface.html">pcdsdevices.mv_interface.MvInterface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.html">pcdsdevices.mv_interface.PresetPosition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.html">pcdsdevices.mv_interface.Presets</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
@@ -188,6 +191,18 @@
   <div class="section" id="module-pcdsdevices.mv_interface">
 <span id="pcdsdevices-mv-interface"></span><h1>pcdsdevices.mv_interface<a class="headerlink" href="#module-pcdsdevices.mv_interface" title="Permalink to this headline">¶</a></h1>
 <p>Module for defining bell-and-whistles movement features</p>
+<p class="rubric">Functions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.setup_preset_paths.html#pcdsdevices.mv_interface.setup_preset_paths" title="pcdsdevices.mv_interface.setup_preset_paths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_preset_paths</span></code></a>(**paths)</td>
+<td>Prepare the <a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> class.</td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Classes</p>
 <table border="1" class="longtable docutils">
 <colgroup>
@@ -195,11 +210,17 @@
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.html#pcdsdevices.mv_interface.FltMvInterface" title="pcdsdevices.mv_interface.FltMvInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a></td>
-<td>Extension of MvInterface for when the position is a float.</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.html#pcdsdevices.mv_interface.FltMvInterface" title="pcdsdevices.mv_interface.FltMvInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>(*args,&nbsp;**kwargs)</td>
+<td>Extension of <a class="reference internal" href="generated/pcdsdevices.mv_interface.MvInterface.html#pcdsdevices.mv_interface.MvInterface" title="pcdsdevices.mv_interface.MvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">MvInterface</span></code></a> for when the position is a <code class="docutils literal notranslate"><span class="pre">float</span></code>.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.MvInterface.html#pcdsdevices.mv_interface.MvInterface" title="pcdsdevices.mv_interface.MvInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MvInterface</span></code></a></td>
 <td>Interface layer to attach to a positioner for motion shortcuts.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.html#pcdsdevices.mv_interface.PresetPosition" title="pcdsdevices.mv_interface.PresetPosition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PresetPosition</span></code></a>(presets,&nbsp;preset_type,&nbsp;name)</td>
+<td>Manager for a single preset position.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Presets</span></code></a>(device)</td>
+<td>Manager for device preset positions.</td>
 </tr>
 </tbody>
 </table>
@@ -215,7 +236,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.mv_interface.FltMvInterface.html" class="btn btn-neutral float-right" title="pcdsdevices.mv_interface.FltMvInterface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.mv_interface.setup_preset_paths.html" class="btn btn-neutral float-right" title="pcdsdevices.mv_interface.setup_preset_paths" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.mps.MPSLimits.wait_for_connection.html" class="btn btn-neutral" title="pcdsdevices.mps.MPSLimits.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -249,7 +270,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.5.0+14.gdaaabd2',
+            VERSION:'0.5.0+42.g532a159',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

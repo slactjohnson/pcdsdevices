@@ -1,0 +1,6 @@
+pcdsdevices.mv\_interface.PresetPosition.\_\_init\_\_
+=====================================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. automethod:: PresetPosition.__init__
