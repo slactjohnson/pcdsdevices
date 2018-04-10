@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.disable
+=======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.disable

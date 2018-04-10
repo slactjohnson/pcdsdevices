@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.disable
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.disable

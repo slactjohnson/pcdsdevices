@@ -102,6 +102,8 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.disable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.enable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.rst.txt
@@ -134,6 +136,8 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.disable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.enable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.rst.txt
@@ -166,6 +170,8 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.disable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.enable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.rst.txt
@@ -198,6 +204,8 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.disable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.enable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.rst.txt
@@ -1269,6 +1277,8 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.disable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.enable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.rst.txt
@@ -1362,6 +1372,8 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.disable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.enable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.rst.txt
@@ -1447,6 +1459,8 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.disable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.enable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.rst.txt
@@ -1852,6 +1866,8 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.configure.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.describe.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.describe_configuration.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.disable.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.enable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.html
@@ -1884,6 +1900,8 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.configure.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.describe.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.describe_configuration.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.disable.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.enable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.html
@@ -1916,6 +1934,8 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.configure.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.describe.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.describe_configuration.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.disable.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.enable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.html
@@ -1948,6 +1968,8 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.configure.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.describe.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.describe_configuration.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.disable.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.enable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.html
@@ -3019,6 +3041,8 @@
 ./generated/generated/pcdsdevices.device_types.IMS.configure.html
 ./generated/generated/pcdsdevices.device_types.IMS.describe.html
 ./generated/generated/pcdsdevices.device_types.IMS.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.IMS.disable.html
+./generated/generated/pcdsdevices.device_types.IMS.enable.html
 ./generated/generated/pcdsdevices.device_types.IMS.get.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.html
@@ -3112,6 +3136,8 @@
 ./generated/generated/pcdsdevices.device_types.Newport.configure.html
 ./generated/generated/pcdsdevices.device_types.Newport.describe.html
 ./generated/generated/pcdsdevices.device_types.Newport.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.Newport.disable.html
+./generated/generated/pcdsdevices.device_types.Newport.enable.html
 ./generated/generated/pcdsdevices.device_types.Newport.get.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.html
@@ -3197,6 +3223,8 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.configure.html
 ./generated/generated/pcdsdevices.device_types.PMC100.describe.html
 ./generated/generated/pcdsdevices.device_types.PMC100.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.PMC100.disable.html
+./generated/generated/pcdsdevices.device_types.PMC100.enable.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.html

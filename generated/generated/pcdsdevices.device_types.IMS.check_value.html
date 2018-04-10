@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS.check_value &mdash; PCDS Devices 0.5.0+50.ge92a58d documentation</title>
+  <title>pcdsdevices.device_types.IMS.check_value &mdash; PCDS Devices 0.6.0+6.g30043c2 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../../genindex.html"/>
         <link rel="search" title="Search" href="../../search.html"/>
-    <link rel="top" title="PCDS Devices 0.5.0+50.ge92a58d documentation" href="../../index.html"/>
+    <link rel="top" title="PCDS Devices 0.6.0+6.g30043c2 documentation" href="../../index.html"/>
         <link rel="up" title="pcdsdevices.device_types.IMS" href="../pcdsdevices.device_types.IMS.html"/>
         <link rel="next" title="pcdsdevices.device_types.IMS.clear_sub" href="pcdsdevices.device_types.IMS.clear_sub.html"/>
         <link rel="prev" title="pcdsdevices.device_types.IMS.__init__" href="pcdsdevices.device_types.IMS.__init__.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.5.0+50.ge92a58d
+                0.6.0+6.g30043c2
               </div>
             
           
@@ -105,6 +105,8 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.configure.html">pcdsdevices.device_types.IMS.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.describe.html">pcdsdevices.device_types.IMS.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.describe_configuration.html">pcdsdevices.device_types.IMS.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.disable.html">pcdsdevices.device_types.IMS.disable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.enable.html">pcdsdevices.device_types.IMS.enable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get.html">pcdsdevices.device_types.IMS.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get_device_tuple.html">pcdsdevices.device_types.IMS.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get_instantiated_signals.html">pcdsdevices.device_types.IMS.get_instantiated_signals</a></li>
@@ -221,12 +223,18 @@
 <dl class="method">
 <dt id="pcdsdevices.device_types.IMS.check_value">
 <code class="descclassname">IMS.</code><code class="descname">check_value</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.IMS.check_value" title="Permalink to this definition">¶</a></dt>
-<dd><p>Check if the value is within the soft limits of the motor.</p>
+<dd><p>Check if the motor is disabled
+Check if the value is within the soft limits of the motor.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValueError</span></code></td>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><ul class="first last simple">
+<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">Exception</span></code> – If the motor is passed any motion command when disabled</li>
+<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValueError</span></code> – When the provided value is outside the range of the low
+and high limits</li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -278,7 +286,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.5.0+50.ge92a58d',
+            VERSION:'0.6.0+6.g30043c2',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

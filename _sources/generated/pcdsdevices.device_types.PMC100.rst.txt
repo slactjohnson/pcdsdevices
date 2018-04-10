@@ -18,6 +18,8 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.configure
       ~PMC100.describe
       ~PMC100.describe_configuration
+      ~PMC100.disable
+      ~PMC100.enable
       ~PMC100.get
       ~PMC100.get_device_tuple
       ~PMC100.get_instantiated_signals
@@ -61,6 +63,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.component_names
       ~PMC100.connected
       ~PMC100.direction_of_travel
+      ~PMC100.disabled
       ~PMC100.egu
       ~PMC100.event_types
       ~PMC100.high_limit

@@ -18,6 +18,8 @@ pcdsdevices.device\_types.IMS
       ~IMS.configure
       ~IMS.describe
       ~IMS.describe_configuration
+      ~IMS.disable
+      ~IMS.enable
       ~IMS.get
       ~IMS.get_device_tuple
       ~IMS.get_instantiated_signals
@@ -61,6 +63,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.component_names
       ~IMS.connected
       ~IMS.direction_of_travel
+      ~IMS.disabled
       ~IMS.egu
       ~IMS.event_types
       ~IMS.high_limit

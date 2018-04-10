@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.enable
+===================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.enable

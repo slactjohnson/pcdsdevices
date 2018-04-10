@@ -18,6 +18,8 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.configure
       ~PCDSMotorBase.describe
       ~PCDSMotorBase.describe_configuration
+      ~PCDSMotorBase.disable
+      ~PCDSMotorBase.enable
       ~PCDSMotorBase.get
       ~PCDSMotorBase.get_device_tuple
       ~PCDSMotorBase.get_instantiated_signals
@@ -61,6 +63,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.component_names
       ~PCDSMotorBase.connected
       ~PCDSMotorBase.direction_of_travel
+      ~PCDSMotorBase.disabled
       ~PCDSMotorBase.egu
       ~PCDSMotorBase.event_types
       ~PCDSMotorBase.high_limit

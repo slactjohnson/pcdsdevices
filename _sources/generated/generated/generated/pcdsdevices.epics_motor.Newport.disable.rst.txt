@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.disable
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.disable
