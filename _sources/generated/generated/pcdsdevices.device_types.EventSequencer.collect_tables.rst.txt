@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EventSequencer.collect\_tables
+========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EventSequencer.collect_tables

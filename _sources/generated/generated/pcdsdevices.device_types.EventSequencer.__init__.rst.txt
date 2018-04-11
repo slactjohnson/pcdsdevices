@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EventSequencer.\_\_init\_\_
+=====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EventSequencer.__init__
