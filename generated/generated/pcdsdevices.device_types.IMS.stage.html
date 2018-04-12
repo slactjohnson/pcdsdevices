@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS.stage &mdash; PCDS Devices 0.6.0+26.gbfd47cb documentation</title>
+  <title>pcdsdevices.device_types.IMS.stage &mdash; PCDS Devices 0.6.0+54.g6d4cf5f documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../../genindex.html"/>
         <link rel="search" title="Search" href="../../search.html"/>
-    <link rel="top" title="PCDS Devices 0.6.0+26.gbfd47cb documentation" href="../../index.html"/>
+    <link rel="top" title="PCDS Devices 0.6.0+54.g6d4cf5f documentation" href="../../index.html"/>
         <link rel="up" title="pcdsdevices.device_types.IMS" href="../pcdsdevices.device_types.IMS.html"/>
         <link rel="next" title="pcdsdevices.device_types.IMS.stop" href="pcdsdevices.device_types.IMS.stop.html"/>
         <link rel="prev" title="pcdsdevices.device_types.IMS.set_current_position" href="pcdsdevices.device_types.IMS.set_current_position.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.6.0+26.gbfd47cb
+                0.6.0+54.g6d4cf5f
               </div>
             
           
@@ -101,7 +101,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.__init__.html">pcdsdevices.device_types.IMS.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.auto_setup.html">pcdsdevices.device_types.IMS.auto_setup</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.check_value.html">pcdsdevices.device_types.IMS.check_value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_all_flags.html">pcdsdevices.device_types.IMS.clear_all_flags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_error.html">pcdsdevices.device_types.IMS.clear_error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_powerup.html">pcdsdevices.device_types.IMS.clear_powerup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_stall.html">pcdsdevices.device_types.IMS.clear_stall</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_sub.html">pcdsdevices.device_types.IMS.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.configure.html">pcdsdevices.device_types.IMS.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.describe.html">pcdsdevices.device_types.IMS.describe</a></li>
@@ -119,6 +124,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.put.html">pcdsdevices.device_types.IMS.put</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.read.html">pcdsdevices.device_types.IMS.read</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.read_configuration.html">pcdsdevices.device_types.IMS.read_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.reinitialize.html">pcdsdevices.device_types.IMS.reinitialize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.resume.html">pcdsdevices.device_types.IMS.resume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.set.html">pcdsdevices.device_types.IMS.set</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.set_current_position.html">pcdsdevices.device_types.IMS.set_current_position</a></li>
@@ -223,32 +229,10 @@
 <h1>pcdsdevices.device_types.IMS.stage<a class="headerlink" href="#pcdsdevices-device-types-ims-stage" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.device_types.IMS.stage">
-<code class="descclassname">IMS.</code><code class="descname">stage</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[object]<a class="headerlink" href="#pcdsdevices.device_types.IMS.stage" title="Permalink to this definition">¶</a></dt>
-<dd><p>Stage the device for data collection.</p>
-<p>This method is expected to put the device into a state where
-repeated calls to <code class="xref py py-meth docutils literal notranslate"><span class="pre">trigger()</span></code> and
-<code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> will ‘do the right thing’.</p>
-<p>Staging not idempotent and should raise
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">RedundantStaging</span></code> if staged twice without an
-intermediate <code class="xref py py-meth docutils literal notranslate"><span class="pre">unstage()</span></code>.</p>
-<p>This method should be as fast as is feasible as it does not return
-a status object.</p>
-<p>The return value of this is a list of all of the (sub) devices
-stage, including it’s self.  This is used to ensure devices
-are not staged twice by the <code class="xref py py-obj docutils literal notranslate"><span class="pre">RunEngine</span></code>.</p>
-<p>This is an optional method, if the device does not need
-staging behavior it should not implement <a class="reference internal" href="#pcdsdevices.device_types.IMS.stage" title="pcdsdevices.device_types.IMS.stage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">stage</span></code></a> (or
-<a class="reference internal" href="pcdsdevices.device_types.IMS.unstage.html#pcdsdevices.device_types.IMS.unstage" title="pcdsdevices.device_types.IMS.unstage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unstage</span></code></a>).</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>devices</strong> – list including self and all child devices staged</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">list</td>
-</tr>
-</tbody>
-</table>
+<code class="descclassname">IMS.</code><code class="descname">stage</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.IMS.stage" title="Permalink to this definition">¶</a></dt>
+<dd><p>State the IMS motor</p>
+<p>This clears all present flags on the motor and reinitializes the motor
+if we don’t register a valid part number</p>
 </dd></dl>
 
 </div>
@@ -297,7 +281,7 @@ staging behavior it should not implement <a class="reference internal" href="#pc
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.6.0+26.gbfd47cb',
+            VERSION:'0.6.0+54.g6d4cf5f',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

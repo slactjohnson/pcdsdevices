@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.clear\_powerup
+===========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.clear_powerup

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.clear\_error
+=========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.clear_error

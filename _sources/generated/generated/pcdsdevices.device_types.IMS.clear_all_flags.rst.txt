@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.clear\_all\_flags
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.clear_all_flags

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.IMS.stage &mdash; PCDS Devices 0.6.0+26.gbfd47cb documentation</title>
+  <title>pcdsdevices.epics_motor.IMS.stage &mdash; PCDS Devices 0.6.0+54.g6d4cf5f documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../../../genindex.html"/>
         <link rel="search" title="Search" href="../../../search.html"/>
-    <link rel="top" title="PCDS Devices 0.6.0+26.gbfd47cb documentation" href="../../../index.html"/>
+    <link rel="top" title="PCDS Devices 0.6.0+54.g6d4cf5f documentation" href="../../../index.html"/>
         <link rel="up" title="pcdsdevices.epics_motor.IMS" href="../pcdsdevices.epics_motor.IMS.html"/>
         <link rel="next" title="pcdsdevices.epics_motor.IMS.stop" href="pcdsdevices.epics_motor.IMS.stop.html"/>
         <link rel="prev" title="pcdsdevices.epics_motor.IMS.set_current_position" href="pcdsdevices.epics_motor.IMS.set_current_position.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.6.0+26.gbfd47cb
+                0.6.0+54.g6d4cf5f
               </div>
             
           
@@ -102,7 +102,12 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.epics_motor.IMS.html">pcdsdevices.epics_motor.IMS</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.__init__.html">pcdsdevices.epics_motor.IMS.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.auto_setup.html">pcdsdevices.epics_motor.IMS.auto_setup</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.check_value.html">pcdsdevices.epics_motor.IMS.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.clear_all_flags.html">pcdsdevices.epics_motor.IMS.clear_all_flags</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.clear_error.html">pcdsdevices.epics_motor.IMS.clear_error</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.clear_powerup.html">pcdsdevices.epics_motor.IMS.clear_powerup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.clear_stall.html">pcdsdevices.epics_motor.IMS.clear_stall</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.clear_sub.html">pcdsdevices.epics_motor.IMS.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.configure.html">pcdsdevices.epics_motor.IMS.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.describe.html">pcdsdevices.epics_motor.IMS.describe</a></li>
@@ -120,6 +125,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.put.html">pcdsdevices.epics_motor.IMS.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.read.html">pcdsdevices.epics_motor.IMS.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.read_configuration.html">pcdsdevices.epics_motor.IMS.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.reinitialize.html">pcdsdevices.epics_motor.IMS.reinitialize</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.resume.html">pcdsdevices.epics_motor.IMS.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.set.html">pcdsdevices.epics_motor.IMS.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.set_current_position.html">pcdsdevices.epics_motor.IMS.set_current_position</a></li>
@@ -231,32 +237,10 @@
 <h1>pcdsdevices.epics_motor.IMS.stage<a class="headerlink" href="#pcdsdevices-epics-motor-ims-stage" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.epics_motor.IMS.stage">
-<code class="descclassname">IMS.</code><code class="descname">stage</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[object]<a class="headerlink" href="#pcdsdevices.epics_motor.IMS.stage" title="Permalink to this definition">¶</a></dt>
-<dd><p>Stage the device for data collection.</p>
-<p>This method is expected to put the device into a state where
-repeated calls to <code class="xref py py-meth docutils literal notranslate"><span class="pre">trigger()</span></code> and
-<code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> will ‘do the right thing’.</p>
-<p>Staging not idempotent and should raise
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">RedundantStaging</span></code> if staged twice without an
-intermediate <code class="xref py py-meth docutils literal notranslate"><span class="pre">unstage()</span></code>.</p>
-<p>This method should be as fast as is feasible as it does not return
-a status object.</p>
-<p>The return value of this is a list of all of the (sub) devices
-stage, including it’s self.  This is used to ensure devices
-are not staged twice by the <code class="xref py py-obj docutils literal notranslate"><span class="pre">RunEngine</span></code>.</p>
-<p>This is an optional method, if the device does not need
-staging behavior it should not implement <a class="reference internal" href="#pcdsdevices.epics_motor.IMS.stage" title="pcdsdevices.epics_motor.IMS.stage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">stage</span></code></a> (or
-<a class="reference internal" href="pcdsdevices.epics_motor.IMS.unstage.html#pcdsdevices.epics_motor.IMS.unstage" title="pcdsdevices.epics_motor.IMS.unstage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unstage</span></code></a>).</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>devices</strong> – list including self and all child devices staged</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">list</td>
-</tr>
-</tbody>
-</table>
+<code class="descclassname">IMS.</code><code class="descname">stage</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.IMS.stage" title="Permalink to this definition">¶</a></dt>
+<dd><p>State the IMS motor</p>
+<p>This clears all present flags on the motor and reinitializes the motor
+if we don’t register a valid part number</p>
 </dd></dl>
 
 </div>
@@ -305,7 +289,7 @@ staging behavior it should not implement <a class="reference internal" href="#pc
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../../',
-            VERSION:'0.6.0+26.gbfd47cb',
+            VERSION:'0.6.0+54.g6d4cf5f',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

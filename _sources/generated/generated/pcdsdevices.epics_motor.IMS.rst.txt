@@ -13,7 +13,12 @@ pcdsdevices.epics\_motor.IMS
       :toctree: generated
    
       ~IMS.__init__
+      ~IMS.auto_setup
       ~IMS.check_value
+      ~IMS.clear_all_flags
+      ~IMS.clear_error
+      ~IMS.clear_powerup
+      ~IMS.clear_stall
       ~IMS.clear_sub
       ~IMS.configure
       ~IMS.describe
@@ -31,6 +36,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.put
       ~IMS.read
       ~IMS.read_configuration
+      ~IMS.reinitialize
       ~IMS.resume
       ~IMS.set
       ~IMS.set_current_position
@@ -60,11 +66,13 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.SUB_READBACK
       ~IMS.SUB_START
       ~IMS.acceleration
+      ~IMS.bit_status
       ~IMS.component_names
       ~IMS.connected
       ~IMS.direction_of_travel
       ~IMS.disabled
       ~IMS.egu
+      ~IMS.error_severity
       ~IMS.event_types
       ~IMS.high_limit
       ~IMS.high_limit_switch
@@ -84,10 +92,13 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.name
       ~IMS.offset_freeze_switch
       ~IMS.parent
+      ~IMS.part_number
       ~IMS.position
       ~IMS.precision
+      ~IMS.reinit_command
       ~IMS.report
       ~IMS.root
+      ~IMS.seq_seln
       ~IMS.set_use_switch
       ~IMS.settle_time
       ~IMS.signal_names

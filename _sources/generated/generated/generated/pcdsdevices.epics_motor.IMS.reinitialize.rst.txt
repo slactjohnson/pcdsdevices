@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.reinitialize
+=========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.reinitialize

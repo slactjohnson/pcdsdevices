@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.clear\_error
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.clear_error

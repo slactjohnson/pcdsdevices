@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.auto\_setup
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.auto_setup

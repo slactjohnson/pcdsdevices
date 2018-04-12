@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.clear\_all\_flags
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.clear_all_flags

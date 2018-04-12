@@ -97,7 +97,12 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.wm.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.__init__.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.auto_setup.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.check_value.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_all_flags.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_error.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_powerup.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_stall.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_sub.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.describe.rst.txt
@@ -115,6 +120,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.put.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.read.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.read_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.reinitialize.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.resume.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.set_current_position.rst.txt
@@ -1301,7 +1307,12 @@
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.wm.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.__init__.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.auto_setup.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.check_value.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.clear_all_flags.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.clear_error.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.clear_powerup.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.clear_stall.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.clear_sub.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.describe.rst.txt
@@ -1319,6 +1330,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.put.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.read.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.read_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.reinitialize.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.resume.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.set.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.set_current_position.rst.txt
@@ -1891,7 +1903,12 @@
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.wm.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.__init__.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.auto_setup.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.check_value.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_all_flags.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_error.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_powerup.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_stall.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.clear_sub.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.configure.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.describe.html
@@ -1909,6 +1926,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.put.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.read.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.read_configuration.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.reinitialize.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.resume.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.set_current_position.html
@@ -3095,7 +3113,12 @@
 ./generated/generated/pcdsdevices.device_types.GateValve.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.GateValve.wm.html
 ./generated/generated/pcdsdevices.device_types.IMS.__init__.html
+./generated/generated/pcdsdevices.device_types.IMS.auto_setup.html
 ./generated/generated/pcdsdevices.device_types.IMS.check_value.html
+./generated/generated/pcdsdevices.device_types.IMS.clear_all_flags.html
+./generated/generated/pcdsdevices.device_types.IMS.clear_error.html
+./generated/generated/pcdsdevices.device_types.IMS.clear_powerup.html
+./generated/generated/pcdsdevices.device_types.IMS.clear_stall.html
 ./generated/generated/pcdsdevices.device_types.IMS.clear_sub.html
 ./generated/generated/pcdsdevices.device_types.IMS.configure.html
 ./generated/generated/pcdsdevices.device_types.IMS.describe.html
@@ -3113,6 +3136,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.put.html
 ./generated/generated/pcdsdevices.device_types.IMS.read.html
 ./generated/generated/pcdsdevices.device_types.IMS.read_configuration.html
+./generated/generated/pcdsdevices.device_types.IMS.reinitialize.html
 ./generated/generated/pcdsdevices.device_types.IMS.resume.html
 ./generated/generated/pcdsdevices.device_types.IMS.set.html
 ./generated/generated/pcdsdevices.device_types.IMS.set_current_position.html

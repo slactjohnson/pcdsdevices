@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.clear\_stall
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.clear_stall
