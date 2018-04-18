@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.unstage
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.unstage

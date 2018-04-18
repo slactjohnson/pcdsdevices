@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.unsubscribe\_all
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.unsubscribe_all

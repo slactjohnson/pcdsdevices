@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.subscribe
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.subscribe

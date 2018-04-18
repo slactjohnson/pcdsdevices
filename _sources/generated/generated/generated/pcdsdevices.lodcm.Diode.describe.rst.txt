@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.describe
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.describe

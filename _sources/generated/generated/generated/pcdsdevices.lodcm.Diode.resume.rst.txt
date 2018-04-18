@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.resume
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.resume

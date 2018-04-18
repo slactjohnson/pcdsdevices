@@ -1,0 +1,86 @@
+pcdsdevices.lodcm.Diode
+=======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Diode
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Diode.__init__
+      ~Diode.check_value
+      ~Diode.clear_sub
+      ~Diode.configure
+      ~Diode.describe
+      ~Diode.describe_configuration
+      ~Diode.get
+      ~Diode.get_device_tuple
+      ~Diode.get_instantiated_signals
+      ~Diode.get_state
+      ~Diode.insert
+      ~Diode.move
+      ~Diode.mv
+      ~Diode.pause
+      ~Diode.put
+      ~Diode.read
+      ~Diode.read_configuration
+      ~Diode.remove
+      ~Diode.resume
+      ~Diode.set
+      ~Diode.stage
+      ~Diode.stop
+      ~Diode.subscribe
+      ~Diode.summary
+      ~Diode.trigger
+      ~Diode.unstage
+      ~Diode.unsubscribe
+      ~Diode.unsubscribe_all
+      ~Diode.wait_for_connection
+      ~Diode.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Diode.SUB_ACQ_DONE
+      ~Diode.SUB_DONE
+      ~Diode.SUB_READBACK
+      ~Diode.SUB_START
+      ~Diode.SUB_STATE
+      ~Diode.component_names
+      ~Diode.connected
+      ~Diode.egu
+      ~Diode.event_types
+      ~Diode.high_limit
+      ~Diode.hints
+      ~Diode.in_states
+      ~Diode.inserted
+      ~Diode.limits
+      ~Diode.low_limit
+      ~Diode.moving
+      ~Diode.name
+      ~Diode.out_states
+      ~Diode.parent
+      ~Diode.position
+      ~Diode.readback
+      ~Diode.removed
+      ~Diode.report
+      ~Diode.root
+      ~Diode.settle_time
+      ~Diode.signal_names
+      ~Diode.state
+      ~Diode.states_list
+      ~Diode.timeout
+      ~Diode.transmission
+      ~Diode.trigger_signals
+   
+   

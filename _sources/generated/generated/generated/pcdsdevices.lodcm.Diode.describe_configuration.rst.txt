@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.describe\_configuration
+===============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.describe_configuration

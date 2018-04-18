@@ -15,6 +15,7 @@ pcdsdevices.lodcm
       :toctree: generated
    
       Dectris
+      Diode
       Foil
       LODCM
       YagLom

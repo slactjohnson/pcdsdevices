@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.trigger
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.trigger

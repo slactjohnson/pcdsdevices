@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.stop
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.stop

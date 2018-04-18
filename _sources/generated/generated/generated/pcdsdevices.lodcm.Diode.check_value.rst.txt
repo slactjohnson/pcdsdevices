@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.check_value

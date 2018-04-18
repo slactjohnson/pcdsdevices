@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.clear_sub

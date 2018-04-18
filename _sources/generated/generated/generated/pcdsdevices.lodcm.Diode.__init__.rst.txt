@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.__init__

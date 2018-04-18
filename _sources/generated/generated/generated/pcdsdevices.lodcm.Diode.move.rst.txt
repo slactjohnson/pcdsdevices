@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.move
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.move

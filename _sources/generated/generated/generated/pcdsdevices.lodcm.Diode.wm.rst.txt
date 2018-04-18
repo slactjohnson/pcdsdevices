@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.wm
+==========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.wm

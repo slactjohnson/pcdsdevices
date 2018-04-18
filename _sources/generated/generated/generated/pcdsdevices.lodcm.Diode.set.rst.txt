@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.set
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.set
