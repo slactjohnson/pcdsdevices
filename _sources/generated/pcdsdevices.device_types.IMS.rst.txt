@@ -109,5 +109,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.user_readback
       ~IMS.user_setpoint
       ~IMS.velocity
+      ~IMS.velocity_base
+      ~IMS.velocity_max
    
    
