@@ -1800,6 +1800,8 @@
 ./_sources/generated/pcdsdevices.state.rst.txt
 ./_sources/generated/pcdsdevices.valve.rst.txt
 ./_sources/index.rst.txt
+./_sources/mv.rst.txt
+./_sources/presets.rst.txt
 ./_static/ajax-loader.gif
 ./_static/basic.css
 ./_static/comment-bright.png
@@ -3641,7 +3643,9 @@
 ./generated/pcdsdevices.valve.html
 ./genindex.html
 ./index.html
+./mv.html
 ./objects.inv
+./presets.html
 ./py-modindex.html
 ./search.html
 ./searchindex.js

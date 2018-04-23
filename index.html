@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>PCDS Devices &mdash; PCDS Devices 0.6.0+83.g29e072c documentation</title>
+  <title>Motivation &mdash; PCDS Devices 0.6.0+91.g6c10b1c documentation</title>
   
 
   
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Common EPICS Devices" href="epics_types.html" /> 
+    <link rel="next" title="Shortcuts" href="mv.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.6.0+83.g29e072c
+                0.6.0+91.g6c10b1c
               </div>
             
           
@@ -82,7 +82,12 @@
               
             
             
-              <p class="caption"><span class="caption-text">Device Types</span></p>
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="presets.html">Preset Positions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="epics_types.html">Common EPICS Devices</a></li>
 </ul>
@@ -134,7 +139,7 @@
     
       <li><a href="#">Docs</a> &raquo;</li>
         
-      <li>PCDS Devices</li>
+      <li>Motivation</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -153,13 +158,44 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="pcds-devices">
-<h1>PCDS Devices<a class="headerlink" href="#pcds-devices" title="Permalink to this headline">¶</a></h1>
+  <h1 align="center">PCDS Devices</h1><div align="center">
+  <strong>Collection of Ophyd Device subclasses for IOCs unique to PCDS</strong>
+</div><p align="center">
+  <a href="#motivation">Motivation</a> •
+  <a href="#installation">Installation</a>
+</p><div align="center">
+  <!-- Build Status -->
+  <a href="https://travis-ci.org/pcdshub/pcdsdevices">
+    <img
+src="https://img.shields.io/travis/pcdshub/pcdsdevices/master.svg?style=flat-square"
+      alt="Build Status" />
+  </a>
+  <!-- Test Coverage -->
+  <a href="https://codecov.io/github/pcdshub/pcdsdevices">
+    <img
+src="https://img.shields.io/codecov/c/github/pcdshub/pcdsdevices/master.svg?style=flat-square"
+      alt="Test Coverage" />
+  </a>
+</div><div class="section" id="motivation">
+<h1>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h1>
 <p>Ophyd presents a uniform set of abstractions for EPICS devices. While many
 devices can be represented as generic <code class="docutils literal notranslate"><span class="pre">EpicsMotor</span></code> and <code class="docutils literal notranslate"><span class="pre">AreaDetector</span></code>
 objects, quite a few devices are specific to LCLS. This repository holds all of
 these unique devices as well as additional tools to help aid the creation of
 custom devices for specific applications.</p>
+</div>
+<div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>Install the most recent tagged build:</p>
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>conda install pcdsdevices -c pcds-tag -c lightsource2-tag -c conda-forge
+</pre></div>
+</div>
+<p>Install the most recent development build:</p>
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>conda install pcdsdevices -c pcds-dev -c lightsource2-tag -c conda-forge
+</pre></div>
+</div>
+<div class="toctree-wrapper compound">
+</div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -174,7 +210,7 @@ custom devices for specific applications.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="epics_types.html" class="btn btn-neutral float-right" title="Common EPICS Devices" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="mv.html" class="btn btn-neutral float-right" title="Shortcuts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>
@@ -206,7 +242,7 @@ custom devices for specific applications.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.6.0+83.g29e072c',
+            VERSION:'0.6.0+91.g6c10b1c',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
