@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.unstage
-=========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.unstage

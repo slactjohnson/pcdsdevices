@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.validate\_asyn\_ports
-=======================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.validate_asyn_ports

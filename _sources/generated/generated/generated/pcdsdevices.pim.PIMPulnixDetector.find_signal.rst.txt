@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.find\_signal
-==============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.find_signal

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.missing\_plugins
-==================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.missing_plugins

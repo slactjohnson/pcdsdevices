@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.get\_asyn\_port\_dictionary
-=============================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.get_asyn_port_dictionary

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.trigger
-=========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.trigger

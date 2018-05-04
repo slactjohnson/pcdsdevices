@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.get
-=====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.get

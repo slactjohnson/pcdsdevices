@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMPulnixDetector.clear\_sub
-============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMPulnixDetector.clear_sub
