@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.get
+================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.get

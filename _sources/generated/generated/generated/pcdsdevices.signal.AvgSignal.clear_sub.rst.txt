@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.clear\_sub
+=======================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.clear_sub

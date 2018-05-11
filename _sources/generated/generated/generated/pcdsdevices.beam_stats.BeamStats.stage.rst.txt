@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.stage
+=======================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.stage

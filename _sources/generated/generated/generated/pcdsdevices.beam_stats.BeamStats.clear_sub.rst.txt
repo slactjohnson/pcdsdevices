@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.clear\_sub
+============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.clear_sub

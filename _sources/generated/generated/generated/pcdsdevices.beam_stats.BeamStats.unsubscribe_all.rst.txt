@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.unsubscribe\_all
+==================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.unsubscribe_all

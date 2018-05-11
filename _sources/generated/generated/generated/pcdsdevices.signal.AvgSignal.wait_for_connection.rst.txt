@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.wait\_for\_connection
+==================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.subscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.subscribe
+======================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.subscribe

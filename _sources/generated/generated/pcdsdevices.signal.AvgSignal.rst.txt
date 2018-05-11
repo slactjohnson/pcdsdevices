@@ -1,0 +1,55 @@
+pcdsdevices.signal.AvgSignal
+============================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: AvgSignal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AvgSignal.__init__
+      ~AvgSignal.check_value
+      ~AvgSignal.clear_sub
+      ~AvgSignal.describe
+      ~AvgSignal.describe_configuration
+      ~AvgSignal.get
+      ~AvgSignal.put
+      ~AvgSignal.read
+      ~AvgSignal.read_configuration
+      ~AvgSignal.set
+      ~AvgSignal.subscribe
+      ~AvgSignal.trigger
+      ~AvgSignal.unsubscribe
+      ~AvgSignal.unsubscribe_all
+      ~AvgSignal.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AvgSignal.SUB_VALUE
+      ~AvgSignal.averages
+      ~AvgSignal.connected
+      ~AvgSignal.event_types
+      ~AvgSignal.high_limit
+      ~AvgSignal.hints
+      ~AvgSignal.limits
+      ~AvgSignal.low_limit
+      ~AvgSignal.name
+      ~AvgSignal.parent
+      ~AvgSignal.report
+      ~AvgSignal.root
+      ~AvgSignal.timestamp
+      ~AvgSignal.tolerance
+      ~AvgSignal.value
+   
+   

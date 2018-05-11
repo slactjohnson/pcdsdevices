@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.get\_instantiated\_signals
+============================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.get_instantiated_signals

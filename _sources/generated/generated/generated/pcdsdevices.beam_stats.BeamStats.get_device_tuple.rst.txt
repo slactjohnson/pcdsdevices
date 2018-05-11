@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.get\_device\_tuple
+====================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.get_device_tuple

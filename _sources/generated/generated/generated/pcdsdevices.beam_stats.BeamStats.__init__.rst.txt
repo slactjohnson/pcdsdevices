@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.\_\_init\_\_
+==============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.__init__

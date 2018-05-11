@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.trigger
+=========================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.trigger

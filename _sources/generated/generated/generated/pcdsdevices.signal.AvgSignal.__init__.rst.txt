@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.\_\_init\_\_
+=========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.__init__

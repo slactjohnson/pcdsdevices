@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.check_value

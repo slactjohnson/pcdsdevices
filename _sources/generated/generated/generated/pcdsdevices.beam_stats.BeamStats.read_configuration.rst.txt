@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.read\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.pause
+=======================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.pause

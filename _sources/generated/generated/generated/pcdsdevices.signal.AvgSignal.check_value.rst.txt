@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.check\_value
+=========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.check_value

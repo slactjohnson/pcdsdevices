@@ -1,0 +1,65 @@
+pcdsdevices.beam\_stats.BeamStats
+=================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. autoclass:: BeamStats
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeamStats.__init__
+      ~BeamStats.check_value
+      ~BeamStats.clear_sub
+      ~BeamStats.configure
+      ~BeamStats.describe
+      ~BeamStats.describe_configuration
+      ~BeamStats.get
+      ~BeamStats.get_device_tuple
+      ~BeamStats.get_instantiated_signals
+      ~BeamStats.pause
+      ~BeamStats.put
+      ~BeamStats.read
+      ~BeamStats.read_configuration
+      ~BeamStats.resume
+      ~BeamStats.stage
+      ~BeamStats.stop
+      ~BeamStats.subscribe
+      ~BeamStats.summary
+      ~BeamStats.trigger
+      ~BeamStats.unstage
+      ~BeamStats.unsubscribe
+      ~BeamStats.unsubscribe_all
+      ~BeamStats.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeamStats.SUB_ACQ_DONE
+      ~BeamStats.component_names
+      ~BeamStats.connected
+      ~BeamStats.ev
+      ~BeamStats.event_types
+      ~BeamStats.hints
+      ~BeamStats.mj
+      ~BeamStats.mj_avg
+      ~BeamStats.mj_buffersize
+      ~BeamStats.name
+      ~BeamStats.owner
+      ~BeamStats.parent
+      ~BeamStats.rate
+      ~BeamStats.report
+      ~BeamStats.root
+      ~BeamStats.signal_names
+      ~BeamStats.trigger_signals
+   
+   

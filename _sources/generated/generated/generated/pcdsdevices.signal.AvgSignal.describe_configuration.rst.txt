@@ -1,0 +1,6 @@
+pcdsdevices.signal.AvgSignal.describe\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AvgSignal.describe_configuration

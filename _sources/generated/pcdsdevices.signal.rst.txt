@@ -15,6 +15,7 @@ pcdsdevices.signal
       :toctree: generated
    
       AggregateSignal
+      AvgSignal
    
    
 

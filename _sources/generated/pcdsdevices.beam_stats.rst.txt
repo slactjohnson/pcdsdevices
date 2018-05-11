@@ -1,0 +1,23 @@
+pcdsdevices.beam\_stats
+=======================
+
+.. automodule:: pcdsdevices.beam_stats
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      BeamStats
+   
+   
+
+   
+   
+   

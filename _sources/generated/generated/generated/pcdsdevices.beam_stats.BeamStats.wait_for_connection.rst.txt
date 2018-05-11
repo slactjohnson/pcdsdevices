@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.wait\_for\_connection
+=======================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.wait_for_connection
