@@ -1811,6 +1811,7 @@
 ./_sources/index.rst.txt
 ./_sources/mv.rst.txt
 ./_sources/presets.rst.txt
+./_sources/releases.rst.txt
 ./_static/ajax-loader.gif
 ./_static/basic.css
 ./_static/comment-bright.png
@@ -3665,5 +3666,6 @@
 ./objects.inv
 ./presets.html
 ./py-modindex.html
+./releases.html
 ./search.html
 ./searchindex.js
