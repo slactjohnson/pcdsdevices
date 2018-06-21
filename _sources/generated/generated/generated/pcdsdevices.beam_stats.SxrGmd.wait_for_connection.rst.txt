@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.wait\_for\_connection
+====================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.wait_for_connection

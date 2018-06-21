@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.stop
+===================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.stop

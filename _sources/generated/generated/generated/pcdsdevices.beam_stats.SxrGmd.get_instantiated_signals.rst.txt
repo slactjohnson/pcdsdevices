@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.get\_instantiated\_signals
+=========================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.get_instantiated_signals

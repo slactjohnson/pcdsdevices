@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.read
+===================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.read

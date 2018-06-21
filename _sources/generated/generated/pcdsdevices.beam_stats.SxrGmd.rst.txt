@@ -1,0 +1,63 @@
+pcdsdevices.beam\_stats.SxrGmd
+==============================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. autoclass:: SxrGmd
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SxrGmd.__init__
+      ~SxrGmd.check_value
+      ~SxrGmd.clear_sub
+      ~SxrGmd.configure
+      ~SxrGmd.describe
+      ~SxrGmd.describe_configuration
+      ~SxrGmd.get
+      ~SxrGmd.get_device_tuple
+      ~SxrGmd.get_instantiated_signals
+      ~SxrGmd.pause
+      ~SxrGmd.put
+      ~SxrGmd.read
+      ~SxrGmd.read_configuration
+      ~SxrGmd.resume
+      ~SxrGmd.stage
+      ~SxrGmd.stop
+      ~SxrGmd.subscribe
+      ~SxrGmd.summary
+      ~SxrGmd.trigger
+      ~SxrGmd.unstage
+      ~SxrGmd.unsubscribe
+      ~SxrGmd.unsubscribe_all
+      ~SxrGmd.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SxrGmd.SUB_ACQ_DONE
+      ~SxrGmd.component_names
+      ~SxrGmd.configuration_attrs
+      ~SxrGmd.connected
+      ~SxrGmd.event_types
+      ~SxrGmd.hints
+      ~SxrGmd.kind
+      ~SxrGmd.mj
+      ~SxrGmd.name
+      ~SxrGmd.parent
+      ~SxrGmd.read_attrs
+      ~SxrGmd.report
+      ~SxrGmd.root
+      ~SxrGmd.signal_names
+      ~SxrGmd.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.resume
+=====================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.resume

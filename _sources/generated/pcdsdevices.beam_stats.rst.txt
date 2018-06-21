@@ -15,6 +15,7 @@ pcdsdevices.beam\_stats
       :toctree: generated
    
       BeamStats
+      SxrGmd
    
    
 

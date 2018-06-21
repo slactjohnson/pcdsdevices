@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.clear\_sub
+=========================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.clear_sub

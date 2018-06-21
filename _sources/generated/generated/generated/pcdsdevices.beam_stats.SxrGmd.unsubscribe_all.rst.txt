@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.unsubscribe\_all
+===============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.unsubscribe_all

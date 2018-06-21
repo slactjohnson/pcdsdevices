@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.get\_device\_tuple
+=================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.get_device_tuple
