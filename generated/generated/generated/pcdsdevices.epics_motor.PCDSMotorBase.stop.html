@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.PCDSMotorBase.stop &mdash; PCDS Devices 0.7.0+20.g40ee15a documentation</title>
+  <title>pcdsdevices.epics_motor.PCDSMotorBase.stop &mdash; PCDS Devices 0.7.0+30.gbd1e31b documentation</title>
   
 
   
@@ -24,8 +24,7 @@
 
   
 
-  
-    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -59,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+20.g40ee15a
+                0.7.0+30.gbd1e31b
               </div>
             
           
@@ -113,6 +112,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.get.html">pcdsdevices.epics_motor.PCDSMotorBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.html">pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.html">pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.go.html">pcdsdevices.epics_motor.PCDSMotorBase.go</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.home.html">pcdsdevices.epics_motor.PCDSMotorBase.home</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.move.html">pcdsdevices.epics_motor.PCDSMotorBase.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.PCDSMotorBase.mv.html">pcdsdevices.epics_motor.PCDSMotorBase.mv</a></li>
@@ -231,8 +231,11 @@
 <h1>pcdsdevices.epics_motor.PCDSMotorBase.stop<a class="headerlink" href="#pcdsdevices-epics-motor-pcdsmotorbase-stop" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.epics_motor.PCDSMotorBase.stop">
-<code class="descclassname">PCDSMotorBase.</code><code class="descname">stop</code><span class="sig-paren">(</span><em>*</em>, <em>success=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.PCDSMotorBase.stop" title="Permalink to this definition">¶</a></dt>
-<dd><p>Stop the Device and all (instantiated) subdevices</p>
+<code class="descclassname">PCDSMotorBase.</code><code class="descname">stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.PCDSMotorBase.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stops the motor.</p>
+<p>After which the motor
+must be set back to ‘go’ via &lt;motor&gt;.go()
+in order to move again.</p>
 </dd></dl>
 
 </div>
@@ -279,7 +282,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../../',
-            VERSION:'0.7.0+20.g40ee15a',
+            VERSION:'0.7.0+30.gbd1e31b',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
@@ -293,10 +296,7 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../../../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

@@ -55,17 +55,20 @@ pcdsdevices.state.StateRecordPositioner
       ~StateRecordPositioner.SUB_START
       ~StateRecordPositioner.SUB_STATE
       ~StateRecordPositioner.component_names
+      ~StateRecordPositioner.configuration_attrs
       ~StateRecordPositioner.connected
       ~StateRecordPositioner.egu
       ~StateRecordPositioner.event_types
       ~StateRecordPositioner.high_limit
       ~StateRecordPositioner.hints
+      ~StateRecordPositioner.kind
       ~StateRecordPositioner.limits
       ~StateRecordPositioner.low_limit
       ~StateRecordPositioner.moving
       ~StateRecordPositioner.name
       ~StateRecordPositioner.parent
       ~StateRecordPositioner.position
+      ~StateRecordPositioner.read_attrs
       ~StateRecordPositioner.readback
       ~StateRecordPositioner.report
       ~StateRecordPositioner.root

@@ -58,6 +58,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.actuate
       ~OMMotor.actuate_value
       ~OMMotor.component_names
+      ~OMMotor.configuration_attrs
       ~OMMotor.connected
       ~OMMotor.done
       ~OMMotor.done_value
@@ -68,6 +69,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.high_limit_switch
       ~OMMotor.hints
       ~OMMotor.interlock
+      ~OMMotor.kind
       ~OMMotor.limits
       ~OMMotor.low_limit
       ~OMMotor.low_limit_switch
@@ -77,6 +79,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.parent
       ~OMMotor.position
       ~OMMotor.put_complete
+      ~OMMotor.read_attrs
       ~OMMotor.readback
       ~OMMotor.report
       ~OMMotor.root

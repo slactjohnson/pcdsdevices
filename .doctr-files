@@ -135,6 +135,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.mv.rst.txt
@@ -170,6 +171,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.mv.rst.txt
@@ -204,6 +206,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.rst.txt
@@ -238,6 +241,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv.rst.txt
@@ -1360,6 +1364,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.go.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.mv.rst.txt
@@ -1456,6 +1461,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.go.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.mv.rst.txt
@@ -1543,6 +1549,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.go.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.mv.rst.txt
@@ -1824,14 +1831,30 @@
 ./_static/down-pressed.png
 ./_static/down.png
 ./_static/file.png
-./_static/fonts/Inconsolata-Bold.ttf
-./_static/fonts/Inconsolata-Regular.ttf
-./_static/fonts/Lato-Bold.ttf
-./_static/fonts/Lato-BoldItalic.ttf
-./_static/fonts/Lato-Italic.ttf
-./_static/fonts/Lato-Regular.ttf
-./_static/fonts/RobotoSlab-Bold.ttf
-./_static/fonts/RobotoSlab-Regular.ttf
+./_static/fonts/Lato/lato-bold.eot
+./_static/fonts/Lato/lato-bold.ttf
+./_static/fonts/Lato/lato-bold.woff
+./_static/fonts/Lato/lato-bold.woff2
+./_static/fonts/Lato/lato-bolditalic.eot
+./_static/fonts/Lato/lato-bolditalic.ttf
+./_static/fonts/Lato/lato-bolditalic.woff
+./_static/fonts/Lato/lato-bolditalic.woff2
+./_static/fonts/Lato/lato-italic.eot
+./_static/fonts/Lato/lato-italic.ttf
+./_static/fonts/Lato/lato-italic.woff
+./_static/fonts/Lato/lato-italic.woff2
+./_static/fonts/Lato/lato-regular.eot
+./_static/fonts/Lato/lato-regular.ttf
+./_static/fonts/Lato/lato-regular.woff
+./_static/fonts/Lato/lato-regular.woff2
+./_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot
+./_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf
+./_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff
+./_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2
+./_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot
+./_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf
+./_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff
+./_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2
 ./_static/fonts/fontawesome-webfont.eot
 ./_static/fonts/fontawesome-webfont.svg
 ./_static/fonts/fontawesome-webfont.ttf
@@ -1987,6 +2010,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.mv.html
@@ -2022,6 +2046,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.mv.html
@@ -2056,6 +2081,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.html
@@ -2090,6 +2116,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv.html
@@ -3212,6 +3239,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.get.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.IMS.go.html
 ./generated/generated/pcdsdevices.device_types.IMS.home.html
 ./generated/generated/pcdsdevices.device_types.IMS.move.html
 ./generated/generated/pcdsdevices.device_types.IMS.mv.html
@@ -3308,6 +3336,7 @@
 ./generated/generated/pcdsdevices.device_types.Newport.get.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.Newport.go.html
 ./generated/generated/pcdsdevices.device_types.Newport.home.html
 ./generated/generated/pcdsdevices.device_types.Newport.move.html
 ./generated/generated/pcdsdevices.device_types.Newport.mv.html
@@ -3395,6 +3424,7 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.get.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.PMC100.go.html
 ./generated/generated/pcdsdevices.device_types.PMC100.home.html
 ./generated/generated/pcdsdevices.device_types.PMC100.move.html
 ./generated/generated/pcdsdevices.device_types.PMC100.mv.html

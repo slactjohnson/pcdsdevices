@@ -70,6 +70,7 @@ pcdsdevices.pulsepicker.PulsePicker
       ~PulsePicker.cmd_open
       ~PulsePicker.cmd_reset
       ~PulsePicker.component_names
+      ~PulsePicker.configuration_attrs
       ~PulsePicker.connected
       ~PulsePicker.egu
       ~PulsePicker.event_types
@@ -77,6 +78,7 @@ pcdsdevices.pulsepicker.PulsePicker
       ~PulsePicker.hints
       ~PulsePicker.in_states
       ~PulsePicker.inserted
+      ~PulsePicker.kind
       ~PulsePicker.limits
       ~PulsePicker.low_limit
       ~PulsePicker.mode
@@ -85,6 +87,7 @@ pcdsdevices.pulsepicker.PulsePicker
       ~PulsePicker.out_states
       ~PulsePicker.parent
       ~PulsePicker.position
+      ~PulsePicker.read_attrs
       ~PulsePicker.removed
       ~PulsePicker.report
       ~PulsePicker.root

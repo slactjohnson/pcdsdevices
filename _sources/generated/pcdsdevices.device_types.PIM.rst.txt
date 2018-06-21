@@ -57,6 +57,7 @@ pcdsdevices.device\_types.PIM
       ~PIM.SUB_START
       ~PIM.SUB_STATE
       ~PIM.component_names
+      ~PIM.configuration_attrs
       ~PIM.connected
       ~PIM.detector
       ~PIM.egu
@@ -65,6 +66,7 @@ pcdsdevices.device\_types.PIM
       ~PIM.hints
       ~PIM.in_states
       ~PIM.inserted
+      ~PIM.kind
       ~PIM.limits
       ~PIM.low_limit
       ~PIM.moving
@@ -72,6 +74,7 @@ pcdsdevices.device\_types.PIM
       ~PIM.out_states
       ~PIM.parent
       ~PIM.position
+      ~PIM.read_attrs
       ~PIM.readback
       ~PIM.removed
       ~PIM.report

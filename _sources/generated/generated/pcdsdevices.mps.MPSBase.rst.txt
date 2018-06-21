@@ -30,6 +30,7 @@ pcdsdevices.mps.MPSBase
       ~MPSBase.SUB_FAULT_CH
       ~MPSBase.connected
       ~MPSBase.event_types
+      ~MPSBase.kind
       ~MPSBase.name
       ~MPSBase.parent
       ~MPSBase.report

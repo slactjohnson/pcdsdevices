@@ -57,6 +57,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.SUB_START
       ~Diode.SUB_STATE
       ~Diode.component_names
+      ~Diode.configuration_attrs
       ~Diode.connected
       ~Diode.egu
       ~Diode.event_types
@@ -64,6 +65,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.hints
       ~Diode.in_states
       ~Diode.inserted
+      ~Diode.kind
       ~Diode.limits
       ~Diode.low_limit
       ~Diode.moving
@@ -71,6 +73,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.out_states
       ~Diode.parent
       ~Diode.position
+      ~Diode.read_attrs
       ~Diode.readback
       ~Diode.removed
       ~Diode.report

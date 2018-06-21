@@ -58,6 +58,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.actuate
       ~SlitPositioner.actuate_value
       ~SlitPositioner.component_names
+      ~SlitPositioner.configuration_attrs
       ~SlitPositioner.connected
       ~SlitPositioner.done
       ~SlitPositioner.done_value
@@ -65,6 +66,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.event_types
       ~SlitPositioner.high_limit
       ~SlitPositioner.hints
+      ~SlitPositioner.kind
       ~SlitPositioner.limits
       ~SlitPositioner.low_limit
       ~SlitPositioner.moving
@@ -72,6 +74,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.parent
       ~SlitPositioner.position
       ~SlitPositioner.put_complete
+      ~SlitPositioner.read_attrs
       ~SlitPositioner.readback
       ~SlitPositioner.report
       ~SlitPositioner.root

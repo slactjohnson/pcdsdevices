@@ -58,15 +58,18 @@ pcdsdevices.slits.Slits
       ~Slits.blocked
       ~Slits.close_cmd
       ~Slits.component_names
+      ~Slits.configuration_attrs
       ~Slits.connected
       ~Slits.current_aperture
       ~Slits.event_types
       ~Slits.hints
       ~Slits.inserted
+      ~Slits.kind
       ~Slits.name
       ~Slits.open_cmd
       ~Slits.parent
       ~Slits.position
+      ~Slits.read_attrs
       ~Slits.removed
       ~Slits.report
       ~Slits.root

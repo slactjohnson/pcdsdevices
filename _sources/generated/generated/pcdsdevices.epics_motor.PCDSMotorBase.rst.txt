@@ -23,6 +23,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.get
       ~PCDSMotorBase.get_device_tuple
       ~PCDSMotorBase.get_instantiated_signals
+      ~PCDSMotorBase.go
       ~PCDSMotorBase.home
       ~PCDSMotorBase.move
       ~PCDSMotorBase.mv
@@ -61,6 +62,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.SUB_START
       ~PCDSMotorBase.acceleration
       ~PCDSMotorBase.component_names
+      ~PCDSMotorBase.configuration_attrs
       ~PCDSMotorBase.connected
       ~PCDSMotorBase.direction_of_travel
       ~PCDSMotorBase.disabled
@@ -72,6 +74,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.hints
       ~PCDSMotorBase.home_forward
       ~PCDSMotorBase.home_reverse
+      ~PCDSMotorBase.kind
       ~PCDSMotorBase.limits
       ~PCDSMotorBase.low_limit
       ~PCDSMotorBase.low_limit_switch
@@ -79,6 +82,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.motor_done_move
       ~PCDSMotorBase.motor_egu
       ~PCDSMotorBase.motor_is_moving
+      ~PCDSMotorBase.motor_spg
       ~PCDSMotorBase.motor_stop
       ~PCDSMotorBase.moving
       ~PCDSMotorBase.name
@@ -86,12 +90,14 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.parent
       ~PCDSMotorBase.position
       ~PCDSMotorBase.precision
+      ~PCDSMotorBase.read_attrs
       ~PCDSMotorBase.report
       ~PCDSMotorBase.root
       ~PCDSMotorBase.set_use_switch
       ~PCDSMotorBase.settle_time
       ~PCDSMotorBase.signal_names
       ~PCDSMotorBase.timeout
+      ~PCDSMotorBase.tolerated_alarm
       ~PCDSMotorBase.trigger_signals
       ~PCDSMotorBase.user_offset
       ~PCDSMotorBase.user_offset_dir

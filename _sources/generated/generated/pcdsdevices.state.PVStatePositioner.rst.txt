@@ -55,17 +55,20 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.SUB_START
       ~PVStatePositioner.SUB_STATE
       ~PVStatePositioner.component_names
+      ~PVStatePositioner.configuration_attrs
       ~PVStatePositioner.connected
       ~PVStatePositioner.egu
       ~PVStatePositioner.event_types
       ~PVStatePositioner.high_limit
       ~PVStatePositioner.hints
+      ~PVStatePositioner.kind
       ~PVStatePositioner.limits
       ~PVStatePositioner.low_limit
       ~PVStatePositioner.moving
       ~PVStatePositioner.name
       ~PVStatePositioner.parent
       ~PVStatePositioner.position
+      ~PVStatePositioner.read_attrs
       ~PVStatePositioner.report
       ~PVStatePositioner.root
       ~PVStatePositioner.settle_time

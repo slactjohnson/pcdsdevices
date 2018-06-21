@@ -28,6 +28,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.get
       ~IMS.get_device_tuple
       ~IMS.get_instantiated_signals
+      ~IMS.go
       ~IMS.home
       ~IMS.move
       ~IMS.mv
@@ -68,6 +69,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.acceleration
       ~IMS.bit_status
       ~IMS.component_names
+      ~IMS.configuration_attrs
       ~IMS.connected
       ~IMS.direction_of_travel
       ~IMS.disabled
@@ -80,6 +82,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.hints
       ~IMS.home_forward
       ~IMS.home_reverse
+      ~IMS.kind
       ~IMS.limits
       ~IMS.low_limit
       ~IMS.low_limit_switch
@@ -87,6 +90,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.motor_done_move
       ~IMS.motor_egu
       ~IMS.motor_is_moving
+      ~IMS.motor_spg
       ~IMS.motor_stop
       ~IMS.moving
       ~IMS.name
@@ -95,6 +99,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.part_number
       ~IMS.position
       ~IMS.precision
+      ~IMS.read_attrs
       ~IMS.reinit_command
       ~IMS.report
       ~IMS.root
@@ -103,6 +108,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.settle_time
       ~IMS.signal_names
       ~IMS.timeout
+      ~IMS.tolerated_alarm
       ~IMS.trigger_signals
       ~IMS.user_offset
       ~IMS.user_offset_dir

@@ -52,9 +52,12 @@ pcdsdevices.device\_types.EventSequencer
    
       ~EventSequencer.SUB_ACQ_DONE
       ~EventSequencer.component_names
+      ~EventSequencer.configuration_attrs
       ~EventSequencer.connected
       ~EventSequencer.current_step
       ~EventSequencer.event_types
+      ~EventSequencer.hints
+      ~EventSequencer.kind
       ~EventSequencer.name
       ~EventSequencer.next_sync
       ~EventSequencer.parent
@@ -63,6 +66,7 @@ pcdsdevices.device\_types.EventSequencer
       ~EventSequencer.play_mode
       ~EventSequencer.play_status
       ~EventSequencer.pulse_req
+      ~EventSequencer.read_attrs
       ~EventSequencer.report
       ~EventSequencer.root
       ~EventSequencer.sequence_length

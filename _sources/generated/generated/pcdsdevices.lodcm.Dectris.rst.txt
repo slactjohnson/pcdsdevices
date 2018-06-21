@@ -57,6 +57,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.SUB_START
       ~Dectris.SUB_STATE
       ~Dectris.component_names
+      ~Dectris.configuration_attrs
       ~Dectris.connected
       ~Dectris.egu
       ~Dectris.event_types
@@ -64,6 +65,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.hints
       ~Dectris.in_states
       ~Dectris.inserted
+      ~Dectris.kind
       ~Dectris.limits
       ~Dectris.low_limit
       ~Dectris.moving
@@ -71,6 +73,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.out_states
       ~Dectris.parent
       ~Dectris.position
+      ~Dectris.read_attrs
       ~Dectris.readback
       ~Dectris.removed
       ~Dectris.report

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PMC100.resume &mdash; PCDS Devices 0.7.0+20.g40ee15a documentation</title>
+  <title>pcdsdevices.device_types.PMC100.resume &mdash; PCDS Devices 0.7.0+30.gbd1e31b documentation</title>
   
 
   
@@ -24,8 +24,7 @@
 
   
 
-  
-    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -59,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+20.g40ee15a
+                0.7.0+30.gbd1e31b
               </div>
             
           
@@ -112,6 +111,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get.html">pcdsdevices.device_types.PMC100.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_device_tuple.html">pcdsdevices.device_types.PMC100.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_instantiated_signals.html">pcdsdevices.device_types.PMC100.get_instantiated_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.go.html">pcdsdevices.device_types.PMC100.go</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.home.html">pcdsdevices.device_types.PMC100.home</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.move.html">pcdsdevices.device_types.PMC100.move</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.mv.html">pcdsdevices.device_types.PMC100.mv</a></li>
@@ -222,11 +222,10 @@
 <h1>pcdsdevices.device_types.PMC100.resume<a class="headerlink" href="#pcdsdevices-device-types-pmc100-resume" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.device_types.PMC100.resume">
-<code class="descclassname">PMC100.</code><code class="descname">resume</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pcdsdevices.device_types.PMC100.resume" title="Permalink to this definition">¶</a></dt>
-<dd><p>Resume a device from a ‘paused’ state</p>
-<p>This is called by the <code class="xref py py-obj docutils literal notranslate"><span class="pre">bluesky.run_engine.RunEngine</span></code>
-when it resumes from an interruption and is responsible for
-ensuring that the device is ready to take data again.</p>
+<code class="descclassname">PMC100.</code><code class="descname">resume</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.PMC100.resume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resumes paused movement.</p>
+<p>Sets motor ready to move or resumes a paused move
+(same as &lt;motor&gt;.go()).</p>
 </dd></dl>
 
 </div>
@@ -273,7 +272,7 @@ ensuring that the device is ready to take data again.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.7.0+20.g40ee15a',
+            VERSION:'0.7.0+30.gbd1e31b',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
@@ -287,10 +286,7 @@ ensuring that the device is ready to take data again.</p>
 
   
 
-  
-  
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

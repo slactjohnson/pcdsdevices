@@ -57,6 +57,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.SUB_START
       ~YagLom.SUB_STATE
       ~YagLom.component_names
+      ~YagLom.configuration_attrs
       ~YagLom.connected
       ~YagLom.egu
       ~YagLom.event_types
@@ -64,6 +65,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.hints
       ~YagLom.in_states
       ~YagLom.inserted
+      ~YagLom.kind
       ~YagLom.limits
       ~YagLom.low_limit
       ~YagLom.moving
@@ -71,6 +73,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.out_states
       ~YagLom.parent
       ~YagLom.position
+      ~YagLom.read_attrs
       ~YagLom.readback
       ~YagLom.removed
       ~YagLom.report

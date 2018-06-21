@@ -48,13 +48,17 @@ pcdsdevices.mps.MPSLimits
       ~MPSLimits.SUB_FAULT_CH
       ~MPSLimits.bypassed
       ~MPSLimits.component_names
+      ~MPSLimits.configuration_attrs
       ~MPSLimits.connected
       ~MPSLimits.event_types
       ~MPSLimits.faulted
+      ~MPSLimits.hints
       ~MPSLimits.in_limit
+      ~MPSLimits.kind
       ~MPSLimits.name
       ~MPSLimits.out_limit
       ~MPSLimits.parent
+      ~MPSLimits.read_attrs
       ~MPSLimits.report
       ~MPSLimits.root
       ~MPSLimits.signal_names

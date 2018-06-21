@@ -58,6 +58,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.actuate
       ~Pitch.actuate_value
       ~Pitch.component_names
+      ~Pitch.configuration_attrs
       ~Pitch.connected
       ~Pitch.done
       ~Pitch.done_value
@@ -68,6 +69,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.high_limit_switch
       ~Pitch.hints
       ~Pitch.interlock
+      ~Pitch.kind
       ~Pitch.limits
       ~Pitch.low_limit
       ~Pitch.low_limit_switch
@@ -78,6 +80,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.piezo_volts
       ~Pitch.position
       ~Pitch.put_complete
+      ~Pitch.read_attrs
       ~Pitch.readback
       ~Pitch.report
       ~Pitch.root

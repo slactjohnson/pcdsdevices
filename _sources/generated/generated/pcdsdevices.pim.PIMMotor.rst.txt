@@ -57,6 +57,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.SUB_START
       ~PIMMotor.SUB_STATE
       ~PIMMotor.component_names
+      ~PIMMotor.configuration_attrs
       ~PIMMotor.connected
       ~PIMMotor.egu
       ~PIMMotor.event_types
@@ -64,6 +65,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.hints
       ~PIMMotor.in_states
       ~PIMMotor.inserted
+      ~PIMMotor.kind
       ~PIMMotor.limits
       ~PIMMotor.low_limit
       ~PIMMotor.moving
@@ -71,6 +73,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.out_states
       ~PIMMotor.parent
       ~PIMMotor.position
+      ~PIMMotor.read_attrs
       ~PIMMotor.readback
       ~PIMMotor.removed
       ~PIMMotor.report

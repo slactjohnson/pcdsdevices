@@ -41,6 +41,7 @@ pcdsdevices.state.PVStateSignal
       ~PVStateSignal.event_types
       ~PVStateSignal.high_limit
       ~PVStateSignal.hints
+      ~PVStateSignal.kind
       ~PVStateSignal.limits
       ~PVStateSignal.low_limit
       ~PVStateSignal.name

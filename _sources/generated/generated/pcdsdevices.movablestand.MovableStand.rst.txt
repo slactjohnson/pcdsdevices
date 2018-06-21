@@ -57,6 +57,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.SUB_START
       ~MovableStand.SUB_STATE
       ~MovableStand.component_names
+      ~MovableStand.configuration_attrs
       ~MovableStand.connected
       ~MovableStand.egu
       ~MovableStand.event_types
@@ -65,6 +66,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.in_limit
       ~MovableStand.in_states
       ~MovableStand.inserted
+      ~MovableStand.kind
       ~MovableStand.limits
       ~MovableStand.low_limit
       ~MovableStand.moving
@@ -73,6 +75,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.out_states
       ~MovableStand.parent
       ~MovableStand.position
+      ~MovableStand.read_attrs
       ~MovableStand.removed
       ~MovableStand.report
       ~MovableStand.root

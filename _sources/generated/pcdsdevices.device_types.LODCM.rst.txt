@@ -59,6 +59,7 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.SUB_STATE
       ~LODCM.branches
       ~LODCM.component_names
+      ~LODCM.configuration_attrs
       ~LODCM.connected
       ~LODCM.dectris
       ~LODCM.destination
@@ -70,6 +71,7 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.hints
       ~LODCM.in_states
       ~LODCM.inserted
+      ~LODCM.kind
       ~LODCM.limits
       ~LODCM.low_limit
       ~LODCM.moving
@@ -77,6 +79,7 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.out_states
       ~LODCM.parent
       ~LODCM.position
+      ~LODCM.read_attrs
       ~LODCM.readback
       ~LODCM.removed
       ~LODCM.report

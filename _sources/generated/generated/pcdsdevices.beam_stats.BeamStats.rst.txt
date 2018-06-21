@@ -46,10 +46,12 @@ pcdsdevices.beam\_stats.BeamStats
    
       ~BeamStats.SUB_ACQ_DONE
       ~BeamStats.component_names
+      ~BeamStats.configuration_attrs
       ~BeamStats.connected
       ~BeamStats.ev
       ~BeamStats.event_types
       ~BeamStats.hints
+      ~BeamStats.kind
       ~BeamStats.mj
       ~BeamStats.mj_avg
       ~BeamStats.mj_buffersize
@@ -57,6 +59,7 @@ pcdsdevices.beam\_stats.BeamStats
       ~BeamStats.owner
       ~BeamStats.parent
       ~BeamStats.rate
+      ~BeamStats.read_attrs
       ~BeamStats.report
       ~BeamStats.root
       ~BeamStats.signal_names

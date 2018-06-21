@@ -49,12 +49,16 @@ pcdsdevices.mps.MPS
       ~MPS.bypass
       ~MPS.bypassed
       ~MPS.component_names
+      ~MPS.configuration_attrs
       ~MPS.connected
       ~MPS.event_types
       ~MPS.fault
       ~MPS.faulted
+      ~MPS.hints
+      ~MPS.kind
       ~MPS.name
       ~MPS.parent
+      ~MPS.read_attrs
       ~MPS.report
       ~MPS.root
       ~MPS.signal_names

@@ -41,6 +41,7 @@ pcdsdevices.signal.AggregateSignal
       ~AggregateSignal.event_types
       ~AggregateSignal.high_limit
       ~AggregateSignal.hints
+      ~AggregateSignal.kind
       ~AggregateSignal.limits
       ~AggregateSignal.low_limit
       ~AggregateSignal.name

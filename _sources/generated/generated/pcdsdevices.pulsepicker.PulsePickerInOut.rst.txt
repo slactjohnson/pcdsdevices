@@ -70,6 +70,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.cmd_open
       ~PulsePickerInOut.cmd_reset
       ~PulsePickerInOut.component_names
+      ~PulsePickerInOut.configuration_attrs
       ~PulsePickerInOut.connected
       ~PulsePickerInOut.egu
       ~PulsePickerInOut.event_types
@@ -78,6 +79,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.in_states
       ~PulsePickerInOut.inout
       ~PulsePickerInOut.inserted
+      ~PulsePickerInOut.kind
       ~PulsePickerInOut.limits
       ~PulsePickerInOut.low_limit
       ~PulsePickerInOut.mode
@@ -86,6 +88,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.out_states
       ~PulsePickerInOut.parent
       ~PulsePickerInOut.position
+      ~PulsePickerInOut.read_attrs
       ~PulsePickerInOut.removed
       ~PulsePickerInOut.report
       ~PulsePickerInOut.root

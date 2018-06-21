@@ -23,6 +23,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.get
       ~PMC100.get_device_tuple
       ~PMC100.get_instantiated_signals
+      ~PMC100.go
       ~PMC100.home
       ~PMC100.move
       ~PMC100.mv
@@ -61,6 +62,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.SUB_START
       ~PMC100.acceleration
       ~PMC100.component_names
+      ~PMC100.configuration_attrs
       ~PMC100.connected
       ~PMC100.direction_of_travel
       ~PMC100.disabled
@@ -72,6 +74,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.hints
       ~PMC100.home_forward
       ~PMC100.home_reverse
+      ~PMC100.kind
       ~PMC100.limits
       ~PMC100.low_limit
       ~PMC100.low_limit_switch
@@ -79,6 +82,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.motor_done_move
       ~PMC100.motor_egu
       ~PMC100.motor_is_moving
+      ~PMC100.motor_spg
       ~PMC100.motor_stop
       ~PMC100.moving
       ~PMC100.name
@@ -86,12 +90,14 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.parent
       ~PMC100.position
       ~PMC100.precision
+      ~PMC100.read_attrs
       ~PMC100.report
       ~PMC100.root
       ~PMC100.set_use_switch
       ~PMC100.settle_time
       ~PMC100.signal_names
       ~PMC100.timeout
+      ~PMC100.tolerated_alarm
       ~PMC100.trigger_signals
       ~PMC100.user_offset
       ~PMC100.user_offset_dir

@@ -57,6 +57,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.SUB_START
       ~Foil.SUB_STATE
       ~Foil.component_names
+      ~Foil.configuration_attrs
       ~Foil.connected
       ~Foil.egu
       ~Foil.event_types
@@ -64,6 +65,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.hints
       ~Foil.in_states
       ~Foil.inserted
+      ~Foil.kind
       ~Foil.limits
       ~Foil.low_limit
       ~Foil.moving
@@ -71,6 +73,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.out_states
       ~Foil.parent
       ~Foil.position
+      ~Foil.read_attrs
       ~Foil.readback
       ~Foil.removed
       ~Foil.report

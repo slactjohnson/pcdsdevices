@@ -54,6 +54,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.SUB_START
       ~EpicsMotor.acceleration
       ~EpicsMotor.component_names
+      ~EpicsMotor.configuration_attrs
       ~EpicsMotor.connected
       ~EpicsMotor.direction_of_travel
       ~EpicsMotor.egu
@@ -63,6 +64,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.hints
       ~EpicsMotor.home_forward
       ~EpicsMotor.home_reverse
+      ~EpicsMotor.kind
       ~EpicsMotor.limits
       ~EpicsMotor.low_limit
       ~EpicsMotor.low_limit_switch
@@ -76,12 +78,14 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.parent
       ~EpicsMotor.position
       ~EpicsMotor.precision
+      ~EpicsMotor.read_attrs
       ~EpicsMotor.report
       ~EpicsMotor.root
       ~EpicsMotor.set_use_switch
       ~EpicsMotor.settle_time
       ~EpicsMotor.signal_names
       ~EpicsMotor.timeout
+      ~EpicsMotor.tolerated_alarm
       ~EpicsMotor.trigger_signals
       ~EpicsMotor.user_offset
       ~EpicsMotor.user_offset_dir

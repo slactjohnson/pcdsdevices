@@ -57,6 +57,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.SUB_START
       ~InOutRecordPositioner.SUB_STATE
       ~InOutRecordPositioner.component_names
+      ~InOutRecordPositioner.configuration_attrs
       ~InOutRecordPositioner.connected
       ~InOutRecordPositioner.egu
       ~InOutRecordPositioner.event_types
@@ -64,6 +65,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.hints
       ~InOutRecordPositioner.in_states
       ~InOutRecordPositioner.inserted
+      ~InOutRecordPositioner.kind
       ~InOutRecordPositioner.limits
       ~InOutRecordPositioner.low_limit
       ~InOutRecordPositioner.moving
@@ -71,6 +73,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.out_states
       ~InOutRecordPositioner.parent
       ~InOutRecordPositioner.position
+      ~InOutRecordPositioner.read_attrs
       ~InOutRecordPositioner.readback
       ~InOutRecordPositioner.removed
       ~InOutRecordPositioner.report

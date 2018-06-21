@@ -57,6 +57,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.SUB_START
       ~TTReflaser.SUB_STATE
       ~TTReflaser.component_names
+      ~TTReflaser.configuration_attrs
       ~TTReflaser.connected
       ~TTReflaser.egu
       ~TTReflaser.event_types
@@ -64,6 +65,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.hints
       ~TTReflaser.in_states
       ~TTReflaser.inserted
+      ~TTReflaser.kind
       ~TTReflaser.limits
       ~TTReflaser.low_limit
       ~TTReflaser.moving
@@ -71,6 +73,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.out_states
       ~TTReflaser.parent
       ~TTReflaser.position
+      ~TTReflaser.read_attrs
       ~TTReflaser.readback
       ~TTReflaser.removed
       ~TTReflaser.report

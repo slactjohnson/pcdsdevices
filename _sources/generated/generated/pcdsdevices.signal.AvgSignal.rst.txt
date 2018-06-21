@@ -42,6 +42,7 @@ pcdsdevices.signal.AvgSignal
       ~AvgSignal.event_types
       ~AvgSignal.high_limit
       ~AvgSignal.hints
+      ~AvgSignal.kind
       ~AvgSignal.limits
       ~AvgSignal.low_limit
       ~AvgSignal.name

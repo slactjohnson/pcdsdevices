@@ -57,6 +57,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.SUB_START
       ~Filter.SUB_STATE
       ~Filter.component_names
+      ~Filter.configuration_attrs
       ~Filter.connected
       ~Filter.egu
       ~Filter.event_types
@@ -64,6 +65,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.hints
       ~Filter.in_states
       ~Filter.inserted
+      ~Filter.kind
       ~Filter.limits
       ~Filter.low_limit
       ~Filter.material
@@ -72,6 +74,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.out_states
       ~Filter.parent
       ~Filter.position
+      ~Filter.read_attrs
       ~Filter.removed
       ~Filter.report
       ~Filter.root

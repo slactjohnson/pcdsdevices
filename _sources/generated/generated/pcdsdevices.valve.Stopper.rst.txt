@@ -61,6 +61,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.closed_limit
       ~Stopper.command
       ~Stopper.component_names
+      ~Stopper.configuration_attrs
       ~Stopper.connected
       ~Stopper.egu
       ~Stopper.event_types
@@ -68,6 +69,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.hints
       ~Stopper.in_states
       ~Stopper.inserted
+      ~Stopper.kind
       ~Stopper.limits
       ~Stopper.low_limit
       ~Stopper.moving
@@ -76,6 +78,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.out_states
       ~Stopper.parent
       ~Stopper.position
+      ~Stopper.read_attrs
       ~Stopper.removed
       ~Stopper.report
       ~Stopper.root

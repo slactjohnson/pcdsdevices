@@ -57,6 +57,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.SUB_START
       ~InOutPVStatePositioner.SUB_STATE
       ~InOutPVStatePositioner.component_names
+      ~InOutPVStatePositioner.configuration_attrs
       ~InOutPVStatePositioner.connected
       ~InOutPVStatePositioner.egu
       ~InOutPVStatePositioner.event_types
@@ -64,6 +65,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.hints
       ~InOutPVStatePositioner.in_states
       ~InOutPVStatePositioner.inserted
+      ~InOutPVStatePositioner.kind
       ~InOutPVStatePositioner.limits
       ~InOutPVStatePositioner.low_limit
       ~InOutPVStatePositioner.moving
@@ -71,6 +73,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.out_states
       ~InOutPVStatePositioner.parent
       ~InOutPVStatePositioner.position
+      ~InOutPVStatePositioner.read_attrs
       ~InOutPVStatePositioner.removed
       ~InOutPVStatePositioner.report
       ~InOutPVStatePositioner.root

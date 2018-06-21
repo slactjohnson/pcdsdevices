@@ -57,6 +57,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.SUB_START
       ~IPM.SUB_STATE
       ~IPM.component_names
+      ~IPM.configuration_attrs
       ~IPM.connected
       ~IPM.diode
       ~IPM.egu
@@ -65,6 +66,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.hints
       ~IPM.in_states
       ~IPM.inserted
+      ~IPM.kind
       ~IPM.limits
       ~IPM.low_limit
       ~IPM.moving
@@ -72,6 +74,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.out_states
       ~IPM.parent
       ~IPM.position
+      ~IPM.read_attrs
       ~IPM.readback
       ~IPM.removed
       ~IPM.report

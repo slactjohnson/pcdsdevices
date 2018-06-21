@@ -61,6 +61,7 @@ pcdsdevices.valve.GateValve
       ~GateValve.closed_limit
       ~GateValve.command
       ~GateValve.component_names
+      ~GateValve.configuration_attrs
       ~GateValve.connected
       ~GateValve.egu
       ~GateValve.event_types
@@ -70,6 +71,7 @@ pcdsdevices.valve.GateValve
       ~GateValve.inserted
       ~GateValve.interlock
       ~GateValve.interlocked
+      ~GateValve.kind
       ~GateValve.limits
       ~GateValve.low_limit
       ~GateValve.moving
@@ -78,6 +80,7 @@ pcdsdevices.valve.GateValve
       ~GateValve.out_states
       ~GateValve.parent
       ~GateValve.position
+      ~GateValve.read_attrs
       ~GateValve.removed
       ~GateValve.report
       ~GateValve.root

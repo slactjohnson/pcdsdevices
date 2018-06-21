@@ -57,6 +57,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.SUB_START
       ~XFLS.SUB_STATE
       ~XFLS.component_names
+      ~XFLS.configuration_attrs
       ~XFLS.connected
       ~XFLS.egu
       ~XFLS.event_types
@@ -64,6 +65,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.hints
       ~XFLS.in_states
       ~XFLS.inserted
+      ~XFLS.kind
       ~XFLS.limits
       ~XFLS.low_limit
       ~XFLS.moving
@@ -71,6 +73,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.out_states
       ~XFLS.parent
       ~XFLS.position
+      ~XFLS.read_attrs
       ~XFLS.readback
       ~XFLS.removed
       ~XFLS.report

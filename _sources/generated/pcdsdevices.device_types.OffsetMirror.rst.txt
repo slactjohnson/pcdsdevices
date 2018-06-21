@@ -46,12 +46,16 @@ pcdsdevices.device\_types.OffsetMirror
    
       ~OffsetMirror.SUB_ACQ_DONE
       ~OffsetMirror.component_names
+      ~OffsetMirror.configuration_attrs
       ~OffsetMirror.connected
       ~OffsetMirror.event_types
+      ~OffsetMirror.hints
       ~OffsetMirror.inserted
+      ~OffsetMirror.kind
       ~OffsetMirror.name
       ~OffsetMirror.parent
       ~OffsetMirror.pitch
+      ~OffsetMirror.read_attrs
       ~OffsetMirror.removed
       ~OffsetMirror.report
       ~OffsetMirror.root

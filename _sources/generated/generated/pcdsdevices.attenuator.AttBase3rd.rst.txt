@@ -62,6 +62,7 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.actuate_value
       ~AttBase3rd.calcpend
       ~AttBase3rd.component_names
+      ~AttBase3rd.configuration_attrs
       ~AttBase3rd.connected
       ~AttBase3rd.done
       ~AttBase3rd.done_value
@@ -72,6 +73,7 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.high_limit
       ~AttBase3rd.hints
       ~AttBase3rd.inserted
+      ~AttBase3rd.kind
       ~AttBase3rd.limits
       ~AttBase3rd.low_limit
       ~AttBase3rd.moving
@@ -79,6 +81,7 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.parent
       ~AttBase3rd.position
       ~AttBase3rd.put_complete
+      ~AttBase3rd.read_attrs
       ~AttBase3rd.readback
       ~AttBase3rd.removed
       ~AttBase3rd.report

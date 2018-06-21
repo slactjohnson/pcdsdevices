@@ -58,6 +58,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.SUB_STATE
       ~PointingMirror.branches
       ~PointingMirror.component_names
+      ~PointingMirror.configuration_attrs
       ~PointingMirror.connected
       ~PointingMirror.destination
       ~PointingMirror.egu
@@ -66,6 +67,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.hints
       ~PointingMirror.in_states
       ~PointingMirror.inserted
+      ~PointingMirror.kind
       ~PointingMirror.limits
       ~PointingMirror.low_limit
       ~PointingMirror.moving
@@ -74,6 +76,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.parent
       ~PointingMirror.pitch
       ~PointingMirror.position
+      ~PointingMirror.read_attrs
       ~PointingMirror.readback
       ~PointingMirror.removed
       ~PointingMirror.report

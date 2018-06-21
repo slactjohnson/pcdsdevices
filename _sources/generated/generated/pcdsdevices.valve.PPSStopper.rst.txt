@@ -57,6 +57,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.SUB_START
       ~PPSStopper.SUB_STATE
       ~PPSStopper.component_names
+      ~PPSStopper.configuration_attrs
       ~PPSStopper.connected
       ~PPSStopper.egu
       ~PPSStopper.event_types
@@ -64,6 +65,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.hints
       ~PPSStopper.in_states
       ~PPSStopper.inserted
+      ~PPSStopper.kind
       ~PPSStopper.limits
       ~PPSStopper.low_limit
       ~PPSStopper.moving
@@ -71,6 +73,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.out_states
       ~PPSStopper.parent
       ~PPSStopper.position
+      ~PPSStopper.read_attrs
       ~PPSStopper.removed
       ~PPSStopper.report
       ~PPSStopper.root
