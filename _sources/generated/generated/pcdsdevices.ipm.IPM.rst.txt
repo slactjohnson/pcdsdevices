@@ -13,6 +13,7 @@ pcdsdevices.ipm.IPM
       :toctree: generated
    
       ~IPM.__init__
+      ~IPM.camonitor
       ~IPM.check_value
       ~IPM.clear_sub
       ~IPM.configure

@@ -13,6 +13,7 @@ pcdsdevices.mirror.PointingMirror
       :toctree: generated
    
       ~PointingMirror.__init__
+      ~PointingMirror.camonitor
       ~PointingMirror.check_value
       ~PointingMirror.clear_sub
       ~PointingMirror.configure

@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.camonitor
+===============================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.camonitor

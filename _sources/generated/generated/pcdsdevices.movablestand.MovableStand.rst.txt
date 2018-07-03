@@ -13,6 +13,7 @@ pcdsdevices.movablestand.MovableStand
       :toctree: generated
    
       ~MovableStand.__init__
+      ~MovableStand.camonitor
       ~MovableStand.check_value
       ~MovableStand.clear_sub
       ~MovableStand.configure

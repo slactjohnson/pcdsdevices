@@ -13,6 +13,7 @@ pcdsdevices.device\_types.Newport
       :toctree: generated
    
       ~Newport.__init__
+      ~Newport.camonitor
       ~Newport.check_value
       ~Newport.clear_sub
       ~Newport.configure

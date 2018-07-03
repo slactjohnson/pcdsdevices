@@ -13,6 +13,7 @@ pcdsdevices.mirror.OMMotor
       :toctree: generated
    
       ~OMMotor.__init__
+      ~OMMotor.camonitor
       ~OMMotor.check_value
       ~OMMotor.clear_sub
       ~OMMotor.configure

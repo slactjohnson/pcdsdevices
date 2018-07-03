@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AttBase3rd &mdash; PCDS Devices 0.7.0+72.g0174e86 documentation</title>
+  <title>pcdsdevices.attenuator.AttBase3rd &mdash; PCDS Devices 0.8.0+14.g6069909 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+72.g0174e86
+                0.8.0+14.g6069909
               </div>
             
           
@@ -100,6 +100,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.AttBase3rd</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.__init__.html">pcdsdevices.attenuator.AttBase3rd.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.camonitor.html">pcdsdevices.attenuator.AttBase3rd.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.check_value.html">pcdsdevices.attenuator.AttBase3rd.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.clear_sub.html">pcdsdevices.attenuator.AttBase3rd.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.configure.html">pcdsdevices.attenuator.AttBase3rd.configure</a></li>
@@ -242,100 +243,103 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.__init__.html#pcdsdevices.attenuator.AttBase3rd.__init__" title="pcdsdevices.attenuator.AttBase3rd.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
 <td>Initialize self.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.check_value.html#pcdsdevices.attenuator.AttBase3rd.check_value" title="pcdsdevices.attenuator.AttBase3rd.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.camonitor.html#pcdsdevices.attenuator.AttBase3rd.camonitor" title="pcdsdevices.attenuator.AttBase3rd.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
+<td>Updates current position of the motor.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.check_value.html#pcdsdevices.attenuator.AttBase3rd.check_value" title="pcdsdevices.attenuator.AttBase3rd.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</td>
 <td>Check that the position is within the soft limits</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.clear_sub.html#pcdsdevices.attenuator.AttBase3rd.clear_sub" title="pcdsdevices.attenuator.AttBase3rd.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.clear_sub.html#pcdsdevices.attenuator.AttBase3rd.clear_sub" title="pcdsdevices.attenuator.AttBase3rd.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.configure.html#pcdsdevices.attenuator.AttBase3rd.configure" title="pcdsdevices.attenuator.AttBase3rd.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.configure.html#pcdsdevices.attenuator.AttBase3rd.configure" title="pcdsdevices.attenuator.AttBase3rd.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.describe.html#pcdsdevices.attenuator.AttBase3rd.describe" title="pcdsdevices.attenuator.AttBase3rd.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.describe.html#pcdsdevices.attenuator.AttBase3rd.describe" title="pcdsdevices.attenuator.AttBase3rd.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
 <td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.describe_configuration.html#pcdsdevices.attenuator.AttBase3rd.describe_configuration" title="pcdsdevices.attenuator.AttBase3rd.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.describe_configuration.html#pcdsdevices.attenuator.AttBase3rd.describe_configuration" title="pcdsdevices.attenuator.AttBase3rd.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get.html#pcdsdevices.attenuator.AttBase3rd.get" title="pcdsdevices.attenuator.AttBase3rd.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get.html#pcdsdevices.attenuator.AttBase3rd.get" title="pcdsdevices.attenuator.AttBase3rd.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get_device_tuple.html#pcdsdevices.attenuator.AttBase3rd.get_device_tuple" title="pcdsdevices.attenuator.AttBase3rd.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get_device_tuple.html#pcdsdevices.attenuator.AttBase3rd.get_device_tuple" title="pcdsdevices.attenuator.AttBase3rd.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals.html#pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals" title="pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals.html#pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals" title="pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.insert.html#pcdsdevices.attenuator.AttBase3rd.insert" title="pcdsdevices.attenuator.AttBase3rd.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([wait,&nbsp;timeout,&nbsp;moved_cb])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.insert.html#pcdsdevices.attenuator.AttBase3rd.insert" title="pcdsdevices.attenuator.AttBase3rd.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([wait,&nbsp;timeout,&nbsp;moved_cb])</td>
 <td>Block the beam by setting transmission to zero</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.move.html#pcdsdevices.attenuator.AttBase3rd.move" title="pcdsdevices.attenuator.AttBase3rd.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.move.html#pcdsdevices.attenuator.AttBase3rd.move" title="pcdsdevices.attenuator.AttBase3rd.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
 <td>Move to a specified position, optionally waiting for motion to complete.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.mv.html#pcdsdevices.attenuator.AttBase3rd.mv" title="pcdsdevices.attenuator.AttBase3rd.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.mv.html#pcdsdevices.attenuator.AttBase3rd.mv" title="pcdsdevices.attenuator.AttBase3rd.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.mvr.html#pcdsdevices.attenuator.AttBase3rd.mvr" title="pcdsdevices.attenuator.AttBase3rd.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.mvr.html#pcdsdevices.attenuator.AttBase3rd.mvr" title="pcdsdevices.attenuator.AttBase3rd.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Relative move from this position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.pause.html#pcdsdevices.attenuator.AttBase3rd.pause" title="pcdsdevices.attenuator.AttBase3rd.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.pause.html#pcdsdevices.attenuator.AttBase3rd.pause" title="pcdsdevices.attenuator.AttBase3rd.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.put.html#pcdsdevices.attenuator.AttBase3rd.put" title="pcdsdevices.attenuator.AttBase3rd.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.put.html#pcdsdevices.attenuator.AttBase3rd.put" title="pcdsdevices.attenuator.AttBase3rd.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.read.html#pcdsdevices.attenuator.AttBase3rd.read" title="pcdsdevices.attenuator.AttBase3rd.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.read.html#pcdsdevices.attenuator.AttBase3rd.read" title="pcdsdevices.attenuator.AttBase3rd.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.read_configuration.html#pcdsdevices.attenuator.AttBase3rd.read_configuration" title="pcdsdevices.attenuator.AttBase3rd.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.read_configuration.html#pcdsdevices.attenuator.AttBase3rd.read_configuration" title="pcdsdevices.attenuator.AttBase3rd.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.remove.html#pcdsdevices.attenuator.AttBase3rd.remove" title="pcdsdevices.attenuator.AttBase3rd.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([wait,&nbsp;timeout,&nbsp;moved_cb])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.remove.html#pcdsdevices.attenuator.AttBase3rd.remove" title="pcdsdevices.attenuator.AttBase3rd.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([wait,&nbsp;timeout,&nbsp;moved_cb])</td>
 <td>Bring the attenuator fully out of the beam</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.resume.html#pcdsdevices.attenuator.AttBase3rd.resume" title="pcdsdevices.attenuator.AttBase3rd.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.resume.html#pcdsdevices.attenuator.AttBase3rd.resume" title="pcdsdevices.attenuator.AttBase3rd.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.set.html#pcdsdevices.attenuator.AttBase3rd.set" title="pcdsdevices.attenuator.AttBase3rd.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.set.html#pcdsdevices.attenuator.AttBase3rd.set" title="pcdsdevices.attenuator.AttBase3rd.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
 <td>Set a value and return a Status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.set_energy.html#pcdsdevices.attenuator.AttBase3rd.set_energy" title="pcdsdevices.attenuator.AttBase3rd.set_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_energy</span></code></a>([energy])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.set_energy.html#pcdsdevices.attenuator.AttBase3rd.set_energy" title="pcdsdevices.attenuator.AttBase3rd.set_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_energy</span></code></a>([energy])</td>
 <td>Sets the energy to use for transmission calculations.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.stage.html#pcdsdevices.attenuator.AttBase3rd.stage" title="pcdsdevices.attenuator.AttBase3rd.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.stage.html#pcdsdevices.attenuator.AttBase3rd.stage" title="pcdsdevices.attenuator.AttBase3rd.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Store the original positions of all filter blades.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.stop.html#pcdsdevices.attenuator.AttBase3rd.stop" title="pcdsdevices.attenuator.AttBase3rd.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.stop.html#pcdsdevices.attenuator.AttBase3rd.stop" title="pcdsdevices.attenuator.AttBase3rd.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.subscribe.html#pcdsdevices.attenuator.AttBase3rd.subscribe" title="pcdsdevices.attenuator.AttBase3rd.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.subscribe.html#pcdsdevices.attenuator.AttBase3rd.subscribe" title="pcdsdevices.attenuator.AttBase3rd.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.summary.html#pcdsdevices.attenuator.AttBase3rd.summary" title="pcdsdevices.attenuator.AttBase3rd.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.summary.html#pcdsdevices.attenuator.AttBase3rd.summary" title="pcdsdevices.attenuator.AttBase3rd.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.trigger.html#pcdsdevices.attenuator.AttBase3rd.trigger" title="pcdsdevices.attenuator.AttBase3rd.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.trigger.html#pcdsdevices.attenuator.AttBase3rd.trigger" title="pcdsdevices.attenuator.AttBase3rd.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.umv.html#pcdsdevices.attenuator.AttBase3rd.umv" title="pcdsdevices.attenuator.AttBase3rd.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.umv.html#pcdsdevices.attenuator.AttBase3rd.umv" title="pcdsdevices.attenuator.AttBase3rd.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
 <td>Move to a position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.umvr.html#pcdsdevices.attenuator.AttBase3rd.umvr" title="pcdsdevices.attenuator.AttBase3rd.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.umvr.html#pcdsdevices.attenuator.AttBase3rd.umvr" title="pcdsdevices.attenuator.AttBase3rd.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
 <td>Relative move from this position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.unstage.html#pcdsdevices.attenuator.AttBase3rd.unstage" title="pcdsdevices.attenuator.AttBase3rd.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.unstage.html#pcdsdevices.attenuator.AttBase3rd.unstage" title="pcdsdevices.attenuator.AttBase3rd.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.unsubscribe.html#pcdsdevices.attenuator.AttBase3rd.unsubscribe" title="pcdsdevices.attenuator.AttBase3rd.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.unsubscribe.html#pcdsdevices.attenuator.AttBase3rd.unsubscribe" title="pcdsdevices.attenuator.AttBase3rd.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.unsubscribe_all.html#pcdsdevices.attenuator.AttBase3rd.unsubscribe_all" title="pcdsdevices.attenuator.AttBase3rd.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.unsubscribe_all.html#pcdsdevices.attenuator.AttBase3rd.unsubscribe_all" title="pcdsdevices.attenuator.AttBase3rd.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wait_for_connection.html#pcdsdevices.attenuator.AttBase3rd.wait_for_connection" title="pcdsdevices.attenuator.AttBase3rd.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wait_for_connection.html#pcdsdevices.attenuator.AttBase3rd.wait_for_connection" title="pcdsdevices.attenuator.AttBase3rd.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wm.html#pcdsdevices.attenuator.AttBase3rd.wm" title="pcdsdevices.attenuator.AttBase3rd.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wm.html#pcdsdevices.attenuator.AttBase3rd.wm" title="pcdsdevices.attenuator.AttBase3rd.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -524,7 +528,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.7.0+72.g0174e86',
+            VERSION:'0.8.0+14.g6069909',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

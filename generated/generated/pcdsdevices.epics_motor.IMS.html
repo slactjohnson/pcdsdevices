@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.IMS &mdash; PCDS Devices 0.7.0+72.g0174e86 documentation</title>
+  <title>pcdsdevices.epics_motor.IMS &mdash; PCDS Devices 0.8.0+14.g6069909 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+72.g0174e86
+                0.8.0+14.g6069909
               </div>
             
           
@@ -101,6 +101,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.epics_motor.IMS</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.__init__.html">pcdsdevices.epics_motor.IMS.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.auto_setup.html">pcdsdevices.epics_motor.IMS.auto_setup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.camonitor.html">pcdsdevices.epics_motor.IMS.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.check_value.html">pcdsdevices.epics_motor.IMS.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_all_flags.html">pcdsdevices.epics_motor.IMS.clear_all_flags</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_error.html">pcdsdevices.epics_motor.IMS.clear_error</a></li>
@@ -266,121 +267,124 @@ in-progress move as failed.</li>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.auto_setup.html#pcdsdevices.epics_motor.IMS.auto_setup" title="pcdsdevices.epics_motor.IMS.auto_setup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">auto_setup</span></code></a>()</td>
 <td>Automated setup of the IMS motor</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.check_value.html#pcdsdevices.epics_motor.IMS.check_value" title="pcdsdevices.epics_motor.IMS.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.camonitor.html#pcdsdevices.epics_motor.IMS.camonitor" title="pcdsdevices.epics_motor.IMS.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
+<td>Updates current position of the motor.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.check_value.html#pcdsdevices.epics_motor.IMS.check_value" title="pcdsdevices.epics_motor.IMS.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Check if the motor is disabled Check if the value is within the soft limits of the motor.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_all_flags.html#pcdsdevices.epics_motor.IMS.clear_all_flags" title="pcdsdevices.epics_motor.IMS.clear_all_flags"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_all_flags</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_all_flags.html#pcdsdevices.epics_motor.IMS.clear_all_flags" title="pcdsdevices.epics_motor.IMS.clear_all_flags"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_all_flags</span></code></a>()</td>
 <td>Clear all the flags from the IMS motor</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_error.html#pcdsdevices.epics_motor.IMS.clear_error" title="pcdsdevices.epics_motor.IMS.clear_error"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_error</span></code></a>([wait,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_error.html#pcdsdevices.epics_motor.IMS.clear_error" title="pcdsdevices.epics_motor.IMS.clear_error"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_error</span></code></a>([wait,&nbsp;timeout])</td>
 <td>Clear error flag</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_powerup.html#pcdsdevices.epics_motor.IMS.clear_powerup" title="pcdsdevices.epics_motor.IMS.clear_powerup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_powerup</span></code></a>([wait,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_powerup.html#pcdsdevices.epics_motor.IMS.clear_powerup" title="pcdsdevices.epics_motor.IMS.clear_powerup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_powerup</span></code></a>([wait,&nbsp;timeout])</td>
 <td>Clear powerup flag</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_stall.html#pcdsdevices.epics_motor.IMS.clear_stall" title="pcdsdevices.epics_motor.IMS.clear_stall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_stall</span></code></a>([wait,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_stall.html#pcdsdevices.epics_motor.IMS.clear_stall" title="pcdsdevices.epics_motor.IMS.clear_stall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_stall</span></code></a>([wait,&nbsp;timeout])</td>
 <td>Clear stall flag</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_sub.html#pcdsdevices.epics_motor.IMS.clear_sub" title="pcdsdevices.epics_motor.IMS.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_sub.html#pcdsdevices.epics_motor.IMS.clear_sub" title="pcdsdevices.epics_motor.IMS.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.configure.html#pcdsdevices.epics_motor.IMS.configure" title="pcdsdevices.epics_motor.IMS.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.configure.html#pcdsdevices.epics_motor.IMS.configure" title="pcdsdevices.epics_motor.IMS.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.describe.html#pcdsdevices.epics_motor.IMS.describe" title="pcdsdevices.epics_motor.IMS.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.describe.html#pcdsdevices.epics_motor.IMS.describe" title="pcdsdevices.epics_motor.IMS.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
 <td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.describe_configuration.html#pcdsdevices.epics_motor.IMS.describe_configuration" title="pcdsdevices.epics_motor.IMS.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.describe_configuration.html#pcdsdevices.epics_motor.IMS.describe_configuration" title="pcdsdevices.epics_motor.IMS.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.disable.html#pcdsdevices.epics_motor.IMS.disable" title="pcdsdevices.epics_motor.IMS.disable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">disable</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.disable.html#pcdsdevices.epics_motor.IMS.disable" title="pcdsdevices.epics_motor.IMS.disable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">disable</span></code></a>()</td>
 <td>Sets the motor to disabled.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.enable.html#pcdsdevices.epics_motor.IMS.enable" title="pcdsdevices.epics_motor.IMS.enable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.enable.html#pcdsdevices.epics_motor.IMS.enable" title="pcdsdevices.epics_motor.IMS.enable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable</span></code></a>()</td>
 <td>Sets the motor to enabled.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get.html#pcdsdevices.epics_motor.IMS.get" title="pcdsdevices.epics_motor.IMS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get.html#pcdsdevices.epics_motor.IMS.get" title="pcdsdevices.epics_motor.IMS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_device_tuple.html#pcdsdevices.epics_motor.IMS.get_device_tuple" title="pcdsdevices.epics_motor.IMS.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_device_tuple.html#pcdsdevices.epics_motor.IMS.get_device_tuple" title="pcdsdevices.epics_motor.IMS.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.html#pcdsdevices.epics_motor.IMS.get_instantiated_signals" title="pcdsdevices.epics_motor.IMS.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.html#pcdsdevices.epics_motor.IMS.get_instantiated_signals" title="pcdsdevices.epics_motor.IMS.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.go.html#pcdsdevices.epics_motor.IMS.go" title="pcdsdevices.epics_motor.IMS.go"><code class="xref py py-obj docutils literal notranslate"><span class="pre">go</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.go.html#pcdsdevices.epics_motor.IMS.go" title="pcdsdevices.epics_motor.IMS.go"><code class="xref py py-obj docutils literal notranslate"><span class="pre">go</span></code></a>()</td>
 <td>Resumes paused movement.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.home.html#pcdsdevices.epics_motor.IMS.home" title="pcdsdevices.epics_motor.IMS.home"><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code></a>(direction[,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.home.html#pcdsdevices.epics_motor.IMS.home" title="pcdsdevices.epics_motor.IMS.home"><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code></a>(direction[,&nbsp;wait])</td>
 <td>Perform the default homing function in the desired direction</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.move.html#pcdsdevices.epics_motor.IMS.move" title="pcdsdevices.epics_motor.IMS.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.move.html#pcdsdevices.epics_motor.IMS.move" title="pcdsdevices.epics_motor.IMS.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait])</td>
 <td>Move to a specified position, optionally waiting for motion to complete.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.mv.html#pcdsdevices.epics_motor.IMS.mv" title="pcdsdevices.epics_motor.IMS.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.mv.html#pcdsdevices.epics_motor.IMS.mv" title="pcdsdevices.epics_motor.IMS.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.mvr.html#pcdsdevices.epics_motor.IMS.mvr" title="pcdsdevices.epics_motor.IMS.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.mvr.html#pcdsdevices.epics_motor.IMS.mvr" title="pcdsdevices.epics_motor.IMS.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Relative move from this position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.pause.html#pcdsdevices.epics_motor.IMS.pause" title="pcdsdevices.epics_motor.IMS.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.pause.html#pcdsdevices.epics_motor.IMS.pause" title="pcdsdevices.epics_motor.IMS.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Pauses a move.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.put.html#pcdsdevices.epics_motor.IMS.put" title="pcdsdevices.epics_motor.IMS.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.put.html#pcdsdevices.epics_motor.IMS.put" title="pcdsdevices.epics_motor.IMS.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.read.html#pcdsdevices.epics_motor.IMS.read" title="pcdsdevices.epics_motor.IMS.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.read.html#pcdsdevices.epics_motor.IMS.read" title="pcdsdevices.epics_motor.IMS.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.read_configuration.html#pcdsdevices.epics_motor.IMS.read_configuration" title="pcdsdevices.epics_motor.IMS.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.read_configuration.html#pcdsdevices.epics_motor.IMS.read_configuration" title="pcdsdevices.epics_motor.IMS.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.reinitialize.html#pcdsdevices.epics_motor.IMS.reinitialize" title="pcdsdevices.epics_motor.IMS.reinitialize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">reinitialize</span></code></a>([wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.reinitialize.html#pcdsdevices.epics_motor.IMS.reinitialize" title="pcdsdevices.epics_motor.IMS.reinitialize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">reinitialize</span></code></a>([wait])</td>
 <td>Reinitialize the IMS motor</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.resume.html#pcdsdevices.epics_motor.IMS.resume" title="pcdsdevices.epics_motor.IMS.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.resume.html#pcdsdevices.epics_motor.IMS.resume" title="pcdsdevices.epics_motor.IMS.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resumes paused movement.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.set.html#pcdsdevices.epics_motor.IMS.set" title="pcdsdevices.epics_motor.IMS.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.set.html#pcdsdevices.epics_motor.IMS.set" title="pcdsdevices.epics_motor.IMS.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
 <td>Set a value and return a Status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.set_current_position.html#pcdsdevices.epics_motor.IMS.set_current_position" title="pcdsdevices.epics_motor.IMS.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(pos)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.set_current_position.html#pcdsdevices.epics_motor.IMS.set_current_position" title="pcdsdevices.epics_motor.IMS.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(pos)</td>
 <td>Configure the motor user position to the given value</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.stage.html#pcdsdevices.epics_motor.IMS.stage" title="pcdsdevices.epics_motor.IMS.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.stage.html#pcdsdevices.epics_motor.IMS.stage" title="pcdsdevices.epics_motor.IMS.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the IMS motor</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.stop.html#pcdsdevices.epics_motor.IMS.stop" title="pcdsdevices.epics_motor.IMS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.stop.html#pcdsdevices.epics_motor.IMS.stop" title="pcdsdevices.epics_motor.IMS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</td>
 <td>Stops the motor.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.subscribe.html#pcdsdevices.epics_motor.IMS.subscribe" title="pcdsdevices.epics_motor.IMS.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.subscribe.html#pcdsdevices.epics_motor.IMS.subscribe" title="pcdsdevices.epics_motor.IMS.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.summary.html#pcdsdevices.epics_motor.IMS.summary" title="pcdsdevices.epics_motor.IMS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.summary.html#pcdsdevices.epics_motor.IMS.summary" title="pcdsdevices.epics_motor.IMS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.trigger.html#pcdsdevices.epics_motor.IMS.trigger" title="pcdsdevices.epics_motor.IMS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.trigger.html#pcdsdevices.epics_motor.IMS.trigger" title="pcdsdevices.epics_motor.IMS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.umv.html#pcdsdevices.epics_motor.IMS.umv" title="pcdsdevices.epics_motor.IMS.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.umv.html#pcdsdevices.epics_motor.IMS.umv" title="pcdsdevices.epics_motor.IMS.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
 <td>Move to a position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.umvr.html#pcdsdevices.epics_motor.IMS.umvr" title="pcdsdevices.epics_motor.IMS.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.umvr.html#pcdsdevices.epics_motor.IMS.umvr" title="pcdsdevices.epics_motor.IMS.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
 <td>Relative move from this position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.unstage.html#pcdsdevices.epics_motor.IMS.unstage" title="pcdsdevices.epics_motor.IMS.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.unstage.html#pcdsdevices.epics_motor.IMS.unstage" title="pcdsdevices.epics_motor.IMS.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.unsubscribe.html#pcdsdevices.epics_motor.IMS.unsubscribe" title="pcdsdevices.epics_motor.IMS.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.unsubscribe.html#pcdsdevices.epics_motor.IMS.unsubscribe" title="pcdsdevices.epics_motor.IMS.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.unsubscribe_all.html#pcdsdevices.epics_motor.IMS.unsubscribe_all" title="pcdsdevices.epics_motor.IMS.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.unsubscribe_all.html#pcdsdevices.epics_motor.IMS.unsubscribe_all" title="pcdsdevices.epics_motor.IMS.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.wait_for_connection.html#pcdsdevices.epics_motor.IMS.wait_for_connection" title="pcdsdevices.epics_motor.IMS.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.wait_for_connection.html#pcdsdevices.epics_motor.IMS.wait_for_connection" title="pcdsdevices.epics_motor.IMS.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.wm.html#pcdsdevices.epics_motor.IMS.wm" title="pcdsdevices.epics_motor.IMS.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.wm.html#pcdsdevices.epics_motor.IMS.wm" title="pcdsdevices.epics_motor.IMS.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -605,7 +609,7 @@ in-progress move as failed.</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.7.0+72.g0174e86',
+            VERSION:'0.8.0+14.g6069909',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

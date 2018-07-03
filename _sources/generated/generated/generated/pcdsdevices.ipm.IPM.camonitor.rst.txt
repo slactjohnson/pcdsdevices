@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM.camonitor
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM.camonitor

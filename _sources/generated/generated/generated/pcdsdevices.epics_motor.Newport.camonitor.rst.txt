@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.camonitor
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.camonitor

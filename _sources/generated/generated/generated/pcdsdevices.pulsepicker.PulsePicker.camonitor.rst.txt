@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.camonitor
+=============================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.camonitor

@@ -13,6 +13,7 @@ pcdsdevices.inout.InOutPositioner
       :toctree: generated
    
       ~InOutPositioner.__init__
+      ~InOutPositioner.camonitor
       ~InOutPositioner.check_value
       ~InOutPositioner.clear_sub
       ~InOutPositioner.configure

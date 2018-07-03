@@ -13,6 +13,7 @@ pcdsdevices.lodcm.YagLom
       :toctree: generated
    
       ~YagLom.__init__
+      ~YagLom.camonitor
       ~YagLom.check_value
       ~YagLom.clear_sub
       ~YagLom.configure

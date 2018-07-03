@@ -13,6 +13,7 @@ pcdsdevices.mirror.Pitch
       :toctree: generated
    
       ~Pitch.__init__
+      ~Pitch.camonitor
       ~Pitch.check_value
       ~Pitch.clear_sub
       ~Pitch.configure

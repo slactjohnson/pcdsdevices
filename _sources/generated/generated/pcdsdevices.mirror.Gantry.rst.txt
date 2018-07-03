@@ -13,6 +13,7 @@ pcdsdevices.mirror.Gantry
       :toctree: generated
    
       ~Gantry.__init__
+      ~Gantry.camonitor
       ~Gantry.check_value
       ~Gantry.clear_sub
       ~Gantry.configure

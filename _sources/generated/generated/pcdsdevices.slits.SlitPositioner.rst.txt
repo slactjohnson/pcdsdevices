@@ -13,6 +13,7 @@ pcdsdevices.slits.SlitPositioner
       :toctree: generated
    
       ~SlitPositioner.__init__
+      ~SlitPositioner.camonitor
       ~SlitPositioner.check_value
       ~SlitPositioner.clear_sub
       ~SlitPositioner.configure

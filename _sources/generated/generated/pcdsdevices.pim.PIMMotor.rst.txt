@@ -13,6 +13,7 @@ pcdsdevices.pim.PIMMotor
       :toctree: generated
    
       ~PIMMotor.__init__
+      ~PIMMotor.camonitor
       ~PIMMotor.check_value
       ~PIMMotor.clear_sub
       ~PIMMotor.configure

@@ -13,6 +13,7 @@ pcdsdevices.state.StatePositioner
       :toctree: generated
    
       ~StatePositioner.__init__
+      ~StatePositioner.camonitor
       ~StatePositioner.check_value
       ~StatePositioner.clear_sub
       ~StatePositioner.configure

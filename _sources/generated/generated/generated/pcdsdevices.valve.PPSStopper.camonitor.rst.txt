@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.camonitor
+======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.camonitor

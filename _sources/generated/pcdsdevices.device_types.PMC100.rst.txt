@@ -13,6 +13,7 @@ pcdsdevices.device\_types.PMC100
       :toctree: generated
    
       ~PMC100.__init__
+      ~PMC100.camonitor
       ~PMC100.check_value
       ~PMC100.clear_sub
       ~PMC100.configure

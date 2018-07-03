@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OMMotor &mdash; PCDS Devices 0.7.0+72.g0174e86 documentation</title>
+  <title>pcdsdevices.mirror.OMMotor &mdash; PCDS Devices 0.8.0+14.g6069909 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+72.g0174e86
+                0.8.0+14.g6069909
               </div>
             
           
@@ -106,6 +106,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mirror.Gantry.html">pcdsdevices.mirror.Gantry</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.mirror.OMMotor</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.__init__.html">pcdsdevices.mirror.OMMotor.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.camonitor.html">pcdsdevices.mirror.OMMotor.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.check_value.html">pcdsdevices.mirror.OMMotor.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.clear_sub.html">pcdsdevices.mirror.OMMotor.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.configure.html">pcdsdevices.mirror.OMMotor.configure</a></li>
@@ -252,91 +253,94 @@ in-progress move as failed.</li>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.__init__.html#pcdsdevices.mirror.OMMotor.__init__" title="pcdsdevices.mirror.OMMotor.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args,&nbsp;**kwargs)</td>
 <td>Initialize self.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.check_value.html#pcdsdevices.mirror.OMMotor.check_value" title="pcdsdevices.mirror.OMMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(position)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.camonitor.html#pcdsdevices.mirror.OMMotor.camonitor" title="pcdsdevices.mirror.OMMotor.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
+<td>Updates current position of the motor.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.check_value.html#pcdsdevices.mirror.OMMotor.check_value" title="pcdsdevices.mirror.OMMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(position)</td>
 <td>Checks to make sure the inputted value is both valid and within the soft limits of the motor.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.clear_sub.html#pcdsdevices.mirror.OMMotor.clear_sub" title="pcdsdevices.mirror.OMMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.clear_sub.html#pcdsdevices.mirror.OMMotor.clear_sub" title="pcdsdevices.mirror.OMMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.configure.html#pcdsdevices.mirror.OMMotor.configure" title="pcdsdevices.mirror.OMMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.configure.html#pcdsdevices.mirror.OMMotor.configure" title="pcdsdevices.mirror.OMMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.describe.html#pcdsdevices.mirror.OMMotor.describe" title="pcdsdevices.mirror.OMMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.describe.html#pcdsdevices.mirror.OMMotor.describe" title="pcdsdevices.mirror.OMMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
 <td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.describe_configuration.html#pcdsdevices.mirror.OMMotor.describe_configuration" title="pcdsdevices.mirror.OMMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.describe_configuration.html#pcdsdevices.mirror.OMMotor.describe_configuration" title="pcdsdevices.mirror.OMMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get.html#pcdsdevices.mirror.OMMotor.get" title="pcdsdevices.mirror.OMMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get.html#pcdsdevices.mirror.OMMotor.get" title="pcdsdevices.mirror.OMMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get_device_tuple.html#pcdsdevices.mirror.OMMotor.get_device_tuple" title="pcdsdevices.mirror.OMMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get_device_tuple.html#pcdsdevices.mirror.OMMotor.get_device_tuple" title="pcdsdevices.mirror.OMMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get_instantiated_signals.html#pcdsdevices.mirror.OMMotor.get_instantiated_signals" title="pcdsdevices.mirror.OMMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.get_instantiated_signals.html#pcdsdevices.mirror.OMMotor.get_instantiated_signals" title="pcdsdevices.mirror.OMMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.move.html#pcdsdevices.mirror.OMMotor.move" title="pcdsdevices.mirror.OMMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.move.html#pcdsdevices.mirror.OMMotor.move" title="pcdsdevices.mirror.OMMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
 <td>Move to a specified position, optionally waiting for motion to complete.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.mv.html#pcdsdevices.mirror.OMMotor.mv" title="pcdsdevices.mirror.OMMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.mv.html#pcdsdevices.mirror.OMMotor.mv" title="pcdsdevices.mirror.OMMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.mvr.html#pcdsdevices.mirror.OMMotor.mvr" title="pcdsdevices.mirror.OMMotor.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.mvr.html#pcdsdevices.mirror.OMMotor.mvr" title="pcdsdevices.mirror.OMMotor.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Relative move from this position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.pause.html#pcdsdevices.mirror.OMMotor.pause" title="pcdsdevices.mirror.OMMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.pause.html#pcdsdevices.mirror.OMMotor.pause" title="pcdsdevices.mirror.OMMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.put.html#pcdsdevices.mirror.OMMotor.put" title="pcdsdevices.mirror.OMMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.put.html#pcdsdevices.mirror.OMMotor.put" title="pcdsdevices.mirror.OMMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.read.html#pcdsdevices.mirror.OMMotor.read" title="pcdsdevices.mirror.OMMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.read.html#pcdsdevices.mirror.OMMotor.read" title="pcdsdevices.mirror.OMMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.read_configuration.html#pcdsdevices.mirror.OMMotor.read_configuration" title="pcdsdevices.mirror.OMMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.read_configuration.html#pcdsdevices.mirror.OMMotor.read_configuration" title="pcdsdevices.mirror.OMMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.resume.html#pcdsdevices.mirror.OMMotor.resume" title="pcdsdevices.mirror.OMMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.resume.html#pcdsdevices.mirror.OMMotor.resume" title="pcdsdevices.mirror.OMMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.set.html#pcdsdevices.mirror.OMMotor.set" title="pcdsdevices.mirror.OMMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.set.html#pcdsdevices.mirror.OMMotor.set" title="pcdsdevices.mirror.OMMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
 <td>Set a value and return a Status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.stage.html#pcdsdevices.mirror.OMMotor.stage" title="pcdsdevices.mirror.OMMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.stage.html#pcdsdevices.mirror.OMMotor.stage" title="pcdsdevices.mirror.OMMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.stop.html#pcdsdevices.mirror.OMMotor.stop" title="pcdsdevices.mirror.OMMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.stop.html#pcdsdevices.mirror.OMMotor.stop" title="pcdsdevices.mirror.OMMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.subscribe.html#pcdsdevices.mirror.OMMotor.subscribe" title="pcdsdevices.mirror.OMMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.subscribe.html#pcdsdevices.mirror.OMMotor.subscribe" title="pcdsdevices.mirror.OMMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.summary.html#pcdsdevices.mirror.OMMotor.summary" title="pcdsdevices.mirror.OMMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.summary.html#pcdsdevices.mirror.OMMotor.summary" title="pcdsdevices.mirror.OMMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.trigger.html#pcdsdevices.mirror.OMMotor.trigger" title="pcdsdevices.mirror.OMMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.trigger.html#pcdsdevices.mirror.OMMotor.trigger" title="pcdsdevices.mirror.OMMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.umv.html#pcdsdevices.mirror.OMMotor.umv" title="pcdsdevices.mirror.OMMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.umv.html#pcdsdevices.mirror.OMMotor.umv" title="pcdsdevices.mirror.OMMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
 <td>Move to a position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.umvr.html#pcdsdevices.mirror.OMMotor.umvr" title="pcdsdevices.mirror.OMMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.umvr.html#pcdsdevices.mirror.OMMotor.umvr" title="pcdsdevices.mirror.OMMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
 <td>Relative move from this position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.unstage.html#pcdsdevices.mirror.OMMotor.unstage" title="pcdsdevices.mirror.OMMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.unstage.html#pcdsdevices.mirror.OMMotor.unstage" title="pcdsdevices.mirror.OMMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.unsubscribe.html#pcdsdevices.mirror.OMMotor.unsubscribe" title="pcdsdevices.mirror.OMMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.unsubscribe.html#pcdsdevices.mirror.OMMotor.unsubscribe" title="pcdsdevices.mirror.OMMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.unsubscribe_all.html#pcdsdevices.mirror.OMMotor.unsubscribe_all" title="pcdsdevices.mirror.OMMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.unsubscribe_all.html#pcdsdevices.mirror.OMMotor.unsubscribe_all" title="pcdsdevices.mirror.OMMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.wait_for_connection.html#pcdsdevices.mirror.OMMotor.wait_for_connection" title="pcdsdevices.mirror.OMMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.wait_for_connection.html#pcdsdevices.mirror.OMMotor.wait_for_connection" title="pcdsdevices.mirror.OMMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.wm.html#pcdsdevices.mirror.OMMotor.wm" title="pcdsdevices.mirror.OMMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.wm.html#pcdsdevices.mirror.OMMotor.wm" title="pcdsdevices.mirror.OMMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -513,7 +517,7 @@ in-progress move as failed.</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.7.0+72.g0174e86',
+            VERSION:'0.8.0+14.g6069909',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

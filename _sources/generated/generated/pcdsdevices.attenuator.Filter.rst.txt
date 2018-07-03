@@ -13,6 +13,7 @@ pcdsdevices.attenuator.Filter
       :toctree: generated
    
       ~Filter.__init__
+      ~Filter.camonitor
       ~Filter.check_value
       ~Filter.clear_sub
       ~Filter.configure

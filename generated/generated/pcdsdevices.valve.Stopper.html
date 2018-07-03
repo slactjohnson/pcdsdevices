@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.Stopper &mdash; PCDS Devices 0.7.0+72.g0174e86 documentation</title>
+  <title>pcdsdevices.valve.Stopper &mdash; PCDS Devices 0.8.0+14.g6069909 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+72.g0174e86
+                0.8.0+14.g6069909
               </div>
             
           
@@ -117,6 +117,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.PPSStopper.html">pcdsdevices.valve.PPSStopper</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.valve.Stopper</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.__init__.html">pcdsdevices.valve.Stopper.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.camonitor.html">pcdsdevices.valve.Stopper.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.check_value.html">pcdsdevices.valve.Stopper.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.clear_sub.html">pcdsdevices.valve.Stopper.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.close.html">pcdsdevices.valve.Stopper.close</a></li>
@@ -260,97 +261,100 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.__init__.html#pcdsdevices.valve.Stopper.__init__" title="pcdsdevices.valve.Stopper.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
 <td>Initialize self.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.check_value.html#pcdsdevices.valve.Stopper.check_value" title="pcdsdevices.valve.Stopper.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.camonitor.html#pcdsdevices.valve.Stopper.camonitor" title="pcdsdevices.valve.Stopper.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
+<td>Updates current position of the motor.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.check_value.html#pcdsdevices.valve.Stopper.check_value" title="pcdsdevices.valve.Stopper.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Verify that a value is a valid set state, or raise an exception.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.clear_sub.html#pcdsdevices.valve.Stopper.clear_sub" title="pcdsdevices.valve.Stopper.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.clear_sub.html#pcdsdevices.valve.Stopper.clear_sub" title="pcdsdevices.valve.Stopper.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.close.html#pcdsdevices.valve.Stopper.close" title="pcdsdevices.valve.Stopper.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>(**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.close.html#pcdsdevices.valve.Stopper.close" title="pcdsdevices.valve.Stopper.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>(**kwargs)</td>
 <td>Close the stopper</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.configure.html#pcdsdevices.valve.Stopper.configure" title="pcdsdevices.valve.Stopper.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.configure.html#pcdsdevices.valve.Stopper.configure" title="pcdsdevices.valve.Stopper.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.describe.html#pcdsdevices.valve.Stopper.describe" title="pcdsdevices.valve.Stopper.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.describe.html#pcdsdevices.valve.Stopper.describe" title="pcdsdevices.valve.Stopper.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
 <td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.describe_configuration.html#pcdsdevices.valve.Stopper.describe_configuration" title="pcdsdevices.valve.Stopper.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.describe_configuration.html#pcdsdevices.valve.Stopper.describe_configuration" title="pcdsdevices.valve.Stopper.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get.html#pcdsdevices.valve.Stopper.get" title="pcdsdevices.valve.Stopper.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get.html#pcdsdevices.valve.Stopper.get" title="pcdsdevices.valve.Stopper.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get_device_tuple.html#pcdsdevices.valve.Stopper.get_device_tuple" title="pcdsdevices.valve.Stopper.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get_device_tuple.html#pcdsdevices.valve.Stopper.get_device_tuple" title="pcdsdevices.valve.Stopper.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get_instantiated_signals.html#pcdsdevices.valve.Stopper.get_instantiated_signals" title="pcdsdevices.valve.Stopper.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get_instantiated_signals.html#pcdsdevices.valve.Stopper.get_instantiated_signals" title="pcdsdevices.valve.Stopper.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get_state.html#pcdsdevices.valve.Stopper.get_state" title="pcdsdevices.valve.Stopper.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get_state.html#pcdsdevices.valve.Stopper.get_state" title="pcdsdevices.valve.Stopper.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.insert.html#pcdsdevices.valve.Stopper.insert" title="pcdsdevices.valve.Stopper.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.insert.html#pcdsdevices.valve.Stopper.insert" title="pcdsdevices.valve.Stopper.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Insert this device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.move.html#pcdsdevices.valve.Stopper.move" title="pcdsdevices.valve.Stopper.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.move.html#pcdsdevices.valve.Stopper.move" title="pcdsdevices.valve.Stopper.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.mv.html#pcdsdevices.valve.Stopper.mv" title="pcdsdevices.valve.Stopper.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.mv.html#pcdsdevices.valve.Stopper.mv" title="pcdsdevices.valve.Stopper.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.open.html#pcdsdevices.valve.Stopper.open" title="pcdsdevices.valve.Stopper.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.open.html#pcdsdevices.valve.Stopper.open" title="pcdsdevices.valve.Stopper.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(**kwargs)</td>
 <td>Open the stopper</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.pause.html#pcdsdevices.valve.Stopper.pause" title="pcdsdevices.valve.Stopper.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.pause.html#pcdsdevices.valve.Stopper.pause" title="pcdsdevices.valve.Stopper.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.put.html#pcdsdevices.valve.Stopper.put" title="pcdsdevices.valve.Stopper.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.put.html#pcdsdevices.valve.Stopper.put" title="pcdsdevices.valve.Stopper.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.read.html#pcdsdevices.valve.Stopper.read" title="pcdsdevices.valve.Stopper.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.read.html#pcdsdevices.valve.Stopper.read" title="pcdsdevices.valve.Stopper.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.read_configuration.html#pcdsdevices.valve.Stopper.read_configuration" title="pcdsdevices.valve.Stopper.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.read_configuration.html#pcdsdevices.valve.Stopper.read_configuration" title="pcdsdevices.valve.Stopper.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.remove.html#pcdsdevices.valve.Stopper.remove" title="pcdsdevices.valve.Stopper.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.remove.html#pcdsdevices.valve.Stopper.remove" title="pcdsdevices.valve.Stopper.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.resume.html#pcdsdevices.valve.Stopper.resume" title="pcdsdevices.valve.Stopper.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.resume.html#pcdsdevices.valve.Stopper.resume" title="pcdsdevices.valve.Stopper.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.set.html#pcdsdevices.valve.Stopper.set" title="pcdsdevices.valve.Stopper.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.set.html#pcdsdevices.valve.Stopper.set" title="pcdsdevices.valve.Stopper.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.stage.html#pcdsdevices.valve.Stopper.stage" title="pcdsdevices.valve.Stopper.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.stage.html#pcdsdevices.valve.Stopper.stage" title="pcdsdevices.valve.Stopper.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.stop.html#pcdsdevices.valve.Stopper.stop" title="pcdsdevices.valve.Stopper.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.stop.html#pcdsdevices.valve.Stopper.stop" title="pcdsdevices.valve.Stopper.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.subscribe.html#pcdsdevices.valve.Stopper.subscribe" title="pcdsdevices.valve.Stopper.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.subscribe.html#pcdsdevices.valve.Stopper.subscribe" title="pcdsdevices.valve.Stopper.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.summary.html#pcdsdevices.valve.Stopper.summary" title="pcdsdevices.valve.Stopper.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.summary.html#pcdsdevices.valve.Stopper.summary" title="pcdsdevices.valve.Stopper.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.trigger.html#pcdsdevices.valve.Stopper.trigger" title="pcdsdevices.valve.Stopper.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.trigger.html#pcdsdevices.valve.Stopper.trigger" title="pcdsdevices.valve.Stopper.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.unstage.html#pcdsdevices.valve.Stopper.unstage" title="pcdsdevices.valve.Stopper.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.unstage.html#pcdsdevices.valve.Stopper.unstage" title="pcdsdevices.valve.Stopper.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.unsubscribe.html#pcdsdevices.valve.Stopper.unsubscribe" title="pcdsdevices.valve.Stopper.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.unsubscribe.html#pcdsdevices.valve.Stopper.unsubscribe" title="pcdsdevices.valve.Stopper.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.unsubscribe_all.html#pcdsdevices.valve.Stopper.unsubscribe_all" title="pcdsdevices.valve.Stopper.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.unsubscribe_all.html#pcdsdevices.valve.Stopper.unsubscribe_all" title="pcdsdevices.valve.Stopper.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wait_for_connection.html#pcdsdevices.valve.Stopper.wait_for_connection" title="pcdsdevices.valve.Stopper.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wait_for_connection.html#pcdsdevices.valve.Stopper.wait_for_connection" title="pcdsdevices.valve.Stopper.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wm.html#pcdsdevices.valve.Stopper.wm" title="pcdsdevices.valve.Stopper.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wm.html#pcdsdevices.valve.Stopper.wm" title="pcdsdevices.valve.Stopper.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -518,7 +522,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.7.0+72.g0174e86',
+            VERSION:'0.8.0+14.g6069909',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

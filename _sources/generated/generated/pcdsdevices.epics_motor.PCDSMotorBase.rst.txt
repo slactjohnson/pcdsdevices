@@ -13,6 +13,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       :toctree: generated
    
       ~PCDSMotorBase.__init__
+      ~PCDSMotorBase.camonitor
       ~PCDSMotorBase.check_value
       ~PCDSMotorBase.clear_sub
       ~PCDSMotorBase.configure

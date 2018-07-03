@@ -13,6 +13,7 @@ pcdsdevices.device\_types.Stopper
       :toctree: generated
    
       ~Stopper.__init__
+      ~Stopper.camonitor
       ~Stopper.check_value
       ~Stopper.clear_sub
       ~Stopper.close

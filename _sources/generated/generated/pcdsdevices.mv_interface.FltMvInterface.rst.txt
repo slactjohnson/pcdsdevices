@@ -13,6 +13,7 @@ pcdsdevices.mv\_interface.FltMvInterface
       :toctree: generated
    
       ~FltMvInterface.__init__
+      ~FltMvInterface.camonitor
       ~FltMvInterface.mv
       ~FltMvInterface.mvr
       ~FltMvInterface.umv

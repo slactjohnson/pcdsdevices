@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PMC100.camonitor
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PMC100.camonitor

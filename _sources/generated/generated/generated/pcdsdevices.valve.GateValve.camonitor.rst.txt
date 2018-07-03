@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.camonitor
+=====================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.camonitor

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.camonitor
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.camonitor

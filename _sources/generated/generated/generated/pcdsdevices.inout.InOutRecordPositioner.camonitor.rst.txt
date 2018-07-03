@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.camonitor
+=================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.camonitor

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.camonitor
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.camonitor

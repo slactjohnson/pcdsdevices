@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.camonitor
+==================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.camonitor

@@ -1,0 +1,6 @@
+pcdsdevices.inout.TTReflaser.camonitor
+======================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TTReflaser.camonitor

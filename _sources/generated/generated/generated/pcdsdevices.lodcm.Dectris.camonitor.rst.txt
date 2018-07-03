@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.camonitor
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.camonitor

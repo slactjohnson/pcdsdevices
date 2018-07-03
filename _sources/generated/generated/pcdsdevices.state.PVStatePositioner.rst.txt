@@ -13,6 +13,7 @@ pcdsdevices.state.PVStatePositioner
       :toctree: generated
    
       ~PVStatePositioner.__init__
+      ~PVStatePositioner.camonitor
       ~PVStatePositioner.check_value
       ~PVStatePositioner.clear_sub
       ~PVStatePositioner.configure

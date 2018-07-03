@@ -13,6 +13,7 @@ pcdsdevices.attenuator.AttBase3rd
       :toctree: generated
    
       ~AttBase3rd.__init__
+      ~AttBase3rd.camonitor
       ~AttBase3rd.check_value
       ~AttBase3rd.clear_sub
       ~AttBase3rd.configure

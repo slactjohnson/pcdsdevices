@@ -13,6 +13,7 @@ pcdsdevices.inout.TTReflaser
       :toctree: generated
    
       ~TTReflaser.__init__
+      ~TTReflaser.camonitor
       ~TTReflaser.check_value
       ~TTReflaser.clear_sub
       ~TTReflaser.configure

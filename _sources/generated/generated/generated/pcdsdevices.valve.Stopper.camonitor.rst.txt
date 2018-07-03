@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.camonitor
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.camonitor

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.camonitor
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.camonitor

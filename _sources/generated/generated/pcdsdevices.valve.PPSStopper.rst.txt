@@ -13,6 +13,7 @@ pcdsdevices.valve.PPSStopper
       :toctree: generated
    
       ~PPSStopper.__init__
+      ~PPSStopper.camonitor
       ~PPSStopper.check_value
       ~PPSStopper.clear_sub
       ~PPSStopper.configure

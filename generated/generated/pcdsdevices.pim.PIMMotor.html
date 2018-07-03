@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim.PIMMotor &mdash; PCDS Devices 0.7.0+72.g0174e86 documentation</title>
+  <title>pcdsdevices.pim.PIMMotor &mdash; PCDS Devices 0.8.0+14.g6069909 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.7.0+72.g0174e86
+                0.8.0+14.g6069909
               </div>
             
           
@@ -110,6 +110,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pim.PIM.html">pcdsdevices.pim.PIM</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pim.PIMMotor</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.__init__.html">pcdsdevices.pim.PIMMotor.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.camonitor.html">pcdsdevices.pim.PIMMotor.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.check_value.html">pcdsdevices.pim.PIMMotor.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.clear_sub.html">pcdsdevices.pim.PIMMotor.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.configure.html">pcdsdevices.pim.PIMMotor.configure</a></li>
@@ -236,91 +237,94 @@ or diode, or retract from the beam path.</p>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.__init__.html#pcdsdevices.pim.PIMMotor.__init__" title="pcdsdevices.pim.PIMMotor.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
 <td>Initialize self.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.check_value.html#pcdsdevices.pim.PIMMotor.check_value" title="pcdsdevices.pim.PIMMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.camonitor.html#pcdsdevices.pim.PIMMotor.camonitor" title="pcdsdevices.pim.PIMMotor.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
+<td>Updates current position of the motor.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.check_value.html#pcdsdevices.pim.PIMMotor.check_value" title="pcdsdevices.pim.PIMMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Verify that a value is a valid set state, or raise an exception.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.clear_sub.html#pcdsdevices.pim.PIMMotor.clear_sub" title="pcdsdevices.pim.PIMMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.clear_sub.html#pcdsdevices.pim.PIMMotor.clear_sub" title="pcdsdevices.pim.PIMMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.configure.html#pcdsdevices.pim.PIMMotor.configure" title="pcdsdevices.pim.PIMMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.configure.html#pcdsdevices.pim.PIMMotor.configure" title="pcdsdevices.pim.PIMMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
 <td>Configure the device for something during a run</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.describe.html#pcdsdevices.pim.PIMMotor.describe" title="pcdsdevices.pim.PIMMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.describe.html#pcdsdevices.pim.PIMMotor.describe" title="pcdsdevices.pim.PIMMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
 <td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.describe_configuration.html#pcdsdevices.pim.PIMMotor.describe_configuration" title="pcdsdevices.pim.PIMMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.describe_configuration.html#pcdsdevices.pim.PIMMotor.describe_configuration" title="pcdsdevices.pim.PIMMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get.html#pcdsdevices.pim.PIMMotor.get" title="pcdsdevices.pim.PIMMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get.html#pcdsdevices.pim.PIMMotor.get" title="pcdsdevices.pim.PIMMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get_device_tuple.html#pcdsdevices.pim.PIMMotor.get_device_tuple" title="pcdsdevices.pim.PIMMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get_device_tuple.html#pcdsdevices.pim.PIMMotor.get_device_tuple" title="pcdsdevices.pim.PIMMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get_instantiated_signals.html#pcdsdevices.pim.PIMMotor.get_instantiated_signals" title="pcdsdevices.pim.PIMMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get_instantiated_signals.html#pcdsdevices.pim.PIMMotor.get_instantiated_signals" title="pcdsdevices.pim.PIMMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get_state.html#pcdsdevices.pim.PIMMotor.get_state" title="pcdsdevices.pim.PIMMotor.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.get_state.html#pcdsdevices.pim.PIMMotor.get_state" title="pcdsdevices.pim.PIMMotor.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.insert.html#pcdsdevices.pim.PIMMotor.insert" title="pcdsdevices.pim.PIMMotor.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.insert.html#pcdsdevices.pim.PIMMotor.insert" title="pcdsdevices.pim.PIMMotor.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Insert this device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.move.html#pcdsdevices.pim.PIMMotor.move" title="pcdsdevices.pim.PIMMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.move.html#pcdsdevices.pim.PIMMotor.move" title="pcdsdevices.pim.PIMMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.mv.html#pcdsdevices.pim.PIMMotor.mv" title="pcdsdevices.pim.PIMMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.mv.html#pcdsdevices.pim.PIMMotor.mv" title="pcdsdevices.pim.PIMMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.pause.html#pcdsdevices.pim.PIMMotor.pause" title="pcdsdevices.pim.PIMMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.pause.html#pcdsdevices.pim.PIMMotor.pause" title="pcdsdevices.pim.PIMMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.put.html#pcdsdevices.pim.PIMMotor.put" title="pcdsdevices.pim.PIMMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.put.html#pcdsdevices.pim.PIMMotor.put" title="pcdsdevices.pim.PIMMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.read.html#pcdsdevices.pim.PIMMotor.read" title="pcdsdevices.pim.PIMMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.read.html#pcdsdevices.pim.PIMMotor.read" title="pcdsdevices.pim.PIMMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.read_configuration.html#pcdsdevices.pim.PIMMotor.read_configuration" title="pcdsdevices.pim.PIMMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.read_configuration.html#pcdsdevices.pim.PIMMotor.read_configuration" title="pcdsdevices.pim.PIMMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.remove.html#pcdsdevices.pim.PIMMotor.remove" title="pcdsdevices.pim.PIMMotor.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.remove.html#pcdsdevices.pim.PIMMotor.remove" title="pcdsdevices.pim.PIMMotor.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.resume.html#pcdsdevices.pim.PIMMotor.resume" title="pcdsdevices.pim.PIMMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.resume.html#pcdsdevices.pim.PIMMotor.resume" title="pcdsdevices.pim.PIMMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.set.html#pcdsdevices.pim.PIMMotor.set" title="pcdsdevices.pim.PIMMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.set.html#pcdsdevices.pim.PIMMotor.set" title="pcdsdevices.pim.PIMMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.stage.html#pcdsdevices.pim.PIMMotor.stage" title="pcdsdevices.pim.PIMMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.stage.html#pcdsdevices.pim.PIMMotor.stage" title="pcdsdevices.pim.PIMMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Save the original position to be restored on <a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unstage.html#pcdsdevices.pim.PIMMotor.unstage" title="pcdsdevices.pim.PIMMotor.unstage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unstage</span></code></a>.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.stop.html#pcdsdevices.pim.PIMMotor.stop" title="pcdsdevices.pim.PIMMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.stop.html#pcdsdevices.pim.PIMMotor.stop" title="pcdsdevices.pim.PIMMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.subscribe.html#pcdsdevices.pim.PIMMotor.subscribe" title="pcdsdevices.pim.PIMMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.subscribe.html#pcdsdevices.pim.PIMMotor.subscribe" title="pcdsdevices.pim.PIMMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.summary.html#pcdsdevices.pim.PIMMotor.summary" title="pcdsdevices.pim.PIMMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.summary.html#pcdsdevices.pim.PIMMotor.summary" title="pcdsdevices.pim.PIMMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.trigger.html#pcdsdevices.pim.PIMMotor.trigger" title="pcdsdevices.pim.PIMMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.trigger.html#pcdsdevices.pim.PIMMotor.trigger" title="pcdsdevices.pim.PIMMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unstage.html#pcdsdevices.pim.PIMMotor.unstage" title="pcdsdevices.pim.PIMMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unstage.html#pcdsdevices.pim.PIMMotor.unstage" title="pcdsdevices.pim.PIMMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unsubscribe.html#pcdsdevices.pim.PIMMotor.unsubscribe" title="pcdsdevices.pim.PIMMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unsubscribe.html#pcdsdevices.pim.PIMMotor.unsubscribe" title="pcdsdevices.pim.PIMMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unsubscribe_all.html#pcdsdevices.pim.PIMMotor.unsubscribe_all" title="pcdsdevices.pim.PIMMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.unsubscribe_all.html#pcdsdevices.pim.PIMMotor.unsubscribe_all" title="pcdsdevices.pim.PIMMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.wait_for_connection.html#pcdsdevices.pim.PIMMotor.wait_for_connection" title="pcdsdevices.pim.PIMMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.wait_for_connection.html#pcdsdevices.pim.PIMMotor.wait_for_connection" title="pcdsdevices.pim.PIMMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.wm.html#pcdsdevices.pim.PIMMotor.wm" title="pcdsdevices.pim.PIMMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.wm.html#pcdsdevices.pim.PIMMotor.wm" title="pcdsdevices.pim.PIMMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -482,7 +486,7 @@ or diode, or retract from the beam path.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.7.0+72.g0174e86',
+            VERSION:'0.8.0+14.g6069909',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

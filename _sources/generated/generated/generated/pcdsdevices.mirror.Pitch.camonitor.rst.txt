@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.camonitor
+==================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.camonitor

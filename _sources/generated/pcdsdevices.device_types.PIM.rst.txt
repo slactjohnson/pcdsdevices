@@ -13,6 +13,7 @@ pcdsdevices.device\_types.PIM
       :toctree: generated
    
       ~PIM.__init__
+      ~PIM.camonitor
       ~PIM.check_value
       ~PIM.clear_sub
       ~PIM.configure

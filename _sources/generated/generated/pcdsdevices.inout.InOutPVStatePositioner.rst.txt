@@ -13,6 +13,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       :toctree: generated
    
       ~InOutPVStatePositioner.__init__
+      ~InOutPVStatePositioner.camonitor
       ~InOutPVStatePositioner.check_value
       ~InOutPVStatePositioner.clear_sub
       ~InOutPVStatePositioner.configure

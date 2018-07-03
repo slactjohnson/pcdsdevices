@@ -13,6 +13,7 @@ pcdsdevices.lodcm.Diode
       :toctree: generated
    
       ~Diode.__init__
+      ~Diode.camonitor
       ~Diode.check_value
       ~Diode.clear_sub
       ~Diode.configure

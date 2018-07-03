@@ -13,6 +13,7 @@ pcdsdevices.device\_types.GateValve
       :toctree: generated
    
       ~GateValve.__init__
+      ~GateValve.camonitor
       ~GateValve.check_value
       ~GateValve.clear_sub
       ~GateValve.close

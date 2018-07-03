@@ -13,6 +13,7 @@ pcdsdevices.device\_types.LODCM
       :toctree: generated
    
       ~LODCM.__init__
+      ~LODCM.camonitor
       ~LODCM.check_value
       ~LODCM.clear_sub
       ~LODCM.configure

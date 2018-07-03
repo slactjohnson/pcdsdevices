@@ -13,6 +13,7 @@ pcdsdevices.lens.XFLS
       :toctree: generated
    
       ~XFLS.__init__
+      ~XFLS.camonitor
       ~XFLS.check_value
       ~XFLS.clear_sub
       ~XFLS.configure

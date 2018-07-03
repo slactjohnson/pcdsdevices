@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.camonitor
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.camonitor

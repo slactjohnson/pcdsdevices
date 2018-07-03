@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.camonitor
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.camonitor

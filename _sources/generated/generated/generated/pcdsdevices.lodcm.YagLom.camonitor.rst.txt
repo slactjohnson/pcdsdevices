@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.camonitor
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.camonitor

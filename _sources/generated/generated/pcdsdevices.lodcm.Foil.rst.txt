@@ -13,6 +13,7 @@ pcdsdevices.lodcm.Foil
       :toctree: generated
    
       ~Foil.__init__
+      ~Foil.camonitor
       ~Foil.check_value
       ~Foil.clear_sub
       ~Foil.configure

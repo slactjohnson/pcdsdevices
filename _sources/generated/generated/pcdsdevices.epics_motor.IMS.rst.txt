@@ -14,6 +14,7 @@ pcdsdevices.epics\_motor.IMS
    
       ~IMS.__init__
       ~IMS.auto_setup
+      ~IMS.camonitor
       ~IMS.check_value
       ~IMS.clear_all_flags
       ~IMS.clear_error
