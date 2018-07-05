@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS.check_value &mdash; PCDS Devices 0.8.0+17.g0c209de documentation</title>
+  <title>pcdsdevices.device_types.IMS.check_value &mdash; PCDS Devices 0.8.0+30.g42f0b15 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+17.g0c209de
+                0.8.0+30.g42f0b15
               </div>
             
           
@@ -91,6 +91,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Attenuator.html">pcdsdevices.device_types.Attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.BeckhoffAxis.html">pcdsdevices.device_types.BeckhoffAxis</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
@@ -230,15 +231,23 @@
 <dl class="method">
 <dt id="pcdsdevices.device_types.IMS.check_value">
 <code class="descclassname">IMS.</code><code class="descname">check_value</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.IMS.check_value" title="Permalink to this definition">¶</a></dt>
-<dd><p>Check if the motor is disabled
-Check if the value is within the soft limits of the motor.</p>
+<dd><p>Raise an exception if the motor cannot move to value.</p>
+<p>The full list of checks done in this method:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Check if the value is within the soft limits of the motor.</li>
+<li>Check if the motor is disabled (<code class="docutils literal notranslate"><span class="pre">.DISP</span></code> field)`</li>
+<li>Check if the spg field is on “pause” or “stop”</li>
+</ul>
+</div></blockquote>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><ul class="first last simple">
-<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">Exception</span></code> – If the motor is passed any motion command when disabled</li>
-<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValueError</span></code> – When the provided value is outside the range of the low
+<li><a class="reference internal" href="pcdsdevices.epics_motor.MotorDisabledError.html#pcdsdevices.epics_motor.MotorDisabledError" title="pcdsdevices.epics_motor.MotorDisabledError"><code class="xref any py py-exc docutils literal notranslate"><span class="pre">MotorDisabledError</span></code></a> – If the motor is passed any motion command when disabled, or if
+the <code class="docutils literal notranslate"><span class="pre">.SPG</span></code> field is not set to <code class="docutils literal notranslate"><span class="pre">Go</span></code>.</li>
+<li><code class="docutils literal notranslate"><span class="pre">LimitError(ValueError)</span></code> – When the provided value is outside the range of the low
 and high limits</li>
 </ul>
 </td>
@@ -291,7 +300,7 @@ and high limits</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+17.g0c209de',
+            VERSION:'0.8.0+30.g42f0b15',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

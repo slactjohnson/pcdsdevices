@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.clear\_error
+==================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.clear_error

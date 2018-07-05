@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.check\_value
+=========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.check_value

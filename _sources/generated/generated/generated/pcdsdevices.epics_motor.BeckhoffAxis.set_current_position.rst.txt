@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.set\_current\_position
+============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.set_current_position

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.describe\_configuration
+====================================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.describe_configuration

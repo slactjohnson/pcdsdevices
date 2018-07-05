@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.umv
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.umv

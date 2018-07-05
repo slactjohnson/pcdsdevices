@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.set
+=========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.set

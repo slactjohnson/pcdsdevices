@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.clear\_error
+===================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.clear_error

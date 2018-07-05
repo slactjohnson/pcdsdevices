@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.wait\_for\_connection
+===========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.wait_for_connection

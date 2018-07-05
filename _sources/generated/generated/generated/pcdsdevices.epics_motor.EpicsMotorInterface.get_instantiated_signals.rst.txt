@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.get\_instantiated\_signals
+=======================================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.\_\_init\_\_
+=========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.stop
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.stop

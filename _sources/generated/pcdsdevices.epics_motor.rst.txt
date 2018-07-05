@@ -14,6 +14,8 @@ pcdsdevices.epics\_motor
    .. autosummary::
       :toctree: generated
    
+      BeckhoffAxis
+      EpicsMotorInterface
       IMS
       Newport
       PCDSMotorBase
@@ -22,5 +24,12 @@ pcdsdevices.epics\_motor
    
 
    
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+      :toctree: generated
+   
+      MotorDisabledError
    
    

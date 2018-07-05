@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.subscribe
+===============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.subscribe

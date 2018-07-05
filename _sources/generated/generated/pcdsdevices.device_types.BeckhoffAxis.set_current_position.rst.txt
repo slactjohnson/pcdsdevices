@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.set\_current\_position
+=============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.set_current_position

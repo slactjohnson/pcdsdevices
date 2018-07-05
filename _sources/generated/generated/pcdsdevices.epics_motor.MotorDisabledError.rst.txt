@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.MotorDisabledError
+===========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoexception:: MotorDisabledError

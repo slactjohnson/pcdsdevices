@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.disable
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.disable

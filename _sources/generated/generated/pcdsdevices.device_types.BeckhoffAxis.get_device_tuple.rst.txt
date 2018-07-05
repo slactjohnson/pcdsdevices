@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.get\_device\_tuple
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.get_device_tuple

@@ -1,0 +1,107 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface
+============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: EpicsMotorInterface
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~EpicsMotorInterface.__init__
+      ~EpicsMotorInterface.camonitor
+      ~EpicsMotorInterface.check_value
+      ~EpicsMotorInterface.clear_sub
+      ~EpicsMotorInterface.configure
+      ~EpicsMotorInterface.describe
+      ~EpicsMotorInterface.describe_configuration
+      ~EpicsMotorInterface.disable
+      ~EpicsMotorInterface.enable
+      ~EpicsMotorInterface.get
+      ~EpicsMotorInterface.get_device_tuple
+      ~EpicsMotorInterface.get_instantiated_signals
+      ~EpicsMotorInterface.home
+      ~EpicsMotorInterface.move
+      ~EpicsMotorInterface.mv
+      ~EpicsMotorInterface.mvr
+      ~EpicsMotorInterface.pause
+      ~EpicsMotorInterface.put
+      ~EpicsMotorInterface.read
+      ~EpicsMotorInterface.read_configuration
+      ~EpicsMotorInterface.resume
+      ~EpicsMotorInterface.set
+      ~EpicsMotorInterface.set_current_position
+      ~EpicsMotorInterface.stage
+      ~EpicsMotorInterface.stop
+      ~EpicsMotorInterface.subscribe
+      ~EpicsMotorInterface.summary
+      ~EpicsMotorInterface.trigger
+      ~EpicsMotorInterface.umv
+      ~EpicsMotorInterface.umvr
+      ~EpicsMotorInterface.unstage
+      ~EpicsMotorInterface.unsubscribe
+      ~EpicsMotorInterface.unsubscribe_all
+      ~EpicsMotorInterface.wait_for_connection
+      ~EpicsMotorInterface.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EpicsMotorInterface.SUB_ACQ_DONE
+      ~EpicsMotorInterface.SUB_DONE
+      ~EpicsMotorInterface.SUB_READBACK
+      ~EpicsMotorInterface.SUB_START
+      ~EpicsMotorInterface.acceleration
+      ~EpicsMotorInterface.component_names
+      ~EpicsMotorInterface.configuration_attrs
+      ~EpicsMotorInterface.connected
+      ~EpicsMotorInterface.direction_of_travel
+      ~EpicsMotorInterface.disabled
+      ~EpicsMotorInterface.egu
+      ~EpicsMotorInterface.event_types
+      ~EpicsMotorInterface.high_limit
+      ~EpicsMotorInterface.high_limit_switch
+      ~EpicsMotorInterface.high_soft_limit
+      ~EpicsMotorInterface.hints
+      ~EpicsMotorInterface.home_forward
+      ~EpicsMotorInterface.home_reverse
+      ~EpicsMotorInterface.kind
+      ~EpicsMotorInterface.limits
+      ~EpicsMotorInterface.low_limit
+      ~EpicsMotorInterface.low_limit_switch
+      ~EpicsMotorInterface.low_soft_limit
+      ~EpicsMotorInterface.motor_done_move
+      ~EpicsMotorInterface.motor_egu
+      ~EpicsMotorInterface.motor_is_moving
+      ~EpicsMotorInterface.motor_stop
+      ~EpicsMotorInterface.moving
+      ~EpicsMotorInterface.name
+      ~EpicsMotorInterface.offset_freeze_switch
+      ~EpicsMotorInterface.parent
+      ~EpicsMotorInterface.position
+      ~EpicsMotorInterface.precision
+      ~EpicsMotorInterface.read_attrs
+      ~EpicsMotorInterface.report
+      ~EpicsMotorInterface.root
+      ~EpicsMotorInterface.set_use_switch
+      ~EpicsMotorInterface.settle_time
+      ~EpicsMotorInterface.signal_names
+      ~EpicsMotorInterface.timeout
+      ~EpicsMotorInterface.tolerated_alarm
+      ~EpicsMotorInterface.trigger_signals
+      ~EpicsMotorInterface.user_offset
+      ~EpicsMotorInterface.user_offset_dir
+      ~EpicsMotorInterface.user_readback
+      ~EpicsMotorInterface.user_setpoint
+      ~EpicsMotorInterface.velocity
+   
+   

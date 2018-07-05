@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.resume
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.resume

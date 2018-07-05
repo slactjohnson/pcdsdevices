@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor &mdash; PCDS Devices 0.8.0+17.g0c209de documentation</title>
+  <title>pcdsdevices.epics_motor &mdash; PCDS Devices 0.8.0+30.g42f0b15 documentation</title>
   
 
   
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.epics_motor.IMS" href="generated/pcdsdevices.epics_motor.IMS.html" />
+    <link rel="next" title="pcdsdevices.epics_motor.BeckhoffAxis" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.html" />
     <link rel="prev" title="pcdsdevices.beam_stats.SxrGmd.wait_for_connection" href="generated/generated/pcdsdevices.beam_stats.SxrGmd.wait_for_connection.html" /> 
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+17.g0c209de
+                0.8.0+30.g42f0b15
               </div>
             
           
@@ -98,10 +98,13 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.epics_motor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.html">pcdsdevices.epics_motor.BeckhoffAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.html">pcdsdevices.epics_motor.EpicsMotorInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.html">pcdsdevices.epics_motor.IMS</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.Newport.html">pcdsdevices.epics_motor.Newport</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.html">pcdsdevices.epics_motor.PCDSMotorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PMC100.html">pcdsdevices.epics_motor.PMC100</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.epics_motor.MotorDisabledError.html">pcdsdevices.epics_motor.MotorDisabledError</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
@@ -196,6 +199,12 @@
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.html#pcdsdevices.epics_motor.BeckhoffAxis" title="pcdsdevices.epics_motor.BeckhoffAxis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code></a>(*args,&nbsp;**kwargs)</td>
+<td>Beckhoff Axis motor record as implemented by ESS.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.html#pcdsdevices.epics_motor.EpicsMotorInterface" title="pcdsdevices.epics_motor.EpicsMotorInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EpicsMotorInterface</span></code></a>(*args,&nbsp;**kwargs)</td>
+<td>The standard EpicsMotor class, but with our interface attached.</td>
+</tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IMS</span></code></a>(*args,&nbsp;**kwargs)</td>
 <td>PCDS implementation of the Motor Record for IMS motors.</td>
 </tr>
@@ -210,6 +219,18 @@
 </tr>
 </tbody>
 </table>
+<p class="rubric">Exceptions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.MotorDisabledError.html#pcdsdevices.epics_motor.MotorDisabledError" title="pcdsdevices.epics_motor.MotorDisabledError"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MotorDisabledError</span></code></a></td>
+<td>Error that indicates that we are not allowed to move.</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
@@ -220,7 +241,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.epics_motor.IMS.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.IMS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.epics_motor.BeckhoffAxis.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.BeckhoffAxis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.beam_stats.SxrGmd.wait_for_connection.html" class="btn btn-neutral" title="pcdsdevices.beam_stats.SxrGmd.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -254,7 +275,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+17.g0c209de',
+            VERSION:'0.8.0+30.g42f0b15',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

@@ -1,0 +1,109 @@
+pcdsdevices.epics\_motor.BeckhoffAxis
+=====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: BeckhoffAxis
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeckhoffAxis.__init__
+      ~BeckhoffAxis.camonitor
+      ~BeckhoffAxis.check_value
+      ~BeckhoffAxis.clear_error
+      ~BeckhoffAxis.clear_sub
+      ~BeckhoffAxis.configure
+      ~BeckhoffAxis.describe
+      ~BeckhoffAxis.describe_configuration
+      ~BeckhoffAxis.disable
+      ~BeckhoffAxis.enable
+      ~BeckhoffAxis.get
+      ~BeckhoffAxis.get_device_tuple
+      ~BeckhoffAxis.get_instantiated_signals
+      ~BeckhoffAxis.home
+      ~BeckhoffAxis.move
+      ~BeckhoffAxis.mv
+      ~BeckhoffAxis.mvr
+      ~BeckhoffAxis.pause
+      ~BeckhoffAxis.put
+      ~BeckhoffAxis.read
+      ~BeckhoffAxis.read_configuration
+      ~BeckhoffAxis.resume
+      ~BeckhoffAxis.set
+      ~BeckhoffAxis.set_current_position
+      ~BeckhoffAxis.stage
+      ~BeckhoffAxis.stop
+      ~BeckhoffAxis.subscribe
+      ~BeckhoffAxis.summary
+      ~BeckhoffAxis.trigger
+      ~BeckhoffAxis.umv
+      ~BeckhoffAxis.umvr
+      ~BeckhoffAxis.unstage
+      ~BeckhoffAxis.unsubscribe
+      ~BeckhoffAxis.unsubscribe_all
+      ~BeckhoffAxis.wait_for_connection
+      ~BeckhoffAxis.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeckhoffAxis.SUB_ACQ_DONE
+      ~BeckhoffAxis.SUB_DONE
+      ~BeckhoffAxis.SUB_READBACK
+      ~BeckhoffAxis.SUB_START
+      ~BeckhoffAxis.acceleration
+      ~BeckhoffAxis.cmd_err_reset
+      ~BeckhoffAxis.component_names
+      ~BeckhoffAxis.configuration_attrs
+      ~BeckhoffAxis.connected
+      ~BeckhoffAxis.direction_of_travel
+      ~BeckhoffAxis.disabled
+      ~BeckhoffAxis.egu
+      ~BeckhoffAxis.event_types
+      ~BeckhoffAxis.high_limit
+      ~BeckhoffAxis.high_limit_switch
+      ~BeckhoffAxis.high_soft_limit
+      ~BeckhoffAxis.hints
+      ~BeckhoffAxis.home_forward
+      ~BeckhoffAxis.home_reverse
+      ~BeckhoffAxis.kind
+      ~BeckhoffAxis.limits
+      ~BeckhoffAxis.low_limit
+      ~BeckhoffAxis.low_limit_switch
+      ~BeckhoffAxis.low_soft_limit
+      ~BeckhoffAxis.motor_done_move
+      ~BeckhoffAxis.motor_egu
+      ~BeckhoffAxis.motor_is_moving
+      ~BeckhoffAxis.motor_stop
+      ~BeckhoffAxis.moving
+      ~BeckhoffAxis.name
+      ~BeckhoffAxis.offset_freeze_switch
+      ~BeckhoffAxis.parent
+      ~BeckhoffAxis.position
+      ~BeckhoffAxis.precision
+      ~BeckhoffAxis.read_attrs
+      ~BeckhoffAxis.report
+      ~BeckhoffAxis.root
+      ~BeckhoffAxis.set_use_switch
+      ~BeckhoffAxis.settle_time
+      ~BeckhoffAxis.signal_names
+      ~BeckhoffAxis.timeout
+      ~BeckhoffAxis.tolerated_alarm
+      ~BeckhoffAxis.trigger_signals
+      ~BeckhoffAxis.user_offset
+      ~BeckhoffAxis.user_offset_dir
+      ~BeckhoffAxis.user_readback
+      ~BeckhoffAxis.user_setpoint
+      ~BeckhoffAxis.velocity
+   
+   

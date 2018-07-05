@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.unsubscribe
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.unsubscribe

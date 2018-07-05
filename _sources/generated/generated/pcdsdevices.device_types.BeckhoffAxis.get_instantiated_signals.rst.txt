@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.get\_instantiated\_signals
+=================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.get_instantiated_signals

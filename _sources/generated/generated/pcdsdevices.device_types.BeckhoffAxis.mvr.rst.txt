@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.mvr
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.mvr

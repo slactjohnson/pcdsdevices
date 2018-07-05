@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.umv
+=========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.umv

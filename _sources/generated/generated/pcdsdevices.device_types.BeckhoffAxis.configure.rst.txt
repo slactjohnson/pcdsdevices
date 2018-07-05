@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.configure
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.configure

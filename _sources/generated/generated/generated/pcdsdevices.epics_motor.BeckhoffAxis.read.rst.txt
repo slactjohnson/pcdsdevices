@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.read
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.read

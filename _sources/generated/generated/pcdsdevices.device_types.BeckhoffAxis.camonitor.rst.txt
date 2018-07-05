@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.camonitor
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.camonitor

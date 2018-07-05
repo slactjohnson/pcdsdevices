@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.read\_configuration
+================================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.read_configuration
