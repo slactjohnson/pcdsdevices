@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.unsubscribe
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.unsubscribe

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.get
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.get

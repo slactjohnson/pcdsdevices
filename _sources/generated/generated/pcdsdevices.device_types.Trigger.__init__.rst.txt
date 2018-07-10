@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.\_\_init\_\_
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.__init__

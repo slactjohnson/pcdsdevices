@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.put
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.put

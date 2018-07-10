@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.describe\_configuration
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.describe_configuration
