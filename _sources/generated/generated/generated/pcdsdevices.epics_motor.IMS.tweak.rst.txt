@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.tweak
+==================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.tweak

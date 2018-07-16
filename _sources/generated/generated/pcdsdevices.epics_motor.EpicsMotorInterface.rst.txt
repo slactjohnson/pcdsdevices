@@ -40,6 +40,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.subscribe
       ~EpicsMotorInterface.summary
       ~EpicsMotorInterface.trigger
+      ~EpicsMotorInterface.tweak
       ~EpicsMotorInterface.umv
       ~EpicsMotorInterface.umvr
       ~EpicsMotorInterface.unstage

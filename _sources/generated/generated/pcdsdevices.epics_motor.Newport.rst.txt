@@ -41,6 +41,7 @@ pcdsdevices.epics\_motor.Newport
       ~Newport.subscribe
       ~Newport.summary
       ~Newport.trigger
+      ~Newport.tweak
       ~Newport.umv
       ~Newport.umvr
       ~Newport.unstage

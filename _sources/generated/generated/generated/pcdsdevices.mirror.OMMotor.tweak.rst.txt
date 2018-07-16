@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.tweak
+================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.tweak

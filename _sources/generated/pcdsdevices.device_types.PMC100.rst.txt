@@ -41,6 +41,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.subscribe
       ~PMC100.summary
       ~PMC100.trigger
+      ~PMC100.tweak
       ~PMC100.umv
       ~PMC100.umvr
       ~PMC100.unstage

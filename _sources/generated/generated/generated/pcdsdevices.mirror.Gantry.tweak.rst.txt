@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.tweak
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.tweak

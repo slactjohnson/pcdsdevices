@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.tweak
+======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.tweak

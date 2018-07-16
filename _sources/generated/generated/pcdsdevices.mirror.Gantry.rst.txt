@@ -36,6 +36,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.subscribe
       ~Gantry.summary
       ~Gantry.trigger
+      ~Gantry.tweak
       ~Gantry.umv
       ~Gantry.umvr
       ~Gantry.unstage

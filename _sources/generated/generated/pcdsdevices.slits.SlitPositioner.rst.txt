@@ -36,6 +36,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.subscribe
       ~SlitPositioner.summary
       ~SlitPositioner.trigger
+      ~SlitPositioner.tweak
       ~SlitPositioner.umv
       ~SlitPositioner.umvr
       ~SlitPositioner.unstage

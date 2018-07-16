@@ -47,6 +47,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.subscribe
       ~IMS.summary
       ~IMS.trigger
+      ~IMS.tweak
       ~IMS.umv
       ~IMS.umvr
       ~IMS.unstage

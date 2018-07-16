@@ -12,6 +12,7 @@ pcdsdevices.mv\_interface.MvInterface
    .. autosummary::
       :toctree: generated
    
+      ~MvInterface.__init__
       ~MvInterface.camonitor
       ~MvInterface.mv
       ~MvInterface.wm

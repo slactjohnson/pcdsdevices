@@ -41,6 +41,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.subscribe
       ~PCDSMotorBase.summary
       ~PCDSMotorBase.trigger
+      ~PCDSMotorBase.tweak
       ~PCDSMotorBase.umv
       ~PCDSMotorBase.umvr
       ~PCDSMotorBase.unstage

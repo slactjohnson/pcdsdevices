@@ -39,6 +39,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.subscribe
       ~AttBase.summary
       ~AttBase.trigger
+      ~AttBase.tweak
       ~AttBase.umv
       ~AttBase.umvr
       ~AttBase.unstage

@@ -36,6 +36,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.subscribe
       ~OMMotor.summary
       ~OMMotor.trigger
+      ~OMMotor.tweak
       ~OMMotor.umv
       ~OMMotor.umvr
       ~OMMotor.unstage

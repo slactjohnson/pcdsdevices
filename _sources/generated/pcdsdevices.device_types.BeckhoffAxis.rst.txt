@@ -41,6 +41,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.subscribe
       ~BeckhoffAxis.summary
       ~BeckhoffAxis.trigger
+      ~BeckhoffAxis.tweak
       ~BeckhoffAxis.umv
       ~BeckhoffAxis.umvr
       ~BeckhoffAxis.unstage

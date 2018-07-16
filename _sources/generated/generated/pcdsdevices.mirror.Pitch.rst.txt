@@ -36,6 +36,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.subscribe
       ~Pitch.summary
       ~Pitch.trigger
+      ~Pitch.tweak
       ~Pitch.umv
       ~Pitch.umvr
       ~Pitch.unstage

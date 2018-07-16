@@ -1,0 +1,6 @@
+pcdsdevices.mv\_interface.MvInterface.\_\_init\_\_
+==================================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. automethod:: MvInterface.__init__

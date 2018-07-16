@@ -11,6 +11,7 @@ pcdsdevices.mv\_interface
       :toctree: generated
    
       setup_preset_paths
+      tweak_base
    
    
 

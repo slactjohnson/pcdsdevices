@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.tweak
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.tweak

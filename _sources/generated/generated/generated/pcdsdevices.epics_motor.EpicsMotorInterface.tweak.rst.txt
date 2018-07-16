@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.tweak
+==================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.tweak

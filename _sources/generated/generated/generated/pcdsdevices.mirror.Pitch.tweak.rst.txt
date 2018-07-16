@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.tweak
+==============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.tweak
