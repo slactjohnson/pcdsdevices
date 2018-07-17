@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.read
+============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.read

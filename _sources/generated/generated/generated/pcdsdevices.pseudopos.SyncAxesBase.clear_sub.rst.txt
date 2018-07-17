@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.clear\_sub
+=============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.clear_sub

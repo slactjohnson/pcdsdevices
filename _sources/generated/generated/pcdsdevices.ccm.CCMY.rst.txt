@@ -1,0 +1,94 @@
+pcdsdevices.ccm.CCMY
+====================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMY
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCMY.__init__
+      ~CCMY.calc_combined
+      ~CCMY.check_single
+      ~CCMY.check_value
+      ~CCMY.clear_sub
+      ~CCMY.configure
+      ~CCMY.describe
+      ~CCMY.describe_configuration
+      ~CCMY.forward
+      ~CCMY.get
+      ~CCMY.get_device_tuple
+      ~CCMY.get_instantiated_signals
+      ~CCMY.inverse
+      ~CCMY.move
+      ~CCMY.move_single
+      ~CCMY.pause
+      ~CCMY.put
+      ~CCMY.read
+      ~CCMY.read_configuration
+      ~CCMY.resume
+      ~CCMY.save_offsets
+      ~CCMY.set
+      ~CCMY.stage
+      ~CCMY.stop
+      ~CCMY.subscribe
+      ~CCMY.summary
+      ~CCMY.to_pseudo_tuple
+      ~CCMY.to_real_tuple
+      ~CCMY.trigger
+      ~CCMY.unstage
+      ~CCMY.unsubscribe
+      ~CCMY.unsubscribe_all
+      ~CCMY.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCMY.SUB_ACQ_DONE
+      ~CCMY.SUB_DONE
+      ~CCMY.SUB_READBACK
+      ~CCMY.SUB_START
+      ~CCMY.component_names
+      ~CCMY.composite_egu
+      ~CCMY.concurrent
+      ~CCMY.configuration_attrs
+      ~CCMY.connected
+      ~CCMY.down
+      ~CCMY.egu
+      ~CCMY.event_types
+      ~CCMY.high_limit
+      ~CCMY.hints
+      ~CCMY.kind
+      ~CCMY.limits
+      ~CCMY.low_limit
+      ~CCMY.moving
+      ~CCMY.name
+      ~CCMY.parent
+      ~CCMY.position
+      ~CCMY.pseudo
+      ~CCMY.pseudo_positioners
+      ~CCMY.read_attrs
+      ~CCMY.real_position
+      ~CCMY.real_positioners
+      ~CCMY.report
+      ~CCMY.root
+      ~CCMY.sequential
+      ~CCMY.settle_time
+      ~CCMY.signal_names
+      ~CCMY.target
+      ~CCMY.timeout
+      ~CCMY.trigger_signals
+      ~CCMY.up_north
+      ~CCMY.up_south
+   
+   

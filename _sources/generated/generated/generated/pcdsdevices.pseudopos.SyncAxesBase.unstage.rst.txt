@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.unstage
+==========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.unstage

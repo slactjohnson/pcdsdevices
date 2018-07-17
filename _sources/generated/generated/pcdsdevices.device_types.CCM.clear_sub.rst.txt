@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.clear\_sub
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.clear_sub

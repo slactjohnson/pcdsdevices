@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.stage
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.stage

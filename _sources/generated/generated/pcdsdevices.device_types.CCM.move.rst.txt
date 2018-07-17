@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.move
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.move

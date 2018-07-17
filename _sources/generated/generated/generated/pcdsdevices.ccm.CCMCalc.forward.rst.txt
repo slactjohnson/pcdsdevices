@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.forward
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.forward

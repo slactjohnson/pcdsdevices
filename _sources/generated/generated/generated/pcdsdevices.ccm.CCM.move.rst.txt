@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.move
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.move

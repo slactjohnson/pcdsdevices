@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.resume
+==============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.resume

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.subscribe
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.subscribe

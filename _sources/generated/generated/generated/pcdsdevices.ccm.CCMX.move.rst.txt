@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.move
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.move

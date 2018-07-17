@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.wait_for_connection

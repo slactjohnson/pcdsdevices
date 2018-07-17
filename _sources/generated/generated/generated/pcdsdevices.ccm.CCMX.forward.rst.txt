@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.forward
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.forward

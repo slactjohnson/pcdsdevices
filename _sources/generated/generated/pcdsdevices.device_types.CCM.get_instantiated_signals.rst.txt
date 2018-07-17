@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.get_instantiated_signals

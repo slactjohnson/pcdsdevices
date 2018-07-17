@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.unstage
+===============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.unstage

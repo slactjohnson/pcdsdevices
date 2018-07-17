@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.put
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.put

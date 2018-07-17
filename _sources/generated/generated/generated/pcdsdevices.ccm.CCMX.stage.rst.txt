@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.stage
+==========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.stage

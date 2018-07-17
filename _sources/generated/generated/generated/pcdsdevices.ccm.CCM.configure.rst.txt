@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.configure
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.configure

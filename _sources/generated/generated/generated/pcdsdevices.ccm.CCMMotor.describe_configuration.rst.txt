@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.describe\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.describe_configuration

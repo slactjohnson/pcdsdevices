@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.unstage
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.unstage

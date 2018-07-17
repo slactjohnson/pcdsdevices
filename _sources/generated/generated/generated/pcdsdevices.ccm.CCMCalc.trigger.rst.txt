@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.trigger
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.trigger

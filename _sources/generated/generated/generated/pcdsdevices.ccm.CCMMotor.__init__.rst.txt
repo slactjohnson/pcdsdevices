@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.\_\_init\_\_
+=====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.__init__

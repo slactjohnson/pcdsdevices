@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.wait\_for\_connection
+========================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.wait_for_connection

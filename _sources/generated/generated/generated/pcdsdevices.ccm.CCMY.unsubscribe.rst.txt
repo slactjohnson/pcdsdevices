@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.unsubscribe
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.unsubscribe

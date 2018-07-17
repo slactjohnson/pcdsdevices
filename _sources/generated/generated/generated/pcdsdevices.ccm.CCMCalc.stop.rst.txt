@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.stop
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.stop

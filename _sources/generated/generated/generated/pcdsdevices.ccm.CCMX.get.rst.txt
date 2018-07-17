@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.get
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.get

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.move\_single
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.move_single

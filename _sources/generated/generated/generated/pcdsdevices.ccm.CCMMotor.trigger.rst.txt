@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.trigger
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.trigger

@@ -1,0 +1,71 @@
+pcdsdevices.evr.Trigger
+=======================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. autoclass:: Trigger
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Trigger.__init__
+      ~Trigger.check_value
+      ~Trigger.clear_sub
+      ~Trigger.configure
+      ~Trigger.describe
+      ~Trigger.describe_configuration
+      ~Trigger.disable
+      ~Trigger.enable
+      ~Trigger.get
+      ~Trigger.get_device_tuple
+      ~Trigger.get_instantiated_signals
+      ~Trigger.pause
+      ~Trigger.put
+      ~Trigger.read
+      ~Trigger.read_configuration
+      ~Trigger.resume
+      ~Trigger.stage
+      ~Trigger.stop
+      ~Trigger.subscribe
+      ~Trigger.summary
+      ~Trigger.trigger
+      ~Trigger.unstage
+      ~Trigger.unsubscribe
+      ~Trigger.unsubscribe_all
+      ~Trigger.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Trigger.SUB_ACQ_DONE
+      ~Trigger.component_names
+      ~Trigger.configuration_attrs
+      ~Trigger.connected
+      ~Trigger.enable_cmd
+      ~Trigger.event_types
+      ~Trigger.eventcode
+      ~Trigger.eventrate
+      ~Trigger.hints
+      ~Trigger.kind
+      ~Trigger.label
+      ~Trigger.name
+      ~Trigger.ns_delay
+      ~Trigger.parent
+      ~Trigger.polarity
+      ~Trigger.read_attrs
+      ~Trigger.report
+      ~Trigger.root
+      ~Trigger.signal_names
+      ~Trigger.trigger_signals
+      ~Trigger.width
+   
+   

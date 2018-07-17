@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.configure
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.configure

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.subscribe
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.get\_instantiated\_signals
+===============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.get_instantiated_signals

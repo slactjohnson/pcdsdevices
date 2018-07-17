@@ -1,0 +1,92 @@
+pcdsdevices.ccm.CCMCalc
+=======================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMCalc
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCMCalc.__init__
+      ~CCMCalc.check_single
+      ~CCMCalc.check_value
+      ~CCMCalc.clear_sub
+      ~CCMCalc.configure
+      ~CCMCalc.describe
+      ~CCMCalc.describe_configuration
+      ~CCMCalc.forward
+      ~CCMCalc.get
+      ~CCMCalc.get_device_tuple
+      ~CCMCalc.get_instantiated_signals
+      ~CCMCalc.inverse
+      ~CCMCalc.move
+      ~CCMCalc.move_single
+      ~CCMCalc.pause
+      ~CCMCalc.put
+      ~CCMCalc.read
+      ~CCMCalc.read_configuration
+      ~CCMCalc.resume
+      ~CCMCalc.set
+      ~CCMCalc.stage
+      ~CCMCalc.stop
+      ~CCMCalc.subscribe
+      ~CCMCalc.summary
+      ~CCMCalc.to_pseudo_tuple
+      ~CCMCalc.to_real_tuple
+      ~CCMCalc.trigger
+      ~CCMCalc.unstage
+      ~CCMCalc.unsubscribe
+      ~CCMCalc.unsubscribe_all
+      ~CCMCalc.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCMCalc.SUB_ACQ_DONE
+      ~CCMCalc.SUB_DONE
+      ~CCMCalc.SUB_READBACK
+      ~CCMCalc.SUB_START
+      ~CCMCalc.alio
+      ~CCMCalc.component_names
+      ~CCMCalc.composite_egu
+      ~CCMCalc.concurrent
+      ~CCMCalc.configuration_attrs
+      ~CCMCalc.connected
+      ~CCMCalc.egu
+      ~CCMCalc.energy
+      ~CCMCalc.event_types
+      ~CCMCalc.high_limit
+      ~CCMCalc.hints
+      ~CCMCalc.kind
+      ~CCMCalc.limits
+      ~CCMCalc.low_limit
+      ~CCMCalc.moving
+      ~CCMCalc.name
+      ~CCMCalc.parent
+      ~CCMCalc.position
+      ~CCMCalc.pseudo_positioners
+      ~CCMCalc.read_attrs
+      ~CCMCalc.real_position
+      ~CCMCalc.real_positioners
+      ~CCMCalc.report
+      ~CCMCalc.root
+      ~CCMCalc.sequential
+      ~CCMCalc.settle_time
+      ~CCMCalc.signal_names
+      ~CCMCalc.target
+      ~CCMCalc.theta
+      ~CCMCalc.timeout
+      ~CCMCalc.trigger_signals
+      ~CCMCalc.wavelength
+   
+   

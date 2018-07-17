@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.subscribe
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.subscribe

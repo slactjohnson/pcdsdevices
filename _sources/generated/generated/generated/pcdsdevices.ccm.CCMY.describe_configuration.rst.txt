@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.describe\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.describe_configuration

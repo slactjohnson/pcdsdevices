@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.stop
+============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.stop

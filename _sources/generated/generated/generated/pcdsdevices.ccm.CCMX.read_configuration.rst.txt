@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.read\_configuration
+========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.unsubscribe
+====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.unsubscribe

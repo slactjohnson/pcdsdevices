@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.disable
+===============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.disable

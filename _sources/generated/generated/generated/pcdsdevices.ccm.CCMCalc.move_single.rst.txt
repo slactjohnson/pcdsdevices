@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.move\_single
+====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.move_single

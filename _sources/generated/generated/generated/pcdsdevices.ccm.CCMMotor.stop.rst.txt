@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.stop
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.stop

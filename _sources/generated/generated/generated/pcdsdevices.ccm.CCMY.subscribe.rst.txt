@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.subscribe
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.subscribe

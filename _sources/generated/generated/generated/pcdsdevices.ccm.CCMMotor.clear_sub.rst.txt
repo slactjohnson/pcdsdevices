@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.clear_sub

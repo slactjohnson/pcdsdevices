@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.inverse
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.inverse

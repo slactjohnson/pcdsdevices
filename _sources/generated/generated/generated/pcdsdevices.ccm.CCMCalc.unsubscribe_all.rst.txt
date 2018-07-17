@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.unsubscribe\_all
+========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.unsubscribe_all

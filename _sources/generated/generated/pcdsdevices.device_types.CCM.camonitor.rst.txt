@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.camonitor
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.camonitor

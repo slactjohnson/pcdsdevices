@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.to\_real\_tuple
+==================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.to_real_tuple

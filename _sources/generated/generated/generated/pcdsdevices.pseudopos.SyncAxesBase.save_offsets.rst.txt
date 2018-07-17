@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.save\_offsets
+================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.save_offsets

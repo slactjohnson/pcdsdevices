@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.put
+===========================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.put

@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.\_\_init\_\_
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.__init__

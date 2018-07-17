@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.get\_state
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.get_state

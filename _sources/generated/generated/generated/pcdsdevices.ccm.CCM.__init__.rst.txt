@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.\_\_init\_\_
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.__init__

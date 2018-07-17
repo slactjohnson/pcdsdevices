@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.stage
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.stage

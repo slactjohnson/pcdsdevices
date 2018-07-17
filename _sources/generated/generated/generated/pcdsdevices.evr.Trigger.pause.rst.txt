@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.pause
+=============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.pause

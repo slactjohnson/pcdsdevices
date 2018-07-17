@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.unsubscribe
+===================================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.unsubscribe

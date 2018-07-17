@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.describe\_configuration
+==========================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.describe_configuration

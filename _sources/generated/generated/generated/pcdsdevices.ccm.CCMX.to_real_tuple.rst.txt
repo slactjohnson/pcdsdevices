@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.to\_real\_tuple
+====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.to_real_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.check_value

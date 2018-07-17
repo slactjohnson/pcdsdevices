@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.get\_state
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.get_state

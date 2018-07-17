@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.remove
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.remove

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.wait\_for\_connection
+==========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.wait_for_connection

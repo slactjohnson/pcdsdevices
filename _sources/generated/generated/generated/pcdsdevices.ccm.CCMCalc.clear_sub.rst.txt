@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.clear_sub

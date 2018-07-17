@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.check_value

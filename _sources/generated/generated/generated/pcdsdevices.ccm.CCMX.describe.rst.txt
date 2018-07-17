@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.describe
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.describe

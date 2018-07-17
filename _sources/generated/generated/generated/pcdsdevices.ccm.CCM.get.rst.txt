@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.get
+=======================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.get

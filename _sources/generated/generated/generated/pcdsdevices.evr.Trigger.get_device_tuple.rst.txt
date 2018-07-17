@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.get\_device\_tuple
+==========================================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.get_device_tuple

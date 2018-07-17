@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.stop
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.stop

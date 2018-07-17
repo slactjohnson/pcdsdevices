@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.\_\_init\_\_
+===============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.__init__

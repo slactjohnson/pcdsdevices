@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.stop
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.stop

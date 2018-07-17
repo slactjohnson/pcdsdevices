@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.stop
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.stop

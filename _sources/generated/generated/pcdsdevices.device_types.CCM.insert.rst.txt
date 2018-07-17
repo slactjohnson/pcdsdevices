@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.insert
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.insert

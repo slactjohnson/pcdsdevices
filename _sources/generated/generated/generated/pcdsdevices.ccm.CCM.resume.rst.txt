@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.resume
+==========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.resume

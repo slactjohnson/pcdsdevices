@@ -1,0 +1,84 @@
+pcdsdevices.ccm.CCMMotor
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCMMotor.__init__
+      ~CCMMotor.check_value
+      ~CCMMotor.clear_sub
+      ~CCMMotor.configure
+      ~CCMMotor.describe
+      ~CCMMotor.describe_configuration
+      ~CCMMotor.get
+      ~CCMMotor.get_device_tuple
+      ~CCMMotor.get_instantiated_signals
+      ~CCMMotor.move
+      ~CCMMotor.pause
+      ~CCMMotor.put
+      ~CCMMotor.read
+      ~CCMMotor.read_configuration
+      ~CCMMotor.resume
+      ~CCMMotor.set
+      ~CCMMotor.stage
+      ~CCMMotor.stop
+      ~CCMMotor.subscribe
+      ~CCMMotor.summary
+      ~CCMMotor.trigger
+      ~CCMMotor.unstage
+      ~CCMMotor.unsubscribe
+      ~CCMMotor.unsubscribe_all
+      ~CCMMotor.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCMMotor.SUB_ACQ_DONE
+      ~CCMMotor.SUB_DONE
+      ~CCMMotor.SUB_READBACK
+      ~CCMMotor.SUB_START
+      ~CCMMotor.actuate
+      ~CCMMotor.actuate_value
+      ~CCMMotor.component_names
+      ~CCMMotor.configuration_attrs
+      ~CCMMotor.connected
+      ~CCMMotor.done
+      ~CCMMotor.done_value
+      ~CCMMotor.egu
+      ~CCMMotor.event_types
+      ~CCMMotor.high_limit
+      ~CCMMotor.hints
+      ~CCMMotor.kind
+      ~CCMMotor.limits
+      ~CCMMotor.low_limit
+      ~CCMMotor.moving
+      ~CCMMotor.name
+      ~CCMMotor.parent
+      ~CCMMotor.position
+      ~CCMMotor.put_complete
+      ~CCMMotor.read_attrs
+      ~CCMMotor.readback
+      ~CCMMotor.report
+      ~CCMMotor.root
+      ~CCMMotor.setpoint
+      ~CCMMotor.settle_time
+      ~CCMMotor.signal_names
+      ~CCMMotor.stop_signal
+      ~CCMMotor.stop_value
+      ~CCMMotor.timeout
+      ~CCMMotor.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.check\_single
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.check_single

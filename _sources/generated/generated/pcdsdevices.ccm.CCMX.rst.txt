@@ -1,0 +1,93 @@
+pcdsdevices.ccm.CCMX
+====================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMX
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCMX.__init__
+      ~CCMX.calc_combined
+      ~CCMX.check_single
+      ~CCMX.check_value
+      ~CCMX.clear_sub
+      ~CCMX.configure
+      ~CCMX.describe
+      ~CCMX.describe_configuration
+      ~CCMX.forward
+      ~CCMX.get
+      ~CCMX.get_device_tuple
+      ~CCMX.get_instantiated_signals
+      ~CCMX.inverse
+      ~CCMX.move
+      ~CCMX.move_single
+      ~CCMX.pause
+      ~CCMX.put
+      ~CCMX.read
+      ~CCMX.read_configuration
+      ~CCMX.resume
+      ~CCMX.save_offsets
+      ~CCMX.set
+      ~CCMX.stage
+      ~CCMX.stop
+      ~CCMX.subscribe
+      ~CCMX.summary
+      ~CCMX.to_pseudo_tuple
+      ~CCMX.to_real_tuple
+      ~CCMX.trigger
+      ~CCMX.unstage
+      ~CCMX.unsubscribe
+      ~CCMX.unsubscribe_all
+      ~CCMX.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCMX.SUB_ACQ_DONE
+      ~CCMX.SUB_DONE
+      ~CCMX.SUB_READBACK
+      ~CCMX.SUB_START
+      ~CCMX.component_names
+      ~CCMX.composite_egu
+      ~CCMX.concurrent
+      ~CCMX.configuration_attrs
+      ~CCMX.connected
+      ~CCMX.down
+      ~CCMX.egu
+      ~CCMX.event_types
+      ~CCMX.high_limit
+      ~CCMX.hints
+      ~CCMX.kind
+      ~CCMX.limits
+      ~CCMX.low_limit
+      ~CCMX.moving
+      ~CCMX.name
+      ~CCMX.parent
+      ~CCMX.position
+      ~CCMX.pseudo
+      ~CCMX.pseudo_positioners
+      ~CCMX.read_attrs
+      ~CCMX.real_position
+      ~CCMX.real_positioners
+      ~CCMX.report
+      ~CCMX.root
+      ~CCMX.sequential
+      ~CCMX.settle_time
+      ~CCMX.signal_names
+      ~CCMX.target
+      ~CCMX.timeout
+      ~CCMX.trigger_signals
+      ~CCMX.up
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.get\_device\_tuple
+==========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.pause
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.pause

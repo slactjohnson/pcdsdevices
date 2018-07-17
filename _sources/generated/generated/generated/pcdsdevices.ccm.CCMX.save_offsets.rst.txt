@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.save\_offsets
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.save_offsets

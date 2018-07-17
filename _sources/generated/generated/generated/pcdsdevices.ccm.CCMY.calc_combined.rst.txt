@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.calc\_combined
+===================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.calc_combined

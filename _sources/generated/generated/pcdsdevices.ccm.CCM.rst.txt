@@ -1,0 +1,93 @@
+pcdsdevices.ccm.CCM
+===================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCM
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCM.__init__
+      ~CCM.camonitor
+      ~CCM.check_value
+      ~CCM.clear_sub
+      ~CCM.configure
+      ~CCM.describe
+      ~CCM.describe_configuration
+      ~CCM.get
+      ~CCM.get_device_tuple
+      ~CCM.get_instantiated_signals
+      ~CCM.get_state
+      ~CCM.insert
+      ~CCM.move
+      ~CCM.mv
+      ~CCM.pause
+      ~CCM.put
+      ~CCM.read
+      ~CCM.read_configuration
+      ~CCM.remove
+      ~CCM.resume
+      ~CCM.set
+      ~CCM.stage
+      ~CCM.stop
+      ~CCM.subscribe
+      ~CCM.summary
+      ~CCM.trigger
+      ~CCM.unstage
+      ~CCM.unsubscribe
+      ~CCM.unsubscribe_all
+      ~CCM.wait_for_connection
+      ~CCM.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCM.SUB_ACQ_DONE
+      ~CCM.SUB_DONE
+      ~CCM.SUB_READBACK
+      ~CCM.SUB_START
+      ~CCM.SUB_STATE
+      ~CCM.calc
+      ~CCM.component_names
+      ~CCM.configuration_attrs
+      ~CCM.connected
+      ~CCM.egu
+      ~CCM.event_types
+      ~CCM.high_limit
+      ~CCM.hints
+      ~CCM.in_states
+      ~CCM.inserted
+      ~CCM.kind
+      ~CCM.limits
+      ~CCM.low_limit
+      ~CCM.moving
+      ~CCM.name
+      ~CCM.out_states
+      ~CCM.parent
+      ~CCM.position
+      ~CCM.read_attrs
+      ~CCM.removed
+      ~CCM.report
+      ~CCM.root
+      ~CCM.settle_time
+      ~CCM.signal_names
+      ~CCM.state
+      ~CCM.states_list
+      ~CCM.theta2fine
+      ~CCM.timeout
+      ~CCM.transmission
+      ~CCM.trigger_signals
+      ~CCM.x
+      ~CCM.y
+   
+   

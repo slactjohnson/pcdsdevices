@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.unsubscribe
+==============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.unsubscribe

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.\_\_init\_\_
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.__init__
