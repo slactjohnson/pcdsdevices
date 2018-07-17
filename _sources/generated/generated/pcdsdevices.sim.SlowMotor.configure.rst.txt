@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.configure
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.configure

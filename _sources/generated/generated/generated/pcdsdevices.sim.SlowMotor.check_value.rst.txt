@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.check_value

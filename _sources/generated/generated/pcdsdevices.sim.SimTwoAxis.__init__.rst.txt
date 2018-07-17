@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.__init__

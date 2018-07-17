@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.configure
+====================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.configure

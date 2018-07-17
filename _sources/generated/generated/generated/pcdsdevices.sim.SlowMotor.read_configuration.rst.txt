@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.read\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.read_configuration

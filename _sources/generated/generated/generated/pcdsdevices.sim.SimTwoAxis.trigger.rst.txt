@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.trigger

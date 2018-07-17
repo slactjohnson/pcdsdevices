@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.get\_instantiated\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.get_instantiated_signals

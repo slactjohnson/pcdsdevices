@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.unstage
+=================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.unstage

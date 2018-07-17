@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.umvr
+=============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.umvr

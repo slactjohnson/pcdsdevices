@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.get
+==============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.get

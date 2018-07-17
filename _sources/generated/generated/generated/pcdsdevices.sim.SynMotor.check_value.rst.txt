@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.check_value

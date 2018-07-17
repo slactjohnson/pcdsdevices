@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.resume
+=================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.resume

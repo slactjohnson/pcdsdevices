@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.clear\_sub
+=====================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.clear_sub

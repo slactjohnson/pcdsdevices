@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.describe\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.describe_configuration

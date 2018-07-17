@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.check_value

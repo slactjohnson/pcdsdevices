@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.subscribe
+==================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.subscribe

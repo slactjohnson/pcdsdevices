@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.get\_device\_tuple
+============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.get_device_tuple

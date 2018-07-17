@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.pause
+==============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.pause

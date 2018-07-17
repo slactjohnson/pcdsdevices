@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.read_configuration

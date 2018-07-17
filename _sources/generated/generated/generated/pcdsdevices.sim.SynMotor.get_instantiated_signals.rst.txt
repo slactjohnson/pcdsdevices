@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.get\_instantiated\_signals
+===================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.pause
+===============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.pause

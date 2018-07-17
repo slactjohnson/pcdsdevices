@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.resume
+===============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.resume

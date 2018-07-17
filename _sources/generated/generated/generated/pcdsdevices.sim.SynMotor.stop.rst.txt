@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.stop
+=============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.stop

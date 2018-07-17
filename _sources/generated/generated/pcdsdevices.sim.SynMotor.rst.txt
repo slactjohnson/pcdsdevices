@@ -1,0 +1,75 @@
+pcdsdevices.sim.SynMotor
+========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: SynMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SynMotor.__init__
+      ~SynMotor.camonitor
+      ~SynMotor.check_value
+      ~SynMotor.clear_sub
+      ~SynMotor.configure
+      ~SynMotor.describe
+      ~SynMotor.describe_configuration
+      ~SynMotor.get
+      ~SynMotor.get_device_tuple
+      ~SynMotor.get_instantiated_signals
+      ~SynMotor.move
+      ~SynMotor.mv
+      ~SynMotor.mvr
+      ~SynMotor.pause
+      ~SynMotor.put
+      ~SynMotor.read
+      ~SynMotor.read_configuration
+      ~SynMotor.resume
+      ~SynMotor.set
+      ~SynMotor.stage
+      ~SynMotor.stop
+      ~SynMotor.subscribe
+      ~SynMotor.summary
+      ~SynMotor.trigger
+      ~SynMotor.tweak
+      ~SynMotor.umv
+      ~SynMotor.umvr
+      ~SynMotor.unstage
+      ~SynMotor.unsubscribe
+      ~SynMotor.unsubscribe_all
+      ~SynMotor.wait_for_connection
+      ~SynMotor.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SynMotor.SUB_ACQ_DONE
+      ~SynMotor.SUB_READBACK
+      ~SynMotor.component_names
+      ~SynMotor.configuration_attrs
+      ~SynMotor.connected
+      ~SynMotor.event_types
+      ~SynMotor.hints
+      ~SynMotor.kind
+      ~SynMotor.name
+      ~SynMotor.parent
+      ~SynMotor.position
+      ~SynMotor.read_attrs
+      ~SynMotor.readback
+      ~SynMotor.report
+      ~SynMotor.root
+      ~SynMotor.setpoint
+      ~SynMotor.signal_names
+      ~SynMotor.trigger_signals
+   
+   

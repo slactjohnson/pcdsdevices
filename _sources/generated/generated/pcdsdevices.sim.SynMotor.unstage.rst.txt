@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.unstage
+================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.unstage

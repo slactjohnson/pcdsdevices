@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.wait\_for\_connection
+===============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.wait_for_connection

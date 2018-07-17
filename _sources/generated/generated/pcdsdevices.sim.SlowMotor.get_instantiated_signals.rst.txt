@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.get_instantiated_signals

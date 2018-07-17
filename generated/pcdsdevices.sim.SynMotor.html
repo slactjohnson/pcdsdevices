@@ -1,0 +1,450 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.sim.SynMotor &mdash; PCDS Devices 0.8.0+120.gf2a70d2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="pcdsdevices.sim.SynMotor.__init__" href="generated/pcdsdevices.sim.SynMotor.__init__.html" />
+    <link rel="prev" title="Simulated Devices" href="../sim_types.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.8.0+120.gf2a70d2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../presets.html">Preset Positions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../sim_types.html">Simulated Devices</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.sim.SynMotor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.__init__.html">pcdsdevices.sim.SynMotor.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.camonitor.html">pcdsdevices.sim.SynMotor.camonitor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.check_value.html">pcdsdevices.sim.SynMotor.check_value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.clear_sub.html">pcdsdevices.sim.SynMotor.clear_sub</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.configure.html">pcdsdevices.sim.SynMotor.configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.describe.html">pcdsdevices.sim.SynMotor.describe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.describe_configuration.html">pcdsdevices.sim.SynMotor.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get.html">pcdsdevices.sim.SynMotor.get</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get_device_tuple.html">pcdsdevices.sim.SynMotor.get_device_tuple</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.html">pcdsdevices.sim.SynMotor.get_instantiated_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.move.html">pcdsdevices.sim.SynMotor.move</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.mv.html">pcdsdevices.sim.SynMotor.mv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.mvr.html">pcdsdevices.sim.SynMotor.mvr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.pause.html">pcdsdevices.sim.SynMotor.pause</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.put.html">pcdsdevices.sim.SynMotor.put</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.read.html">pcdsdevices.sim.SynMotor.read</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.read_configuration.html">pcdsdevices.sim.SynMotor.read_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.resume.html">pcdsdevices.sim.SynMotor.resume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.set.html">pcdsdevices.sim.SynMotor.set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stage.html">pcdsdevices.sim.SynMotor.stage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stop.html">pcdsdevices.sim.SynMotor.stop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.subscribe.html">pcdsdevices.sim.SynMotor.subscribe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.summary.html">pcdsdevices.sim.SynMotor.summary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.trigger.html">pcdsdevices.sim.SynMotor.trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.tweak.html">pcdsdevices.sim.SynMotor.tweak</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umv.html">pcdsdevices.sim.SynMotor.umv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umvr.html">pcdsdevices.sim.SynMotor.umvr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.unstage.html">pcdsdevices.sim.SynMotor.unstage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.unsubscribe.html">pcdsdevices.sim.SynMotor.unsubscribe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.unsubscribe_all.html">pcdsdevices.sim.SynMotor.unsubscribe_all</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wait_for_connection.html">pcdsdevices.sim.SynMotor.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm.html">pcdsdevices.sim.SynMotor.wm</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.html">pcdsdevices.sim.SlowMotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.SimTwoAxis.html">pcdsdevices.sim.SimTwoAxis</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">Full API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../sim_types.html">Simulated Devices</a> &raquo;</li>
+        
+      <li>pcdsdevices.sim.SynMotor</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/pcdsdevices.sim.SynMotor.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-sim-synmotor">
+<h1>pcdsdevices.sim.SynMotor<a class="headerlink" href="#pcdsdevices-sim-synmotor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="pcdsdevices.sim.SynMotor">
+<em class="property">class </em><code class="descclassname">pcdsdevices.sim.</code><code class="descname">SynMotor</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SynMotor" title="Permalink to this definition">¶</a></dt>
+<dd><p>SynAxis with the FltMvInterface additions.</p>
+<p>This can be used to test when you need the readback_func feature or if you
+just want your test motor to finish immediately.</p>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.__init__.html#pcdsdevices.sim.SynMotor.__init__" title="pcdsdevices.sim.SynMotor.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args,&nbsp;**kwargs)</td>
+<td>Initialize self.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.camonitor.html#pcdsdevices.sim.SynMotor.camonitor" title="pcdsdevices.sim.SynMotor.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
+<td>Updates current position of the motor.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.check_value.html#pcdsdevices.sim.SynMotor.check_value" title="pcdsdevices.sim.SynMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value,&nbsp;**kwargs)</td>
+<td>Check if the value is valid for this object</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.clear_sub.html#pcdsdevices.sim.SynMotor.clear_sub" title="pcdsdevices.sim.SynMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
+<td>Remove a subscription, given the original callback function</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.configure.html#pcdsdevices.sim.SynMotor.configure" title="pcdsdevices.sim.SynMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
+<td>Configure the device for something during a run</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.describe.html#pcdsdevices.sim.SynMotor.describe" title="pcdsdevices.sim.SynMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
+<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.describe_configuration.html#pcdsdevices.sim.SynMotor.describe_configuration" title="pcdsdevices.sim.SynMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
+<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get.html#pcdsdevices.sim.SynMotor.get" title="pcdsdevices.sim.SynMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<td>Get the value of all components in the device</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get_device_tuple.html#pcdsdevices.sim.SynMotor.get_device_tuple" title="pcdsdevices.sim.SynMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<td>The device tuple type associated with an Device class</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.html#pcdsdevices.sim.SynMotor.get_instantiated_signals" title="pcdsdevices.sim.SynMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<td>Yields all of the instantiated signals in a device hierarchy</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.move.html#pcdsdevices.sim.SynMotor.move" title="pcdsdevices.sim.SynMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position,&nbsp;*args,&nbsp;**kwargs)</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.mv.html#pcdsdevices.sim.SynMotor.mv" title="pcdsdevices.sim.SynMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<td>Absolute move to a position.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.mvr.html#pcdsdevices.sim.SynMotor.mvr" title="pcdsdevices.sim.SynMotor.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<td>Relative move from this position.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.pause.html#pcdsdevices.sim.SynMotor.pause" title="pcdsdevices.sim.SynMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<td>Attempt to ‘pause’ the device.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.put.html#pcdsdevices.sim.SynMotor.put" title="pcdsdevices.sim.SynMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<td>Put a value to all components of the device</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.read.html#pcdsdevices.sim.SynMotor.read" title="pcdsdevices.sim.SynMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<td>Read data from the device</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.read_configuration.html#pcdsdevices.sim.SynMotor.read_configuration" title="pcdsdevices.sim.SynMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<td>returns dictionary mapping names to (value, timestamp) pairs</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.resume.html#pcdsdevices.sim.SynMotor.resume" title="pcdsdevices.sim.SynMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<td>Resume a device from a ‘paused’ state</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.set.html#pcdsdevices.sim.SynMotor.set" title="pcdsdevices.sim.SynMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(value)</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stage.html#pcdsdevices.sim.SynMotor.stage" title="pcdsdevices.sim.SynMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<td>Stage the device for data collection.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stop.html#pcdsdevices.sim.SynMotor.stop" title="pcdsdevices.sim.SynMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<td>Stop the Device and all (instantiated) subdevices</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.subscribe.html#pcdsdevices.sim.SynMotor.subscribe" title="pcdsdevices.sim.SynMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<td>Subscribe to events this event_type generates.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.summary.html#pcdsdevices.sim.SynMotor.summary" title="pcdsdevices.sim.SynMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.trigger.html#pcdsdevices.sim.SynMotor.trigger" title="pcdsdevices.sim.SynMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<td>Trigger the device and return status object</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.tweak.html#pcdsdevices.sim.SynMotor.tweak" title="pcdsdevices.sim.SynMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umv.html#pcdsdevices.sim.SynMotor.umv" title="pcdsdevices.sim.SynMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<td>Move to a position, wait, and update with a progress bar.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umvr.html#pcdsdevices.sim.SynMotor.umvr" title="pcdsdevices.sim.SynMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<td>Relative move from this position, wait, and update with a progress bar.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.unstage.html#pcdsdevices.sim.SynMotor.unstage" title="pcdsdevices.sim.SynMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<td>Unstage the device.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.unsubscribe.html#pcdsdevices.sim.SynMotor.unsubscribe" title="pcdsdevices.sim.SynMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<td>Remove a subscription</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.unsubscribe_all.html#pcdsdevices.sim.SynMotor.unsubscribe_all" title="pcdsdevices.sim.SynMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wait_for_connection.html#pcdsdevices.sim.SynMotor.wait_for_connection" title="pcdsdevices.sim.SynMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<td>Wait for signals to connect</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm.html#pcdsdevices.sim.SynMotor.wm" title="pcdsdevices.sim.SynMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<td>Get the mover’s positon (where motor)</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
+<td>If the device is connected.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
+<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
+<td>name of the device</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
+<td>The parent of the ophyd object.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
+<td>A report on the object.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
+<td>Walk parents to find ultimate ancestor (parent’s parent…).</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpoint</span></code></td>
+<td>Component attribute</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/pcdsdevices.sim.SynMotor.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.sim.SynMotor.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../sim_types.html" class="btn btn-neutral" title="Simulated Devices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.8.0+120.gf2a70d2',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

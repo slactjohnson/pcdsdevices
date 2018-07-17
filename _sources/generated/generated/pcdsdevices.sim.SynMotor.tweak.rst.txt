@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.tweak
+==============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.tweak

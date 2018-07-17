@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.wait\_for\_connection
+==============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.wait_for_connection

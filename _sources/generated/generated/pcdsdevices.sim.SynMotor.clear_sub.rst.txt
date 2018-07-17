@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.clear_sub

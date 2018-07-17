@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.camonitor
+==================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.camonitor

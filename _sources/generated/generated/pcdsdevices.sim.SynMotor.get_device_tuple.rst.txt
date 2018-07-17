@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.get\_device\_tuple
+===========================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.get_device_tuple

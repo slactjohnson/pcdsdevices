@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.unsubscribe\_all
+==========================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.unsubscribe_all

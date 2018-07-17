@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.put
+============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.put

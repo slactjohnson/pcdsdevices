@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.get\_device\_tuple
+=============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.read\_configuration
+==============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.read_configuration

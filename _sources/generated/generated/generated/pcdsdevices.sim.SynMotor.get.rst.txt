@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.get
+============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.get

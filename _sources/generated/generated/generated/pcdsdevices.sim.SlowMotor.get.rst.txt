@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.get
+=============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.get

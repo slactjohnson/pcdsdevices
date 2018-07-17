@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.wait_for_connection

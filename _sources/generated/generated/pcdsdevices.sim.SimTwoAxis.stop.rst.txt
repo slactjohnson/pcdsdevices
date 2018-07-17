@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.stop
+===============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.stop

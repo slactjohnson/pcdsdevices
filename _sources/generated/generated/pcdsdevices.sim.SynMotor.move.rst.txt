@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.move
+=============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.move

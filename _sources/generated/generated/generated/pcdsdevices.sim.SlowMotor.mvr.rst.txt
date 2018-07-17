@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.mvr
+=============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.mvr

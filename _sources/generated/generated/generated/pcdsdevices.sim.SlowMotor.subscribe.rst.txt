@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.subscribe
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.subscribe

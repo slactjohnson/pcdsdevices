@@ -1,0 +1,83 @@
+pcdsdevices.sim.SlowMotor
+=========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: SlowMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SlowMotor.__init__
+      ~SlowMotor.camonitor
+      ~SlowMotor.check_value
+      ~SlowMotor.clear_sub
+      ~SlowMotor.configure
+      ~SlowMotor.describe
+      ~SlowMotor.describe_configuration
+      ~SlowMotor.get
+      ~SlowMotor.get_device_tuple
+      ~SlowMotor.get_instantiated_signals
+      ~SlowMotor.move
+      ~SlowMotor.mv
+      ~SlowMotor.mvr
+      ~SlowMotor.pause
+      ~SlowMotor.put
+      ~SlowMotor.read
+      ~SlowMotor.read_configuration
+      ~SlowMotor.resume
+      ~SlowMotor.set
+      ~SlowMotor.stage
+      ~SlowMotor.stop
+      ~SlowMotor.subscribe
+      ~SlowMotor.summary
+      ~SlowMotor.trigger
+      ~SlowMotor.tweak
+      ~SlowMotor.umv
+      ~SlowMotor.umvr
+      ~SlowMotor.unstage
+      ~SlowMotor.unsubscribe
+      ~SlowMotor.unsubscribe_all
+      ~SlowMotor.wait_for_connection
+      ~SlowMotor.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SlowMotor.SUB_ACQ_DONE
+      ~SlowMotor.SUB_DONE
+      ~SlowMotor.SUB_READBACK
+      ~SlowMotor.SUB_START
+      ~SlowMotor.component_names
+      ~SlowMotor.configuration_attrs
+      ~SlowMotor.connected
+      ~SlowMotor.egu
+      ~SlowMotor.event_types
+      ~SlowMotor.high_limit
+      ~SlowMotor.hints
+      ~SlowMotor.kind
+      ~SlowMotor.limits
+      ~SlowMotor.low_limit
+      ~SlowMotor.moving
+      ~SlowMotor.name
+      ~SlowMotor.parent
+      ~SlowMotor.position
+      ~SlowMotor.read_attrs
+      ~SlowMotor.report
+      ~SlowMotor.root
+      ~SlowMotor.settle_time
+      ~SlowMotor.signal_names
+      ~SlowMotor.timeout
+      ~SlowMotor.trigger_signals
+      ~SlowMotor.user_readback
+   
+   

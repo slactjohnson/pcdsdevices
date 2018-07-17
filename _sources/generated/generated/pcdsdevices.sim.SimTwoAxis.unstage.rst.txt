@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.unstage
+==================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.unstage

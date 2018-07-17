@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.stage
+================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.stage

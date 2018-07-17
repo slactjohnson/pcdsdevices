@@ -1,0 +1,64 @@
+pcdsdevices.sim.SimTwoAxis
+==========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: SimTwoAxis
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SimTwoAxis.__init__
+      ~SimTwoAxis.check_value
+      ~SimTwoAxis.clear_sub
+      ~SimTwoAxis.configure
+      ~SimTwoAxis.describe
+      ~SimTwoAxis.describe_configuration
+      ~SimTwoAxis.get
+      ~SimTwoAxis.get_device_tuple
+      ~SimTwoAxis.get_instantiated_signals
+      ~SimTwoAxis.pause
+      ~SimTwoAxis.put
+      ~SimTwoAxis.read
+      ~SimTwoAxis.read_configuration
+      ~SimTwoAxis.resume
+      ~SimTwoAxis.stage
+      ~SimTwoAxis.stop
+      ~SimTwoAxis.subscribe
+      ~SimTwoAxis.summary
+      ~SimTwoAxis.trigger
+      ~SimTwoAxis.unstage
+      ~SimTwoAxis.unsubscribe
+      ~SimTwoAxis.unsubscribe_all
+      ~SimTwoAxis.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SimTwoAxis.SUB_ACQ_DONE
+      ~SimTwoAxis.component_names
+      ~SimTwoAxis.configuration_attrs
+      ~SimTwoAxis.connected
+      ~SimTwoAxis.event_types
+      ~SimTwoAxis.hints
+      ~SimTwoAxis.kind
+      ~SimTwoAxis.name
+      ~SimTwoAxis.parent
+      ~SimTwoAxis.read_attrs
+      ~SimTwoAxis.report
+      ~SimTwoAxis.root
+      ~SimTwoAxis.signal_names
+      ~SimTwoAxis.trigger_signals
+      ~SimTwoAxis.x
+      ~SimTwoAxis.y
+   
+   

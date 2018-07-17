@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.resume
+================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.resume

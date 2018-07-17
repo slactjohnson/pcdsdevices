@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.camonitor
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.camonitor

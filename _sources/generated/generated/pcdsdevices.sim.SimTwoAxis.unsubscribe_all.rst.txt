@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.unsubscribe\_all
+===========================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.unsubscribe_all
