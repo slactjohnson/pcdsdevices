@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.mv\_ginput
+=====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.mv_ginput

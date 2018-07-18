@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.mv\_ginput
+====================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.mv_ginput

@@ -25,6 +25,7 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.insert
       ~AttBase3rd.move
       ~AttBase3rd.mv
+      ~AttBase3rd.mv_ginput
       ~AttBase3rd.mvr
       ~AttBase3rd.pause
       ~AttBase3rd.put

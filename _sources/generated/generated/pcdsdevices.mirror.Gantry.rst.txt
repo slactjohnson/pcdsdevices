@@ -24,6 +24,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.get_instantiated_signals
       ~Gantry.move
       ~Gantry.mv
+      ~Gantry.mv_ginput
       ~Gantry.mvr
       ~Gantry.pause
       ~Gantry.put

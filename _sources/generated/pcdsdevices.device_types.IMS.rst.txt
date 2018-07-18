@@ -33,6 +33,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.home
       ~IMS.move
       ~IMS.mv
+      ~IMS.mv_ginput
       ~IMS.mvr
       ~IMS.pause
       ~IMS.put

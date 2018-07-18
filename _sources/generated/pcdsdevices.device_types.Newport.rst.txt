@@ -28,6 +28,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.home
       ~Newport.move
       ~Newport.mv
+      ~Newport.mv_ginput
       ~Newport.mvr
       ~Newport.pause
       ~Newport.put

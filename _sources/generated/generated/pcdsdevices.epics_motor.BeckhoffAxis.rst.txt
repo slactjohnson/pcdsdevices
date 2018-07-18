@@ -28,6 +28,7 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.home
       ~BeckhoffAxis.move
       ~BeckhoffAxis.mv
+      ~BeckhoffAxis.mv_ginput
       ~BeckhoffAxis.mvr
       ~BeckhoffAxis.pause
       ~BeckhoffAxis.put

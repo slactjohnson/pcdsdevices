@@ -24,6 +24,7 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.get_instantiated_signals
       ~SlowMotor.move
       ~SlowMotor.mv
+      ~SlowMotor.mv_ginput
       ~SlowMotor.mvr
       ~SlowMotor.pause
       ~SlowMotor.put

@@ -15,6 +15,7 @@ pcdsdevices.mv\_interface.FltMvInterface
       ~FltMvInterface.__init__
       ~FltMvInterface.camonitor
       ~FltMvInterface.mv
+      ~FltMvInterface.mv_ginput
       ~FltMvInterface.mvr
       ~FltMvInterface.tweak
       ~FltMvInterface.umv

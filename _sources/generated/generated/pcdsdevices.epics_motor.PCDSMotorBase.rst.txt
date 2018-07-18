@@ -28,6 +28,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.home
       ~PCDSMotorBase.move
       ~PCDSMotorBase.mv
+      ~PCDSMotorBase.mv_ginput
       ~PCDSMotorBase.mvr
       ~PCDSMotorBase.pause
       ~PCDSMotorBase.put

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.Gantry &mdash; PCDS Devices 0.8.0+120.gf2a70d2 documentation</title>
+  <title>pcdsdevices.mirror.Gantry &mdash; PCDS Devices 0.8.0+122.ge51f03d documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+120.gf2a70d2
+                0.8.0+122.ge51f03d
               </div>
             
           
@@ -120,6 +120,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.get_instantiated_signals.html">pcdsdevices.mirror.Gantry.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.move.html">pcdsdevices.mirror.Gantry.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mv.html">pcdsdevices.mirror.Gantry.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mv_ginput.html">pcdsdevices.mirror.Gantry.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mvr.html">pcdsdevices.mirror.Gantry.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.pause.html">pcdsdevices.mirror.Gantry.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.put.html">pcdsdevices.mirror.Gantry.put</a></li>
@@ -296,64 +297,67 @@ stepper motor prefix</li>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mv.html#pcdsdevices.mirror.Gantry.mv" title="pcdsdevices.mirror.Gantry.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mvr.html#pcdsdevices.mirror.Gantry.mvr" title="pcdsdevices.mirror.Gantry.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mv_ginput.html#pcdsdevices.mirror.Gantry.mv_ginput" title="pcdsdevices.mirror.Gantry.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout,&nbsp;wait])</td>
+<td>Moves to a location the user clicks on.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.mvr.html#pcdsdevices.mirror.Gantry.mvr" title="pcdsdevices.mirror.Gantry.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Relative move from this position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.pause.html#pcdsdevices.mirror.Gantry.pause" title="pcdsdevices.mirror.Gantry.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.pause.html#pcdsdevices.mirror.Gantry.pause" title="pcdsdevices.mirror.Gantry.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.put.html#pcdsdevices.mirror.Gantry.put" title="pcdsdevices.mirror.Gantry.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.put.html#pcdsdevices.mirror.Gantry.put" title="pcdsdevices.mirror.Gantry.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.read.html#pcdsdevices.mirror.Gantry.read" title="pcdsdevices.mirror.Gantry.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.read.html#pcdsdevices.mirror.Gantry.read" title="pcdsdevices.mirror.Gantry.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.read_configuration.html#pcdsdevices.mirror.Gantry.read_configuration" title="pcdsdevices.mirror.Gantry.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.read_configuration.html#pcdsdevices.mirror.Gantry.read_configuration" title="pcdsdevices.mirror.Gantry.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.resume.html#pcdsdevices.mirror.Gantry.resume" title="pcdsdevices.mirror.Gantry.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.resume.html#pcdsdevices.mirror.Gantry.resume" title="pcdsdevices.mirror.Gantry.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.set.html#pcdsdevices.mirror.Gantry.set" title="pcdsdevices.mirror.Gantry.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.set.html#pcdsdevices.mirror.Gantry.set" title="pcdsdevices.mirror.Gantry.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
 <td>Set a value and return a Status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.stage.html#pcdsdevices.mirror.Gantry.stage" title="pcdsdevices.mirror.Gantry.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.stage.html#pcdsdevices.mirror.Gantry.stage" title="pcdsdevices.mirror.Gantry.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.stop.html#pcdsdevices.mirror.Gantry.stop" title="pcdsdevices.mirror.Gantry.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.stop.html#pcdsdevices.mirror.Gantry.stop" title="pcdsdevices.mirror.Gantry.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.subscribe.html#pcdsdevices.mirror.Gantry.subscribe" title="pcdsdevices.mirror.Gantry.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.subscribe.html#pcdsdevices.mirror.Gantry.subscribe" title="pcdsdevices.mirror.Gantry.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.summary.html#pcdsdevices.mirror.Gantry.summary" title="pcdsdevices.mirror.Gantry.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.summary.html#pcdsdevices.mirror.Gantry.summary" title="pcdsdevices.mirror.Gantry.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.trigger.html#pcdsdevices.mirror.Gantry.trigger" title="pcdsdevices.mirror.Gantry.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.trigger.html#pcdsdevices.mirror.Gantry.trigger" title="pcdsdevices.mirror.Gantry.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.tweak.html#pcdsdevices.mirror.Gantry.tweak" title="pcdsdevices.mirror.Gantry.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.tweak.html#pcdsdevices.mirror.Gantry.tweak" title="pcdsdevices.mirror.Gantry.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.umv.html#pcdsdevices.mirror.Gantry.umv" title="pcdsdevices.mirror.Gantry.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.umv.html#pcdsdevices.mirror.Gantry.umv" title="pcdsdevices.mirror.Gantry.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
 <td>Move to a position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.umvr.html#pcdsdevices.mirror.Gantry.umvr" title="pcdsdevices.mirror.Gantry.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.umvr.html#pcdsdevices.mirror.Gantry.umvr" title="pcdsdevices.mirror.Gantry.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
 <td>Relative move from this position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.unstage.html#pcdsdevices.mirror.Gantry.unstage" title="pcdsdevices.mirror.Gantry.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.unstage.html#pcdsdevices.mirror.Gantry.unstage" title="pcdsdevices.mirror.Gantry.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.unsubscribe.html#pcdsdevices.mirror.Gantry.unsubscribe" title="pcdsdevices.mirror.Gantry.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.unsubscribe.html#pcdsdevices.mirror.Gantry.unsubscribe" title="pcdsdevices.mirror.Gantry.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.unsubscribe_all.html#pcdsdevices.mirror.Gantry.unsubscribe_all" title="pcdsdevices.mirror.Gantry.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.unsubscribe_all.html#pcdsdevices.mirror.Gantry.unsubscribe_all" title="pcdsdevices.mirror.Gantry.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wait_for_connection.html#pcdsdevices.mirror.Gantry.wait_for_connection" title="pcdsdevices.mirror.Gantry.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wait_for_connection.html#pcdsdevices.mirror.Gantry.wait_for_connection" title="pcdsdevices.mirror.Gantry.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wm.html#pcdsdevices.mirror.Gantry.wm" title="pcdsdevices.mirror.Gantry.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wm.html#pcdsdevices.mirror.Gantry.wm" title="pcdsdevices.mirror.Gantry.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -545,7 +549,7 @@ stepper motor prefix</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+120.gf2a70d2',
+            VERSION:'0.8.0+122.ge51f03d',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

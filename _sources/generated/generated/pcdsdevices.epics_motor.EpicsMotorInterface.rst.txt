@@ -27,6 +27,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.home
       ~EpicsMotorInterface.move
       ~EpicsMotorInterface.mv
+      ~EpicsMotorInterface.mv_ginput
       ~EpicsMotorInterface.mvr
       ~EpicsMotorInterface.pause
       ~EpicsMotorInterface.put

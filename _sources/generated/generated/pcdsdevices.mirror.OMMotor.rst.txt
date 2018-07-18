@@ -24,6 +24,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.get_instantiated_signals
       ~OMMotor.move
       ~OMMotor.mv
+      ~OMMotor.mv_ginput
       ~OMMotor.mvr
       ~OMMotor.pause
       ~OMMotor.put

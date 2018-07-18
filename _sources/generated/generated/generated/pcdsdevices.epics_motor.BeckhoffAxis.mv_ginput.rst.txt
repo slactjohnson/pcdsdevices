@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.mv\_ginput
+================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.mv_ginput

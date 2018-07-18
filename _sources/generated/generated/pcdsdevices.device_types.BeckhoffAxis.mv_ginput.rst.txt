@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.mv\_ginput
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.mv_ginput

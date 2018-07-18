@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.mv\_ginput
+===================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.mv_ginput

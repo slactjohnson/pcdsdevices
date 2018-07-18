@@ -14,6 +14,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.insert.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.put.rst.txt
@@ -49,6 +50,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.insert.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.put.rst.txt
@@ -317,6 +319,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.put.rst.txt
@@ -353,6 +356,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.put.rst.txt
@@ -395,6 +399,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.put.rst.txt
@@ -433,6 +438,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.put.rst.txt
@@ -470,6 +476,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.put.rst.txt
@@ -507,6 +514,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.put.rst.txt
@@ -907,6 +915,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.put.rst.txt
@@ -939,6 +948,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.put.rst.txt
@@ -994,6 +1004,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.put.rst.txt
@@ -1131,6 +1142,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.tweak.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.umv.rst.txt
@@ -1380,6 +1392,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.put.rst.txt
@@ -1412,6 +1425,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.put.rst.txt
@@ -1444,6 +1458,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.mv.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.mvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.put.rst.txt
@@ -1732,6 +1747,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.mv.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.mv_ginput.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.mvr.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.put.rst.txt
@@ -1894,6 +1910,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.mv.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.mv_ginput.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.mvr.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.put.rst.txt
@@ -1995,6 +2012,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.mv.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.mv_ginput.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.mvr.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.put.rst.txt
@@ -2086,6 +2104,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.mv.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.mv_ginput.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.mvr.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.put.rst.txt
@@ -2376,6 +2395,7 @@
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.mv.rst.txt
+./_sources/generated/generated/pcdsdevices.sim.SlowMotor.mv_ginput.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.mvr.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.put.rst.txt
@@ -2409,6 +2429,7 @@
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.mv.rst.txt
+./_sources/generated/generated/pcdsdevices.sim.SynMotor.mv_ginput.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.mvr.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.put.rst.txt
@@ -2560,6 +2581,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.insert.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.move.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.mv.html
+./generated/generated/generated/pcdsdevices.attenuator.AttBase.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.mvr.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.pause.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.put.html
@@ -2595,6 +2617,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.insert.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.move.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.mv.html
+./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.mvr.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.pause.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.put.html
@@ -2863,6 +2886,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mv.html
+./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mvr.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.put.html
@@ -2899,6 +2923,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mv.html
+./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mvr.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.put.html
@@ -2941,6 +2966,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.mv.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.mvr.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.put.html
@@ -2979,6 +3005,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.mv.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.mvr.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.put.html
@@ -3016,6 +3043,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mvr.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.put.html
@@ -3053,6 +3081,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.mvr.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.put.html
@@ -3453,6 +3482,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.get_instantiated_signals.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.move.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.mv.html
+./generated/generated/generated/pcdsdevices.mirror.Gantry.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.mvr.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.pause.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.put.html
@@ -3485,6 +3515,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.get_instantiated_signals.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.move.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.mv.html
+./generated/generated/generated/pcdsdevices.mirror.OMMotor.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.mvr.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.pause.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.put.html
@@ -3540,6 +3571,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.move.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.mv.html
+./generated/generated/generated/pcdsdevices.mirror.Pitch.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.mvr.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.pause.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.put.html
@@ -3677,6 +3709,7 @@
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.__init__.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv.html
+./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mvr.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.tweak.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.umv.html
@@ -3926,6 +3959,7 @@
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.move.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.mv.html
+./generated/generated/generated/pcdsdevices.sim.SlowMotor.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.mvr.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.pause.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.put.html
@@ -3958,6 +3992,7 @@
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.move.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.mv.html
+./generated/generated/generated/pcdsdevices.sim.SynMotor.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.mvr.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.pause.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.put.html
@@ -3990,6 +4025,7 @@
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.get_instantiated_signals.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.move.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.mv.html
+./generated/generated/generated/pcdsdevices.slits.SlitPositioner.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.mvr.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.pause.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.put.html
@@ -4278,6 +4314,7 @@
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.home.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.move.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.mv.html
+./generated/generated/pcdsdevices.device_types.BeckhoffAxis.mv_ginput.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.mvr.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.pause.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.put.html
@@ -4440,6 +4477,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.home.html
 ./generated/generated/pcdsdevices.device_types.IMS.move.html
 ./generated/generated/pcdsdevices.device_types.IMS.mv.html
+./generated/generated/pcdsdevices.device_types.IMS.mv_ginput.html
 ./generated/generated/pcdsdevices.device_types.IMS.mvr.html
 ./generated/generated/pcdsdevices.device_types.IMS.pause.html
 ./generated/generated/pcdsdevices.device_types.IMS.put.html
@@ -4541,6 +4579,7 @@
 ./generated/generated/pcdsdevices.device_types.Newport.home.html
 ./generated/generated/pcdsdevices.device_types.Newport.move.html
 ./generated/generated/pcdsdevices.device_types.Newport.mv.html
+./generated/generated/pcdsdevices.device_types.Newport.mv_ginput.html
 ./generated/generated/pcdsdevices.device_types.Newport.mvr.html
 ./generated/generated/pcdsdevices.device_types.Newport.pause.html
 ./generated/generated/pcdsdevices.device_types.Newport.put.html
@@ -4632,6 +4671,7 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.home.html
 ./generated/generated/pcdsdevices.device_types.PMC100.move.html
 ./generated/generated/pcdsdevices.device_types.PMC100.mv.html
+./generated/generated/pcdsdevices.device_types.PMC100.mv_ginput.html
 ./generated/generated/pcdsdevices.device_types.PMC100.mvr.html
 ./generated/generated/pcdsdevices.device_types.PMC100.pause.html
 ./generated/generated/pcdsdevices.device_types.PMC100.put.html
@@ -4923,6 +4963,7 @@
 ./generated/generated/pcdsdevices.sim.SlowMotor.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.move.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.mv.html
+./generated/generated/pcdsdevices.sim.SlowMotor.mv_ginput.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.mvr.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.pause.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.put.html
@@ -4956,6 +4997,7 @@
 ./generated/generated/pcdsdevices.sim.SynMotor.html
 ./generated/generated/pcdsdevices.sim.SynMotor.move.html
 ./generated/generated/pcdsdevices.sim.SynMotor.mv.html
+./generated/generated/pcdsdevices.sim.SynMotor.mv_ginput.html
 ./generated/generated/pcdsdevices.sim.SynMotor.mvr.html
 ./generated/generated/pcdsdevices.sim.SynMotor.pause.html
 ./generated/generated/pcdsdevices.sim.SynMotor.put.html

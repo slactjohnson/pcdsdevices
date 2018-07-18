@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.mv\_ginput
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.mv_ginput

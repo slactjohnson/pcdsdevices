@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.mv\_ginput
+=======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.mv_ginput

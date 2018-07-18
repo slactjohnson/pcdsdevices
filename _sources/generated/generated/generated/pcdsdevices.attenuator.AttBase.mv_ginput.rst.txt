@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.mv\_ginput
+=========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.mv_ginput

@@ -24,6 +24,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.get_instantiated_signals
       ~Pitch.move
       ~Pitch.mv
+      ~Pitch.mv_ginput
       ~Pitch.mvr
       ~Pitch.pause
       ~Pitch.put

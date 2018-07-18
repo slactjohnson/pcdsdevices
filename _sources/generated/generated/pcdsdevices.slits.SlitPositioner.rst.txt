@@ -24,6 +24,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.get_instantiated_signals
       ~SlitPositioner.move
       ~SlitPositioner.mv
+      ~SlitPositioner.mv_ginput
       ~SlitPositioner.mvr
       ~SlitPositioner.pause
       ~SlitPositioner.put

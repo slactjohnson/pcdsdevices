@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.mv\_ginput
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.mv_ginput

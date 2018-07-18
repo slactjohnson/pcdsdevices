@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.mv\_ginput
+===========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.mv_ginput

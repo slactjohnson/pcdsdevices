@@ -24,6 +24,7 @@ pcdsdevices.sim.SynMotor
       ~SynMotor.get_instantiated_signals
       ~SynMotor.move
       ~SynMotor.mv
+      ~SynMotor.mv_ginput
       ~SynMotor.mvr
       ~SynMotor.pause
       ~SynMotor.put

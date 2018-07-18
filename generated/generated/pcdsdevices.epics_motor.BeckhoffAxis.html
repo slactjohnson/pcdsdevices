@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.BeckhoffAxis &mdash; PCDS Devices 0.8.0+120.gf2a70d2 documentation</title>
+  <title>pcdsdevices.epics_motor.BeckhoffAxis &mdash; PCDS Devices 0.8.0+122.ge51f03d documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+120.gf2a70d2
+                0.8.0+122.ge51f03d
               </div>
             
           
@@ -118,6 +118,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.home.html">pcdsdevices.epics_motor.BeckhoffAxis.home</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.move.html">pcdsdevices.epics_motor.BeckhoffAxis.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mv.html">pcdsdevices.epics_motor.BeckhoffAxis.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput.html">pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mvr.html">pcdsdevices.epics_motor.BeckhoffAxis.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.pause.html">pcdsdevices.epics_motor.BeckhoffAxis.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.put.html">pcdsdevices.epics_motor.BeckhoffAxis.put</a></li>
@@ -314,67 +315,70 @@ in-progress move as failed.</li>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mv.html#pcdsdevices.epics_motor.BeckhoffAxis.mv" title="pcdsdevices.epics_motor.BeckhoffAxis.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mvr.html#pcdsdevices.epics_motor.BeckhoffAxis.mvr" title="pcdsdevices.epics_motor.BeckhoffAxis.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput.html#pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput" title="pcdsdevices.epics_motor.BeckhoffAxis.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout,&nbsp;wait])</td>
+<td>Moves to a location the user clicks on.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.mvr.html#pcdsdevices.epics_motor.BeckhoffAxis.mvr" title="pcdsdevices.epics_motor.BeckhoffAxis.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Relative move from this position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.pause.html#pcdsdevices.epics_motor.BeckhoffAxis.pause" title="pcdsdevices.epics_motor.BeckhoffAxis.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.pause.html#pcdsdevices.epics_motor.BeckhoffAxis.pause" title="pcdsdevices.epics_motor.BeckhoffAxis.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.put.html#pcdsdevices.epics_motor.BeckhoffAxis.put" title="pcdsdevices.epics_motor.BeckhoffAxis.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.put.html#pcdsdevices.epics_motor.BeckhoffAxis.put" title="pcdsdevices.epics_motor.BeckhoffAxis.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.read.html#pcdsdevices.epics_motor.BeckhoffAxis.read" title="pcdsdevices.epics_motor.BeckhoffAxis.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.read.html#pcdsdevices.epics_motor.BeckhoffAxis.read" title="pcdsdevices.epics_motor.BeckhoffAxis.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.read_configuration.html#pcdsdevices.epics_motor.BeckhoffAxis.read_configuration" title="pcdsdevices.epics_motor.BeckhoffAxis.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.read_configuration.html#pcdsdevices.epics_motor.BeckhoffAxis.read_configuration" title="pcdsdevices.epics_motor.BeckhoffAxis.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.resume.html#pcdsdevices.epics_motor.BeckhoffAxis.resume" title="pcdsdevices.epics_motor.BeckhoffAxis.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.resume.html#pcdsdevices.epics_motor.BeckhoffAxis.resume" title="pcdsdevices.epics_motor.BeckhoffAxis.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.set.html#pcdsdevices.epics_motor.BeckhoffAxis.set" title="pcdsdevices.epics_motor.BeckhoffAxis.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.set.html#pcdsdevices.epics_motor.BeckhoffAxis.set" title="pcdsdevices.epics_motor.BeckhoffAxis.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
 <td>Set a value and return a Status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.set_current_position.html#pcdsdevices.epics_motor.BeckhoffAxis.set_current_position" title="pcdsdevices.epics_motor.BeckhoffAxis.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(pos)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.set_current_position.html#pcdsdevices.epics_motor.BeckhoffAxis.set_current_position" title="pcdsdevices.epics_motor.BeckhoffAxis.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(pos)</td>
 <td>Configure the motor user position to the given value</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.stage.html#pcdsdevices.epics_motor.BeckhoffAxis.stage" title="pcdsdevices.epics_motor.BeckhoffAxis.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.stage.html#pcdsdevices.epics_motor.BeckhoffAxis.stage" title="pcdsdevices.epics_motor.BeckhoffAxis.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the Beckhoff axis.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.stop.html#pcdsdevices.epics_motor.BeckhoffAxis.stop" title="pcdsdevices.epics_motor.BeckhoffAxis.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.stop.html#pcdsdevices.epics_motor.BeckhoffAxis.stop" title="pcdsdevices.epics_motor.BeckhoffAxis.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.subscribe.html#pcdsdevices.epics_motor.BeckhoffAxis.subscribe" title="pcdsdevices.epics_motor.BeckhoffAxis.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.subscribe.html#pcdsdevices.epics_motor.BeckhoffAxis.subscribe" title="pcdsdevices.epics_motor.BeckhoffAxis.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.summary.html#pcdsdevices.epics_motor.BeckhoffAxis.summary" title="pcdsdevices.epics_motor.BeckhoffAxis.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.summary.html#pcdsdevices.epics_motor.BeckhoffAxis.summary" title="pcdsdevices.epics_motor.BeckhoffAxis.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.trigger.html#pcdsdevices.epics_motor.BeckhoffAxis.trigger" title="pcdsdevices.epics_motor.BeckhoffAxis.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.trigger.html#pcdsdevices.epics_motor.BeckhoffAxis.trigger" title="pcdsdevices.epics_motor.BeckhoffAxis.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.tweak.html#pcdsdevices.epics_motor.BeckhoffAxis.tweak" title="pcdsdevices.epics_motor.BeckhoffAxis.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.tweak.html#pcdsdevices.epics_motor.BeckhoffAxis.tweak" title="pcdsdevices.epics_motor.BeckhoffAxis.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.umv.html#pcdsdevices.epics_motor.BeckhoffAxis.umv" title="pcdsdevices.epics_motor.BeckhoffAxis.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.umv.html#pcdsdevices.epics_motor.BeckhoffAxis.umv" title="pcdsdevices.epics_motor.BeckhoffAxis.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
 <td>Move to a position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.umvr.html#pcdsdevices.epics_motor.BeckhoffAxis.umvr" title="pcdsdevices.epics_motor.BeckhoffAxis.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.umvr.html#pcdsdevices.epics_motor.BeckhoffAxis.umvr" title="pcdsdevices.epics_motor.BeckhoffAxis.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
 <td>Relative move from this position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.unstage.html#pcdsdevices.epics_motor.BeckhoffAxis.unstage" title="pcdsdevices.epics_motor.BeckhoffAxis.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.unstage.html#pcdsdevices.epics_motor.BeckhoffAxis.unstage" title="pcdsdevices.epics_motor.BeckhoffAxis.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe.html#pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe" title="pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe.html#pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe" title="pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all.html#pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all" title="pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all.html#pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all" title="pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection.html#pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection" title="pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection.html#pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection" title="pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.wm.html#pcdsdevices.epics_motor.BeckhoffAxis.wm" title="pcdsdevices.epics_motor.BeckhoffAxis.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.epics_motor.BeckhoffAxis.wm.html#pcdsdevices.epics_motor.BeckhoffAxis.wm" title="pcdsdevices.epics_motor.BeckhoffAxis.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
 </tr>
 </tbody>
@@ -578,7 +582,7 @@ in-progress move as failed.</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+120.gf2a70d2',
+            VERSION:'0.8.0+122.ge51f03d',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

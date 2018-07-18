@@ -28,6 +28,7 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.home
       ~PMC100.move
       ~PMC100.mv
+      ~PMC100.mv_ginput
       ~PMC100.mvr
       ~PMC100.pause
       ~PMC100.put

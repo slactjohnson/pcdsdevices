@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.mv\_ginput
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.mv_ginput
