@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.wait_for_connection

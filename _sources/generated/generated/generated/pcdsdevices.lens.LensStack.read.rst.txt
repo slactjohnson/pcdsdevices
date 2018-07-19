@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.read
+===============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.read

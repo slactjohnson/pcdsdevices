@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.GateValve.remove &mdash; PCDS Devices 0.8.0+135.g44e213c documentation</title>
+  <title>pcdsdevices.valve.GateValve.remove &mdash; PCDS Devices 0.8.0+143.g121decd documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+135.g44e213c
+                0.8.0+143.g121decd
               </div>
             
           
@@ -236,8 +236,30 @@
 <h1>pcdsdevices.valve.GateValve.remove<a class="headerlink" href="#pcdsdevices-valve-gatevalve-remove" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.valve.GateValve.remove">
-<code class="descclassname">GateValve.</code><code class="descname">remove</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.valve.GateValve.remove" title="Permalink to this definition">¶</a></dt>
-<dd><p>Remove the valve from the beam</p>
+<code class="descclassname">GateValve.</code><code class="descname">remove</code><span class="sig-paren">(</span><em>moved_cb=None</em>, <em>timeout=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.valve.GateValve.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Macro to move this device to the first state on the out_states list.
+If we’re already at some other out state, do nothing instead.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>moved_cb</strong> (<code class="docutils literal notranslate"><span class="pre">callable</span></code>, optional) – Call this callback when movement is finished. This callback must
+accept one keyword argument, <code class="docutils literal notranslate"><span class="pre">obj</span></code>, which will be set to this
+instance.</li>
+<li><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Maximum time to wait for the motion.</li>
+<li><strong>wait</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, do not continue until the move is complete.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>moved_status</strong> – <code class="docutils literal notranslate"><span class="pre">Status</span></code> that will be marked as done when the motion is complete.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><code class="docutils literal notranslate"><span class="pre">Status</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 </div>
@@ -284,7 +306,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../../',
-            VERSION:'0.8.0+135.g44e213c',
+            VERSION:'0.8.0+143.g121decd',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

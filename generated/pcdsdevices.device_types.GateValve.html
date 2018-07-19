@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.GateValve &mdash; PCDS Devices 0.8.0+135.g44e213c documentation</title>
+  <title>pcdsdevices.device_types.GateValve &mdash; PCDS Devices 0.8.0+143.g121decd documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+135.g44e213c
+                0.8.0+143.g121decd
               </div>
             
           
@@ -242,7 +242,7 @@ safety feature, just a notice to the operator.</p>
 <td>Updates current position of the motor.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.check_value.html#pcdsdevices.device_types.GateValve.check_value" title="pcdsdevices.device_types.GateValve.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
-<td>Verify that a value is a valid set state, or raise an exception.</td>
+<td>Check when removing GateValve interlock is off</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.clear_sub.html#pcdsdevices.device_types.GateValve.clear_sub" title="pcdsdevices.device_types.GateValve.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
 <td>Remove a subscription, given the original callback function</td>
@@ -295,8 +295,8 @@ safety feature, just a notice to the operator.</p>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.read_configuration.html#pcdsdevices.device_types.GateValve.read_configuration" title="pcdsdevices.device_types.GateValve.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.remove.html#pcdsdevices.device_types.GateValve.remove" title="pcdsdevices.device_types.GateValve.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>(**kwargs)</td>
-<td>Remove the valve from the beam</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.remove.html#pcdsdevices.device_types.GateValve.remove" title="pcdsdevices.device_types.GateValve.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.GateValve.resume.html#pcdsdevices.device_types.GateValve.resume" title="pcdsdevices.device_types.GateValve.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
@@ -505,7 +505,7 @@ safety feature, just a notice to the operator.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+135.g44e213c',
+            VERSION:'0.8.0+143.g121decd',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

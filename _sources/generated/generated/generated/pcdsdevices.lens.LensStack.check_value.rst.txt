@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.check_value

@@ -1,0 +1,65 @@
+pcdsdevices.lens.LensStack
+==========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: LensStack
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~LensStack.__init__
+      ~LensStack.check_value
+      ~LensStack.clear_sub
+      ~LensStack.configure
+      ~LensStack.describe
+      ~LensStack.describe_configuration
+      ~LensStack.get
+      ~LensStack.get_device_tuple
+      ~LensStack.get_instantiated_signals
+      ~LensStack.pause
+      ~LensStack.put
+      ~LensStack.read
+      ~LensStack.read_configuration
+      ~LensStack.resume
+      ~LensStack.stage
+      ~LensStack.stop
+      ~LensStack.subscribe
+      ~LensStack.summary
+      ~LensStack.trigger
+      ~LensStack.unstage
+      ~LensStack.unsubscribe
+      ~LensStack.unsubscribe_all
+      ~LensStack.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LensStack.SUB_ACQ_DONE
+      ~LensStack.component_names
+      ~LensStack.configuration_attrs
+      ~LensStack.connected
+      ~LensStack.event_types
+      ~LensStack.hints
+      ~LensStack.kind
+      ~LensStack.name
+      ~LensStack.parent
+      ~LensStack.read_attrs
+      ~LensStack.report
+      ~LensStack.root
+      ~LensStack.signal_names
+      ~LensStack.trigger_signals
+      ~LensStack.x
+      ~LensStack.y
+      ~LensStack.z
+   
+   

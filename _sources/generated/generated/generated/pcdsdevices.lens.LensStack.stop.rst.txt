@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.stop
+===============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.stop

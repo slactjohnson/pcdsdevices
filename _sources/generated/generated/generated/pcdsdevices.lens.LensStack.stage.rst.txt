@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.stage
+================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.stage

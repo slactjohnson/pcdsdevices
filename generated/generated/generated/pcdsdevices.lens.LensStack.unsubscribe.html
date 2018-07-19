@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.lens.LensStack.unsubscribe &mdash; PCDS Devices 0.8.0+143.g121decd documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="pcdsdevices.lens.LensStack.unsubscribe_all" href="pcdsdevices.lens.LensStack.unsubscribe_all.html" />
+    <link rel="prev" title="pcdsdevices.lens.LensStack.unstage" href="pcdsdevices.lens.LensStack.unstage.html" /> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.8.0+143.g121decd
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sim_types.html">Simulated Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../releases.html">Release History</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../api.html">Full API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.__init__.html">pcdsdevices.lens.LensStack.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.check_value.html">pcdsdevices.lens.LensStack.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.clear_sub.html">pcdsdevices.lens.LensStack.clear_sub</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.configure.html">pcdsdevices.lens.LensStack.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.describe.html">pcdsdevices.lens.LensStack.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.describe_configuration.html">pcdsdevices.lens.LensStack.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get.html">pcdsdevices.lens.LensStack.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get_device_tuple.html">pcdsdevices.lens.LensStack.get_device_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get_instantiated_signals.html">pcdsdevices.lens.LensStack.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.pause.html">pcdsdevices.lens.LensStack.pause</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.put.html">pcdsdevices.lens.LensStack.put</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.read.html">pcdsdevices.lens.LensStack.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.read_configuration.html">pcdsdevices.lens.LensStack.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.resume.html">pcdsdevices.lens.LensStack.resume</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.stage.html">pcdsdevices.lens.LensStack.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.stop.html">pcdsdevices.lens.LensStack.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.subscribe.html">pcdsdevices.lens.LensStack.subscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.summary.html">pcdsdevices.lens.LensStack.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.trigger.html">pcdsdevices.lens.LensStack.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unstage.html">pcdsdevices.lens.LensStack.unstage</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.lens.LensStack.unsubscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unsubscribe_all.html">pcdsdevices.lens.LensStack.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.wait_for_connection.html">pcdsdevices.lens.LensStack.wait_for_connection</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.XFLS.html">pcdsdevices.lens.XFLS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../../api.html">Full API</a> &raquo;</li>
+        
+          <li><a href="../../pcdsdevices.lens.html">pcdsdevices.lens</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a> &raquo;</li>
+        
+      <li>pcdsdevices.lens.LensStack.unsubscribe</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.lens.LensStack.unsubscribe.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-lens-lensstack-unsubscribe">
+<h1>pcdsdevices.lens.LensStack.unsubscribe<a class="headerlink" href="#pcdsdevices-lens-lensstack-unsubscribe" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="pcdsdevices.lens.LensStack.unsubscribe">
+<code class="descclassname">LensStack.</code><code class="descname">unsubscribe</code><span class="sig-paren">(</span><em>cid</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.lens.LensStack.unsubscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a subscription</p>
+<p>See also <a class="reference internal" href="pcdsdevices.lens.LensStack.subscribe.html#pcdsdevices.lens.LensStack.subscribe" title="pcdsdevices.lens.LensStack.subscribe"><code class="xref py py-meth docutils literal notranslate"><span class="pre">subscribe()</span></code></a>, <a class="reference internal" href="pcdsdevices.lens.LensStack.clear_sub.html#pcdsdevices.lens.LensStack.clear_sub" title="pcdsdevices.lens.LensStack.clear_sub"><code class="xref py py-meth docutils literal notranslate"><span class="pre">clear_sub()</span></code></a></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cid</strong> (<em>int</em>) – token return by <a class="reference internal" href="pcdsdevices.lens.LensStack.subscribe.html#pcdsdevices.lens.LensStack.subscribe" title="pcdsdevices.lens.LensStack.subscribe"><code class="xref py py-meth docutils literal notranslate"><span class="pre">subscribe()</span></code></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.lens.LensStack.unsubscribe_all.html" class="btn btn-neutral float-right" title="pcdsdevices.lens.LensStack.unsubscribe_all" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.lens.LensStack.unstage.html" class="btn btn-neutral" title="pcdsdevices.lens.LensStack.unstage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'0.8.0+143.g121decd',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.describe\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.describe_configuration

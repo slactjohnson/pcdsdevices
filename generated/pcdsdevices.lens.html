@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lens &mdash; PCDS Devices 0.8.0+135.g44e213c documentation</title>
+  <title>pcdsdevices.lens &mdash; PCDS Devices 0.8.0+143.g121decd documentation</title>
   
 
   
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.lens.XFLS" href="generated/pcdsdevices.lens.XFLS.html" />
+    <link rel="next" title="pcdsdevices.lens.LensStack" href="generated/pcdsdevices.lens.LensStack.html" />
     <link rel="prev" title="pcdsdevices.ipm.IPM.wm" href="generated/generated/pcdsdevices.ipm.IPM.wm.html" /> 
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+135.g44e213c
+                0.8.0+143.g121decd
               </div>
             
           
@@ -105,6 +105,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.lens</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.lens.XFLS.html">pcdsdevices.lens.XFLS</a></li>
 </ul>
 </li>
@@ -192,8 +193,6 @@
   <div class="section" id="module-pcdsdevices.lens">
 <span id="pcdsdevices-lens"></span><h1>pcdsdevices.lens<a class="headerlink" href="#module-pcdsdevices.lens" title="Permalink to this headline">¶</a></h1>
 <p>Basic Beryllium Lens XFLS</p>
-<p>The scope of this module is picking a lens, not focusing or aligning the
-lenses. This will be expanded in the future.</p>
 <p class="rubric">Classes</p>
 <table border="1" class="longtable docutils">
 <colgroup>
@@ -201,7 +200,10 @@ lenses. This will be expanded in the future.</p>
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lens.XFLS.html#pcdsdevices.lens.XFLS" title="pcdsdevices.lens.XFLS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">XFLS</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lens.LensStack.html#pcdsdevices.lens.LensStack" title="pcdsdevices.lens.LensStack"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LensStack</span></code></a>(x_prefix,&nbsp;y_prefix,&nbsp;z_prefix,&nbsp;…)</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lens.XFLS.html#pcdsdevices.lens.XFLS" title="pcdsdevices.lens.XFLS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">XFLS</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
 <td>XRay Focusing Lens (Be)</td>
 </tr>
 </tbody>
@@ -216,7 +218,7 @@ lenses. This will be expanded in the future.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.lens.XFLS.html" class="btn btn-neutral float-right" title="pcdsdevices.lens.XFLS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.lens.LensStack.html" class="btn btn-neutral float-right" title="pcdsdevices.lens.LensStack" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.ipm.IPM.wm.html" class="btn btn-neutral" title="pcdsdevices.ipm.IPM.wm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -250,7 +252,7 @@ lenses. This will be expanded in the future.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+135.g44e213c',
+            VERSION:'0.8.0+143.g121decd',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
