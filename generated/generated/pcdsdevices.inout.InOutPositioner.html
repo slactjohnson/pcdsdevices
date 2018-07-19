@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.InOutPositioner &mdash; PCDS Devices 0.8.0+128.gb53e333 documentation</title>
+  <title>pcdsdevices.inout.InOutPositioner &mdash; PCDS Devices 0.8.0+133.g9a7ead1 documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+128.gb53e333
+                0.8.0+133.g9a7ead1
               </div>
             
           
@@ -232,8 +232,12 @@
 <dl class="class">
 <dt id="pcdsdevices.inout.InOutPositioner">
 <em class="property">class </em><code class="descclassname">pcdsdevices.inout.</code><code class="descname">InOutPositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner" title="Permalink to this definition">¶</a></dt>
-<dd><p>Basic in/out <a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a>. It can be inserted, removed and queried for
-insertion and removal state. It can also define transmission values for the
+<dd><p>Base class for a device that can be inserted and removed from the beam.</p>
+<p>This must be subclassed and given a <code class="docutils literal notranslate"><span class="pre">state</span></code> signal to work properly. You
+should also update the <code class="docutils literal notranslate"><span class="pre">states_list</span></code>, <code class="docutils literal notranslate"><span class="pre">in_states</span></code>, and <code class="docutils literal notranslate"><span class="pre">out_states</span></code>
+lists appropriately.</p>
+<p>These devices can be inserted, removed and queried for insertion and
+removal state. They can also define transmission values for the
 various states.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -527,7 +531,7 @@ for unaccounted states.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+128.gb53e333',
+            VERSION:'0.8.0+133.g9a7ead1',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
