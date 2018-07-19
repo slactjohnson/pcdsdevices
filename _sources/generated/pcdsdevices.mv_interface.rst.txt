@@ -22,6 +22,7 @@ pcdsdevices.mv\_interface
    .. autosummary::
       :toctree: generated
    
+      AbsProgressBar
       FltMvInterface
       MvInterface
       PresetPosition
