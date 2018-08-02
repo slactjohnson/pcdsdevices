@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimLensStack.clear\_sub
+=======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimLensStack.clear_sub

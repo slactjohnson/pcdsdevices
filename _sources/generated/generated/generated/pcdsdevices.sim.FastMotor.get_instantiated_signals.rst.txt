@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.get_instantiated_signals

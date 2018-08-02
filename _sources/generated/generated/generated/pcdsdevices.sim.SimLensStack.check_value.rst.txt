@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimLensStack.check\_value
+=========================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimLensStack.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.stop
+==============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.stop

@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.wm
+============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.wm

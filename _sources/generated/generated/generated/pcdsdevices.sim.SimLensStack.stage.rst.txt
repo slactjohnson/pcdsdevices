@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimLensStack.stage
+==================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimLensStack.stage

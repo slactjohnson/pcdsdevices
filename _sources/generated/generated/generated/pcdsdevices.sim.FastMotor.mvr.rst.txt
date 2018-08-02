@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.mvr
+=============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.mvr

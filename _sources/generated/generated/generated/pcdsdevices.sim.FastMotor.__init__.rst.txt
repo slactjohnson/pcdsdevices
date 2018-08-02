@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.\_\_init\_\_
+======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.__init__

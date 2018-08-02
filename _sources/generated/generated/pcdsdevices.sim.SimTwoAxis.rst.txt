@@ -31,6 +31,7 @@ pcdsdevices.sim.SimTwoAxis
       ~SimTwoAxis.subscribe
       ~SimTwoAxis.summary
       ~SimTwoAxis.trigger
+      ~SimTwoAxis.tweak
       ~SimTwoAxis.unstage
       ~SimTwoAxis.unsubscribe
       ~SimTwoAxis.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.tweak
+===============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.tweak

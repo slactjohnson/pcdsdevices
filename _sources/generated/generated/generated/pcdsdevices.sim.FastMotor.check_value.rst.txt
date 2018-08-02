@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.mv\_ginput
+====================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.mv_ginput

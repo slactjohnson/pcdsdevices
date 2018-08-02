@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.summary
+=================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.summary

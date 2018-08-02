@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimLensStack.read
+=================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimLensStack.read

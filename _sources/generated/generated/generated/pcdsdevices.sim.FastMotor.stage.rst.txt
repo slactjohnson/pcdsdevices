@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.stage
+===============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.stage

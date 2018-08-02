@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SimTwoAxis &mdash; PCDS Devices 0.8.0+143.g121decd documentation</title>
+  <title>pcdsdevices.sim.SimTwoAxis &mdash; PCDS Devices 0.8.0+146.g709967a documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+143.g121decd
+                0.8.0+146.g709967a
               </div>
             
           
@@ -114,6 +114,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.subscribe.html">pcdsdevices.sim.SimTwoAxis.subscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.summary.html">pcdsdevices.sim.SimTwoAxis.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.trigger.html">pcdsdevices.sim.SimTwoAxis.trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.tweak.html">pcdsdevices.sim.SimTwoAxis.tweak</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unstage.html">pcdsdevices.sim.SimTwoAxis.unstage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unsubscribe.html">pcdsdevices.sim.SimTwoAxis.unsubscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unsubscribe_all.html">pcdsdevices.sim.SimTwoAxis.unsubscribe_all</a></li>
@@ -198,7 +199,7 @@
 <dl class="class">
 <dt id="pcdsdevices.sim.SimTwoAxis">
 <em class="property">class </em><code class="descclassname">pcdsdevices.sim.</code><code class="descname">SimTwoAxis</code><span class="sig-paren">(</span><em>prefix=''</em>, <em>*</em>, <em>name</em>, <em>kind=None</em>, <em>read_attrs=None</em>, <em>configuration_attrs=None</em>, <em>parent=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SimTwoAxis" title="Permalink to this definition">¶</a></dt>
-<dd><p>Test assembly with two motors</p>
+<dd><p>Test assembly with two slow motors. Used to test 2d tweak.</p>
 <p class="rubric">Methods</p>
 <table border="1" class="longtable docutils">
 <colgroup>
@@ -263,16 +264,19 @@
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.trigger.html#pcdsdevices.sim.SimTwoAxis.trigger" title="pcdsdevices.sim.SimTwoAxis.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unstage.html#pcdsdevices.sim.SimTwoAxis.unstage" title="pcdsdevices.sim.SimTwoAxis.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
-<td>Unstage the device.</td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unsubscribe.html#pcdsdevices.sim.SimTwoAxis.unsubscribe" title="pcdsdevices.sim.SimTwoAxis.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
-<td>Remove a subscription</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unsubscribe_all.html#pcdsdevices.sim.SimTwoAxis.unsubscribe_all" title="pcdsdevices.sim.SimTwoAxis.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.tweak.html#pcdsdevices.sim.SimTwoAxis.tweak" title="pcdsdevices.sim.SimTwoAxis.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.wait_for_connection.html#pcdsdevices.sim.SimTwoAxis.wait_for_connection" title="pcdsdevices.sim.SimTwoAxis.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unstage.html#pcdsdevices.sim.SimTwoAxis.unstage" title="pcdsdevices.sim.SimTwoAxis.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<td>Unstage the device.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unsubscribe.html#pcdsdevices.sim.SimTwoAxis.unsubscribe" title="pcdsdevices.sim.SimTwoAxis.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<td>Remove a subscription</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.unsubscribe_all.html#pcdsdevices.sim.SimTwoAxis.unsubscribe_all" title="pcdsdevices.sim.SimTwoAxis.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SimTwoAxis.wait_for_connection.html#pcdsdevices.sim.SimTwoAxis.wait_for_connection" title="pcdsdevices.sim.SimTwoAxis.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
 </tbody>
@@ -380,7 +384,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+143.g121decd',
+            VERSION:'0.8.0+146.g709967a',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

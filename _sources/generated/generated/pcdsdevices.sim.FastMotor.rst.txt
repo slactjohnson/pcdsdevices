@@ -1,0 +1,84 @@
+pcdsdevices.sim.FastMotor
+=========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: FastMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~FastMotor.__init__
+      ~FastMotor.camonitor
+      ~FastMotor.check_value
+      ~FastMotor.clear_sub
+      ~FastMotor.configure
+      ~FastMotor.describe
+      ~FastMotor.describe_configuration
+      ~FastMotor.get
+      ~FastMotor.get_device_tuple
+      ~FastMotor.get_instantiated_signals
+      ~FastMotor.move
+      ~FastMotor.mv
+      ~FastMotor.mv_ginput
+      ~FastMotor.mvr
+      ~FastMotor.pause
+      ~FastMotor.put
+      ~FastMotor.read
+      ~FastMotor.read_configuration
+      ~FastMotor.resume
+      ~FastMotor.set
+      ~FastMotor.stage
+      ~FastMotor.stop
+      ~FastMotor.subscribe
+      ~FastMotor.summary
+      ~FastMotor.trigger
+      ~FastMotor.tweak
+      ~FastMotor.umv
+      ~FastMotor.umvr
+      ~FastMotor.unstage
+      ~FastMotor.unsubscribe
+      ~FastMotor.unsubscribe_all
+      ~FastMotor.wait_for_connection
+      ~FastMotor.wm
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~FastMotor.SUB_ACQ_DONE
+      ~FastMotor.SUB_DONE
+      ~FastMotor.SUB_READBACK
+      ~FastMotor.SUB_START
+      ~FastMotor.component_names
+      ~FastMotor.configuration_attrs
+      ~FastMotor.connected
+      ~FastMotor.egu
+      ~FastMotor.event_types
+      ~FastMotor.high_limit
+      ~FastMotor.hints
+      ~FastMotor.kind
+      ~FastMotor.limits
+      ~FastMotor.low_limit
+      ~FastMotor.moving
+      ~FastMotor.name
+      ~FastMotor.parent
+      ~FastMotor.position
+      ~FastMotor.read_attrs
+      ~FastMotor.report
+      ~FastMotor.root
+      ~FastMotor.settle_time
+      ~FastMotor.signal_names
+      ~FastMotor.timeout
+      ~FastMotor.trigger_signals
+      ~FastMotor.user_readback
+   
+   

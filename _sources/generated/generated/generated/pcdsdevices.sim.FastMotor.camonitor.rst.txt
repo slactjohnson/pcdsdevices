@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.camonitor
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.camonitor
