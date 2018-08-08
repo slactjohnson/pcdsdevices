@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.wm\_update
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.wm_update

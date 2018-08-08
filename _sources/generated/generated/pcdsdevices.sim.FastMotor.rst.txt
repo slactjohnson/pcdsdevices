@@ -19,6 +19,7 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.configure
       ~FastMotor.describe
       ~FastMotor.describe_configuration
+      ~FastMotor.end_monitor_thread
       ~FastMotor.get
       ~FastMotor.get_device_tuple
       ~FastMotor.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.unsubscribe_all
       ~FastMotor.wait_for_connection
       ~FastMotor.wm
+      ~FastMotor.wm_update
    
    
 

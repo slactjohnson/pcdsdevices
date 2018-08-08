@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCM &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.ccm.CCM &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -114,6 +114,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.configure.html">pcdsdevices.ccm.CCM.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.describe.html">pcdsdevices.ccm.CCM.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.describe_configuration.html">pcdsdevices.ccm.CCM.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.end_monitor_thread.html">pcdsdevices.ccm.CCM.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get.html">pcdsdevices.ccm.CCM.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_device_tuple.html">pcdsdevices.ccm.CCM.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_instantiated_signals.html">pcdsdevices.ccm.CCM.get_instantiated_signals</a></li>
@@ -138,6 +139,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unsubscribe_all.html">pcdsdevices.ccm.CCM.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wait_for_connection.html">pcdsdevices.ccm.CCM.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wm.html">pcdsdevices.ccm.CCM.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wm_update.html">pcdsdevices.ccm.CCM.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
@@ -253,7 +255,7 @@ are all labelled accordingly.</p>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.camonitor.html#pcdsdevices.ccm.CCM.camonitor" title="pcdsdevices.ccm.CCM.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.check_value.html#pcdsdevices.ccm.CCM.check_value" title="pcdsdevices.ccm.CCM.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Verify that a value is a valid set state, or raise an exception.</td>
@@ -270,77 +272,83 @@ are all labelled accordingly.</p>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.describe_configuration.html#pcdsdevices.ccm.CCM.describe_configuration" title="pcdsdevices.ccm.CCM.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get.html#pcdsdevices.ccm.CCM.get" title="pcdsdevices.ccm.CCM.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.end_monitor_thread.html#pcdsdevices.ccm.CCM.end_monitor_thread" title="pcdsdevices.ccm.CCM.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCM.camonitor.html#pcdsdevices.ccm.CCM.camonitor" title="pcdsdevices.ccm.CCM.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wm_update.html#pcdsdevices.ccm.CCM.wm_update" title="pcdsdevices.ccm.CCM.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get.html#pcdsdevices.ccm.CCM.get" title="pcdsdevices.ccm.CCM.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_device_tuple.html#pcdsdevices.ccm.CCM.get_device_tuple" title="pcdsdevices.ccm.CCM.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_device_tuple.html#pcdsdevices.ccm.CCM.get_device_tuple" title="pcdsdevices.ccm.CCM.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_instantiated_signals.html#pcdsdevices.ccm.CCM.get_instantiated_signals" title="pcdsdevices.ccm.CCM.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_instantiated_signals.html#pcdsdevices.ccm.CCM.get_instantiated_signals" title="pcdsdevices.ccm.CCM.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_state.html#pcdsdevices.ccm.CCM.get_state" title="pcdsdevices.ccm.CCM.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.get_state.html#pcdsdevices.ccm.CCM.get_state" title="pcdsdevices.ccm.CCM.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.insert.html#pcdsdevices.ccm.CCM.insert" title="pcdsdevices.ccm.CCM.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.insert.html#pcdsdevices.ccm.CCM.insert" title="pcdsdevices.ccm.CCM.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Insert this device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.move.html#pcdsdevices.ccm.CCM.move" title="pcdsdevices.ccm.CCM.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.move.html#pcdsdevices.ccm.CCM.move" title="pcdsdevices.ccm.CCM.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.mv.html#pcdsdevices.ccm.CCM.mv" title="pcdsdevices.ccm.CCM.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.mv.html#pcdsdevices.ccm.CCM.mv" title="pcdsdevices.ccm.CCM.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.pause.html#pcdsdevices.ccm.CCM.pause" title="pcdsdevices.ccm.CCM.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.pause.html#pcdsdevices.ccm.CCM.pause" title="pcdsdevices.ccm.CCM.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.put.html#pcdsdevices.ccm.CCM.put" title="pcdsdevices.ccm.CCM.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.put.html#pcdsdevices.ccm.CCM.put" title="pcdsdevices.ccm.CCM.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.read.html#pcdsdevices.ccm.CCM.read" title="pcdsdevices.ccm.CCM.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.read.html#pcdsdevices.ccm.CCM.read" title="pcdsdevices.ccm.CCM.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.read_configuration.html#pcdsdevices.ccm.CCM.read_configuration" title="pcdsdevices.ccm.CCM.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.read_configuration.html#pcdsdevices.ccm.CCM.read_configuration" title="pcdsdevices.ccm.CCM.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.remove.html#pcdsdevices.ccm.CCM.remove" title="pcdsdevices.ccm.CCM.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.remove.html#pcdsdevices.ccm.CCM.remove" title="pcdsdevices.ccm.CCM.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.resume.html#pcdsdevices.ccm.CCM.resume" title="pcdsdevices.ccm.CCM.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.resume.html#pcdsdevices.ccm.CCM.resume" title="pcdsdevices.ccm.CCM.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.set.html#pcdsdevices.ccm.CCM.set" title="pcdsdevices.ccm.CCM.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.set.html#pcdsdevices.ccm.CCM.set" title="pcdsdevices.ccm.CCM.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.stage.html#pcdsdevices.ccm.CCM.stage" title="pcdsdevices.ccm.CCM.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.stage.html#pcdsdevices.ccm.CCM.stage" title="pcdsdevices.ccm.CCM.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.stop.html#pcdsdevices.ccm.CCM.stop" title="pcdsdevices.ccm.CCM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.stop.html#pcdsdevices.ccm.CCM.stop" title="pcdsdevices.ccm.CCM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.subscribe.html#pcdsdevices.ccm.CCM.subscribe" title="pcdsdevices.ccm.CCM.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.subscribe.html#pcdsdevices.ccm.CCM.subscribe" title="pcdsdevices.ccm.CCM.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.summary.html#pcdsdevices.ccm.CCM.summary" title="pcdsdevices.ccm.CCM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.summary.html#pcdsdevices.ccm.CCM.summary" title="pcdsdevices.ccm.CCM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.trigger.html#pcdsdevices.ccm.CCM.trigger" title="pcdsdevices.ccm.CCM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.trigger.html#pcdsdevices.ccm.CCM.trigger" title="pcdsdevices.ccm.CCM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unstage.html#pcdsdevices.ccm.CCM.unstage" title="pcdsdevices.ccm.CCM.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unstage.html#pcdsdevices.ccm.CCM.unstage" title="pcdsdevices.ccm.CCM.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unsubscribe.html#pcdsdevices.ccm.CCM.unsubscribe" title="pcdsdevices.ccm.CCM.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unsubscribe.html#pcdsdevices.ccm.CCM.unsubscribe" title="pcdsdevices.ccm.CCM.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unsubscribe_all.html#pcdsdevices.ccm.CCM.unsubscribe_all" title="pcdsdevices.ccm.CCM.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.unsubscribe_all.html#pcdsdevices.ccm.CCM.unsubscribe_all" title="pcdsdevices.ccm.CCM.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wait_for_connection.html#pcdsdevices.ccm.CCM.wait_for_connection" title="pcdsdevices.ccm.CCM.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wait_for_connection.html#pcdsdevices.ccm.CCM.wait_for_connection" title="pcdsdevices.ccm.CCM.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wm.html#pcdsdevices.ccm.CCM.wm" title="pcdsdevices.ccm.CCM.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wm.html#pcdsdevices.ccm.CCM.wm" title="pcdsdevices.ccm.CCM.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.wm_update.html#pcdsdevices.ccm.CCM.wm_update" title="pcdsdevices.ccm.CCM.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -510,7 +518,7 @@ are all labelled accordingly.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

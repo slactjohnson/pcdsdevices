@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PointingMirror &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.device_types.PointingMirror &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.device_types.PointingMirror.__init__" href="generated/pcdsdevices.device_types.PointingMirror.__init__.html" />
-    <link rel="prev" title="pcdsdevices.device_types.PulsePicker.wm" href="generated/pcdsdevices.device_types.PulsePicker.wm.html" /> 
+    <link rel="prev" title="pcdsdevices.device_types.PulsePicker.wm_update" href="generated/pcdsdevices.device_types.PulsePicker.wm_update.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -112,6 +112,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.configure.html">pcdsdevices.device_types.PointingMirror.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.describe.html">pcdsdevices.device_types.PointingMirror.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.describe_configuration.html">pcdsdevices.device_types.PointingMirror.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.end_monitor_thread.html">pcdsdevices.device_types.PointingMirror.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get.html">pcdsdevices.device_types.PointingMirror.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_device_tuple.html">pcdsdevices.device_types.PointingMirror.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_instantiated_signals.html">pcdsdevices.device_types.PointingMirror.get_instantiated_signals</a></li>
@@ -136,6 +137,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unsubscribe_all.html">pcdsdevices.device_types.PointingMirror.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wait_for_connection.html">pcdsdevices.device_types.PointingMirror.wait_for_connection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wm.html">pcdsdevices.device_types.PointingMirror.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wm_update.html">pcdsdevices.device_types.PointingMirror.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
@@ -251,7 +253,7 @@ overall state.</p>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.camonitor.html#pcdsdevices.device_types.PointingMirror.camonitor" title="pcdsdevices.device_types.PointingMirror.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.check_value.html#pcdsdevices.device_types.PointingMirror.check_value" title="pcdsdevices.device_types.PointingMirror.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</td>
 <td>Check that our gantry is coupled before state moves</td>
@@ -268,77 +270,83 @@ overall state.</p>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.describe_configuration.html#pcdsdevices.device_types.PointingMirror.describe_configuration" title="pcdsdevices.device_types.PointingMirror.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get.html#pcdsdevices.device_types.PointingMirror.get" title="pcdsdevices.device_types.PointingMirror.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.end_monitor_thread.html#pcdsdevices.device_types.PointingMirror.end_monitor_thread" title="pcdsdevices.device_types.PointingMirror.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.camonitor.html#pcdsdevices.device_types.PointingMirror.camonitor" title="pcdsdevices.device_types.PointingMirror.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wm_update.html#pcdsdevices.device_types.PointingMirror.wm_update" title="pcdsdevices.device_types.PointingMirror.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get.html#pcdsdevices.device_types.PointingMirror.get" title="pcdsdevices.device_types.PointingMirror.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_device_tuple.html#pcdsdevices.device_types.PointingMirror.get_device_tuple" title="pcdsdevices.device_types.PointingMirror.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_device_tuple.html#pcdsdevices.device_types.PointingMirror.get_device_tuple" title="pcdsdevices.device_types.PointingMirror.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_instantiated_signals.html#pcdsdevices.device_types.PointingMirror.get_instantiated_signals" title="pcdsdevices.device_types.PointingMirror.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_instantiated_signals.html#pcdsdevices.device_types.PointingMirror.get_instantiated_signals" title="pcdsdevices.device_types.PointingMirror.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_state.html#pcdsdevices.device_types.PointingMirror.get_state" title="pcdsdevices.device_types.PointingMirror.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.get_state.html#pcdsdevices.device_types.PointingMirror.get_state" title="pcdsdevices.device_types.PointingMirror.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.insert.html#pcdsdevices.device_types.PointingMirror.insert" title="pcdsdevices.device_types.PointingMirror.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.insert.html#pcdsdevices.device_types.PointingMirror.insert" title="pcdsdevices.device_types.PointingMirror.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Insert this device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.move.html#pcdsdevices.device_types.PointingMirror.move" title="pcdsdevices.device_types.PointingMirror.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.move.html#pcdsdevices.device_types.PointingMirror.move" title="pcdsdevices.device_types.PointingMirror.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.mv.html#pcdsdevices.device_types.PointingMirror.mv" title="pcdsdevices.device_types.PointingMirror.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.mv.html#pcdsdevices.device_types.PointingMirror.mv" title="pcdsdevices.device_types.PointingMirror.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.pause.html#pcdsdevices.device_types.PointingMirror.pause" title="pcdsdevices.device_types.PointingMirror.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.pause.html#pcdsdevices.device_types.PointingMirror.pause" title="pcdsdevices.device_types.PointingMirror.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.put.html#pcdsdevices.device_types.PointingMirror.put" title="pcdsdevices.device_types.PointingMirror.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.put.html#pcdsdevices.device_types.PointingMirror.put" title="pcdsdevices.device_types.PointingMirror.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.read.html#pcdsdevices.device_types.PointingMirror.read" title="pcdsdevices.device_types.PointingMirror.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.read.html#pcdsdevices.device_types.PointingMirror.read" title="pcdsdevices.device_types.PointingMirror.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.read_configuration.html#pcdsdevices.device_types.PointingMirror.read_configuration" title="pcdsdevices.device_types.PointingMirror.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.read_configuration.html#pcdsdevices.device_types.PointingMirror.read_configuration" title="pcdsdevices.device_types.PointingMirror.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.remove.html#pcdsdevices.device_types.PointingMirror.remove" title="pcdsdevices.device_types.PointingMirror.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.remove.html#pcdsdevices.device_types.PointingMirror.remove" title="pcdsdevices.device_types.PointingMirror.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.resume.html#pcdsdevices.device_types.PointingMirror.resume" title="pcdsdevices.device_types.PointingMirror.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.resume.html#pcdsdevices.device_types.PointingMirror.resume" title="pcdsdevices.device_types.PointingMirror.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.set.html#pcdsdevices.device_types.PointingMirror.set" title="pcdsdevices.device_types.PointingMirror.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.set.html#pcdsdevices.device_types.PointingMirror.set" title="pcdsdevices.device_types.PointingMirror.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.stage.html#pcdsdevices.device_types.PointingMirror.stage" title="pcdsdevices.device_types.PointingMirror.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.stage.html#pcdsdevices.device_types.PointingMirror.stage" title="pcdsdevices.device_types.PointingMirror.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.stop.html#pcdsdevices.device_types.PointingMirror.stop" title="pcdsdevices.device_types.PointingMirror.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.stop.html#pcdsdevices.device_types.PointingMirror.stop" title="pcdsdevices.device_types.PointingMirror.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.subscribe.html#pcdsdevices.device_types.PointingMirror.subscribe" title="pcdsdevices.device_types.PointingMirror.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.subscribe.html#pcdsdevices.device_types.PointingMirror.subscribe" title="pcdsdevices.device_types.PointingMirror.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.summary.html#pcdsdevices.device_types.PointingMirror.summary" title="pcdsdevices.device_types.PointingMirror.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.summary.html#pcdsdevices.device_types.PointingMirror.summary" title="pcdsdevices.device_types.PointingMirror.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.trigger.html#pcdsdevices.device_types.PointingMirror.trigger" title="pcdsdevices.device_types.PointingMirror.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.trigger.html#pcdsdevices.device_types.PointingMirror.trigger" title="pcdsdevices.device_types.PointingMirror.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unstage.html#pcdsdevices.device_types.PointingMirror.unstage" title="pcdsdevices.device_types.PointingMirror.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unstage.html#pcdsdevices.device_types.PointingMirror.unstage" title="pcdsdevices.device_types.PointingMirror.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unsubscribe.html#pcdsdevices.device_types.PointingMirror.unsubscribe" title="pcdsdevices.device_types.PointingMirror.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unsubscribe.html#pcdsdevices.device_types.PointingMirror.unsubscribe" title="pcdsdevices.device_types.PointingMirror.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unsubscribe_all.html#pcdsdevices.device_types.PointingMirror.unsubscribe_all" title="pcdsdevices.device_types.PointingMirror.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.unsubscribe_all.html#pcdsdevices.device_types.PointingMirror.unsubscribe_all" title="pcdsdevices.device_types.PointingMirror.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wait_for_connection.html#pcdsdevices.device_types.PointingMirror.wait_for_connection" title="pcdsdevices.device_types.PointingMirror.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wait_for_connection.html#pcdsdevices.device_types.PointingMirror.wait_for_connection" title="pcdsdevices.device_types.PointingMirror.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wm.html#pcdsdevices.device_types.PointingMirror.wm" title="pcdsdevices.device_types.PointingMirror.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wm.html#pcdsdevices.device_types.PointingMirror.wm" title="pcdsdevices.device_types.PointingMirror.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.PointingMirror.wm_update.html#pcdsdevices.device_types.PointingMirror.wm_update" title="pcdsdevices.device_types.PointingMirror.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -483,7 +491,7 @@ overall state.</p>
         <a href="generated/pcdsdevices.device_types.PointingMirror.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.PointingMirror.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.device_types.PulsePicker.wm.html" class="btn btn-neutral" title="pcdsdevices.device_types.PulsePicker.wm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.device_types.PulsePicker.wm_update.html" class="btn btn-neutral" title="pcdsdevices.device_types.PulsePicker.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -514,7 +522,7 @@ overall state.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

@@ -19,6 +19,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.configure
       ~Pitch.describe
       ~Pitch.describe_configuration
+      ~Pitch.end_monitor_thread
       ~Pitch.get
       ~Pitch.get_device_tuple
       ~Pitch.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.unsubscribe_all
       ~Pitch.wait_for_connection
       ~Pitch.wm
+      ~Pitch.wm_update
    
    
 

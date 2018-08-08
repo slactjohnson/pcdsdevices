@@ -19,6 +19,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.configure
       ~Gantry.describe
       ~Gantry.describe_configuration
+      ~Gantry.end_monitor_thread
       ~Gantry.get
       ~Gantry.get_device_tuple
       ~Gantry.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.unsubscribe_all
       ~Gantry.wait_for_connection
       ~Gantry.wm
+      ~Gantry.wm_update
    
    
 

@@ -15,7 +15,6 @@ pcdsdevices.sim
       :toctree: generated
    
       FastMotor
-      SimLensStack
       SimTwoAxis
       SlowMotor
       SynMotor

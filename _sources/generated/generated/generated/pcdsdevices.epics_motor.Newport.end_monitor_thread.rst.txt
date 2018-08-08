@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.end\_monitor\_thread
+=====================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.end_monitor_thread

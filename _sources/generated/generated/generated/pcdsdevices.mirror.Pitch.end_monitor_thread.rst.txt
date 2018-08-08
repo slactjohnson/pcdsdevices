@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.end\_monitor\_thread
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.end_monitor_thread

@@ -21,6 +21,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.configure
       ~PulsePickerInOut.describe
       ~PulsePickerInOut.describe_configuration
+      ~PulsePickerInOut.end_monitor_thread
       ~PulsePickerInOut.flipflop
       ~PulsePickerInOut.follower
       ~PulsePickerInOut.get
@@ -49,6 +50,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.unsubscribe_all
       ~PulsePickerInOut.wait_for_connection
       ~PulsePickerInOut.wm
+      ~PulsePickerInOut.wm_update
    
    
 

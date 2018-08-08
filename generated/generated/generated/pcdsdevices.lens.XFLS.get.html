@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lens.XFLS.get &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.lens.XFLS.get &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.lens.XFLS.get_device_tuple" href="pcdsdevices.lens.XFLS.get_device_tuple.html" />
-    <link rel="prev" title="pcdsdevices.lens.XFLS.describe_configuration" href="pcdsdevices.lens.XFLS.describe_configuration.html" /> 
+    <link rel="prev" title="pcdsdevices.lens.XFLS.end_monitor_thread" href="pcdsdevices.lens.XFLS.end_monitor_thread.html" /> 
 
   
   <script src="../../../_static/js/modernizr.min.js"></script>
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -106,6 +106,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.SimLensStack.html">pcdsdevices.lens.SimLensStack</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lens.XFLS.html">pcdsdevices.lens.XFLS</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.__init__.html">pcdsdevices.lens.XFLS.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.camonitor.html">pcdsdevices.lens.XFLS.camonitor</a></li>
@@ -114,6 +115,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.configure.html">pcdsdevices.lens.XFLS.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.describe.html">pcdsdevices.lens.XFLS.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.describe_configuration.html">pcdsdevices.lens.XFLS.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.end_monitor_thread.html">pcdsdevices.lens.XFLS.end_monitor_thread</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.lens.XFLS.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.get_device_tuple.html">pcdsdevices.lens.XFLS.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.get_instantiated_signals.html">pcdsdevices.lens.XFLS.get_instantiated_signals</a></li>
@@ -138,6 +140,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.unsubscribe_all.html">pcdsdevices.lens.XFLS.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.wait_for_connection.html">pcdsdevices.lens.XFLS.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.wm.html">pcdsdevices.lens.XFLS.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.XFLS.wm_update.html">pcdsdevices.lens.XFLS.wm_update</a></li>
 </ul>
 </li>
 </ul>
@@ -250,7 +253,7 @@ beginning with an underscore will not be included.</p>
         <a href="pcdsdevices.lens.XFLS.get_device_tuple.html" class="btn btn-neutral float-right" title="pcdsdevices.lens.XFLS.get_device_tuple" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.lens.XFLS.describe_configuration.html" class="btn btn-neutral" title="pcdsdevices.lens.XFLS.describe_configuration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.lens.XFLS.end_monitor_thread.html" class="btn btn-neutral" title="pcdsdevices.lens.XFLS.end_monitor_thread" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -281,7 +284,7 @@ beginning with an underscore will not be included.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

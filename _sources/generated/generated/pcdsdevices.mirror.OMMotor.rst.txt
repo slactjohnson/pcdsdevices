@@ -19,6 +19,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.configure
       ~OMMotor.describe
       ~OMMotor.describe_configuration
+      ~OMMotor.end_monitor_thread
       ~OMMotor.get
       ~OMMotor.get_device_tuple
       ~OMMotor.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.unsubscribe_all
       ~OMMotor.wait_for_connection
       ~OMMotor.wm
+      ~OMMotor.wm_update
    
    
 

@@ -19,6 +19,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.configure
       ~AttBase.describe
       ~AttBase.describe_configuration
+      ~AttBase.end_monitor_thread
       ~AttBase.get
       ~AttBase.get_device_tuple
       ~AttBase.get_instantiated_signals
@@ -48,6 +49,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.unsubscribe_all
       ~AttBase.wait_for_connection
       ~AttBase.wm
+      ~AttBase.wm_update
    
    
 

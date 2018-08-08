@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.end\_monitor\_thread
+=====================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.end_monitor_thread

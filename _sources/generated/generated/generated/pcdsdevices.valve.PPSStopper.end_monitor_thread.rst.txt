@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.end\_monitor\_thread
+=================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.end_monitor_thread

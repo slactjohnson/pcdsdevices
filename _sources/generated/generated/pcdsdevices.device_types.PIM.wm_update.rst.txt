@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.wm\_update
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.wm_update

@@ -8,6 +8,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.get_instantiated_signals.rst.txt
@@ -37,6 +38,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.check_value.rst.txt
@@ -44,6 +46,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals.rst.txt
@@ -73,6 +76,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.check_value.rst.txt
@@ -80,6 +84,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.get_instantiated_signals.rst.txt
@@ -104,6 +109,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamStats.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamStats.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamStats.clear_sub.rst.txt
@@ -157,6 +163,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.get_instantiated_signals.rst.txt
@@ -181,6 +188,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.ccm.CCM.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCMCalc.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCMCalc.check_single.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ccm.CCMCalc.check_value.rst.txt
@@ -313,6 +321,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.disable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.enable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_instantiated_signals.rst.txt
@@ -341,6 +350,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.check_value.rst.txt
@@ -350,6 +360,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.disable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.enable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_instantiated_signals.rst.txt
@@ -378,6 +389,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.auto_setup.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.camonitor.rst.txt
@@ -392,6 +404,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.disable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.enable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.rst.txt
@@ -422,6 +435,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.check_value.rst.txt
@@ -431,6 +445,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.disable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.enable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.rst.txt
@@ -460,6 +475,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.check_value.rst.txt
@@ -469,6 +485,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.disable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.enable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.rst.txt
@@ -498,6 +515,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.check_value.rst.txt
@@ -507,6 +525,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.disable.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.enable.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.rst.txt
@@ -536,6 +555,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.evr.Trigger.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.evr.Trigger.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.evr.Trigger.clear_sub.rst.txt
@@ -568,6 +588,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.get_instantiated_signals.rst.txt
@@ -592,6 +613,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.check_value.rst.txt
@@ -599,6 +621,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.get_instantiated_signals.rst.txt
@@ -623,6 +646,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.check_value.rst.txt
@@ -630,6 +654,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.get_instantiated_signals.rst.txt
@@ -654,6 +679,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.check_value.rst.txt
@@ -661,6 +687,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.get_instantiated_signals.rst.txt
@@ -685,6 +712,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.inout.TTReflaser.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.check_value.rst.txt
@@ -692,6 +720,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.get_instantiated_signals.rst.txt
@@ -716,6 +745,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.ipm.IPM.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.LensStack.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.LensStack.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.LensStack.clear_sub.rst.txt
@@ -739,6 +769,29 @@
 ./_sources/generated/generated/generated/pcdsdevices.lens.LensStack.unsubscribe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.LensStack.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.LensStack.wait_for_connection.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.__init__.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.check_value.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.clear_sub.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.configure.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.describe.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.get.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.get_device_tuple.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.pause.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.put.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.read.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.read_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.resume.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.stage.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.stop.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.subscribe.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.summary.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.trigger.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.unstage.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.unsubscribe.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.unsubscribe_all.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.SimLensStack.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.check_value.rst.txt
@@ -746,6 +799,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.get_instantiated_signals.rst.txt
@@ -770,6 +824,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lens.XFLS.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.check_value.rst.txt
@@ -777,6 +832,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.get_instantiated_signals.rst.txt
@@ -801,6 +857,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.Dectris.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.check_value.rst.txt
@@ -808,6 +865,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.get_instantiated_signals.rst.txt
@@ -832,6 +890,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.Diode.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.check_value.rst.txt
@@ -839,6 +898,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.get_instantiated_signals.rst.txt
@@ -863,6 +923,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.Foil.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.check_value.rst.txt
@@ -870,6 +931,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.get_instantiated_signals.rst.txt
@@ -895,6 +957,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.LODCM.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.check_value.rst.txt
@@ -902,6 +965,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.get_instantiated_signals.rst.txt
@@ -926,6 +990,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.lodcm.YagLom.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.check_value.rst.txt
@@ -933,6 +998,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.get_instantiated_signals.rst.txt
@@ -959,6 +1025,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.Gantry.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.check_value.rst.txt
@@ -966,6 +1033,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.get_instantiated_signals.rst.txt
@@ -992,6 +1060,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.OMMotor.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OffsetMirror.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OffsetMirror.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.OffsetMirror.clear_sub.rst.txt
@@ -1022,6 +1091,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.rst.txt
@@ -1048,6 +1118,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.Pitch.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.check_value.rst.txt
@@ -1055,6 +1126,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.get_instantiated_signals.rst.txt
@@ -1079,6 +1151,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mirror.PointingMirror.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.check_value.rst.txt
@@ -1086,6 +1159,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.get_instantiated_signals.rst.txt
@@ -1110,6 +1184,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mps.MPS.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mps.MPS.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mps.MPS.clear_sub.rst.txt
@@ -1168,6 +1243,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.AbsProgressBar.update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv_ginput.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mvr.rst.txt
@@ -1175,10 +1251,13 @@
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.umv.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.umvr.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.MvInterface.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.MvInterface.camonitor.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mv_interface.MvInterface.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.MvInterface.mv.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.MvInterface.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.mv_interface.MvInterface.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.PresetPosition.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.PresetPosition.deactivate.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.mv_interface.PresetPosition.update_comment.rst.txt
@@ -1192,6 +1271,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pim.PIM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.get_instantiated_signals.rst.txt
@@ -1216,6 +1296,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIM.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pim.PIM.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.check_value.rst.txt
@@ -1223,6 +1304,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.get_instantiated_signals.rst.txt
@@ -1247,6 +1329,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pim.PIMMotor.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pseudopos.SyncAxesBase.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pseudopos.SyncAxesBase.calc_combined.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pseudopos.SyncAxesBase.check_single.rst.txt
@@ -1289,6 +1372,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.flipflop.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.follower.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.get.rst.txt
@@ -1317,6 +1401,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.burst.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.camonitor.rst.txt
@@ -1326,6 +1411,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.flipflop.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.follower.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.get.rst.txt
@@ -1354,6 +1440,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.signal.AggregateSignal.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.signal.AggregateSignal.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.signal.AggregateSignal.clear_sub.rst.txt
@@ -1391,6 +1478,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.get_instantiated_signals.rst.txt
@@ -1417,29 +1505,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.wm.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.__init__.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.check_value.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.clear_sub.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.configure.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.describe.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.describe_configuration.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.get.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.get_device_tuple.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.get_instantiated_signals.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.pause.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.put.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.read.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.read_configuration.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.resume.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.stage.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.stop.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.subscribe.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.summary.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.trigger.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.unstage.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.unsubscribe.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.unsubscribe_all.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.sim.SimLensStack.wait_for_connection.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.FastMotor.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SimTwoAxis.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SimTwoAxis.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SimTwoAxis.clear_sub.rst.txt
@@ -1471,6 +1537,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.rst.txt
@@ -1497,6 +1564,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.SlowMotor.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.check_value.rst.txt
@@ -1504,6 +1572,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.rst.txt
@@ -1530,6 +1599,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.sim.SynMotor.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.check_value.rst.txt
@@ -1537,6 +1607,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.get_instantiated_signals.rst.txt
@@ -1563,6 +1634,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.slits.SlitPositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.block.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.camonitor.rst.txt
@@ -1572,6 +1644,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.slits.Slits.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.get_instantiated_signals.rst.txt
@@ -1595,6 +1668,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.slits.Slits.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.slits.Slits.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.check_value.rst.txt
@@ -1602,6 +1676,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.get_instantiated_signals.rst.txt
@@ -1624,6 +1699,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStateSignal.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStateSignal.check_value.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.PVStateSignal.clear_sub.rst.txt
@@ -1646,6 +1722,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.get_instantiated_signals.rst.txt
@@ -1668,6 +1745,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.check_value.rst.txt
@@ -1675,6 +1753,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.get_instantiated_signals.rst.txt
@@ -1697,6 +1776,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositioner.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.add_callback.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.check_value.rst.txt
@@ -1709,6 +1789,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.get_instantiated_signals.rst.txt
@@ -1734,6 +1815,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.valve.GateValve.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.check_value.rst.txt
@@ -1741,6 +1823,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.get_instantiated_signals.rst.txt
@@ -1765,6 +1848,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.valve.PPSStopper.wm_update.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.camonitor.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.check_value.rst.txt
@@ -1773,6 +1857,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.configure.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.describe_configuration.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.get_instantiated_signals.rst.txt
@@ -1798,6 +1883,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.unsubscribe_all.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.wait_for_connection.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.wm.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.valve.Stopper.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.attenuator.AttBase.rst.txt
 ./_sources/generated/generated/pcdsdevices.attenuator.AttBase3rd.rst.txt
 ./_sources/generated/generated/pcdsdevices.attenuator.Attenuator.rst.txt
@@ -1825,6 +1911,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.describe_configuration.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.disable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.enable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_instantiated_signals.rst.txt
@@ -1853,6 +1940,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.check_value.rst.txt
@@ -1860,6 +1948,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.CCM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.get_instantiated_signals.rst.txt
@@ -1884,6 +1973,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.CCM.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.CCM.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.check_value.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.clear_sub.rst.txt
@@ -1948,6 +2038,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.GateValve.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.get_instantiated_signals.rst.txt
@@ -1973,6 +2064,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.GateValve.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.GateValve.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.auto_setup.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.camonitor.rst.txt
@@ -1987,6 +2079,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.describe_configuration.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.disable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.enable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.rst.txt
@@ -2017,6 +2110,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.check_value.rst.txt
@@ -2024,6 +2118,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IPM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.get_instantiated_signals.rst.txt
@@ -2048,6 +2143,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IPM.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IPM.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.check_value.rst.txt
@@ -2055,6 +2151,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.LODCM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.get_instantiated_signals.rst.txt
@@ -2080,6 +2177,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.LODCM.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.LODCM.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.check_value.rst.txt
@@ -2089,6 +2187,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.describe_configuration.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.disable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.enable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.rst.txt
@@ -2118,6 +2217,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.OffsetMirror.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.OffsetMirror.check_value.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.OffsetMirror.clear_sub.rst.txt
@@ -2148,6 +2248,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PIM.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.get_instantiated_signals.rst.txt
@@ -2172,6 +2273,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PIM.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PIM.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.check_value.rst.txt
@@ -2181,6 +2283,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.describe_configuration.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.disable.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.enable.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.rst.txt
@@ -2210,6 +2313,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.check_value.rst.txt
@@ -2217,6 +2321,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.get_instantiated_signals.rst.txt
@@ -2241,6 +2346,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PointingMirror.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.burst.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.camonitor.rst.txt
@@ -2250,6 +2356,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.flipflop.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.follower.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.get.rst.txt
@@ -2278,6 +2385,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PulsePicker.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.block.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.camonitor.rst.txt
@@ -2287,6 +2395,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Slits.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.get_instantiated_signals.rst.txt
@@ -2310,6 +2419,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Slits.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Slits.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.check_value.rst.txt
@@ -2318,6 +2428,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Stopper.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.get_instantiated_signals.rst.txt
@@ -2343,6 +2454,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Stopper.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Stopper.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Trigger.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Trigger.check_value.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Trigger.clear_sub.rst.txt
@@ -2375,6 +2487,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.XFLS.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.get_instantiated_signals.rst.txt
@@ -2399,6 +2512,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.XFLS.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.XFLS.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.rst.txt
 ./_sources/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.rst.txt
 ./_sources/generated/generated/pcdsdevices.epics_motor.IMS.rst.txt
@@ -2413,6 +2527,7 @@
 ./_sources/generated/generated/pcdsdevices.inout.TTReflaser.rst.txt
 ./_sources/generated/generated/pcdsdevices.ipm.IPM.rst.txt
 ./_sources/generated/generated/pcdsdevices.lens.LensStack.rst.txt
+./_sources/generated/generated/pcdsdevices.lens.SimLensStack.rst.txt
 ./_sources/generated/generated/pcdsdevices.lens.XFLS.rst.txt
 ./_sources/generated/generated/pcdsdevices.lodcm.Dectris.rst.txt
 ./_sources/generated/generated/pcdsdevices.lodcm.Diode.rst.txt
@@ -2446,7 +2561,6 @@
 ./_sources/generated/generated/pcdsdevices.signal.AggregateSignal.rst.txt
 ./_sources/generated/generated/pcdsdevices.signal.AvgSignal.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.FastMotor.rst.txt
-./_sources/generated/generated/pcdsdevices.sim.SimLensStack.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SimTwoAxis.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SimTwoAxis.check_value.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SimTwoAxis.clear_sub.rst.txt
@@ -2479,6 +2593,7 @@
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.sim.SlowMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.rst.txt
@@ -2506,6 +2621,7 @@
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SlowMotor.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.sim.SlowMotor.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.__init__.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.camonitor.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.check_value.rst.txt
@@ -2513,6 +2629,7 @@
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.configure.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.describe.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.describe_configuration.rst.txt
+./_sources/generated/generated/pcdsdevices.sim.SynMotor.end_monitor_thread.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.rst.txt
@@ -2540,6 +2657,7 @@
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.unsubscribe_all.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.wait_for_connection.rst.txt
 ./_sources/generated/generated/pcdsdevices.sim.SynMotor.wm.rst.txt
+./_sources/generated/generated/pcdsdevices.sim.SynMotor.wm_update.rst.txt
 ./_sources/generated/generated/pcdsdevices.slits.SlitPositioner.rst.txt
 ./_sources/generated/generated/pcdsdevices.slits.Slits.rst.txt
 ./_sources/generated/generated/pcdsdevices.state.PVStatePositioner.rst.txt
@@ -2664,6 +2782,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.configure.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.describe.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.describe_configuration.html
+./generated/generated/generated/pcdsdevices.attenuator.AttBase.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.get.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.get_instantiated_signals.html
@@ -2693,6 +2812,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase.wm.html
+./generated/generated/generated/pcdsdevices.attenuator.AttBase.wm_update.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.__init__.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.camonitor.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.check_value.html
@@ -2700,6 +2820,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.configure.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.describe.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.describe_configuration.html
+./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.get.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.get_instantiated_signals.html
@@ -2729,6 +2850,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.wm.html
+./generated/generated/generated/pcdsdevices.attenuator.AttBase3rd.wm_update.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.__init__.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.camonitor.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.check_value.html
@@ -2736,6 +2858,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.configure.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.describe.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.describe_configuration.html
+./generated/generated/generated/pcdsdevices.attenuator.Filter.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.get.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.get_instantiated_signals.html
@@ -2760,6 +2883,7 @@
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.attenuator.Filter.wm.html
+./generated/generated/generated/pcdsdevices.attenuator.Filter.wm_update.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamStats.__init__.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamStats.check_value.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamStats.clear_sub.html
@@ -2813,6 +2937,7 @@
 ./generated/generated/generated/pcdsdevices.ccm.CCM.configure.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.describe.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.describe_configuration.html
+./generated/generated/generated/pcdsdevices.ccm.CCM.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.get.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.get_instantiated_signals.html
@@ -2837,6 +2962,7 @@
 ./generated/generated/generated/pcdsdevices.ccm.CCM.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.ccm.CCM.wm.html
+./generated/generated/generated/pcdsdevices.ccm.CCM.wm_update.html
 ./generated/generated/generated/pcdsdevices.ccm.CCMCalc.__init__.html
 ./generated/generated/generated/pcdsdevices.ccm.CCMCalc.check_single.html
 ./generated/generated/generated/pcdsdevices.ccm.CCMCalc.check_value.html
@@ -2969,6 +3095,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.disable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.enable.html
+./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_instantiated_signals.html
@@ -2997,6 +3124,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.wm.html
+./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.wm_update.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.__init__.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.check_value.html
@@ -3006,6 +3134,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.disable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.enable.html
+./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_instantiated_signals.html
@@ -3034,6 +3163,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm.html
+./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.__init__.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.auto_setup.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.camonitor.html
@@ -3048,6 +3178,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.disable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.enable.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.html
@@ -3078,6 +3209,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.wm.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.wm_update.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.__init__.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.camonitor.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.check_value.html
@@ -3087,6 +3219,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.disable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.enable.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.html
@@ -3116,6 +3249,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.wm.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.wm_update.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.__init__.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.camonitor.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.check_value.html
@@ -3125,6 +3259,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.disable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.enable.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.html
@@ -3154,6 +3289,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.wm.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.__init__.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.camonitor.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.check_value.html
@@ -3163,6 +3299,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.disable.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.enable.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.html
@@ -3192,6 +3329,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.wm.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.wm_update.html
 ./generated/generated/generated/pcdsdevices.evr.Trigger.__init__.html
 ./generated/generated/generated/pcdsdevices.evr.Trigger.check_value.html
 ./generated/generated/generated/pcdsdevices.evr.Trigger.clear_sub.html
@@ -3224,6 +3362,7 @@
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.configure.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.describe.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.get.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.get_instantiated_signals.html
@@ -3248,6 +3387,7 @@
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wm.html
+./generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.__init__.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.camonitor.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.check_value.html
@@ -3255,6 +3395,7 @@
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.configure.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.describe.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.inout.InOutPositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.get.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.get_instantiated_signals.html
@@ -3279,6 +3420,7 @@
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.inout.InOutPositioner.wm.html
+./generated/generated/generated/pcdsdevices.inout.InOutPositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.__init__.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.camonitor.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.check_value.html
@@ -3286,6 +3428,7 @@
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.configure.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.describe.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.get.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.get_instantiated_signals.html
@@ -3310,6 +3453,7 @@
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.wm.html
+./generated/generated/generated/pcdsdevices.inout.InOutRecordPositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.__init__.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.camonitor.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.check_value.html
@@ -3317,6 +3461,7 @@
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.configure.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.describe.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.describe_configuration.html
+./generated/generated/generated/pcdsdevices.inout.TTReflaser.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.get.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.get_instantiated_signals.html
@@ -3341,6 +3486,7 @@
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.inout.TTReflaser.wm.html
+./generated/generated/generated/pcdsdevices.inout.TTReflaser.wm_update.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.__init__.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.camonitor.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.check_value.html
@@ -3348,6 +3494,7 @@
 ./generated/generated/generated/pcdsdevices.ipm.IPM.configure.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.describe.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.describe_configuration.html
+./generated/generated/generated/pcdsdevices.ipm.IPM.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.get.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.get_instantiated_signals.html
@@ -3372,6 +3519,7 @@
 ./generated/generated/generated/pcdsdevices.ipm.IPM.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.ipm.IPM.wm.html
+./generated/generated/generated/pcdsdevices.ipm.IPM.wm_update.html
 ./generated/generated/generated/pcdsdevices.lens.LensStack.__init__.html
 ./generated/generated/generated/pcdsdevices.lens.LensStack.check_value.html
 ./generated/generated/generated/pcdsdevices.lens.LensStack.clear_sub.html
@@ -3395,6 +3543,29 @@
 ./generated/generated/generated/pcdsdevices.lens.LensStack.unsubscribe.html
 ./generated/generated/generated/pcdsdevices.lens.LensStack.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lens.LensStack.wait_for_connection.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.__init__.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.check_value.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.clear_sub.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.configure.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.describe.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.get.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.get_device_tuple.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.pause.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.put.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.read.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.read_configuration.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.resume.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.stage.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.stop.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.subscribe.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.summary.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.trigger.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.unstage.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.unsubscribe.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.unsubscribe_all.html
+./generated/generated/generated/pcdsdevices.lens.SimLensStack.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.__init__.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.camonitor.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.check_value.html
@@ -3402,6 +3573,7 @@
 ./generated/generated/generated/pcdsdevices.lens.XFLS.configure.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.describe.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lens.XFLS.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.get.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.get_instantiated_signals.html
@@ -3426,6 +3598,7 @@
 ./generated/generated/generated/pcdsdevices.lens.XFLS.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lens.XFLS.wm.html
+./generated/generated/generated/pcdsdevices.lens.XFLS.wm_update.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.__init__.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.camonitor.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.check_value.html
@@ -3433,6 +3606,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.configure.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.describe.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lodcm.Dectris.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.get.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.get_instantiated_signals.html
@@ -3457,6 +3631,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lodcm.Dectris.wm.html
+./generated/generated/generated/pcdsdevices.lodcm.Dectris.wm_update.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.__init__.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.camonitor.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.check_value.html
@@ -3464,6 +3639,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.configure.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.describe.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lodcm.Diode.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.get.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.get_instantiated_signals.html
@@ -3488,6 +3664,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lodcm.Diode.wm.html
+./generated/generated/generated/pcdsdevices.lodcm.Diode.wm_update.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.__init__.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.camonitor.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.check_value.html
@@ -3495,6 +3672,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.configure.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.describe.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lodcm.Foil.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.get.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.get_instantiated_signals.html
@@ -3519,6 +3697,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lodcm.Foil.wm.html
+./generated/generated/generated/pcdsdevices.lodcm.Foil.wm_update.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.__init__.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.camonitor.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.check_value.html
@@ -3526,6 +3705,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.configure.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.describe.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lodcm.LODCM.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.get.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.get_instantiated_signals.html
@@ -3551,6 +3731,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lodcm.LODCM.wm.html
+./generated/generated/generated/pcdsdevices.lodcm.LODCM.wm_update.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.__init__.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.camonitor.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.check_value.html
@@ -3558,6 +3739,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.configure.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.describe.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.describe_configuration.html
+./generated/generated/generated/pcdsdevices.lodcm.YagLom.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.get.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.get_instantiated_signals.html
@@ -3582,6 +3764,7 @@
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.lodcm.YagLom.wm.html
+./generated/generated/generated/pcdsdevices.lodcm.YagLom.wm_update.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.__init__.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.camonitor.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.check_value.html
@@ -3589,6 +3772,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.configure.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.describe.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.describe_configuration.html
+./generated/generated/generated/pcdsdevices.mirror.Gantry.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.get.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.get_instantiated_signals.html
@@ -3615,6 +3799,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.mirror.Gantry.wm.html
+./generated/generated/generated/pcdsdevices.mirror.Gantry.wm_update.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.__init__.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.camonitor.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.check_value.html
@@ -3622,6 +3807,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.configure.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.describe.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.describe_configuration.html
+./generated/generated/generated/pcdsdevices.mirror.OMMotor.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.get.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.get_instantiated_signals.html
@@ -3648,6 +3834,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.mirror.OMMotor.wm.html
+./generated/generated/generated/pcdsdevices.mirror.OMMotor.wm_update.html
 ./generated/generated/generated/pcdsdevices.mirror.OffsetMirror.__init__.html
 ./generated/generated/generated/pcdsdevices.mirror.OffsetMirror.check_value.html
 ./generated/generated/generated/pcdsdevices.mirror.OffsetMirror.clear_sub.html
@@ -3678,6 +3865,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.configure.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.describe.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.describe_configuration.html
+./generated/generated/generated/pcdsdevices.mirror.Pitch.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.get.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.html
@@ -3704,6 +3892,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.mirror.Pitch.wm.html
+./generated/generated/generated/pcdsdevices.mirror.Pitch.wm_update.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.__init__.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.camonitor.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.check_value.html
@@ -3711,6 +3900,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.configure.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.describe.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.describe_configuration.html
+./generated/generated/generated/pcdsdevices.mirror.PointingMirror.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.get.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.get_instantiated_signals.html
@@ -3735,6 +3925,7 @@
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.mirror.PointingMirror.wm.html
+./generated/generated/generated/pcdsdevices.mirror.PointingMirror.wm_update.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.__init__.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.camonitor.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.check_value.html
@@ -3742,6 +3933,7 @@
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.configure.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.describe.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.describe_configuration.html
+./generated/generated/generated/pcdsdevices.movablestand.MovableStand.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.get.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.get_instantiated_signals.html
@@ -3766,6 +3958,7 @@
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.movablestand.MovableStand.wm.html
+./generated/generated/generated/pcdsdevices.movablestand.MovableStand.wm_update.html
 ./generated/generated/generated/pcdsdevices.mps.MPS.__init__.html
 ./generated/generated/generated/pcdsdevices.mps.MPS.check_value.html
 ./generated/generated/generated/pcdsdevices.mps.MPS.clear_sub.html
@@ -3824,6 +4017,7 @@
 ./generated/generated/generated/pcdsdevices.mv_interface.AbsProgressBar.update.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.__init__.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.html
+./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mv_ginput.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.mvr.html
@@ -3831,10 +4025,13 @@
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.umv.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.umvr.html
 ./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.wm.html
+./generated/generated/generated/pcdsdevices.mv_interface.FltMvInterface.wm_update.html
 ./generated/generated/generated/pcdsdevices.mv_interface.MvInterface.__init__.html
 ./generated/generated/generated/pcdsdevices.mv_interface.MvInterface.camonitor.html
+./generated/generated/generated/pcdsdevices.mv_interface.MvInterface.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.mv_interface.MvInterface.mv.html
 ./generated/generated/generated/pcdsdevices.mv_interface.MvInterface.wm.html
+./generated/generated/generated/pcdsdevices.mv_interface.MvInterface.wm_update.html
 ./generated/generated/generated/pcdsdevices.mv_interface.PresetPosition.__init__.html
 ./generated/generated/generated/pcdsdevices.mv_interface.PresetPosition.deactivate.html
 ./generated/generated/generated/pcdsdevices.mv_interface.PresetPosition.update_comment.html
@@ -3848,6 +4045,7 @@
 ./generated/generated/generated/pcdsdevices.pim.PIM.configure.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.describe.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.describe_configuration.html
+./generated/generated/generated/pcdsdevices.pim.PIM.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.get.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.get_instantiated_signals.html
@@ -3872,6 +4070,7 @@
 ./generated/generated/generated/pcdsdevices.pim.PIM.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.pim.PIM.wm.html
+./generated/generated/generated/pcdsdevices.pim.PIM.wm_update.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.__init__.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.camonitor.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.check_value.html
@@ -3879,6 +4078,7 @@
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.configure.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.describe.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.describe_configuration.html
+./generated/generated/generated/pcdsdevices.pim.PIMMotor.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.get.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.get_instantiated_signals.html
@@ -3903,6 +4103,7 @@
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.pim.PIMMotor.wm.html
+./generated/generated/generated/pcdsdevices.pim.PIMMotor.wm_update.html
 ./generated/generated/generated/pcdsdevices.pseudopos.SyncAxesBase.__init__.html
 ./generated/generated/generated/pcdsdevices.pseudopos.SyncAxesBase.calc_combined.html
 ./generated/generated/generated/pcdsdevices.pseudopos.SyncAxesBase.check_single.html
@@ -3945,6 +4146,7 @@
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.configure.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.describe.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.describe_configuration.html
+./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.flipflop.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.follower.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.get.html
@@ -3973,6 +4175,7 @@
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wm.html
+./generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wm_update.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.__init__.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.burst.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.camonitor.html
@@ -3982,6 +4185,7 @@
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.configure.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.describe.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.describe_configuration.html
+./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.flipflop.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.follower.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.get.html
@@ -4010,6 +4214,7 @@
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm.html
+./generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.html
 ./generated/generated/generated/pcdsdevices.signal.AggregateSignal.__init__.html
 ./generated/generated/generated/pcdsdevices.signal.AggregateSignal.check_value.html
 ./generated/generated/generated/pcdsdevices.signal.AggregateSignal.clear_sub.html
@@ -4047,6 +4252,7 @@
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.configure.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.describe.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.describe_configuration.html
+./generated/generated/generated/pcdsdevices.sim.FastMotor.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.get.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.get_instantiated_signals.html
@@ -4073,29 +4279,7 @@
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.sim.FastMotor.wm.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.__init__.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.check_value.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.clear_sub.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.configure.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.describe.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.describe_configuration.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.get.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.get_device_tuple.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.get_instantiated_signals.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.pause.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.put.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.read.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.read_configuration.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.resume.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.stage.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.stop.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.subscribe.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.summary.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.trigger.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.unstage.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.unsubscribe.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.unsubscribe_all.html
-./generated/generated/generated/pcdsdevices.sim.SimLensStack.wait_for_connection.html
+./generated/generated/generated/pcdsdevices.sim.FastMotor.wm_update.html
 ./generated/generated/generated/pcdsdevices.sim.SimTwoAxis.__init__.html
 ./generated/generated/generated/pcdsdevices.sim.SimTwoAxis.check_value.html
 ./generated/generated/generated/pcdsdevices.sim.SimTwoAxis.clear_sub.html
@@ -4127,6 +4311,7 @@
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.configure.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.describe.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.describe_configuration.html
+./generated/generated/generated/pcdsdevices.sim.SlowMotor.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.get.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.html
@@ -4153,6 +4338,7 @@
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.sim.SlowMotor.wm.html
+./generated/generated/generated/pcdsdevices.sim.SlowMotor.wm_update.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.__init__.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.camonitor.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.check_value.html
@@ -4160,6 +4346,7 @@
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.configure.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.describe.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.describe_configuration.html
+./generated/generated/generated/pcdsdevices.sim.SynMotor.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.get.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.html
@@ -4186,6 +4373,7 @@
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.sim.SynMotor.wm.html
+./generated/generated/generated/pcdsdevices.sim.SynMotor.wm_update.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.__init__.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.camonitor.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.check_value.html
@@ -4193,6 +4381,7 @@
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.configure.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.describe.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.slits.SlitPositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.get.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.get_instantiated_signals.html
@@ -4219,6 +4408,7 @@
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.slits.SlitPositioner.wm.html
+./generated/generated/generated/pcdsdevices.slits.SlitPositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.__init__.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.block.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.camonitor.html
@@ -4228,6 +4418,7 @@
 ./generated/generated/generated/pcdsdevices.slits.Slits.configure.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.describe.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.describe_configuration.html
+./generated/generated/generated/pcdsdevices.slits.Slits.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.get.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.get_instantiated_signals.html
@@ -4251,6 +4442,7 @@
 ./generated/generated/generated/pcdsdevices.slits.Slits.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.slits.Slits.wm.html
+./generated/generated/generated/pcdsdevices.slits.Slits.wm_update.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.__init__.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.camonitor.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.check_value.html
@@ -4258,6 +4450,7 @@
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.configure.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.describe.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.state.PVStatePositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.get.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.get_instantiated_signals.html
@@ -4280,6 +4473,7 @@
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.state.PVStatePositioner.wm.html
+./generated/generated/generated/pcdsdevices.state.PVStatePositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.state.PVStateSignal.__init__.html
 ./generated/generated/generated/pcdsdevices.state.PVStateSignal.check_value.html
 ./generated/generated/generated/pcdsdevices.state.PVStateSignal.clear_sub.html
@@ -4302,6 +4496,7 @@
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.configure.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.describe.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.state.StatePositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.get.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.get_instantiated_signals.html
@@ -4324,6 +4519,7 @@
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.state.StatePositioner.wm.html
+./generated/generated/generated/pcdsdevices.state.StatePositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.__init__.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.camonitor.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.check_value.html
@@ -4331,6 +4527,7 @@
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.configure.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.describe.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.describe_configuration.html
+./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.get.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.get_instantiated_signals.html
@@ -4353,6 +4550,7 @@
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.wm.html
+./generated/generated/generated/pcdsdevices.state.StateRecordPositioner.wm_update.html
 ./generated/generated/generated/pcdsdevices.state.StateStatus.__init__.html
 ./generated/generated/generated/pcdsdevices.state.StateStatus.add_callback.html
 ./generated/generated/generated/pcdsdevices.state.StateStatus.check_value.html
@@ -4365,6 +4563,7 @@
 ./generated/generated/generated/pcdsdevices.valve.GateValve.configure.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.describe.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.describe_configuration.html
+./generated/generated/generated/pcdsdevices.valve.GateValve.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.get.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.get_instantiated_signals.html
@@ -4390,6 +4589,7 @@
 ./generated/generated/generated/pcdsdevices.valve.GateValve.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.valve.GateValve.wm.html
+./generated/generated/generated/pcdsdevices.valve.GateValve.wm_update.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.__init__.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.camonitor.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.check_value.html
@@ -4397,6 +4597,7 @@
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.configure.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.describe.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.describe_configuration.html
+./generated/generated/generated/pcdsdevices.valve.PPSStopper.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.get.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.get_instantiated_signals.html
@@ -4421,6 +4622,7 @@
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.valve.PPSStopper.wm.html
+./generated/generated/generated/pcdsdevices.valve.PPSStopper.wm_update.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.__init__.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.camonitor.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.check_value.html
@@ -4429,6 +4631,7 @@
 ./generated/generated/generated/pcdsdevices.valve.Stopper.configure.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.describe.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.describe_configuration.html
+./generated/generated/generated/pcdsdevices.valve.Stopper.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.get.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.get_instantiated_signals.html
@@ -4454,6 +4657,7 @@
 ./generated/generated/generated/pcdsdevices.valve.Stopper.unsubscribe_all.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.wait_for_connection.html
 ./generated/generated/generated/pcdsdevices.valve.Stopper.wm.html
+./generated/generated/generated/pcdsdevices.valve.Stopper.wm_update.html
 ./generated/generated/pcdsdevices.attenuator.AttBase.html
 ./generated/generated/pcdsdevices.attenuator.AttBase3rd.html
 ./generated/generated/pcdsdevices.attenuator.Attenuator.html
@@ -4481,6 +4685,7 @@
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.describe_configuration.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.disable.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.enable.html
+./generated/generated/pcdsdevices.device_types.BeckhoffAxis.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_instantiated_signals.html
@@ -4509,6 +4714,7 @@
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.wm.html
+./generated/generated/pcdsdevices.device_types.BeckhoffAxis.wm_update.html
 ./generated/generated/pcdsdevices.device_types.CCM.__init__.html
 ./generated/generated/pcdsdevices.device_types.CCM.camonitor.html
 ./generated/generated/pcdsdevices.device_types.CCM.check_value.html
@@ -4516,6 +4722,7 @@
 ./generated/generated/pcdsdevices.device_types.CCM.configure.html
 ./generated/generated/pcdsdevices.device_types.CCM.describe.html
 ./generated/generated/pcdsdevices.device_types.CCM.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.CCM.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.CCM.get.html
 ./generated/generated/pcdsdevices.device_types.CCM.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.CCM.get_instantiated_signals.html
@@ -4540,6 +4747,7 @@
 ./generated/generated/pcdsdevices.device_types.CCM.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.CCM.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.CCM.wm.html
+./generated/generated/pcdsdevices.device_types.CCM.wm_update.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.__init__.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.check_value.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.clear_sub.html
@@ -4604,6 +4812,7 @@
 ./generated/generated/pcdsdevices.device_types.GateValve.configure.html
 ./generated/generated/pcdsdevices.device_types.GateValve.describe.html
 ./generated/generated/pcdsdevices.device_types.GateValve.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.GateValve.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.GateValve.get.html
 ./generated/generated/pcdsdevices.device_types.GateValve.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.GateValve.get_instantiated_signals.html
@@ -4629,6 +4838,7 @@
 ./generated/generated/pcdsdevices.device_types.GateValve.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.GateValve.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.GateValve.wm.html
+./generated/generated/pcdsdevices.device_types.GateValve.wm_update.html
 ./generated/generated/pcdsdevices.device_types.IMS.__init__.html
 ./generated/generated/pcdsdevices.device_types.IMS.auto_setup.html
 ./generated/generated/pcdsdevices.device_types.IMS.camonitor.html
@@ -4643,6 +4853,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.describe_configuration.html
 ./generated/generated/pcdsdevices.device_types.IMS.disable.html
 ./generated/generated/pcdsdevices.device_types.IMS.enable.html
+./generated/generated/pcdsdevices.device_types.IMS.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.IMS.get.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.html
@@ -4673,6 +4884,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.IMS.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.IMS.wm.html
+./generated/generated/pcdsdevices.device_types.IMS.wm_update.html
 ./generated/generated/pcdsdevices.device_types.IPM.__init__.html
 ./generated/generated/pcdsdevices.device_types.IPM.camonitor.html
 ./generated/generated/pcdsdevices.device_types.IPM.check_value.html
@@ -4680,6 +4892,7 @@
 ./generated/generated/pcdsdevices.device_types.IPM.configure.html
 ./generated/generated/pcdsdevices.device_types.IPM.describe.html
 ./generated/generated/pcdsdevices.device_types.IPM.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.IPM.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.IPM.get.html
 ./generated/generated/pcdsdevices.device_types.IPM.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.IPM.get_instantiated_signals.html
@@ -4704,6 +4917,7 @@
 ./generated/generated/pcdsdevices.device_types.IPM.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.IPM.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.IPM.wm.html
+./generated/generated/pcdsdevices.device_types.IPM.wm_update.html
 ./generated/generated/pcdsdevices.device_types.LODCM.__init__.html
 ./generated/generated/pcdsdevices.device_types.LODCM.camonitor.html
 ./generated/generated/pcdsdevices.device_types.LODCM.check_value.html
@@ -4711,6 +4925,7 @@
 ./generated/generated/pcdsdevices.device_types.LODCM.configure.html
 ./generated/generated/pcdsdevices.device_types.LODCM.describe.html
 ./generated/generated/pcdsdevices.device_types.LODCM.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.LODCM.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.LODCM.get.html
 ./generated/generated/pcdsdevices.device_types.LODCM.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.LODCM.get_instantiated_signals.html
@@ -4736,6 +4951,7 @@
 ./generated/generated/pcdsdevices.device_types.LODCM.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.LODCM.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.LODCM.wm.html
+./generated/generated/pcdsdevices.device_types.LODCM.wm_update.html
 ./generated/generated/pcdsdevices.device_types.Newport.__init__.html
 ./generated/generated/pcdsdevices.device_types.Newport.camonitor.html
 ./generated/generated/pcdsdevices.device_types.Newport.check_value.html
@@ -4745,6 +4961,7 @@
 ./generated/generated/pcdsdevices.device_types.Newport.describe_configuration.html
 ./generated/generated/pcdsdevices.device_types.Newport.disable.html
 ./generated/generated/pcdsdevices.device_types.Newport.enable.html
+./generated/generated/pcdsdevices.device_types.Newport.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.Newport.get.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.html
@@ -4774,6 +4991,7 @@
 ./generated/generated/pcdsdevices.device_types.Newport.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.Newport.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.Newport.wm.html
+./generated/generated/pcdsdevices.device_types.Newport.wm_update.html
 ./generated/generated/pcdsdevices.device_types.OffsetMirror.__init__.html
 ./generated/generated/pcdsdevices.device_types.OffsetMirror.check_value.html
 ./generated/generated/pcdsdevices.device_types.OffsetMirror.clear_sub.html
@@ -4804,6 +5022,7 @@
 ./generated/generated/pcdsdevices.device_types.PIM.configure.html
 ./generated/generated/pcdsdevices.device_types.PIM.describe.html
 ./generated/generated/pcdsdevices.device_types.PIM.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.PIM.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.PIM.get.html
 ./generated/generated/pcdsdevices.device_types.PIM.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.PIM.get_instantiated_signals.html
@@ -4828,6 +5047,7 @@
 ./generated/generated/pcdsdevices.device_types.PIM.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.PIM.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.PIM.wm.html
+./generated/generated/pcdsdevices.device_types.PIM.wm_update.html
 ./generated/generated/pcdsdevices.device_types.PMC100.__init__.html
 ./generated/generated/pcdsdevices.device_types.PMC100.camonitor.html
 ./generated/generated/pcdsdevices.device_types.PMC100.check_value.html
@@ -4837,6 +5057,7 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.describe_configuration.html
 ./generated/generated/pcdsdevices.device_types.PMC100.disable.html
 ./generated/generated/pcdsdevices.device_types.PMC100.enable.html
+./generated/generated/pcdsdevices.device_types.PMC100.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.html
@@ -4866,6 +5087,7 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.PMC100.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.PMC100.wm.html
+./generated/generated/pcdsdevices.device_types.PMC100.wm_update.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.__init__.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.camonitor.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.check_value.html
@@ -4873,6 +5095,7 @@
 ./generated/generated/pcdsdevices.device_types.PointingMirror.configure.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.describe.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.PointingMirror.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.get.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.get_instantiated_signals.html
@@ -4897,6 +5120,7 @@
 ./generated/generated/pcdsdevices.device_types.PointingMirror.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.PointingMirror.wm.html
+./generated/generated/pcdsdevices.device_types.PointingMirror.wm_update.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.__init__.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.burst.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.camonitor.html
@@ -4906,6 +5130,7 @@
 ./generated/generated/pcdsdevices.device_types.PulsePicker.configure.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.describe.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.PulsePicker.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.flipflop.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.follower.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.get.html
@@ -4934,6 +5159,7 @@
 ./generated/generated/pcdsdevices.device_types.PulsePicker.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.PulsePicker.wm.html
+./generated/generated/pcdsdevices.device_types.PulsePicker.wm_update.html
 ./generated/generated/pcdsdevices.device_types.Slits.__init__.html
 ./generated/generated/pcdsdevices.device_types.Slits.block.html
 ./generated/generated/pcdsdevices.device_types.Slits.camonitor.html
@@ -4943,6 +5169,7 @@
 ./generated/generated/pcdsdevices.device_types.Slits.configure.html
 ./generated/generated/pcdsdevices.device_types.Slits.describe.html
 ./generated/generated/pcdsdevices.device_types.Slits.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.Slits.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.Slits.get.html
 ./generated/generated/pcdsdevices.device_types.Slits.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.Slits.get_instantiated_signals.html
@@ -4966,6 +5193,7 @@
 ./generated/generated/pcdsdevices.device_types.Slits.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.Slits.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.Slits.wm.html
+./generated/generated/pcdsdevices.device_types.Slits.wm_update.html
 ./generated/generated/pcdsdevices.device_types.Stopper.__init__.html
 ./generated/generated/pcdsdevices.device_types.Stopper.camonitor.html
 ./generated/generated/pcdsdevices.device_types.Stopper.check_value.html
@@ -4974,6 +5202,7 @@
 ./generated/generated/pcdsdevices.device_types.Stopper.configure.html
 ./generated/generated/pcdsdevices.device_types.Stopper.describe.html
 ./generated/generated/pcdsdevices.device_types.Stopper.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.Stopper.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.Stopper.get.html
 ./generated/generated/pcdsdevices.device_types.Stopper.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.Stopper.get_instantiated_signals.html
@@ -4999,6 +5228,7 @@
 ./generated/generated/pcdsdevices.device_types.Stopper.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.Stopper.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.Stopper.wm.html
+./generated/generated/pcdsdevices.device_types.Stopper.wm_update.html
 ./generated/generated/pcdsdevices.device_types.Trigger.__init__.html
 ./generated/generated/pcdsdevices.device_types.Trigger.check_value.html
 ./generated/generated/pcdsdevices.device_types.Trigger.clear_sub.html
@@ -5031,6 +5261,7 @@
 ./generated/generated/pcdsdevices.device_types.XFLS.configure.html
 ./generated/generated/pcdsdevices.device_types.XFLS.describe.html
 ./generated/generated/pcdsdevices.device_types.XFLS.describe_configuration.html
+./generated/generated/pcdsdevices.device_types.XFLS.end_monitor_thread.html
 ./generated/generated/pcdsdevices.device_types.XFLS.get.html
 ./generated/generated/pcdsdevices.device_types.XFLS.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.XFLS.get_instantiated_signals.html
@@ -5055,6 +5286,7 @@
 ./generated/generated/pcdsdevices.device_types.XFLS.unsubscribe_all.html
 ./generated/generated/pcdsdevices.device_types.XFLS.wait_for_connection.html
 ./generated/generated/pcdsdevices.device_types.XFLS.wm.html
+./generated/generated/pcdsdevices.device_types.XFLS.wm_update.html
 ./generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.html
 ./generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.html
 ./generated/generated/pcdsdevices.epics_motor.IMS.html
@@ -5069,6 +5301,7 @@
 ./generated/generated/pcdsdevices.inout.TTReflaser.html
 ./generated/generated/pcdsdevices.ipm.IPM.html
 ./generated/generated/pcdsdevices.lens.LensStack.html
+./generated/generated/pcdsdevices.lens.SimLensStack.html
 ./generated/generated/pcdsdevices.lens.XFLS.html
 ./generated/generated/pcdsdevices.lodcm.Dectris.html
 ./generated/generated/pcdsdevices.lodcm.Diode.html
@@ -5102,7 +5335,6 @@
 ./generated/generated/pcdsdevices.signal.AggregateSignal.html
 ./generated/generated/pcdsdevices.signal.AvgSignal.html
 ./generated/generated/pcdsdevices.sim.FastMotor.html
-./generated/generated/pcdsdevices.sim.SimLensStack.html
 ./generated/generated/pcdsdevices.sim.SimTwoAxis.__init__.html
 ./generated/generated/pcdsdevices.sim.SimTwoAxis.check_value.html
 ./generated/generated/pcdsdevices.sim.SimTwoAxis.clear_sub.html
@@ -5135,6 +5367,7 @@
 ./generated/generated/pcdsdevices.sim.SlowMotor.configure.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.describe.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.describe_configuration.html
+./generated/generated/pcdsdevices.sim.SlowMotor.end_monitor_thread.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.get.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.get_device_tuple.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.html
@@ -5162,6 +5395,7 @@
 ./generated/generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.wait_for_connection.html
 ./generated/generated/pcdsdevices.sim.SlowMotor.wm.html
+./generated/generated/pcdsdevices.sim.SlowMotor.wm_update.html
 ./generated/generated/pcdsdevices.sim.SynMotor.__init__.html
 ./generated/generated/pcdsdevices.sim.SynMotor.camonitor.html
 ./generated/generated/pcdsdevices.sim.SynMotor.check_value.html
@@ -5169,6 +5403,7 @@
 ./generated/generated/pcdsdevices.sim.SynMotor.configure.html
 ./generated/generated/pcdsdevices.sim.SynMotor.describe.html
 ./generated/generated/pcdsdevices.sim.SynMotor.describe_configuration.html
+./generated/generated/pcdsdevices.sim.SynMotor.end_monitor_thread.html
 ./generated/generated/pcdsdevices.sim.SynMotor.get.html
 ./generated/generated/pcdsdevices.sim.SynMotor.get_device_tuple.html
 ./generated/generated/pcdsdevices.sim.SynMotor.get_instantiated_signals.html
@@ -5196,6 +5431,7 @@
 ./generated/generated/pcdsdevices.sim.SynMotor.unsubscribe_all.html
 ./generated/generated/pcdsdevices.sim.SynMotor.wait_for_connection.html
 ./generated/generated/pcdsdevices.sim.SynMotor.wm.html
+./generated/generated/pcdsdevices.sim.SynMotor.wm_update.html
 ./generated/generated/pcdsdevices.slits.SlitPositioner.html
 ./generated/generated/pcdsdevices.slits.Slits.html
 ./generated/generated/pcdsdevices.state.PVStatePositioner.html

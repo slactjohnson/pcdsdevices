@@ -19,6 +19,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.configure
       ~XFLS.describe
       ~XFLS.describe_configuration
+      ~XFLS.end_monitor_thread
       ~XFLS.get
       ~XFLS.get_device_tuple
       ~XFLS.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.unsubscribe_all
       ~XFLS.wait_for_connection
       ~XFLS.wm
+      ~XFLS.wm_update
    
    
 

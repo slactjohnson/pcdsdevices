@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimLensStack.put
-================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimLensStack.put

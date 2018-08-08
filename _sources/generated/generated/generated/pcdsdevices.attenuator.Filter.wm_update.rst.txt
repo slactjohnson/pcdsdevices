@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.wm\_update
+========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.wm_update

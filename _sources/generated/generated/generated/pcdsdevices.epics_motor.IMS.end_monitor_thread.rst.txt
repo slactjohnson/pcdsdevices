@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.end\_monitor\_thread
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.end_monitor_thread

@@ -19,6 +19,7 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.configure
       ~PVStatePositioner.describe
       ~PVStatePositioner.describe_configuration
+      ~PVStatePositioner.end_monitor_thread
       ~PVStatePositioner.get
       ~PVStatePositioner.get_device_tuple
       ~PVStatePositioner.get_instantiated_signals
@@ -41,6 +42,7 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.unsubscribe_all
       ~PVStatePositioner.wait_for_connection
       ~PVStatePositioner.wm
+      ~PVStatePositioner.wm_update
    
    
 

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.wm\_update
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.wm_update

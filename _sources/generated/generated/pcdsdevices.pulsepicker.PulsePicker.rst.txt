@@ -21,6 +21,7 @@ pcdsdevices.pulsepicker.PulsePicker
       ~PulsePicker.configure
       ~PulsePicker.describe
       ~PulsePicker.describe_configuration
+      ~PulsePicker.end_monitor_thread
       ~PulsePicker.flipflop
       ~PulsePicker.follower
       ~PulsePicker.get
@@ -49,6 +50,7 @@ pcdsdevices.pulsepicker.PulsePicker
       ~PulsePicker.unsubscribe_all
       ~PulsePicker.wait_for_connection
       ~PulsePicker.wm
+      ~PulsePicker.wm_update
    
    
 

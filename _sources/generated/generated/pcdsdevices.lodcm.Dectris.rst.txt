@@ -19,6 +19,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.configure
       ~Dectris.describe
       ~Dectris.describe_configuration
+      ~Dectris.end_monitor_thread
       ~Dectris.get
       ~Dectris.get_device_tuple
       ~Dectris.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.unsubscribe_all
       ~Dectris.wait_for_connection
       ~Dectris.wm
+      ~Dectris.wm_update
    
    
 

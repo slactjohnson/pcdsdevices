@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.end\_monitor\_thread
+======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.end_monitor_thread

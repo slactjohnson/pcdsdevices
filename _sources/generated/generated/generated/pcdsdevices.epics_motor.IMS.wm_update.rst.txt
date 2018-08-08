@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.wm\_update
+=======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.wm_update

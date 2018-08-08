@@ -1,0 +1,6 @@
+pcdsdevices.mv\_interface.FltMvInterface.end\_monitor\_thread
+=============================================================
+
+.. currentmodule:: pcdsdevices.mv_interface
+
+.. automethod:: FltMvInterface.end_monitor_thread

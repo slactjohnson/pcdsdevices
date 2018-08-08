@@ -19,6 +19,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.configure
       ~PointingMirror.describe
       ~PointingMirror.describe_configuration
+      ~PointingMirror.end_monitor_thread
       ~PointingMirror.get
       ~PointingMirror.get_device_tuple
       ~PointingMirror.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.unsubscribe_all
       ~PointingMirror.wait_for_connection
       ~PointingMirror.wm
+      ~PointingMirror.wm_update
    
    
 

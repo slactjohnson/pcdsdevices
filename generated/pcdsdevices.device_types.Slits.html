@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Slits &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.device_types.Slits &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.device_types.Slits.__init__" href="generated/pcdsdevices.device_types.Slits.__init__.html" />
-    <link rel="prev" title="pcdsdevices.device_types.PointingMirror.wm" href="generated/pcdsdevices.device_types.PointingMirror.wm.html" /> 
+    <link rel="prev" title="pcdsdevices.device_types.PointingMirror.wm_update" href="generated/pcdsdevices.device_types.PointingMirror.wm_update.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -115,6 +115,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.configure.html">pcdsdevices.device_types.Slits.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.describe.html">pcdsdevices.device_types.Slits.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.describe_configuration.html">pcdsdevices.device_types.Slits.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.end_monitor_thread.html">pcdsdevices.device_types.Slits.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get.html">pcdsdevices.device_types.Slits.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get_device_tuple.html">pcdsdevices.device_types.Slits.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get_instantiated_signals.html">pcdsdevices.device_types.Slits.get_instantiated_signals</a></li>
@@ -138,6 +139,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unsubscribe_all.html">pcdsdevices.device_types.Slits.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wait_for_connection.html">pcdsdevices.device_types.Slits.wait_for_connection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm.html">pcdsdevices.device_types.Slits.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm_update.html">pcdsdevices.device_types.Slits.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
@@ -265,7 +267,7 @@ about changing slit widths during alignment</p>
 <td>Overlap the slits to block the beam</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.camonitor.html#pcdsdevices.device_types.Slits.camonitor" title="pcdsdevices.device_types.Slits.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.check_value.html#pcdsdevices.device_types.Slits.check_value" title="pcdsdevices.device_types.Slits.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value,&nbsp;**kwargs)</td>
 <td>Check if the value is valid for this object</td>
@@ -285,74 +287,80 @@ about changing slit widths during alignment</p>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.describe_configuration.html#pcdsdevices.device_types.Slits.describe_configuration" title="pcdsdevices.device_types.Slits.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get.html#pcdsdevices.device_types.Slits.get" title="pcdsdevices.device_types.Slits.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.end_monitor_thread.html#pcdsdevices.device_types.Slits.end_monitor_thread" title="pcdsdevices.device_types.Slits.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.Slits.camonitor.html#pcdsdevices.device_types.Slits.camonitor" title="pcdsdevices.device_types.Slits.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm_update.html#pcdsdevices.device_types.Slits.wm_update" title="pcdsdevices.device_types.Slits.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get.html#pcdsdevices.device_types.Slits.get" title="pcdsdevices.device_types.Slits.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get_device_tuple.html#pcdsdevices.device_types.Slits.get_device_tuple" title="pcdsdevices.device_types.Slits.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get_device_tuple.html#pcdsdevices.device_types.Slits.get_device_tuple" title="pcdsdevices.device_types.Slits.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get_instantiated_signals.html#pcdsdevices.device_types.Slits.get_instantiated_signals" title="pcdsdevices.device_types.Slits.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get_instantiated_signals.html#pcdsdevices.device_types.Slits.get_instantiated_signals" title="pcdsdevices.device_types.Slits.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.move.html#pcdsdevices.device_types.Slits.move" title="pcdsdevices.device_types.Slits.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(size[,&nbsp;wait,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.move.html#pcdsdevices.device_types.Slits.move" title="pcdsdevices.device_types.Slits.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(size[,&nbsp;wait,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Set the dimensions of the width/height of the gap to width paramater.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.mv.html#pcdsdevices.device_types.Slits.mv" title="pcdsdevices.device_types.Slits.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.mv.html#pcdsdevices.device_types.Slits.mv" title="pcdsdevices.device_types.Slits.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.open.html#pcdsdevices.device_types.Slits.open" title="pcdsdevices.device_types.Slits.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.open.html#pcdsdevices.device_types.Slits.open" title="pcdsdevices.device_types.Slits.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>()</td>
 <td>Uses the built-in <code class="docutils literal notranslate"><span class="pre">OPEN</span></code> record to move open the aperture</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.pause.html#pcdsdevices.device_types.Slits.pause" title="pcdsdevices.device_types.Slits.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.pause.html#pcdsdevices.device_types.Slits.pause" title="pcdsdevices.device_types.Slits.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.put.html#pcdsdevices.device_types.Slits.put" title="pcdsdevices.device_types.Slits.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.put.html#pcdsdevices.device_types.Slits.put" title="pcdsdevices.device_types.Slits.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.read.html#pcdsdevices.device_types.Slits.read" title="pcdsdevices.device_types.Slits.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.read.html#pcdsdevices.device_types.Slits.read" title="pcdsdevices.device_types.Slits.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.read_configuration.html#pcdsdevices.device_types.Slits.read_configuration" title="pcdsdevices.device_types.Slits.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.read_configuration.html#pcdsdevices.device_types.Slits.read_configuration" title="pcdsdevices.device_types.Slits.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.remove.html#pcdsdevices.device_types.Slits.remove" title="pcdsdevices.device_types.Slits.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([size,&nbsp;wait,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.remove.html#pcdsdevices.device_types.Slits.remove" title="pcdsdevices.device_types.Slits.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([size,&nbsp;wait,&nbsp;timeout])</td>
 <td>Open the slits to unblock the beam</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.resume.html#pcdsdevices.device_types.Slits.resume" title="pcdsdevices.device_types.Slits.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.resume.html#pcdsdevices.device_types.Slits.resume" title="pcdsdevices.device_types.Slits.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.set.html#pcdsdevices.device_types.Slits.set" title="pcdsdevices.device_types.Slits.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(size)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.set.html#pcdsdevices.device_types.Slits.set" title="pcdsdevices.device_types.Slits.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(size)</td>
 <td>Alias for the move method, here for bluesky compatibilty</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.stage.html#pcdsdevices.device_types.Slits.stage" title="pcdsdevices.device_types.Slits.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.stage.html#pcdsdevices.device_types.Slits.stage" title="pcdsdevices.device_types.Slits.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Store the initial values of the aperture position before scanning</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.stop.html#pcdsdevices.device_types.Slits.stop" title="pcdsdevices.device_types.Slits.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.stop.html#pcdsdevices.device_types.Slits.stop" title="pcdsdevices.device_types.Slits.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.subscribe.html#pcdsdevices.device_types.Slits.subscribe" title="pcdsdevices.device_types.Slits.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.subscribe.html#pcdsdevices.device_types.Slits.subscribe" title="pcdsdevices.device_types.Slits.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to changes of the slits</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.summary.html#pcdsdevices.device_types.Slits.summary" title="pcdsdevices.device_types.Slits.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.summary.html#pcdsdevices.device_types.Slits.summary" title="pcdsdevices.device_types.Slits.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.trigger.html#pcdsdevices.device_types.Slits.trigger" title="pcdsdevices.device_types.Slits.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.trigger.html#pcdsdevices.device_types.Slits.trigger" title="pcdsdevices.device_types.Slits.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unstage.html#pcdsdevices.device_types.Slits.unstage" title="pcdsdevices.device_types.Slits.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unstage.html#pcdsdevices.device_types.Slits.unstage" title="pcdsdevices.device_types.Slits.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unsubscribe.html#pcdsdevices.device_types.Slits.unsubscribe" title="pcdsdevices.device_types.Slits.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unsubscribe.html#pcdsdevices.device_types.Slits.unsubscribe" title="pcdsdevices.device_types.Slits.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unsubscribe_all.html#pcdsdevices.device_types.Slits.unsubscribe_all" title="pcdsdevices.device_types.Slits.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.unsubscribe_all.html#pcdsdevices.device_types.Slits.unsubscribe_all" title="pcdsdevices.device_types.Slits.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wait_for_connection.html#pcdsdevices.device_types.Slits.wait_for_connection" title="pcdsdevices.device_types.Slits.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wait_for_connection.html#pcdsdevices.device_types.Slits.wait_for_connection" title="pcdsdevices.device_types.Slits.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm.html#pcdsdevices.device_types.Slits.wm" title="pcdsdevices.device_types.Slits.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm.html#pcdsdevices.device_types.Slits.wm" title="pcdsdevices.device_types.Slits.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm_update.html#pcdsdevices.device_types.Slits.wm_update" title="pcdsdevices.device_types.Slits.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -464,7 +472,7 @@ about changing slit widths during alignment</p>
         <a href="generated/pcdsdevices.device_types.Slits.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.Slits.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.device_types.PointingMirror.wm.html" class="btn btn-neutral" title="pcdsdevices.device_types.PointingMirror.wm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.device_types.PointingMirror.wm_update.html" class="btn btn-neutral" title="pcdsdevices.device_types.PointingMirror.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -495,7 +503,7 @@ about changing slit widths during alignment</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

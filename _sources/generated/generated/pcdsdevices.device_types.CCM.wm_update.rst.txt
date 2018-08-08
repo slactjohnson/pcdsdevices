@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.wm\_update
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.wm_update

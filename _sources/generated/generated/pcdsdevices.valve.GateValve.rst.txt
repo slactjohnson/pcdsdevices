@@ -20,6 +20,7 @@ pcdsdevices.valve.GateValve
       ~GateValve.configure
       ~GateValve.describe
       ~GateValve.describe_configuration
+      ~GateValve.end_monitor_thread
       ~GateValve.get
       ~GateValve.get_device_tuple
       ~GateValve.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.valve.GateValve
       ~GateValve.unsubscribe_all
       ~GateValve.wait_for_connection
       ~GateValve.wm
+      ~GateValve.wm_update
    
    
 

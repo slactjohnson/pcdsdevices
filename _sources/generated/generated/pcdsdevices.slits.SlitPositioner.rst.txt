@@ -19,6 +19,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.configure
       ~SlitPositioner.describe
       ~SlitPositioner.describe_configuration
+      ~SlitPositioner.end_monitor_thread
       ~SlitPositioner.get
       ~SlitPositioner.get_device_tuple
       ~SlitPositioner.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.unsubscribe_all
       ~SlitPositioner.wait_for_connection
       ~SlitPositioner.wm
+      ~SlitPositioner.wm_update
    
    
 

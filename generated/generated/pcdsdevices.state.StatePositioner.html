@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -127,6 +127,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.configure.html">pcdsdevices.state.StatePositioner.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.describe.html">pcdsdevices.state.StatePositioner.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.describe_configuration.html">pcdsdevices.state.StatePositioner.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.end_monitor_thread.html">pcdsdevices.state.StatePositioner.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get.html">pcdsdevices.state.StatePositioner.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_device_tuple.html">pcdsdevices.state.StatePositioner.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_instantiated_signals.html">pcdsdevices.state.StatePositioner.get_instantiated_signals</a></li>
@@ -149,6 +150,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unsubscribe_all.html">pcdsdevices.state.StatePositioner.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wait_for_connection.html">pcdsdevices.state.StatePositioner.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm.html">pcdsdevices.state.StatePositioner.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm_update.html">pcdsdevices.state.StatePositioner.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
@@ -303,7 +305,7 @@ optionally be overriden in a child class.</p>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.camonitor.html#pcdsdevices.state.StatePositioner.camonitor" title="pcdsdevices.state.StatePositioner.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.check_value.html#pcdsdevices.state.StatePositioner.check_value" title="pcdsdevices.state.StatePositioner.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Verify that a value is a valid set state, or raise an exception.</td>
@@ -320,71 +322,77 @@ optionally be overriden in a child class.</p>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.describe_configuration.html#pcdsdevices.state.StatePositioner.describe_configuration" title="pcdsdevices.state.StatePositioner.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get.html#pcdsdevices.state.StatePositioner.get" title="pcdsdevices.state.StatePositioner.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.end_monitor_thread.html#pcdsdevices.state.StatePositioner.end_monitor_thread" title="pcdsdevices.state.StatePositioner.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.camonitor.html#pcdsdevices.state.StatePositioner.camonitor" title="pcdsdevices.state.StatePositioner.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm_update.html#pcdsdevices.state.StatePositioner.wm_update" title="pcdsdevices.state.StatePositioner.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get.html#pcdsdevices.state.StatePositioner.get" title="pcdsdevices.state.StatePositioner.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_device_tuple.html#pcdsdevices.state.StatePositioner.get_device_tuple" title="pcdsdevices.state.StatePositioner.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_device_tuple.html#pcdsdevices.state.StatePositioner.get_device_tuple" title="pcdsdevices.state.StatePositioner.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_instantiated_signals.html#pcdsdevices.state.StatePositioner.get_instantiated_signals" title="pcdsdevices.state.StatePositioner.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_instantiated_signals.html#pcdsdevices.state.StatePositioner.get_instantiated_signals" title="pcdsdevices.state.StatePositioner.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_state.html#pcdsdevices.state.StatePositioner.get_state" title="pcdsdevices.state.StatePositioner.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.get_state.html#pcdsdevices.state.StatePositioner.get_state" title="pcdsdevices.state.StatePositioner.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.move.html#pcdsdevices.state.StatePositioner.move" title="pcdsdevices.state.StatePositioner.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.move.html#pcdsdevices.state.StatePositioner.move" title="pcdsdevices.state.StatePositioner.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.mv.html#pcdsdevices.state.StatePositioner.mv" title="pcdsdevices.state.StatePositioner.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.mv.html#pcdsdevices.state.StatePositioner.mv" title="pcdsdevices.state.StatePositioner.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.pause.html#pcdsdevices.state.StatePositioner.pause" title="pcdsdevices.state.StatePositioner.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.pause.html#pcdsdevices.state.StatePositioner.pause" title="pcdsdevices.state.StatePositioner.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.put.html#pcdsdevices.state.StatePositioner.put" title="pcdsdevices.state.StatePositioner.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.put.html#pcdsdevices.state.StatePositioner.put" title="pcdsdevices.state.StatePositioner.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.read.html#pcdsdevices.state.StatePositioner.read" title="pcdsdevices.state.StatePositioner.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.read.html#pcdsdevices.state.StatePositioner.read" title="pcdsdevices.state.StatePositioner.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.read_configuration.html#pcdsdevices.state.StatePositioner.read_configuration" title="pcdsdevices.state.StatePositioner.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.read_configuration.html#pcdsdevices.state.StatePositioner.read_configuration" title="pcdsdevices.state.StatePositioner.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.resume.html#pcdsdevices.state.StatePositioner.resume" title="pcdsdevices.state.StatePositioner.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.resume.html#pcdsdevices.state.StatePositioner.resume" title="pcdsdevices.state.StatePositioner.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.set.html#pcdsdevices.state.StatePositioner.set" title="pcdsdevices.state.StatePositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.set.html#pcdsdevices.state.StatePositioner.set" title="pcdsdevices.state.StatePositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.stage.html#pcdsdevices.state.StatePositioner.stage" title="pcdsdevices.state.StatePositioner.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.stage.html#pcdsdevices.state.StatePositioner.stage" title="pcdsdevices.state.StatePositioner.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.stop.html#pcdsdevices.state.StatePositioner.stop" title="pcdsdevices.state.StatePositioner.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.stop.html#pcdsdevices.state.StatePositioner.stop" title="pcdsdevices.state.StatePositioner.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.subscribe.html#pcdsdevices.state.StatePositioner.subscribe" title="pcdsdevices.state.StatePositioner.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.subscribe.html#pcdsdevices.state.StatePositioner.subscribe" title="pcdsdevices.state.StatePositioner.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.summary.html#pcdsdevices.state.StatePositioner.summary" title="pcdsdevices.state.StatePositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.summary.html#pcdsdevices.state.StatePositioner.summary" title="pcdsdevices.state.StatePositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.trigger.html#pcdsdevices.state.StatePositioner.trigger" title="pcdsdevices.state.StatePositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.trigger.html#pcdsdevices.state.StatePositioner.trigger" title="pcdsdevices.state.StatePositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unstage.html#pcdsdevices.state.StatePositioner.unstage" title="pcdsdevices.state.StatePositioner.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unstage.html#pcdsdevices.state.StatePositioner.unstage" title="pcdsdevices.state.StatePositioner.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unsubscribe.html#pcdsdevices.state.StatePositioner.unsubscribe" title="pcdsdevices.state.StatePositioner.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unsubscribe.html#pcdsdevices.state.StatePositioner.unsubscribe" title="pcdsdevices.state.StatePositioner.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unsubscribe_all.html#pcdsdevices.state.StatePositioner.unsubscribe_all" title="pcdsdevices.state.StatePositioner.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.unsubscribe_all.html#pcdsdevices.state.StatePositioner.unsubscribe_all" title="pcdsdevices.state.StatePositioner.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wait_for_connection.html#pcdsdevices.state.StatePositioner.wait_for_connection" title="pcdsdevices.state.StatePositioner.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wait_for_connection.html#pcdsdevices.state.StatePositioner.wait_for_connection" title="pcdsdevices.state.StatePositioner.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm.html#pcdsdevices.state.StatePositioner.wm" title="pcdsdevices.state.StatePositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm.html#pcdsdevices.state.StatePositioner.wm" title="pcdsdevices.state.StatePositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm_update.html#pcdsdevices.state.StatePositioner.wm_update" title="pcdsdevices.state.StatePositioner.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -527,7 +535,7 @@ optionally be overriden in a child class.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

@@ -19,6 +19,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.configure
       ~IPM.describe
       ~IPM.describe_configuration
+      ~IPM.end_monitor_thread
       ~IPM.get
       ~IPM.get_device_tuple
       ~IPM.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.unsubscribe_all
       ~IPM.wait_for_connection
       ~IPM.wm
+      ~IPM.wm_update
    
    
 

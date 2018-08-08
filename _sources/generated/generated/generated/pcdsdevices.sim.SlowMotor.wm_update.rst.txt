@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.wm\_update
+====================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.wm_update

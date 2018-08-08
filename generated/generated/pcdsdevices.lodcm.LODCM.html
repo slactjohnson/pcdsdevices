@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lodcm.LODCM &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.lodcm.LODCM &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.lodcm.LODCM.__init__" href="generated/pcdsdevices.lodcm.LODCM.__init__.html" />
-    <link rel="prev" title="pcdsdevices.lodcm.Foil.wm" href="generated/pcdsdevices.lodcm.Foil.wm.html" /> 
+    <link rel="prev" title="pcdsdevices.lodcm.Foil.wm_update" href="generated/pcdsdevices.lodcm.Foil.wm_update.html" /> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -117,6 +117,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.configure.html">pcdsdevices.lodcm.LODCM.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.describe.html">pcdsdevices.lodcm.LODCM.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.describe_configuration.html">pcdsdevices.lodcm.LODCM.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.end_monitor_thread.html">pcdsdevices.lodcm.LODCM.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get.html">pcdsdevices.lodcm.LODCM.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_device_tuple.html">pcdsdevices.lodcm.LODCM.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_instantiated_signals.html">pcdsdevices.lodcm.LODCM.get_instantiated_signals</a></li>
@@ -142,6 +143,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unsubscribe_all.html">pcdsdevices.lodcm.LODCM.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wait_for_connection.html">pcdsdevices.lodcm.LODCM.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wm.html">pcdsdevices.lodcm.LODCM.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wm_update.html">pcdsdevices.lodcm.LODCM.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.html">pcdsdevices.lodcm.YagLom</a></li>
@@ -272,7 +274,7 @@ in-progress move as failed.</li>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.camonitor.html#pcdsdevices.lodcm.LODCM.camonitor" title="pcdsdevices.lodcm.LODCM.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.check_value.html#pcdsdevices.lodcm.LODCM.check_value" title="pcdsdevices.lodcm.LODCM.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Verify that a value is a valid set state, or raise an exception.</td>
@@ -289,80 +291,86 @@ in-progress move as failed.</li>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.describe_configuration.html#pcdsdevices.lodcm.LODCM.describe_configuration" title="pcdsdevices.lodcm.LODCM.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get.html#pcdsdevices.lodcm.LODCM.get" title="pcdsdevices.lodcm.LODCM.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.end_monitor_thread.html#pcdsdevices.lodcm.LODCM.end_monitor_thread" title="pcdsdevices.lodcm.LODCM.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.camonitor.html#pcdsdevices.lodcm.LODCM.camonitor" title="pcdsdevices.lodcm.LODCM.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wm_update.html#pcdsdevices.lodcm.LODCM.wm_update" title="pcdsdevices.lodcm.LODCM.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get.html#pcdsdevices.lodcm.LODCM.get" title="pcdsdevices.lodcm.LODCM.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_device_tuple.html#pcdsdevices.lodcm.LODCM.get_device_tuple" title="pcdsdevices.lodcm.LODCM.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_device_tuple.html#pcdsdevices.lodcm.LODCM.get_device_tuple" title="pcdsdevices.lodcm.LODCM.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_instantiated_signals.html#pcdsdevices.lodcm.LODCM.get_instantiated_signals" title="pcdsdevices.lodcm.LODCM.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_instantiated_signals.html#pcdsdevices.lodcm.LODCM.get_instantiated_signals" title="pcdsdevices.lodcm.LODCM.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_state.html#pcdsdevices.lodcm.LODCM.get_state" title="pcdsdevices.lodcm.LODCM.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.get_state.html#pcdsdevices.lodcm.LODCM.get_state" title="pcdsdevices.lodcm.LODCM.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.insert.html#pcdsdevices.lodcm.LODCM.insert" title="pcdsdevices.lodcm.LODCM.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.insert.html#pcdsdevices.lodcm.LODCM.insert" title="pcdsdevices.lodcm.LODCM.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Insert this device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.move.html#pcdsdevices.lodcm.LODCM.move" title="pcdsdevices.lodcm.LODCM.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.move.html#pcdsdevices.lodcm.LODCM.move" title="pcdsdevices.lodcm.LODCM.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.mv.html#pcdsdevices.lodcm.LODCM.mv" title="pcdsdevices.lodcm.LODCM.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.mv.html#pcdsdevices.lodcm.LODCM.mv" title="pcdsdevices.lodcm.LODCM.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.pause.html#pcdsdevices.lodcm.LODCM.pause" title="pcdsdevices.lodcm.LODCM.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.pause.html#pcdsdevices.lodcm.LODCM.pause" title="pcdsdevices.lodcm.LODCM.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.put.html#pcdsdevices.lodcm.LODCM.put" title="pcdsdevices.lodcm.LODCM.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.put.html#pcdsdevices.lodcm.LODCM.put" title="pcdsdevices.lodcm.LODCM.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.read.html#pcdsdevices.lodcm.LODCM.read" title="pcdsdevices.lodcm.LODCM.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.read.html#pcdsdevices.lodcm.LODCM.read" title="pcdsdevices.lodcm.LODCM.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.read_configuration.html#pcdsdevices.lodcm.LODCM.read_configuration" title="pcdsdevices.lodcm.LODCM.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.read_configuration.html#pcdsdevices.lodcm.LODCM.read_configuration" title="pcdsdevices.lodcm.LODCM.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.remove.html#pcdsdevices.lodcm.LODCM.remove" title="pcdsdevices.lodcm.LODCM.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.remove.html#pcdsdevices.lodcm.LODCM.remove" title="pcdsdevices.lodcm.LODCM.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.remove_dia.html#pcdsdevices.lodcm.LODCM.remove_dia" title="pcdsdevices.lodcm.LODCM.remove_dia"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove_dia</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.remove_dia.html#pcdsdevices.lodcm.LODCM.remove_dia" title="pcdsdevices.lodcm.LODCM.remove_dia"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove_dia</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Remove all diagnostic components.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.resume.html#pcdsdevices.lodcm.LODCM.resume" title="pcdsdevices.lodcm.LODCM.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.resume.html#pcdsdevices.lodcm.LODCM.resume" title="pcdsdevices.lodcm.LODCM.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.set.html#pcdsdevices.lodcm.LODCM.set" title="pcdsdevices.lodcm.LODCM.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.set.html#pcdsdevices.lodcm.LODCM.set" title="pcdsdevices.lodcm.LODCM.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.stage.html#pcdsdevices.lodcm.LODCM.stage" title="pcdsdevices.lodcm.LODCM.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.stage.html#pcdsdevices.lodcm.LODCM.stage" title="pcdsdevices.lodcm.LODCM.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.stop.html#pcdsdevices.lodcm.LODCM.stop" title="pcdsdevices.lodcm.LODCM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.stop.html#pcdsdevices.lodcm.LODCM.stop" title="pcdsdevices.lodcm.LODCM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.subscribe.html#pcdsdevices.lodcm.LODCM.subscribe" title="pcdsdevices.lodcm.LODCM.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.subscribe.html#pcdsdevices.lodcm.LODCM.subscribe" title="pcdsdevices.lodcm.LODCM.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.summary.html#pcdsdevices.lodcm.LODCM.summary" title="pcdsdevices.lodcm.LODCM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.summary.html#pcdsdevices.lodcm.LODCM.summary" title="pcdsdevices.lodcm.LODCM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.trigger.html#pcdsdevices.lodcm.LODCM.trigger" title="pcdsdevices.lodcm.LODCM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.trigger.html#pcdsdevices.lodcm.LODCM.trigger" title="pcdsdevices.lodcm.LODCM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unstage.html#pcdsdevices.lodcm.LODCM.unstage" title="pcdsdevices.lodcm.LODCM.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unstage.html#pcdsdevices.lodcm.LODCM.unstage" title="pcdsdevices.lodcm.LODCM.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unsubscribe.html#pcdsdevices.lodcm.LODCM.unsubscribe" title="pcdsdevices.lodcm.LODCM.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unsubscribe.html#pcdsdevices.lodcm.LODCM.unsubscribe" title="pcdsdevices.lodcm.LODCM.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unsubscribe_all.html#pcdsdevices.lodcm.LODCM.unsubscribe_all" title="pcdsdevices.lodcm.LODCM.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.unsubscribe_all.html#pcdsdevices.lodcm.LODCM.unsubscribe_all" title="pcdsdevices.lodcm.LODCM.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wait_for_connection.html#pcdsdevices.lodcm.LODCM.wait_for_connection" title="pcdsdevices.lodcm.LODCM.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wait_for_connection.html#pcdsdevices.lodcm.LODCM.wait_for_connection" title="pcdsdevices.lodcm.LODCM.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wm.html#pcdsdevices.lodcm.LODCM.wm" title="pcdsdevices.lodcm.LODCM.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wm.html#pcdsdevices.lodcm.LODCM.wm" title="pcdsdevices.lodcm.LODCM.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCM.wm_update.html#pcdsdevices.lodcm.LODCM.wm_update" title="pcdsdevices.lodcm.LODCM.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -510,7 +518,7 @@ in-progress move as failed.</li>
         <a href="generated/pcdsdevices.lodcm.LODCM.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.LODCM.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.lodcm.Foil.wm.html" class="btn btn-neutral" title="pcdsdevices.lodcm.Foil.wm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.lodcm.Foil.wm_update.html" class="btn btn-neutral" title="pcdsdevices.lodcm.Foil.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -541,7 +549,7 @@ in-progress move as failed.</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

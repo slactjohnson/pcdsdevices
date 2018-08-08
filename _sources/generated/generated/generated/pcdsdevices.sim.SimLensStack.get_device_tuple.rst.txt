@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimLensStack.get\_device\_tuple
-===============================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimLensStack.get_device_tuple

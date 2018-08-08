@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.end\_monitor\_thread
+===============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.end_monitor_thread

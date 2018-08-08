@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.GateValve &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.valve.GateValve &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -128,6 +128,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.configure.html">pcdsdevices.valve.GateValve.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe.html">pcdsdevices.valve.GateValve.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe_configuration.html">pcdsdevices.valve.GateValve.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.end_monitor_thread.html">pcdsdevices.valve.GateValve.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get.html">pcdsdevices.valve.GateValve.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_device_tuple.html">pcdsdevices.valve.GateValve.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_instantiated_signals.html">pcdsdevices.valve.GateValve.get_instantiated_signals</a></li>
@@ -153,6 +154,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe_all.html">pcdsdevices.valve.GateValve.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wait_for_connection.html">pcdsdevices.valve.GateValve.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm.html">pcdsdevices.valve.GateValve.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm_update.html">pcdsdevices.valve.GateValve.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.PPSStopper.html">pcdsdevices.valve.PPSStopper</a></li>
@@ -250,7 +252,7 @@ safety feature, just a notice to the operator.</p>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.camonitor.html#pcdsdevices.valve.GateValve.camonitor" title="pcdsdevices.valve.GateValve.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.check_value.html#pcdsdevices.valve.GateValve.check_value" title="pcdsdevices.valve.GateValve.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</td>
 <td>Check when removing GateValve interlock is off</td>
@@ -270,80 +272,86 @@ safety feature, just a notice to the operator.</p>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe_configuration.html#pcdsdevices.valve.GateValve.describe_configuration" title="pcdsdevices.valve.GateValve.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get.html#pcdsdevices.valve.GateValve.get" title="pcdsdevices.valve.GateValve.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.end_monitor_thread.html#pcdsdevices.valve.GateValve.end_monitor_thread" title="pcdsdevices.valve.GateValve.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.valve.GateValve.camonitor.html#pcdsdevices.valve.GateValve.camonitor" title="pcdsdevices.valve.GateValve.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm_update.html#pcdsdevices.valve.GateValve.wm_update" title="pcdsdevices.valve.GateValve.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get.html#pcdsdevices.valve.GateValve.get" title="pcdsdevices.valve.GateValve.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_device_tuple.html#pcdsdevices.valve.GateValve.get_device_tuple" title="pcdsdevices.valve.GateValve.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_device_tuple.html#pcdsdevices.valve.GateValve.get_device_tuple" title="pcdsdevices.valve.GateValve.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_instantiated_signals.html#pcdsdevices.valve.GateValve.get_instantiated_signals" title="pcdsdevices.valve.GateValve.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_instantiated_signals.html#pcdsdevices.valve.GateValve.get_instantiated_signals" title="pcdsdevices.valve.GateValve.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_state.html#pcdsdevices.valve.GateValve.get_state" title="pcdsdevices.valve.GateValve.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_state.html#pcdsdevices.valve.GateValve.get_state" title="pcdsdevices.valve.GateValve.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</td>
 <td>Given an integer or string value, return the proper state entry.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.insert.html#pcdsdevices.valve.GateValve.insert" title="pcdsdevices.valve.GateValve.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.insert.html#pcdsdevices.valve.GateValve.insert" title="pcdsdevices.valve.GateValve.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Insert this device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.move.html#pcdsdevices.valve.GateValve.move" title="pcdsdevices.valve.GateValve.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.move.html#pcdsdevices.valve.GateValve.move" title="pcdsdevices.valve.GateValve.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.mv.html#pcdsdevices.valve.GateValve.mv" title="pcdsdevices.valve.GateValve.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.mv.html#pcdsdevices.valve.GateValve.mv" title="pcdsdevices.valve.GateValve.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.open.html#pcdsdevices.valve.GateValve.open" title="pcdsdevices.valve.GateValve.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.open.html#pcdsdevices.valve.GateValve.open" title="pcdsdevices.valve.GateValve.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(**kwargs)</td>
 <td>Open the stopper</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.pause.html#pcdsdevices.valve.GateValve.pause" title="pcdsdevices.valve.GateValve.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.pause.html#pcdsdevices.valve.GateValve.pause" title="pcdsdevices.valve.GateValve.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.put.html#pcdsdevices.valve.GateValve.put" title="pcdsdevices.valve.GateValve.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.put.html#pcdsdevices.valve.GateValve.put" title="pcdsdevices.valve.GateValve.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.read.html#pcdsdevices.valve.GateValve.read" title="pcdsdevices.valve.GateValve.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.read.html#pcdsdevices.valve.GateValve.read" title="pcdsdevices.valve.GateValve.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td>Read data from the device</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.read_configuration.html#pcdsdevices.valve.GateValve.read_configuration" title="pcdsdevices.valve.GateValve.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.read_configuration.html#pcdsdevices.valve.GateValve.read_configuration" title="pcdsdevices.valve.GateValve.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td>returns dictionary mapping names to (value, timestamp) pairs</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.remove.html#pcdsdevices.valve.GateValve.remove" title="pcdsdevices.valve.GateValve.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.remove.html#pcdsdevices.valve.GateValve.remove" title="pcdsdevices.valve.GateValve.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb,&nbsp;timeout,&nbsp;wait])</td>
 <td>Macro to move this device to the first state on the out_states list.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.resume.html#pcdsdevices.valve.GateValve.resume" title="pcdsdevices.valve.GateValve.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.resume.html#pcdsdevices.valve.GateValve.resume" title="pcdsdevices.valve.GateValve.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.set.html#pcdsdevices.valve.GateValve.set" title="pcdsdevices.valve.GateValve.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.set.html#pcdsdevices.valve.GateValve.set" title="pcdsdevices.valve.GateValve.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[,&nbsp;moved_cb,&nbsp;timeout])</td>
 <td>Move to the desired state and return completion information.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.stage.html#pcdsdevices.valve.GateValve.stage" title="pcdsdevices.valve.GateValve.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.stage.html#pcdsdevices.valve.GateValve.stage" title="pcdsdevices.valve.GateValve.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.stop.html#pcdsdevices.valve.GateValve.stop" title="pcdsdevices.valve.GateValve.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.stop.html#pcdsdevices.valve.GateValve.stop" title="pcdsdevices.valve.GateValve.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
 <td>Stop the Device and all (instantiated) subdevices</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.subscribe.html#pcdsdevices.valve.GateValve.subscribe" title="pcdsdevices.valve.GateValve.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.subscribe.html#pcdsdevices.valve.GateValve.subscribe" title="pcdsdevices.valve.GateValve.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.summary.html#pcdsdevices.valve.GateValve.summary" title="pcdsdevices.valve.GateValve.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.summary.html#pcdsdevices.valve.GateValve.summary" title="pcdsdevices.valve.GateValve.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.trigger.html#pcdsdevices.valve.GateValve.trigger" title="pcdsdevices.valve.GateValve.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.trigger.html#pcdsdevices.valve.GateValve.trigger" title="pcdsdevices.valve.GateValve.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unstage.html#pcdsdevices.valve.GateValve.unstage" title="pcdsdevices.valve.GateValve.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unstage.html#pcdsdevices.valve.GateValve.unstage" title="pcdsdevices.valve.GateValve.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe.html#pcdsdevices.valve.GateValve.unsubscribe" title="pcdsdevices.valve.GateValve.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe.html#pcdsdevices.valve.GateValve.unsubscribe" title="pcdsdevices.valve.GateValve.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe_all.html#pcdsdevices.valve.GateValve.unsubscribe_all" title="pcdsdevices.valve.GateValve.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe_all.html#pcdsdevices.valve.GateValve.unsubscribe_all" title="pcdsdevices.valve.GateValve.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wait_for_connection.html#pcdsdevices.valve.GateValve.wait_for_connection" title="pcdsdevices.valve.GateValve.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wait_for_connection.html#pcdsdevices.valve.GateValve.wait_for_connection" title="pcdsdevices.valve.GateValve.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm.html#pcdsdevices.valve.GateValve.wm" title="pcdsdevices.valve.GateValve.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm.html#pcdsdevices.valve.GateValve.wm" title="pcdsdevices.valve.GateValve.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm_update.html#pcdsdevices.valve.GateValve.wm_update" title="pcdsdevices.valve.GateValve.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -516,7 +524,7 @@ safety feature, just a notice to the operator.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

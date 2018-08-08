@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SynMotor.camonitor &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.sim.SynMotor.camonitor &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -100,6 +100,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.configure.html">pcdsdevices.sim.SynMotor.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.describe.html">pcdsdevices.sim.SynMotor.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.describe_configuration.html">pcdsdevices.sim.SynMotor.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.end_monitor_thread.html">pcdsdevices.sim.SynMotor.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.get.html">pcdsdevices.sim.SynMotor.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.get_device_tuple.html">pcdsdevices.sim.SynMotor.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.get_instantiated_signals.html">pcdsdevices.sim.SynMotor.get_instantiated_signals</a></li>
@@ -126,6 +127,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.unsubscribe_all.html">pcdsdevices.sim.SynMotor.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.wait_for_connection.html">pcdsdevices.sim.SynMotor.wait_for_connection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.wm.html">pcdsdevices.sim.SynMotor.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.SynMotor.wm_update.html">pcdsdevices.sim.SynMotor.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.SlowMotor.html">pcdsdevices.sim.SlowMotor</a></li>
@@ -210,7 +212,11 @@
 <dl class="method">
 <dt id="pcdsdevices.sim.SynMotor.camonitor">
 <code class="descclassname">SynMotor.</code><code class="descname">camonitor</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SynMotor.camonitor" title="Permalink to this definition">¶</a></dt>
-<dd><p>Updates current position of the motor.</p>
+<dd><p>Shows a live-updating motor position in the terminal.</p>
+<p>This will be the value that is returned by the <code class="docutils literal notranslate"><span class="pre">position</span></code> attribute.
+This method ends cleanly at a ctrl+c or after a call to
+<a class="reference internal" href="pcdsdevices.sim.SynMotor.end_monitor_thread.html#pcdsdevices.sim.SynMotor.end_monitor_thread" title="pcdsdevices.sim.SynMotor.end_monitor_thread"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>, which may be useful when this is called in a
+background thread.</p>
 </dd></dl>
 
 </div>
@@ -257,7 +263,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

@@ -14,6 +14,7 @@ pcdsdevices.mv\_interface.FltMvInterface
    
       ~FltMvInterface.__init__
       ~FltMvInterface.camonitor
+      ~FltMvInterface.end_monitor_thread
       ~FltMvInterface.mv
       ~FltMvInterface.mv_ginput
       ~FltMvInterface.mvr
@@ -21,6 +22,7 @@ pcdsdevices.mv\_interface.FltMvInterface
       ~FltMvInterface.umv
       ~FltMvInterface.umvr
       ~FltMvInterface.wm
+      ~FltMvInterface.wm_update
    
    
 

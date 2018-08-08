@@ -19,6 +19,7 @@ pcdsdevices.state.StateRecordPositioner
       ~StateRecordPositioner.configure
       ~StateRecordPositioner.describe
       ~StateRecordPositioner.describe_configuration
+      ~StateRecordPositioner.end_monitor_thread
       ~StateRecordPositioner.get
       ~StateRecordPositioner.get_device_tuple
       ~StateRecordPositioner.get_instantiated_signals
@@ -41,6 +42,7 @@ pcdsdevices.state.StateRecordPositioner
       ~StateRecordPositioner.unsubscribe_all
       ~StateRecordPositioner.wait_for_connection
       ~StateRecordPositioner.wm
+      ~StateRecordPositioner.wm_update
    
    
 

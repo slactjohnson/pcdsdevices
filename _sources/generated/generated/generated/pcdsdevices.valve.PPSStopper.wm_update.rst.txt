@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.wm\_update
+=======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.wm_update

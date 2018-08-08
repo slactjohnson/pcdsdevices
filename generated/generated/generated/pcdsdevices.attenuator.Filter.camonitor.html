@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.Filter.camonitor &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.attenuator.Filter.camonitor &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -109,6 +109,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.configure.html">pcdsdevices.attenuator.Filter.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.describe.html">pcdsdevices.attenuator.Filter.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.describe_configuration.html">pcdsdevices.attenuator.Filter.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.end_monitor_thread.html">pcdsdevices.attenuator.Filter.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.get.html">pcdsdevices.attenuator.Filter.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.get_device_tuple.html">pcdsdevices.attenuator.Filter.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.get_instantiated_signals.html">pcdsdevices.attenuator.Filter.get_instantiated_signals</a></li>
@@ -133,6 +134,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.unsubscribe_all.html">pcdsdevices.attenuator.Filter.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.wait_for_connection.html">pcdsdevices.attenuator.Filter.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.wm.html">pcdsdevices.attenuator.Filter.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.Filter.wm_update.html">pcdsdevices.attenuator.Filter.wm_update</a></li>
 </ul>
 </li>
 </ul>
@@ -234,7 +236,11 @@
 <dl class="method">
 <dt id="pcdsdevices.attenuator.Filter.camonitor">
 <code class="descclassname">Filter.</code><code class="descname">camonitor</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.Filter.camonitor" title="Permalink to this definition">¶</a></dt>
-<dd><p>Updates current position of the motor.</p>
+<dd><p>Shows a live-updating motor position in the terminal.</p>
+<p>This will be the value that is returned by the <code class="docutils literal notranslate"><span class="pre">position</span></code> attribute.
+This method ends cleanly at a ctrl+c or after a call to
+<a class="reference internal" href="pcdsdevices.attenuator.Filter.end_monitor_thread.html#pcdsdevices.attenuator.Filter.end_monitor_thread" title="pcdsdevices.attenuator.Filter.end_monitor_thread"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>, which may be useful when this is called in a
+background thread.</p>
 </dd></dl>
 
 </div>
@@ -281,7 +287,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

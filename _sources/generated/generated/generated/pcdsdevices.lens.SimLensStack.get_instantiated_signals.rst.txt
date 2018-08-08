@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStack.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStack.get_instantiated_signals

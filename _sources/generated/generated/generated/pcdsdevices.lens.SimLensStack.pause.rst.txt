@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStack.pause
+===================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStack.pause

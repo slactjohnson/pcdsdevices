@@ -21,6 +21,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.describe_configuration
       ~EpicsMotorInterface.disable
       ~EpicsMotorInterface.enable
+      ~EpicsMotorInterface.end_monitor_thread
       ~EpicsMotorInterface.get
       ~EpicsMotorInterface.get_device_tuple
       ~EpicsMotorInterface.get_instantiated_signals
@@ -49,6 +50,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.unsubscribe_all
       ~EpicsMotorInterface.wait_for_connection
       ~EpicsMotorInterface.wm
+      ~EpicsMotorInterface.wm_update
    
    
 

@@ -19,6 +19,7 @@ pcdsdevices.ccm.CCM
       ~CCM.configure
       ~CCM.describe
       ~CCM.describe_configuration
+      ~CCM.end_monitor_thread
       ~CCM.get
       ~CCM.get_device_tuple
       ~CCM.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.ccm.CCM
       ~CCM.unsubscribe_all
       ~CCM.wait_for_connection
       ~CCM.wm
+      ~CCM.wm_update
    
    
 

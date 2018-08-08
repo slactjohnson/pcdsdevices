@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.end\_monitor\_thread
+=============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.end_monitor_thread

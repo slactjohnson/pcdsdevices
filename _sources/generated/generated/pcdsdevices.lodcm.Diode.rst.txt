@@ -19,6 +19,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.configure
       ~Diode.describe
       ~Diode.describe_configuration
+      ~Diode.end_monitor_thread
       ~Diode.get
       ~Diode.get_device_tuple
       ~Diode.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.unsubscribe_all
       ~Diode.wait_for_connection
       ~Diode.wm
+      ~Diode.wm_update
    
    
 

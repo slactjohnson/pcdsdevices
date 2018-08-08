@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStack.summary
+=====================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStack.summary

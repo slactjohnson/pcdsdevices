@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePickerInOut.wm\_update
+===================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePickerInOut.wm_update

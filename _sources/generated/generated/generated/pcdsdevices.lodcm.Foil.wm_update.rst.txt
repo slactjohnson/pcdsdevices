@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.wm\_update
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.wm_update

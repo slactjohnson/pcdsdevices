@@ -15,6 +15,7 @@ pcdsdevices.lens
       :toctree: generated
    
       LensStack
+      SimLensStack
       XFLS
    
    

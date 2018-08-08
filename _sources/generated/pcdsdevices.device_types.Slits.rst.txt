@@ -21,6 +21,7 @@ pcdsdevices.device\_types.Slits
       ~Slits.configure
       ~Slits.describe
       ~Slits.describe_configuration
+      ~Slits.end_monitor_thread
       ~Slits.get
       ~Slits.get_device_tuple
       ~Slits.get_instantiated_signals
@@ -44,6 +45,7 @@ pcdsdevices.device\_types.Slits
       ~Slits.unsubscribe_all
       ~Slits.wait_for_connection
       ~Slits.wm
+      ~Slits.wm_update
    
    
 

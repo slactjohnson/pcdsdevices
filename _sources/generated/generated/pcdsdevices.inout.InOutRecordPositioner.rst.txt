@@ -19,6 +19,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.configure
       ~InOutRecordPositioner.describe
       ~InOutRecordPositioner.describe_configuration
+      ~InOutRecordPositioner.end_monitor_thread
       ~InOutRecordPositioner.get
       ~InOutRecordPositioner.get_device_tuple
       ~InOutRecordPositioner.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.unsubscribe_all
       ~InOutRecordPositioner.wait_for_connection
       ~InOutRecordPositioner.wm
+      ~InOutRecordPositioner.wm_update
    
    
 

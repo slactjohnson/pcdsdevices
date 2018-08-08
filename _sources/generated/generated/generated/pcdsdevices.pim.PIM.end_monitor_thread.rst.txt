@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIM.end\_monitor\_thread
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIM.end_monitor_thread

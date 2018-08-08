@@ -21,6 +21,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.describe_configuration
       ~PMC100.disable
       ~PMC100.enable
+      ~PMC100.end_monitor_thread
       ~PMC100.get
       ~PMC100.get_device_tuple
       ~PMC100.get_instantiated_signals
@@ -50,6 +51,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.unsubscribe_all
       ~PMC100.wait_for_connection
       ~PMC100.wm
+      ~PMC100.wm_update
    
    
 

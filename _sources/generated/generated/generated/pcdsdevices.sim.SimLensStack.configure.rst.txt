@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimLensStack.configure
-======================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimLensStack.configure

@@ -19,6 +19,7 @@ pcdsdevices.pim.PIM
       ~PIM.configure
       ~PIM.describe
       ~PIM.describe_configuration
+      ~PIM.end_monitor_thread
       ~PIM.get
       ~PIM.get_device_tuple
       ~PIM.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.pim.PIM
       ~PIM.unsubscribe_all
       ~PIM.wait_for_connection
       ~PIM.wm
+      ~PIM.wm_update
    
    
 

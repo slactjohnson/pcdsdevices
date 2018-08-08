@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.end\_monitor\_thread
+==============================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.end_monitor_thread

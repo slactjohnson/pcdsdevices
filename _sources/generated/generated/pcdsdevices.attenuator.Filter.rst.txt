@@ -19,6 +19,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.configure
       ~Filter.describe
       ~Filter.describe_configuration
+      ~Filter.end_monitor_thread
       ~Filter.get
       ~Filter.get_device_tuple
       ~Filter.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.unsubscribe_all
       ~Filter.wait_for_connection
       ~Filter.wm
+      ~Filter.wm_update
    
    
 

@@ -19,6 +19,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.configure
       ~MovableStand.describe
       ~MovableStand.describe_configuration
+      ~MovableStand.end_monitor_thread
       ~MovableStand.get
       ~MovableStand.get_device_tuple
       ~MovableStand.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.unsubscribe_all
       ~MovableStand.wait_for_connection
       ~MovableStand.wm
+      ~MovableStand.wm_update
    
    
 

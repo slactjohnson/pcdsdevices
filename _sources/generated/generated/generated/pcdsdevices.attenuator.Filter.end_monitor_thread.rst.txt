@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.end\_monitor\_thread
+==================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.end_monitor_thread

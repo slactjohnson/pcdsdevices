@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.wm\_update
+===================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.wm_update

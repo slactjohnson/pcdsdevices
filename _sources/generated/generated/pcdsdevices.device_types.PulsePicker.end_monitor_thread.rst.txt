@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PulsePicker.end\_monitor\_thread
+==========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PulsePicker.end_monitor_thread

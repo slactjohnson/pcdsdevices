@@ -21,6 +21,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.describe_configuration
       ~PCDSMotorBase.disable
       ~PCDSMotorBase.enable
+      ~PCDSMotorBase.end_monitor_thread
       ~PCDSMotorBase.get
       ~PCDSMotorBase.get_device_tuple
       ~PCDSMotorBase.get_instantiated_signals
@@ -50,6 +51,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.unsubscribe_all
       ~PCDSMotorBase.wait_for_connection
       ~PCDSMotorBase.wm
+      ~PCDSMotorBase.wm_update
    
    
 

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.wm\_update
+===================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.wm_update

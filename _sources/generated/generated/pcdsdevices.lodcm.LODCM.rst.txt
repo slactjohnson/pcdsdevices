@@ -19,6 +19,7 @@ pcdsdevices.lodcm.LODCM
       ~LODCM.configure
       ~LODCM.describe
       ~LODCM.describe_configuration
+      ~LODCM.end_monitor_thread
       ~LODCM.get
       ~LODCM.get_device_tuple
       ~LODCM.get_instantiated_signals
@@ -44,6 +45,7 @@ pcdsdevices.lodcm.LODCM
       ~LODCM.unsubscribe_all
       ~LODCM.wait_for_connection
       ~LODCM.wm
+      ~LODCM.wm_update
    
    
 

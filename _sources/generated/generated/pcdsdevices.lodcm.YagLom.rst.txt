@@ -19,6 +19,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.configure
       ~YagLom.describe
       ~YagLom.describe_configuration
+      ~YagLom.end_monitor_thread
       ~YagLom.get
       ~YagLom.get_device_tuple
       ~YagLom.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.unsubscribe_all
       ~YagLom.wait_for_connection
       ~YagLom.wm
+      ~YagLom.wm_update
    
    
 

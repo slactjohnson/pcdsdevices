@@ -19,6 +19,7 @@ pcdsdevices.sim.SynMotor
       ~SynMotor.configure
       ~SynMotor.describe
       ~SynMotor.describe_configuration
+      ~SynMotor.end_monitor_thread
       ~SynMotor.get
       ~SynMotor.get_device_tuple
       ~SynMotor.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.sim.SynMotor
       ~SynMotor.unsubscribe_all
       ~SynMotor.wait_for_connection
       ~SynMotor.wm
+      ~SynMotor.wm_update
    
    
 

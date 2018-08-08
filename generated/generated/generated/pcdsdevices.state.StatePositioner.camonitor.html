@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StatePositioner.camonitor &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.state.StatePositioner.camonitor &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -127,6 +127,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.configure.html">pcdsdevices.state.StatePositioner.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.describe.html">pcdsdevices.state.StatePositioner.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.describe_configuration.html">pcdsdevices.state.StatePositioner.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.end_monitor_thread.html">pcdsdevices.state.StatePositioner.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.get.html">pcdsdevices.state.StatePositioner.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.get_device_tuple.html">pcdsdevices.state.StatePositioner.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.get_instantiated_signals.html">pcdsdevices.state.StatePositioner.get_instantiated_signals</a></li>
@@ -149,6 +150,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.unsubscribe_all.html">pcdsdevices.state.StatePositioner.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.wait_for_connection.html">pcdsdevices.state.StatePositioner.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.wm.html">pcdsdevices.state.StatePositioner.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StatePositioner.wm_update.html">pcdsdevices.state.StatePositioner.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
@@ -233,7 +235,11 @@
 <dl class="method">
 <dt id="pcdsdevices.state.StatePositioner.camonitor">
 <code class="descclassname">StatePositioner.</code><code class="descname">camonitor</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StatePositioner.camonitor" title="Permalink to this definition">¶</a></dt>
-<dd><p>Updates current position of the motor.</p>
+<dd><p>Shows a live-updating motor position in the terminal.</p>
+<p>This will be the value that is returned by the <code class="docutils literal notranslate"><span class="pre">position</span></code> attribute.
+This method ends cleanly at a ctrl+c or after a call to
+<a class="reference internal" href="pcdsdevices.state.StatePositioner.end_monitor_thread.html#pcdsdevices.state.StatePositioner.end_monitor_thread" title="pcdsdevices.state.StatePositioner.end_monitor_thread"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>, which may be useful when this is called in a
+background thread.</p>
 </dd></dl>
 
 </div>
@@ -280,7 +286,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

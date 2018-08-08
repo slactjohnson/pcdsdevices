@@ -22,6 +22,7 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.describe_configuration
       ~BeckhoffAxis.disable
       ~BeckhoffAxis.enable
+      ~BeckhoffAxis.end_monitor_thread
       ~BeckhoffAxis.get
       ~BeckhoffAxis.get_device_tuple
       ~BeckhoffAxis.get_instantiated_signals
@@ -50,6 +51,7 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.unsubscribe_all
       ~BeckhoffAxis.wait_for_connection
       ~BeckhoffAxis.wm
+      ~BeckhoffAxis.wm_update
    
    
 

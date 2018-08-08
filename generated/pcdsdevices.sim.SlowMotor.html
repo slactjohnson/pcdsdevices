@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SlowMotor &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.sim.SlowMotor &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.sim.SlowMotor.__init__" href="generated/pcdsdevices.sim.SlowMotor.__init__.html" />
-    <link rel="prev" title="pcdsdevices.sim.SynMotor.wm" href="generated/pcdsdevices.sim.SynMotor.wm.html" /> 
+    <link rel="prev" title="pcdsdevices.sim.SynMotor.wm_update" href="generated/pcdsdevices.sim.SynMotor.wm_update.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -101,6 +101,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.configure.html">pcdsdevices.sim.SlowMotor.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.describe.html">pcdsdevices.sim.SlowMotor.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.describe_configuration.html">pcdsdevices.sim.SlowMotor.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.end_monitor_thread.html">pcdsdevices.sim.SlowMotor.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get.html">pcdsdevices.sim.SlowMotor.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get_device_tuple.html">pcdsdevices.sim.SlowMotor.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.html">pcdsdevices.sim.SlowMotor.get_instantiated_signals</a></li>
@@ -127,6 +128,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.html">pcdsdevices.sim.SlowMotor.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wait_for_connection.html">pcdsdevices.sim.SlowMotor.wait_for_connection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wm.html">pcdsdevices.sim.SlowMotor.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wm_update.html">pcdsdevices.sim.SlowMotor.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.SimTwoAxis.html">pcdsdevices.sim.SimTwoAxis</a></li>
@@ -222,7 +224,7 @@ destination. Use this when you need some sort of delay.</p>
 <td>Initialize self.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.camonitor.html#pcdsdevices.sim.SlowMotor.camonitor" title="pcdsdevices.sim.SlowMotor.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Updates current position of the motor.</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.check_value.html#pcdsdevices.sim.SlowMotor.check_value" title="pcdsdevices.sim.SlowMotor.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value,&nbsp;**kwargs)</td>
 <td>Check if the value is valid for this object</td>
@@ -239,83 +241,89 @@ destination. Use this when you need some sort of delay.</p>
 <tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.describe_configuration.html#pcdsdevices.sim.SlowMotor.describe_configuration" title="pcdsdevices.sim.SlowMotor.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get.html#pcdsdevices.sim.SlowMotor.get" title="pcdsdevices.sim.SlowMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.end_monitor_thread.html#pcdsdevices.sim.SlowMotor.end_monitor_thread" title="pcdsdevices.sim.SlowMotor.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
+<td>Stop a <a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.camonitor.html#pcdsdevices.sim.SlowMotor.camonitor" title="pcdsdevices.sim.SlowMotor.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wm_update.html#pcdsdevices.sim.SlowMotor.wm_update" title="pcdsdevices.sim.SlowMotor.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get.html#pcdsdevices.sim.SlowMotor.get" title="pcdsdevices.sim.SlowMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
 <td>Get the value of all components in the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get_device_tuple.html#pcdsdevices.sim.SlowMotor.get_device_tuple" title="pcdsdevices.sim.SlowMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get_device_tuple.html#pcdsdevices.sim.SlowMotor.get_device_tuple" title="pcdsdevices.sim.SlowMotor.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
 <td>The device tuple type associated with an Device class</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.html#pcdsdevices.sim.SlowMotor.get_instantiated_signals" title="pcdsdevices.sim.SlowMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.get_instantiated_signals.html#pcdsdevices.sim.SlowMotor.get_instantiated_signals" title="pcdsdevices.sim.SlowMotor.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
 <td>Yields all of the instantiated signals in a device hierarchy</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.move.html#pcdsdevices.sim.SlowMotor.move" title="pcdsdevices.sim.SlowMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.move.html#pcdsdevices.sim.SlowMotor.move" title="pcdsdevices.sim.SlowMotor.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
 <td>Move to a specified position, optionally waiting for motion to complete.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.mv.html#pcdsdevices.sim.SlowMotor.mv" title="pcdsdevices.sim.SlowMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.mv.html#pcdsdevices.sim.SlowMotor.mv" title="pcdsdevices.sim.SlowMotor.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Absolute move to a position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.mv_ginput.html#pcdsdevices.sim.SlowMotor.mv_ginput" title="pcdsdevices.sim.SlowMotor.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout,&nbsp;wait])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.mv_ginput.html#pcdsdevices.sim.SlowMotor.mv_ginput" title="pcdsdevices.sim.SlowMotor.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout,&nbsp;wait])</td>
 <td>Moves to a location the user clicks on.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.mvr.html#pcdsdevices.sim.SlowMotor.mvr" title="pcdsdevices.sim.SlowMotor.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.mvr.html#pcdsdevices.sim.SlowMotor.mvr" title="pcdsdevices.sim.SlowMotor.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
 <td>Relative move from this position.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.pause.html#pcdsdevices.sim.SlowMotor.pause" title="pcdsdevices.sim.SlowMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.pause.html#pcdsdevices.sim.SlowMotor.pause" title="pcdsdevices.sim.SlowMotor.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
 <td>Attempt to ‘pause’ the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.put.html#pcdsdevices.sim.SlowMotor.put" title="pcdsdevices.sim.SlowMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.put.html#pcdsdevices.sim.SlowMotor.put" title="pcdsdevices.sim.SlowMotor.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
 <td>Put a value to all components of the device</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.read.html#pcdsdevices.sim.SlowMotor.read" title="pcdsdevices.sim.SlowMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.read.html#pcdsdevices.sim.SlowMotor.read" title="pcdsdevices.sim.SlowMotor.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.read_configuration.html#pcdsdevices.sim.SlowMotor.read_configuration" title="pcdsdevices.sim.SlowMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.read_configuration.html#pcdsdevices.sim.SlowMotor.read_configuration" title="pcdsdevices.sim.SlowMotor.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.resume.html#pcdsdevices.sim.SlowMotor.resume" title="pcdsdevices.sim.SlowMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.resume.html#pcdsdevices.sim.SlowMotor.resume" title="pcdsdevices.sim.SlowMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
 <td>Resume a device from a ‘paused’ state</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.set.html#pcdsdevices.sim.SlowMotor.set" title="pcdsdevices.sim.SlowMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.set.html#pcdsdevices.sim.SlowMotor.set" title="pcdsdevices.sim.SlowMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
 <td>Set a value and return a Status object</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.stage.html#pcdsdevices.sim.SlowMotor.stage" title="pcdsdevices.sim.SlowMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.stage.html#pcdsdevices.sim.SlowMotor.stage" title="pcdsdevices.sim.SlowMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
 <td>Stage the device for data collection.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.stop.html#pcdsdevices.sim.SlowMotor.stop" title="pcdsdevices.sim.SlowMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.stop.html#pcdsdevices.sim.SlowMotor.stop" title="pcdsdevices.sim.SlowMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</td>
 <td>Stops motion.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.subscribe.html#pcdsdevices.sim.SlowMotor.subscribe" title="pcdsdevices.sim.SlowMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.subscribe.html#pcdsdevices.sim.SlowMotor.subscribe" title="pcdsdevices.sim.SlowMotor.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
 <td>Subscribe to events this event_type generates.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.summary.html#pcdsdevices.sim.SlowMotor.summary" title="pcdsdevices.sim.SlowMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.summary.html#pcdsdevices.sim.SlowMotor.summary" title="pcdsdevices.sim.SlowMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.trigger.html#pcdsdevices.sim.SlowMotor.trigger" title="pcdsdevices.sim.SlowMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.trigger.html#pcdsdevices.sim.SlowMotor.trigger" title="pcdsdevices.sim.SlowMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
 <td>Trigger the device and return status object</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.tweak.html#pcdsdevices.sim.SlowMotor.tweak" title="pcdsdevices.sim.SlowMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
-<td></td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.tweak.html#pcdsdevices.sim.SlowMotor.tweak" title="pcdsdevices.sim.SlowMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
+<td>Control this motor using the arrow keys.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.umv.html#pcdsdevices.sim.SlowMotor.umv" title="pcdsdevices.sim.SlowMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.umv.html#pcdsdevices.sim.SlowMotor.umv" title="pcdsdevices.sim.SlowMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
 <td>Move to a position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.umvr.html#pcdsdevices.sim.SlowMotor.umvr" title="pcdsdevices.sim.SlowMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.umvr.html#pcdsdevices.sim.SlowMotor.umvr" title="pcdsdevices.sim.SlowMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
 <td>Relative move from this position, wait, and update with a progress bar.</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unstage.html#pcdsdevices.sim.SlowMotor.unstage" title="pcdsdevices.sim.SlowMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unstage.html#pcdsdevices.sim.SlowMotor.unstage" title="pcdsdevices.sim.SlowMotor.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
 <td>Unstage the device.</td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unsubscribe.html#pcdsdevices.sim.SlowMotor.unsubscribe" title="pcdsdevices.sim.SlowMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unsubscribe.html#pcdsdevices.sim.SlowMotor.unsubscribe" title="pcdsdevices.sim.SlowMotor.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
 <td>Remove a subscription</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.html#pcdsdevices.sim.SlowMotor.unsubscribe_all" title="pcdsdevices.sim.SlowMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.unsubscribe_all.html#pcdsdevices.sim.SlowMotor.unsubscribe_all" title="pcdsdevices.sim.SlowMotor.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wait_for_connection.html#pcdsdevices.sim.SlowMotor.wait_for_connection" title="pcdsdevices.sim.SlowMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wait_for_connection.html#pcdsdevices.sim.SlowMotor.wait_for_connection" title="pcdsdevices.sim.SlowMotor.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
 <td>Wait for signals to connect</td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wm.html#pcdsdevices.sim.SlowMotor.wm" title="pcdsdevices.sim.SlowMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
+<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wm.html#pcdsdevices.sim.SlowMotor.wm" title="pcdsdevices.sim.SlowMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
 <td>Get the mover’s positon (where motor)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.wm_update.html#pcdsdevices.sim.SlowMotor.wm_update" title="pcdsdevices.sim.SlowMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
+<td>Shows a live-updating motor position in the terminal.</td>
 </tr>
 </tbody>
 </table>
@@ -421,7 +429,7 @@ destination. Use this when you need some sort of delay.</p>
         <a href="generated/pcdsdevices.sim.SlowMotor.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.sim.SlowMotor.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.sim.SynMotor.wm.html" class="btn btn-neutral" title="pcdsdevices.sim.SynMotor.wm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.sim.SynMotor.wm_update.html" class="btn btn-neutral" title="pcdsdevices.sim.SynMotor.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -452,7 +460,7 @@ destination. Use this when you need some sort of delay.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

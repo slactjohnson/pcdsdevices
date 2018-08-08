@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.wm\_update
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.wm_update

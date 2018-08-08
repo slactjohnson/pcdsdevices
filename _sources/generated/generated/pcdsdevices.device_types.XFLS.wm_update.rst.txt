@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.wm\_update
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.wm_update

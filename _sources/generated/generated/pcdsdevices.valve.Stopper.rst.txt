@@ -20,6 +20,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.configure
       ~Stopper.describe
       ~Stopper.describe_configuration
+      ~Stopper.end_monitor_thread
       ~Stopper.get
       ~Stopper.get_device_tuple
       ~Stopper.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.unsubscribe_all
       ~Stopper.wait_for_connection
       ~Stopper.wm
+      ~Stopper.wm_update
    
    
 

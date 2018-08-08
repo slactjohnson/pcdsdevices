@@ -26,6 +26,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.describe_configuration
       ~IMS.disable
       ~IMS.enable
+      ~IMS.end_monitor_thread
       ~IMS.get
       ~IMS.get_device_tuple
       ~IMS.get_instantiated_signals
@@ -56,6 +57,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.unsubscribe_all
       ~IMS.wait_for_connection
       ~IMS.wm
+      ~IMS.wm_update
    
    
 

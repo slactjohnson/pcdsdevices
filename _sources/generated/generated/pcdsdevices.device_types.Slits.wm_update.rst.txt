@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.wm\_update
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.wm_update

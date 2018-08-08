@@ -19,6 +19,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.configure
       ~PIMMotor.describe
       ~PIMMotor.describe_configuration
+      ~PIMMotor.end_monitor_thread
       ~PIMMotor.get
       ~PIMMotor.get_device_tuple
       ~PIMMotor.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.unsubscribe_all
       ~PIMMotor.wait_for_connection
       ~PIMMotor.wm
+      ~PIMMotor.wm_update
    
    
 

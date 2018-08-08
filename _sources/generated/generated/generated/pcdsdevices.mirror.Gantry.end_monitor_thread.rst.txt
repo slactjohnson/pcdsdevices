@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.end\_monitor\_thread
+==============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.end_monitor_thread

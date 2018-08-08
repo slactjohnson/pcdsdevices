@@ -19,6 +19,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.configure
       ~Foil.describe
       ~Foil.describe_configuration
+      ~Foil.end_monitor_thread
       ~Foil.get
       ~Foil.get_device_tuple
       ~Foil.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.unsubscribe_all
       ~Foil.wait_for_connection
       ~Foil.wm
+      ~Foil.wm_update
    
    
 

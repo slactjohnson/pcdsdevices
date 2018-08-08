@@ -21,6 +21,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.describe_configuration
       ~Newport.disable
       ~Newport.enable
+      ~Newport.end_monitor_thread
       ~Newport.get
       ~Newport.get_device_tuple
       ~Newport.get_instantiated_signals
@@ -50,6 +51,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.unsubscribe_all
       ~Newport.wait_for_connection
       ~Newport.wm
+      ~Newport.wm_update
    
    
 

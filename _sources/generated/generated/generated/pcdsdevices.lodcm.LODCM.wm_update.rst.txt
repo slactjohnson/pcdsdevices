@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.wm\_update
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.wm_update

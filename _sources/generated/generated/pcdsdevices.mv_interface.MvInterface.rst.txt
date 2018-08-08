@@ -14,8 +14,10 @@ pcdsdevices.mv\_interface.MvInterface
    
       ~MvInterface.__init__
       ~MvInterface.camonitor
+      ~MvInterface.end_monitor_thread
       ~MvInterface.mv
       ~MvInterface.wm
+      ~MvInterface.wm_update
    
    
 

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.end\_monitor\_thread
+==========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.end_monitor_thread

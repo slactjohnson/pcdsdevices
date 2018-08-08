@@ -19,6 +19,7 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.configure
       ~SlowMotor.describe
       ~SlowMotor.describe_configuration
+      ~SlowMotor.end_monitor_thread
       ~SlowMotor.get
       ~SlowMotor.get_device_tuple
       ~SlowMotor.get_instantiated_signals
@@ -45,6 +46,7 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.unsubscribe_all
       ~SlowMotor.wait_for_connection
       ~SlowMotor.wm
+      ~SlowMotor.wm_update
    
    
 

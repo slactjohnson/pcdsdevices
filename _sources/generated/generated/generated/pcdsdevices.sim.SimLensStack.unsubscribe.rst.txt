@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimLensStack.unsubscribe
-========================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimLensStack.unsubscribe

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.wm\_update
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.wm_update

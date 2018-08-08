@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PMC100.tweak &mdash; PCDS Devices 0.8.0+147.g22126ca documentation</title>
+  <title>pcdsdevices.device_types.PMC100.tweak &mdash; PCDS Devices 0.8.0+159.g954025f documentation</title>
   
 
   
@@ -58,7 +58,7 @@
             
             
               <div class="version">
-                0.8.0+147.g22126ca
+                0.8.0+159.g954025f
               </div>
             
           
@@ -111,6 +111,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.describe_configuration.html">pcdsdevices.device_types.PMC100.describe_configuration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.disable.html">pcdsdevices.device_types.PMC100.disable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.enable.html">pcdsdevices.device_types.PMC100.enable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.end_monitor_thread.html">pcdsdevices.device_types.PMC100.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get.html">pcdsdevices.device_types.PMC100.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_device_tuple.html">pcdsdevices.device_types.PMC100.get_device_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_instantiated_signals.html">pcdsdevices.device_types.PMC100.get_instantiated_signals</a></li>
@@ -140,6 +141,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.unsubscribe_all.html">pcdsdevices.device_types.PMC100.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wait_for_connection.html">pcdsdevices.device_types.PMC100.wait_for_connection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wm.html">pcdsdevices.device_types.PMC100.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wm_update.html">pcdsdevices.device_types.PMC100.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
@@ -231,7 +233,11 @@
 <dl class="method">
 <dt id="pcdsdevices.device_types.PMC100.tweak">
 <code class="descclassname">PMC100.</code><code class="descname">tweak</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.PMC100.tweak" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Control this motor using the arrow keys.</p>
+<p>Use left arrow to step negative and right arrow to step positive.
+Use up arrow to increase step size and down arrow to decrease step
+size. Press q or ctrl+c to quit.</p>
+</dd></dl>
 
 </div>
 
@@ -277,7 +283,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'0.8.0+147.g22126ca',
+            VERSION:'0.8.0+159.g954025f',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimLensStack.trigger
-====================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimLensStack.trigger
