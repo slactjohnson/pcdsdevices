@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStack.to\_pseudo\_tuple
+===============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStack.to_pseudo_tuple

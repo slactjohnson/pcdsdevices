@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.move\_single
+=======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.move_single

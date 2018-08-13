@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStack.align
+===================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStack.align

@@ -13,24 +13,34 @@ pcdsdevices.lens.LensStack
       :toctree: generated
    
       ~LensStack.__init__
+      ~LensStack.align
+      ~LensStack.check_single
       ~LensStack.check_value
       ~LensStack.clear_sub
       ~LensStack.configure
       ~LensStack.describe
       ~LensStack.describe_configuration
+      ~LensStack.forward
       ~LensStack.get
       ~LensStack.get_device_tuple
       ~LensStack.get_instantiated_signals
+      ~LensStack.inverse
+      ~LensStack.move
+      ~LensStack.move_single
       ~LensStack.pause
       ~LensStack.put
       ~LensStack.read
       ~LensStack.read_configuration
       ~LensStack.resume
+      ~LensStack.set
       ~LensStack.stage
       ~LensStack.stop
       ~LensStack.subscribe
       ~LensStack.summary
+      ~LensStack.to_pseudo_tuple
+      ~LensStack.to_real_tuple
       ~LensStack.trigger
+      ~LensStack.tweak
       ~LensStack.unstage
       ~LensStack.unsubscribe
       ~LensStack.unsubscribe_all
@@ -45,18 +55,37 @@ pcdsdevices.lens.LensStack
    .. autosummary::
    
       ~LensStack.SUB_ACQ_DONE
+      ~LensStack.SUB_DONE
+      ~LensStack.SUB_READBACK
+      ~LensStack.SUB_START
+      ~LensStack.calib_z
       ~LensStack.component_names
+      ~LensStack.composite_egu
+      ~LensStack.concurrent
       ~LensStack.configuration_attrs
       ~LensStack.connected
+      ~LensStack.egu
       ~LensStack.event_types
+      ~LensStack.high_limit
       ~LensStack.hints
       ~LensStack.kind
+      ~LensStack.limits
+      ~LensStack.low_limit
+      ~LensStack.moving
       ~LensStack.name
       ~LensStack.parent
+      ~LensStack.position
+      ~LensStack.pseudo_positioners
       ~LensStack.read_attrs
+      ~LensStack.real_position
+      ~LensStack.real_positioners
       ~LensStack.report
       ~LensStack.root
+      ~LensStack.sequential
+      ~LensStack.settle_time
       ~LensStack.signal_names
+      ~LensStack.target
+      ~LensStack.timeout
       ~LensStack.trigger_signals
       ~LensStack.x
       ~LensStack.y

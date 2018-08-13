@@ -13,24 +13,34 @@ pcdsdevices.lens.SimLensStack
       :toctree: generated
    
       ~SimLensStack.__init__
+      ~SimLensStack.align
+      ~SimLensStack.check_single
       ~SimLensStack.check_value
       ~SimLensStack.clear_sub
       ~SimLensStack.configure
       ~SimLensStack.describe
       ~SimLensStack.describe_configuration
+      ~SimLensStack.forward
       ~SimLensStack.get
       ~SimLensStack.get_device_tuple
       ~SimLensStack.get_instantiated_signals
+      ~SimLensStack.inverse
+      ~SimLensStack.move
+      ~SimLensStack.move_single
       ~SimLensStack.pause
       ~SimLensStack.put
       ~SimLensStack.read
       ~SimLensStack.read_configuration
       ~SimLensStack.resume
+      ~SimLensStack.set
       ~SimLensStack.stage
       ~SimLensStack.stop
       ~SimLensStack.subscribe
       ~SimLensStack.summary
+      ~SimLensStack.to_pseudo_tuple
+      ~SimLensStack.to_real_tuple
       ~SimLensStack.trigger
+      ~SimLensStack.tweak
       ~SimLensStack.unstage
       ~SimLensStack.unsubscribe
       ~SimLensStack.unsubscribe_all
@@ -45,18 +55,37 @@ pcdsdevices.lens.SimLensStack
    .. autosummary::
    
       ~SimLensStack.SUB_ACQ_DONE
+      ~SimLensStack.SUB_DONE
+      ~SimLensStack.SUB_READBACK
+      ~SimLensStack.SUB_START
+      ~SimLensStack.calib_z
       ~SimLensStack.component_names
+      ~SimLensStack.composite_egu
+      ~SimLensStack.concurrent
       ~SimLensStack.configuration_attrs
       ~SimLensStack.connected
+      ~SimLensStack.egu
       ~SimLensStack.event_types
+      ~SimLensStack.high_limit
       ~SimLensStack.hints
       ~SimLensStack.kind
+      ~SimLensStack.limits
+      ~SimLensStack.low_limit
+      ~SimLensStack.moving
       ~SimLensStack.name
       ~SimLensStack.parent
+      ~SimLensStack.position
+      ~SimLensStack.pseudo_positioners
       ~SimLensStack.read_attrs
+      ~SimLensStack.real_position
+      ~SimLensStack.real_positioners
       ~SimLensStack.report
       ~SimLensStack.root
+      ~SimLensStack.sequential
+      ~SimLensStack.settle_time
       ~SimLensStack.signal_names
+      ~SimLensStack.target
+      ~SimLensStack.timeout
       ~SimLensStack.trigger_signals
       ~SimLensStack.x
       ~SimLensStack.y

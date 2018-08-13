@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.inverse
+==================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.inverse
